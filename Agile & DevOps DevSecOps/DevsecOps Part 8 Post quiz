@@ -1,0 +1,45 @@
+Question 1
+Question:
+Chef Automate is an integrated solution for managing and deploying infrastructure and applications.
+Correct Answer:
+
+True
+Explanation:
+
+Chef Automate provides a comprehensive suite for managing infrastructure and applications, including features for compliance, security, and application delivery.
+Question 2
+Question:
+Once you have categorized and prioritized vulnerabilities, break down your remediation process into bite-size chunks to make them more manageable and effective.
+Correct Answer:
+
+True
+Explanation:
+
+Breaking down remediation tasks into smaller, manageable pieces helps in effectively addressing and resolving vulnerabilities.
+Question 3
+Question:
+InSpec can also run as a series of automated tests that execute as part of your standard release pipelines.
+Correct Answer:
+
+True
+Explanation:
+
+InSpec can be integrated into CI/CD pipelines to automatically run compliance tests as part of the release process.
+Question 4
+Question:
+_________ was created to provide a standardized approach to maintain the security of systems.
+Correct Answer:
+
+OpenSCAP
+Explanation:
+
+OpenSCAP: A standardized suite for security compliance and vulnerability management.
+Question 5
+Question:
+InSpec uses a client-server model.
+Correct Answer:
+
+True
+Explanation:
+
+InSpec operates using a client-server model where the client sends the tests and the server runs them to check compliance.
