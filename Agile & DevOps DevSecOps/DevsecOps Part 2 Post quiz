@@ -1,0 +1,76 @@
+Question 1
+Question:
+Which of the following are Infrastructure-As-Code tools?
+
+Correct Answers:
+AWS CloudFormation, Terraform
+
+Explanation:
+
+SVN: This is incorrect. SVN (Subversion) is a version control system used to manage changes to source code and other files, not an Infrastructure-as-Code (IaC) tool.
+
+Kubernetes: This is incorrect. Kubernetes is a container orchestration platform used to manage containerized applications, not an IaC tool.
+
+Terraform: This is correct. Terraform is a popular IaC tool used to define and provision infrastructure using code.
+
+AWS CloudFormation: This is correct. AWS CloudFormation is an IaC service that allows you to model and set up AWS resources using templates.
+
+Question 2
+Question:
+Unit Testing tests individual units or components of a code written by the developer to validate if they perform as expected.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is the correct answer. Unit testing involves testing individual components or units of code to ensure they function as intended.
+
+False: This is incorrect. Unit testing does focus on testing individual units of code.
+
+Question 3
+Question:
+An Elastic stack can be created to automatically monitor the application and logs.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is the correct answer. The Elastic Stack, also known as the ELK Stack (Elasticsearch, Logstash, Kibana), is used for log and application monitoring, allowing you to search, analyze, and visualize log data.
+
+False: This is incorrect. The Elastic Stack is indeed used for monitoring applications and logs.
+
+Question 4
+Question:
+Which of the following phases in the CI/CD pipeline get all the features of that code from various branches of the repository, merge them and finally use a compiler to compile it?
+
+Correct Answer:
+Build phase
+
+Explanation:
+
+Testing phase: This is incorrect. The testing phase involves running tests to verify the quality of the code, not merging and compiling code.
+
+Deploy phase: This is incorrect. The deploy phase involves deploying the application to the target environment after it has been built and tested.
+
+Build phase: This is correct. The build phase involves compiling code and generating build artifacts, often merging code from various branches.
+
+Validation phase: This is incorrect. Validation typically involves verifying that the software meets specified requirements, not compiling code.
+
+Question 5
+Question:
+_________ and ________ are CI/CD software that automates tasks starting from the development pipeline to deployment.
+
+Correct Answers:
+Jenkins, Bamboo
+
+Explanation:
+
+Puppet: This is incorrect. Puppet is a configuration management tool, not a CI/CD tool.
+
+Bamboo: This is correct. Bamboo is a CI/CD tool developed by Atlassian, used to automate builds, tests, and deployments.
+
+Jenkins: This is correct. Jenkins is a widely used open-source CI/CD tool that automates tasks from code integration to deployment.
+
+Vagrant: This is incorrect. Vagrant is a tool for building and managing virtualized development environments, not a CI/CD tool.
