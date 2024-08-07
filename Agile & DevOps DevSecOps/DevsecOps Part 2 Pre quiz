@@ -1,0 +1,76 @@
+Question 1
+Question:
+Which of the following are the Test Automation tools?
+
+Correct Answer:
+Selenium
+
+Explanation:
+
+Selenium: This is the correct answer. Selenium is a widely used test automation tool for web applications.
+
+Terraform: This is incorrect. Terraform is an Infrastructure-as-Code (IaC) tool used to manage and provision infrastructure.
+
+Vagrant: This is incorrect. Vagrant is a tool for building and managing virtualized development environments, not for test automation.
+
+AWS CloudFormation: This is incorrect. AWS CloudFormation is an IaC tool for modeling and setting up Amazon Web Services resources.
+
+Question 2
+Question:
+Which of the following are the Software Configuration Management tools?
+
+Correct Answers:
+Git, CVS
+
+Explanation:
+
+CVS: This is correct. Concurrent Versions System (CVS) is one of the oldest version control systems used for managing source code.
+
+Ansible: This is incorrect. Ansible is an IT automation tool used for configuration management, not for version control.
+
+Docker: This is incorrect. Docker is a platform for developing, shipping, and running applications in containers, not a configuration management tool.
+
+Git: This is correct. Git is a popular distributed version control system used for tracking changes in source code during software development.
+
+Question 3
+Question:
+Infrastructure-as-Code tools are used to create software environments using predefined templates.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is the correct answer. Infrastructure-as-Code (IaC) tools like Terraform and AWS CloudFormation allow for the definition and provisioning of infrastructure using code and templates.
+
+False: This is incorrect. IaC tools indeed use predefined templates to automate infrastructure setup.
+
+Question 4
+Question:
+Replacing or modifying older apps with newer microservices architecture can open up the doors to faster development and quicker innovation.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is the correct answer. Transitioning to a microservices architecture can enhance scalability, improve development speed, and foster innovation by enabling independent development and deployment of services.
+
+False: This is incorrect. Microservices are known for enabling faster development and innovation by decoupling services.
+
+Question 5
+Question:
+________ is the first phase of the pipeline, where developers put in their code and then again the code goes to the version control system with a proper version tag.
+
+Correct Answer:
+Build phase
+
+Explanation:
+
+Build phase: This is the correct answer. In the build phase, the code is compiled, and build artifacts are generated. It also includes version tagging before further stages like testing and deployment.
+
+Deploy phase: This is incorrect. The deploy phase involves deploying the built application to the target environment, not the initial submission and versioning of code.
+
+Test phase: This is incorrect. The test phase involves running automated tests to ensure code quality, not the initial integration and versioning.
+
+Validate phase: This is incorrect. Validation generally occurs later in the process to verify that the software meets required standards and specifications.
