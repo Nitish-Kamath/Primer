@@ -1,0 +1,153 @@
+Question 1
+Question:
+In YAML file used for BitBucket pipeline, you can use different types of container for each step by selecting different images.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is the correct answer. BitBucket Pipelines allows you to specify different Docker images for each step in your YAML configuration file. This flexibility enables you to use the appropriate environment for different tasks, such as testing, building, or deploying applications.
+
+False: This is incorrect. BitBucket Pipelines indeed supports using different container images for each step, allowing customization and flexibility in your CI/CD process.
+
+Question 2
+Question:
+Which of the following CI/CD tools provides support for .Net framework?
+
+Correct Answer:
+TeamCity
+
+Explanation:
+
+Bamboo: While Bamboo is a powerful CI/CD tool, it does not have native support tailored specifically for the .NET framework as TeamCity does.
+
+GitLab: GitLab CI/CD supports a wide range of languages and frameworks but is not specifically focused on .NET like TeamCity.
+
+TeamCity: This is the correct answer. TeamCity, developed by JetBrains, offers excellent support for .NET development, making it a preferred choice for teams working with the .NET framework.
+
+CircleCI: CircleCI supports many programming languages, but it is not specifically known for its .NET support compared to TeamCity.
+
+Question 3
+Question:
+Which of the following CI/CD tools is a continuous integration server developed by Atlassian?
+
+Correct Answer:
+Bamboo
+
+Explanation:
+
+Jenkins: Jenkins is an open-source automation server but is not developed by Atlassian.
+
+TeamCity: TeamCity is developed by JetBrains, not Atlassian.
+
+Bamboo: This is the correct answer. Bamboo is a CI/CD tool developed by Atlassian, providing integration with other Atlassian products like JIRA and Bitbucket.
+
+GitLab: GitLab CI/CD is part of the GitLab platform and is not developed by Atlassian.
+
+Question 4
+Question:
+Which of the following CI/CD tools is known for its ease of setup, out-of-the-box usability, and beautiful user interface?
+
+Correct Answer:
+TeamCity
+
+Explanation:
+
+Jenkins: Jenkins is highly popular and extensible but is often criticized for its complex setup and less intuitive user interface compared to other tools.
+
+Bamboo: While Bamboo has a good user interface, it is not as renowned for ease of setup as TeamCity.
+
+TeamCity: This is the correct answer. TeamCity is praised for its user-friendly interface, ease of setup, and powerful out-of-the-box features, making it a favorite for many developers.
+
+CircleCI: CircleCI is known for its ease of use and integration with GitHub, but TeamCity is often highlighted specifically for its UI and setup simplicity.
+
+Question 5
+Question:
+Which of the following is the final phase of the DevOps cycle?
+
+Correct Answer:
+Monitor
+
+Explanation:
+
+Release: Release is part of the deployment phase but is not the final phase in the DevOps lifecycle.
+
+Monitor: This is the correct answer. Monitoring is the final phase of the DevOps cycle, where the focus is on observing and analyzing the performance and reliability of applications in production to ensure they meet user needs and to identify areas for improvement.
+
+Operate: Operating involves managing and maintaining applications in a production environment but precedes monitoring.
+
+Deploy: Deployment involves the process of releasing the software to production but is not the final phase.
+
+Question 6
+Question:
+In which of the following, there is no human intervention and only a failed test will prevent a new change to be deployed to production?
+
+Correct Answer:
+Continuous Deployment
+
+Explanation:
+
+Continuous Deployment: This is the correct answer. Continuous deployment automates the entire release process so that new changes are automatically deployed to production as long as they pass all tests.
+
+Continuous Monitoring: This involves observing and analyzing system performance but does not relate to the automatic deployment of changes.
+
+Continuous Integration: CI focuses on integrating code changes frequently but does not automate the deployment to production.
+
+Continuous Delivery: Continuous delivery automates the deployment process up to the staging environment, but human intervention is typically required to deploy to production.
+
+Question 7
+Question:
+In which of the following pipelines, all the new changes run through a consistent set of quality checks?
+
+Correct Answer:
+AWS CodePipeline
+
+Explanation:
+
+GitLab pipeline: GitLab CI/CD provides robust CI/CD capabilities, but AWS CodePipeline is specifically known for its integration with AWS services and consistent quality checks.
+
+AWS CodePipeline: This is the correct answer. AWS CodePipeline automates the build, test, and release process and ensures that changes go through a consistent set of quality checks.
+
+Azure pipeline: Azure Pipelines provides similar functionality but is specific to Microsoft's Azure ecosystem.
+
+Bitbucket pipeline: Bitbucket Pipelines offers CI/CD for repositories hosted on Bitbucket but is not specifically noted for the consistent quality checks associated with AWS CodePipeline.
+
+Question 8
+Question:
+The applications with Azure CI/CD pipelines can be deployed to multiple target environments.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is the correct answer. Azure Pipelines supports deployment to multiple environments, including development, staging, and production, across various platforms and cloud providers.
+
+False: This is incorrect. Azure CI/CD pipelines are designed to deploy applications to multiple environments efficiently.
+
+Question 9
+Question:
+Each service runs in its own process and communicates with other services through a well-defined interface in Microservices.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is the correct answer. In a microservices architecture, each service runs independently and communicates with others through APIs or other interfaces, promoting scalability and flexibility.
+
+False: This is incorrect. The defining characteristic of microservices is their independent operation and communication through defined interfaces.
+
+Question 10
+Question:
+Before DevOps, there is a significant delay between development and operations.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is the correct answer. Before DevOps practices were widely adopted, there was often a disconnect between development and operations teams, leading to delays in deploying and maintaining software.
+
+False: This is incorrect. DevOps emerged to address and reduce the delays and inefficiencies between development and operations.
