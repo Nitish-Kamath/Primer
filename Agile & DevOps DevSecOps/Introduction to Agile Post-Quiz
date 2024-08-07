@@ -1,0 +1,96 @@
+Question 1
+Question:
+What are the roles in the Dynamic System Development Method (DSDM)? Choose from the following:
+
+Correct Answers:
+
+a. Scribe Facilitator
+c. Technical Coordinator
+Explanation:
+
+a. Scribe Facilitator: This is a correct answer. In DSDM, the Scribe Facilitator is responsible for recording decisions, actions, and tasks during workshops and meetings. They help ensure that all ideas are captured and that the sessions remain productive.
+
+b. System Analyst: This role is not specific to DSDM. While system analysts may be involved in DSDM projects, the methodology does not define this as a distinct role. DSDM focuses on roles that facilitate agile processes rather than traditional system analysis.
+
+c. Technical Coordinator: This is a correct answer. The Technical Coordinator in DSDM ensures that the technical aspects of the project are aligned and that the team adheres to technical standards and practices.
+
+d. Designer: While design is an essential part of any development process, the role of Designer is not specifically defined within the DSDM framework. Instead, design responsibilities may be distributed among various team members.
+
+Question 2
+Question:
+State true or false. During agile development, more emphasis is given to documentation.
+
+Correct Answer:
+a. FALSE
+
+Explanation:
+
+a. FALSE: This is the correct answer. Agile development emphasizes working software over comprehensive documentation. While documentation is still important, agile methods prioritize delivering functional software and responding to change over creating extensive documentation.
+
+b. TRUE: This is incorrect. In agile, the focus is on collaboration, customer feedback, and iterative development, rather than producing detailed documentation upfront.
+
+Question 3
+Question:
+Which agile methodology divides the development into sprint cycles, in which a specified set of features are delivered? Choose from the following:
+
+Correct Answer:
+c. SCRUM
+
+Explanation:
+
+a. Lean Software Development: Lean focuses on optimizing efficiency and minimizing waste but does not specifically use sprint cycles like Scrum.
+
+b. Extreme Programming (XP): XP involves frequent releases in short development cycles but does not use the concept of sprints. Instead, it focuses on continuous feedback and adaptation.
+
+c. SCRUM: This is the correct answer. Scrum is an agile methodology that organizes development into fixed-length iterations called sprints, during which a specific set of features is developed and delivered.
+
+Question 4
+Question:
+__________ is an iterative and incremental approach that embraces principles of agile development, including continuous user/customer involvement.
+
+Correct Answer:
+a. Dynamic System Development Method
+
+Explanation:
+
+a. Dynamic System Development Method (DSDM): This is the correct answer. DSDM is an agile project delivery framework that emphasizes iterative development, continuous user involvement, and flexibility.
+
+b. Increment Method: This is not a specific methodology. Incremental development is a general software development approach where software is built and delivered in increments, but it does not describe a particular agile methodology.
+
+c. Static System Development Method: This is not a recognized methodology. Agile methods are inherently dynamic, not static.
+
+d. Loop Creation Method: This is not a known methodology in agile or software development.
+
+Question 5
+Question:
+_____ methodology focuses on visualizing flow.
+
+Correct Answer:
+d. Kanban
+
+Explanation:
+
+a. DSDM: While DSDM is agile and iterative, it does not specifically focus on visualizing flow. It focuses more on user involvement and iterative development.
+
+b. Prototype: Prototyping is a technique used to build early versions of software, not a methodology focused on flow visualization.
+
+c. Scrum: Scrum focuses on sprints and time-boxed iterations, not specifically on visualizing flow.
+
+d. Kanban: This is the correct answer. Kanban is a methodology that emphasizes visualizing work in progress and managing flow using boards and cards to optimize efficiency and limit work in progress.
+
+Question 6
+Question:
+Which of the following agile methodologies depends on the cohesiveness of the team and individual commitment of the team members?
+
+Correct Answer:
+b. Extreme Programming
+
+Explanation:
+
+a. Feature Driven Development (FDD): FDD focuses on developing features in a step-by-step manner, emphasizing planning and design, rather than team cohesion and individual commitment as primary factors.
+
+b. Extreme Programming (XP): This is the correct answer. XP relies heavily on the cohesiveness of the team and the commitment of individual team members to practices such as pair programming, continuous integration, and collective code ownership.
+
+c. SCRUM: Scrum relies on team collaboration and self-organization but is structured around roles, events, and artifacts, rather than individual commitment as a core principle.
+
+d. Lean Software Development: Lean emphasizes efficiency and minimizing waste, with a focus on process improvement rather than team dynamics and individual commitment.
