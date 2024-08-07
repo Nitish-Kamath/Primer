@@ -1,0 +1,72 @@
+Question 1
+Question:
+With Continuous Delivery, production happens automatically without explicit approval.
+
+Correct Answer:
+False
+
+Explanation:
+
+True: This is incorrect. Continuous Delivery ensures that code changes are automatically prepared for a release to production, but the actual deployment to production requires manual approval.
+
+False: This is the correct answer. Continuous Delivery automates the deployment process up to the point of production, where a final manual approval is needed before releasing to the end-users.
+
+Question 2
+Question:
+CAMS stands for Culture, Automation, _________ and ________.
+
+Correct Answers:
+Measurement, Sharing
+
+Explanation:
+
+Measurement: This is the correct answer. Measurement involves assessing and analyzing performance metrics to improve processes.
+
+Sharing: This is the correct answer. Sharing emphasizes collaboration and communication across teams.
+
+Motivation: This is incorrect. While motivation is important, it is not part of the CAMS acronym.
+
+Standard: This is incorrect. Standards are essential, but they are not part of CAMS.
+
+Question 3
+Question:
+A Blue/Green deployment is a deployment strategy in which you create two separate, but identical environments.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is the correct answer. In a Blue/Green deployment strategy, two identical environments (Blue and Green) are maintained. One environment serves production traffic while the other is used for staging. This setup allows for quick and safe transitions between environments during deployments.
+
+False: This is incorrect. The definition given aligns with the Blue/Green deployment strategy.
+
+Question 4
+Question:
+DevOps bridges the gap between development and operations teams.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is the correct answer. DevOps is a set of practices that aim to improve collaboration between development and operations teams, fostering a culture of shared responsibility and improving the speed and quality of software delivery.
+
+False: This is incorrect. DevOps specifically focuses on integrating and improving cooperation between these two traditionally siloed teams.
+
+Question 5
+Question:
+Which of the following is a software development practice where members of a team use a version control system and frequently integrate their work to the same location like the main branch?
+
+Correct Answer:
+Continuous Integration
+
+Explanation:
+
+Continuous Deployment: This involves automatically deploying changes that pass testing to production, but it is not specifically about frequent integration of code changes.
+
+Continuous Delivery: This involves preparing code for deployment, but the focus is on automated delivery pipelines rather than the integration process itself.
+
+Continuous Monitoring: This involves observing and tracking performance metrics, not related to code integration.
+
+Continuous Integration: This is the correct answer. Continuous Integration involves frequently integrating code changes into a shared repository, using a version control system to ensure code is tested and merged regularly.
