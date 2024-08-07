@@ -1,0 +1,76 @@
+Question 1
+Question:
+Which of the following DevSecOps tools allows an All-in-One website security scanner to support developers to detect problems at the most advanced stage?
+
+Correct Answer:
+Acunetix
+
+Explanation:
+
+Aqua Security: This is incorrect. Aqua Security is focused on container security, not specifically an all-in-one website security scanner.
+
+Acunetix: This is correct. Acunetix is a web vulnerability scanner that helps detect security issues in web applications.
+
+Codacy: This is incorrect. Codacy is a code quality tool that provides static analysis but is not specifically a web security scanner.
+
+GitLab: This is incorrect. GitLab offers CI/CD capabilities and some security features, but it is not an all-in-one website security scanner.
+
+Question 2
+Question:
+__________ refers to the process of tracking the identified vulnerabilities, the steps taken to mitigate and/or eliminate those vulnerabilities, and the overall status of the application’s security.
+
+Correct Answer:
+Monitor
+
+Explanation:
+
+Monitor: This is correct. Monitoring in security involves tracking identified vulnerabilities, mitigation steps, and the status of application security.
+
+Analyze: This is incorrect. Analyzing involves examining the data or vulnerabilities but not necessarily tracking or mitigating them.
+
+Remediate: This is incorrect. Remediation involves fixing vulnerabilities but not the overall tracking and status.
+
+Scan: This is incorrect. Scanning is the process of identifying vulnerabilities, not tracking them or the status of security.
+
+Question 3
+Question:
+Vulnerability Scanning ensures that code is checked for vulnerabilities at every major stage of the delivery pipeline from the time it is written to, when it is deployed into production.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is correct. Vulnerability scanning is a continuous process throughout the CI/CD pipeline to ensure security at all stages.
+
+False: This is incorrect. The statement accurately describes the role of vulnerability scanning.
+
+Question 4
+Question:
+A _________ is an application security solution that can help to find certain vulnerabilities in web applications while they are running in production.
+
+Correct Answer:
+Dynamic Analysis Security Testing
+
+Explanation:
+
+Container security: This is incorrect. Container security focuses on securing containerized applications, not specifically web applications.
+
+Software Composition Analysis: This is incorrect. Software Composition Analysis (SCA) examines third-party components for vulnerabilities, not the application itself while running.
+
+Dynamic Analysis Security Testing (DAST): This is correct. DAST tests web applications for vulnerabilities during runtime.
+
+Static Analysis Security Testing: This is incorrect. SAST analyzes source code for vulnerabilities, not runtime applications.
+
+Question 5
+Question:
+Use a SAST tool to ensure that your code is secure, safe, and reliable.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is correct. Static Analysis Security Testing (SAST) tools analyze source code for security vulnerabilities, ensuring code safety and reliability.
+
+False: This is incorrect. SAST tools are indeed used to secure and verify code quality.
