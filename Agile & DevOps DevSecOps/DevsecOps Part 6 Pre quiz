@@ -1,0 +1,75 @@
+Question 1
+Question:
+Which of the following rules comes under comprehensive rulesets while embedding SAST tools into the pipeline?
+
+Correct Answers:
+
+XML external entity
+Header injection
+Explanation:
+
+XML external entity: This rule identifies vulnerabilities related to XML processing, such as XML External Entity (XXE) attacks, which can expose sensitive data or allow for remote code execution.
+Header injection: This rule detects issues where an attacker can inject malicious headers into responses, which can lead to security vulnerabilities like cross-site scripting (XSS).
+Incorrect Options:
+
+Path manipulation: While it’s a security concern, it may not always be included in basic comprehensive rulesets.
+Weak encryption: This typically relates to cryptographic practices, which may not fall under the basic comprehensive rulesets for SAST tools.
+Question 2
+Question:
+__________ is an approach to detect dependency bugs in build systems.
+
+Correct Answer:
+
+VeriBuild
+Explanation:
+
+VeriBuild: This tool is specifically designed to analyze and detect issues related to build systems and dependencies, making it suitable for identifying dependency bugs.
+Incorrect Options:
+
+Reshift: Primarily known for its static code analysis in the context of security.
+Static code analyzer: A general term for tools that analyze code for vulnerabilities and bugs but doesn’t specifically address build system dependencies.
+Smoke: Typically refers to basic testing to check if a system's major functions work, not specifically for detecting dependency bugs.
+Question 3
+Question:
+Which of the following SAST tools is specifically built for NodeJS?
+
+Correct Answer:
+
+Reshift
+Explanation:
+
+Reshift: It is tailored for NodeJS and helps in identifying security vulnerabilities and code quality issues specific to NodeJS applications.
+Incorrect Options:
+
+Checkmarx: A general SAST tool that supports various languages but isn’t specifically built for NodeJS.
+Klocwork: A static code analysis tool for various languages but not specific to NodeJS.
+Veracode: Provides SAST solutions for a range of languages but is not specific to NodeJS.
+Question 4
+Question:
+SAST is performed at the static level ensuring that code guidelines are followed without actually executing the application.
+
+Correct Answer:
+
+True
+Explanation:
+
+True: SAST (Static Application Security Testing) analyzes code without executing it, focusing on ensuring adherence to coding guidelines and identifying potential vulnerabilities.
+Incorrect Option:
+
+False: This is incorrect because SAST indeed operates at the static level, analyzing the codebase directly without running the application.
+Question 5
+Question:
+Which of the following problems can be identified by using static analysis?
+
+Correct Answers:
+
+Dead or unused code
+Violation of code style guidelines
+Explanation:
+
+Dead or unused code: Static analysis can detect code that is never executed or used, which can be removed to improve code quality.
+Violation of code style guidelines: Static analysis tools check for adherence to coding standards and guidelines.
+Incorrect Options:
+
+Input/Output Validation: This is typically more related to dynamic analysis or runtime checks rather than static code analysis.
+Code Coverage: This measures how much of the code is exercised by tests, which is typically assessed through dynamic testing methods.
