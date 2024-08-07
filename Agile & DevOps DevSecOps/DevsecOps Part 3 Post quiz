@@ -1,0 +1,80 @@
+Question 1
+Question:
+_________ is an enterprise-grade automated code review solution that uses static code analysis to provide comprehensive vulnerability reporting.
+
+Correct Answer:
+Codacy
+
+Explanation:
+
+Codacy: This is correct. Codacy is a code review tool that uses static code analysis to identify and report vulnerabilities and code quality issues.
+
+SonarQube: This is a similar tool but more focused on code quality and technical debt rather than vulnerability reporting.
+
+Acunetix: This is incorrect. Acunetix is a web vulnerability scanner, not a static code analysis tool.
+
+Aqua Security: This is incorrect. Aqua Security focuses on container security, not static code analysis.
+
+Question 2
+Question:
+___________ is an application security methodology for managing open source components.
+
+Correct Answer:
+Software Composition Analysis
+
+Explanation:
+
+Software Composition Analysis (SCA): This is correct. SCA manages and analyzes open source components for security vulnerabilities and licensing issues.
+
+Static Analysis Security Testing: This is incorrect. SAST focuses on analyzing source code for vulnerabilities, not specifically managing open source components.
+
+Container security: This is incorrect. Container security focuses on securing containerized applications rather than managing open source components.
+
+Dynamic Analysis Security Testing: This is incorrect. DAST tests running applications for vulnerabilities rather than managing open source components.
+
+Question 3
+Question:
+Runtime protection means securing software against threats that can arise when your application starts running.
+
+Correct Answer:
+False
+
+Explanation:
+
+False: This is correct. Runtime protection involves monitoring and responding to threats during application runtime, but it is a different concept from just securing software against threats during execution.
+
+True: This is incorrect. While runtime protection does involve securing software during execution, the statement oversimplifies the concept.
+
+Question 4
+Question:
+__________ provides a summary of possible attack scenarios, outlines the flow of sensitive data, and identifies vulnerabilities and offers potential mitigation options.
+
+Correct Answer:
+Threat Modeling
+
+Explanation:
+
+Threat Modeling: This is correct. Threat modeling involves identifying potential attack scenarios, data flows, vulnerabilities, and possible mitigations.
+
+Monitor: This is incorrect. Monitoring involves tracking ongoing activities rather than creating summaries of attack scenarios and vulnerabilities.
+
+Scan: This is incorrect. Scanning involves detecting vulnerabilities but does not provide a summary or outline of attack scenarios.
+
+Remediate: This is incorrect. Remediation focuses on fixing vulnerabilities rather than providing an overview of possible attack scenarios.
+
+Question 5
+Question:
+_______ is a web-based DevOps program that gives a full CI/CD toolchain out-of-the-box in one particular application.
+
+Correct Answer:
+GitLab
+
+Explanation:
+
+GitLab: This is correct. GitLab provides a comprehensive CI/CD toolchain integrated into a single application.
+
+Logz.io: This is incorrect. Logz.io provides log management and monitoring solutions, not a full CI/CD toolchain.
+
+Aqua Security: This is incorrect. Aqua Security focuses on container security rather than providing a CI/CD toolchain.
+
+Contrast Security: This is incorrect. Contrast Security offers application security solutions but not a full CI/CD toolchain.
