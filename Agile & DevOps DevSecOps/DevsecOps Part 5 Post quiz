@@ -1,0 +1,42 @@
+Question 1
+Question:
+Implementing SCA ensures that all of the components in your applications are secure and compliant.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is correct. Implementing Software Composition Analysis (SCA) helps in identifying vulnerabilities and compliance issues in third-party and open-source components used within applications, improving overall security and compliance.
+
+False: This is incorrect. While SCA significantly enhances security and compliance, it may not ensure absolute security and compliance on its own. It is a crucial part of a broader security and compliance strategy.
+
+Question 2
+Question:
+__________ is the process of identifying potential areas of risk from the use of third-party and open-source software and hardware components.
+
+Correct Answer:
+Component Analysis
+
+Explanation:
+
+Component Analysis: This is correct. Component Analysis involves evaluating third-party and open-source components for potential risks and vulnerabilities, which is crucial for managing software supply chain risks.
+
+Dynamic Analysis: This is incorrect. Dynamic Analysis focuses on evaluating software behavior at runtime rather than assessing third-party components.
+
+Static Analysis: This is incorrect. Static Analysis involves examining code without executing it to find vulnerabilities, but it doesn’t specifically focus on third-party or open-source components.
+
+Configuration Management: This is incorrect. Configuration Management involves managing configurations and settings in software and systems rather than analyzing third-party components.
+
+Question 3
+Question:
+SAC tools can both spot any security weak points and suggest potential solutions based on the entire code base.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is correct. Software Assurance and Compliance (SAC) tools can identify security vulnerabilities and sometimes offer recommendations for remediation based on a comprehensive analysis of the code base.
+
+False: This is incorrect. SAC tools are designed to identify vulnerabilities and often suggest fixes or improvements based on their analysis.
