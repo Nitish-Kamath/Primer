@@ -1,0 +1,71 @@
+Question 1
+Question:
+Ansible leverages SSH to communicate between servers.
+
+Correct Answer:
+
+True
+Explanation:
+
+True: Ansible uses SSH (Secure Shell) to communicate with remote servers to execute tasks and manage configurations. This method allows it to securely connect to and manage systems without requiring a client agent on the nodes.
+Incorrect Option:
+
+False: This is incorrect because Ansible indeed uses SSH for communication.
+Question 2
+Question:
+Which of the following services natively integrates Role-Based Access Control (RBAC) into the management platform?
+
+Correct Answer:
+
+Azure Resource Manager
+Explanation:
+
+Azure Resource Manager: Azure Resource Manager provides native support for Role-Based Access Control (RBAC), allowing fine-grained access control for resources within Azure.
+Incorrect Options:
+
+CF Engine: Does not natively integrate RBAC.
+AWS CloudFormation: While it can use AWS IAM roles for access control, it does not provide native RBAC.
+Google Cloud Deployment Manager: Does not natively integrate RBAC in the same way as Azure Resource Manager.
+Question 3
+Question:
+Ansible is an example of a pull-based configuration management tool.
+
+Correct Answer:
+
+False
+Explanation:
+
+False: Ansible is a push-based configuration management tool. In a push-based system, the control server pushes configuration changes to the nodes. Ansible does not use a pull mechanism where nodes fetch updates from a server.
+Incorrect Option:
+
+True: This is incorrect because Ansible uses a push-based approach.
+Question 4
+Question:
+_________ are the components required to operate and manage enterprise IT environments.
+
+Correct Answer:
+
+Infrastructure
+Explanation:
+
+Infrastructure: Refers to the fundamental components and resources required to operate and manage IT environments, including hardware, software, and networking resources.
+Incorrect Options:
+
+Platform: Refers to a broader environment or ecosystem but not specifically to the components required.
+Playbook: Specific to Ansible and used to define tasks and configurations.
+Module: Refers to components within a tool but not the complete set of components for managing IT environments.
+Question 5
+Question:
+________ allows you to create “recipes” and “cookbooks” using its Ruby-based DSL.
+
+Correct Answer:
+
+Chef
+Explanation:
+
+Chef: Uses a Ruby-based Domain-Specific Language (DSL) to create "recipes" and "cookbooks" for managing configurations and deployments.
+Incorrect Options:
+
+Vagrant: Used for managing virtual machine environments, not for creating recipes and cookbooks.
+Puppet: Uses its own DSL but does not use the terms "recipes" and "cookbooks."
+Terraform: Uses HCL (HashiCorp Configuration Language) and does not involve recipes and cookbooks.
