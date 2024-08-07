@@ -1,0 +1,85 @@
+Question 1
+Question:
+____ layer describes what could happen.
+
+Correct Answer:
+Predictive Layer
+
+Explanation:
+
+Cognitive Layer: This is not the correct answer. The cognitive layer is often associated with AI and machine learning, focusing on understanding and reasoning to make intelligent decisions.
+
+Predictive Layer: This is the correct answer. The predictive layer in business analytics is responsible for forecasting future outcomes based on historical data and trends. It uses statistical models and machine learning techniques to predict what could happen.
+
+Descriptive Layer: This layer focuses on summarizing past data to understand what has happened, not predicting future events.
+
+Prescriptive Layer: This layer provides recommendations for actions to achieve desired outcomes. It goes beyond predictions to suggest possible actions and their potential impacts.
+
+Question 2
+Question:
+Analytics reveal hidden patterns in _____.
+
+Correct Answer:
+Data
+
+Explanation:
+
+Data: This is the correct answer. Analytics is the process of examining data sets to discover hidden patterns, correlations, and insights. Data is the foundational element that analytics processes to extract valuable information.
+
+Functions: Functions refer to mathematical operations or code functions in programming, not the primary focus of analytics.
+
+Solutions: Solutions refer to resolving problems or implementing strategies, but analytics focuses on extracting insights from data, which can lead to solutions.
+
+Programs: Programs refer to software applications, and while analytics can be part of a program, the primary target for revealing patterns is data.
+
+Question 3
+Question:
+____ layer in business analytics indicates what is happening or what has happened.
+
+Correct Answer:
+Descriptive Layer
+
+Explanation:
+
+Cognitive Layer: As mentioned earlier, the cognitive layer involves understanding and reasoning to make intelligent decisions, not merely describing past events.
+
+Descriptive Layer: This is the correct answer. The descriptive layer in analytics is concerned with providing insights into what has happened or what is currently happening by summarizing and interpreting historical data.
+
+Predictive Layer: This layer is focused on forecasting future events, not describing current or past events.
+
+Prescriptive Layer: This layer provides actionable recommendations based on predictive analysis, not merely describing the state of events.
+
+Question 4
+Question:
+_____ allows decision-makers at virtually all levels of the organization to gain insight into business performance and data to support and guide actions.
+
+Correct Answer:
+BPM
+
+Explanation:
+
+SCM (Supply Chain Management): SCM focuses on managing and optimizing the flow of goods, services, and information from raw materials to the end customer. While it provides insights into the supply chain, it is not primarily focused on overall business performance.
+
+BPM (Business Process Management): This is the correct answer. BPM involves analyzing, optimizing, and improving business processes across an organization, providing insights that help guide decisions and improve performance.
+
+CRM (Customer Relationship Management): CRM focuses on managing interactions with customers, providing insights into customer behavior and preferences but not overall business performance.
+
+ERP (Enterprise Resource Planning): ERP systems integrate and manage core business processes, providing data and insights but focusing more on operational efficiency rather than direct decision-making insights across all business areas.
+
+Question 5
+Question:
+An optimal solution is based on ___.
+
+Correct Answer:
+
+Limits
+Targets
+Explanation:
+
+Targets: This is a correct answer. An optimal solution often aims to achieve specific targets or goals, which guide the decision-making process.
+
+Choices: While choices are part of the decision-making process, they are not the basis for an optimal solution. The solution is based on achieving desired targets and adhering to constraints.
+
+Limits: This is a correct answer. Limits, or constraints, define the boundaries within which an optimal solution must be found. These constraints could include budget, resources, time, and other restrictions.
+
+Source: This option is not relevant to finding an optimal solution. The source might refer to the origin of data or resources, but it does not determine the basis of an optimal solution.
