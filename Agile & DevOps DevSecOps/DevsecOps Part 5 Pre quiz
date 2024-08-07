@@ -1,0 +1,43 @@
+Question 1
+Question:
+Any component that has the potential to adversely impact cyber supply-chain risk is a candidate for Component Analysis.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is correct. Components that could negatively affect the cyber supply chain are indeed candidates for Component Analysis to assess and mitigate associated risks.
+
+False: This is incorrect. Components with potential risks are precisely the ones that should undergo Component Analysis.
+
+Question 2
+Question:
+Bill Of Materials (BOM) describe the components included in applications, the version of the components used, and the license types for each.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is correct. A BOM (Bill of Materials) in software provides a detailed list of the components, their versions, and the licensing information, which is crucial for managing software supply chain risks and compliance.
+
+False: This is incorrect. The BOM does indeed include these details.
+
+Question 3
+Question:
+Which of the following are the Software Composition Analysis tools?
+
+Correct Answers:
+
+WhiteSource
+Dependency Checker
+Explanation:
+
+WhiteSource: This is correct. WhiteSource is a Software Composition Analysis (SCA) tool that helps in managing open source components and their associated risks.
+
+Dependency Checker: This is correct. Dependency Checker is a tool used for analyzing software dependencies and identifying known vulnerabilities.
+
+Docker: This is incorrect. Docker is a containerization platform and not specifically an SCA tool.
+
+Aqua Security: This is incorrect. Aqua Security focuses on container security rather than SCA.
