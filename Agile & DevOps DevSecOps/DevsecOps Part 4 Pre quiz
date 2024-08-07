@@ -1,0 +1,72 @@
+Question 1
+Question:
+DSOMM Level 1 calls for the execution of static analysis tools without any changes to the tools or settings.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is correct. DSOMM (Dynamic Security Operations Maturity Model) Level 1 typically involves running static analysis tools with default settings, without custom configurations or modifications.
+
+False: This is incorrect. At Level 1, the tools are generally used as-is without adjustments.
+
+Question 2
+Question:
+Which of the following are considered as the 4-Axes in DSOMM?
+
+Correct Answers:
+Static Depth, Intensity
+
+Explanation:
+
+Static Depth: This is correct. In DSOMM, Static Depth refers to the level of detail in static analysis.
+
+Intensity: This is correct. Intensity measures how thoroughly the analysis is conducted.
+
+Collaboration: This is incorrect. Collaboration is not one of the primary axes in DSOMM.
+
+Strategy: This is incorrect. Strategy is not one of the primary axes in DSOMM.
+
+Question 3
+Question:
+_________ is incorporated in the implementation phase of Secure SDLC.
+
+Correct Answer:
+Static Analysis
+
+Explanation:
+
+Static Analysis: This is correct. Static Analysis is used during the implementation phase to review code for security vulnerabilities before deployment.
+
+Security Monitoring/Compliance: This is incorrect. Security Monitoring/Compliance is more relevant to post-deployment phases.
+
+Dynamic Analysis: This is incorrect. Dynamic Analysis is usually part of testing or later phases, not the implementation phase.
+
+OS Hardening, Web/Application Hardening: This is incorrect. These activities are part of deployment or operational phases rather than the implementation phase.
+
+Question 4
+Question:
+Security issues can be addressed in the SDLC pipeline well before deployment to production.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is correct. Security issues can and should be addressed throughout the SDLC pipeline, including during development, testing, and staging phases, before deployment to production.
+
+False: This is incorrect. Addressing security issues before production is a best practice.
+
+Question 5
+Question:
+During the development phase in secure SDLC, teams need to make sure that they use secure coding standards.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is correct. Using secure coding standards during the development phase helps to prevent vulnerabilities and ensure that the code is secure from the start.
+
+False: This is incorrect. Secure coding standards are essential in the development phase to mitigate security risks.
