@@ -1,0 +1,87 @@
+Question 1
+Question:
+_____ helps to uncover unexpected patterns and associations from all data within an organization.
+
+Correct Answer:
+Cognitive Layer
+
+Explanation:
+
+Descriptive Layer: This layer focuses on summarizing historical data to understand what has happened, but it does not specifically uncover unexpected patterns.
+
+Predictive Layer: This layer uses historical data to make forecasts about future events. While it involves pattern recognition, its main purpose is to predict outcomes, not uncover unexpected associations.
+
+Cognitive Layer: This is the correct answer. The cognitive layer in analytics leverages AI and machine learning to uncover hidden patterns, associations, and insights within data, enabling organizations to make more informed decisions.
+
+Prescriptive Layer: This layer provides recommendations for actions based on data analysis, focusing on determining the best course of action rather than uncovering patterns.
+
+Question 2
+Question:
+By working to plan an information agenda, master information, and apply Business Analytics, organizations can take advantage of the following areas:
+
+Correct Answers:
+
+Information Management
+ECM
+Explanation:
+
+ECM (Enterprise Content Management): This is a correct answer. ECM involves managing an organization's information to improve efficiency, support business processes, and ensure regulatory compliance. Business analytics can leverage ECM to extract insights and improve decision-making.
+
+Domain Management: This is not directly related to leveraging business analytics for organizational advantage. Domain management typically involves handling internet domain names and related services.
+
+Information Management: This is a correct answer. Information management involves collecting, storing, managing, and maintaining information in all its forms. Effective information management, supported by business analytics, allows organizations to gain insights and make better decisions.
+
+Source Control Management: This relates to managing changes to code and other digital assets, typically used in software development. It is not directly relevant to business analytics in the context of leveraging information.
+
+Question 3
+Question:
+The challenges faced in Business Analytics are:
+
+Correct Answers:
+
+Volume of data
+Variety of data
+Velocity of data
+Explanation:
+
+Velocity of data: This is a correct answer. Velocity refers to the speed at which new data is generated and needs to be processed. Managing data velocity is a significant challenge in business analytics, especially with real-time data streams.
+
+Integral data: This is not a recognized challenge in business analytics. The term does not relate to common issues like data volume, variety, or velocity.
+
+Volume of data: This is a correct answer. The volume of data refers to the vast amounts of data generated daily, which can be challenging to store, manage, and analyze effectively.
+
+Variety of data: This is a correct answer. Variety refers to the different types of data available, such as structured, unstructured, and semi-structured data. Handling this diversity is a significant challenge in business analytics.
+
+Question 4
+Question:
+To understand the best course of action for a problem is ____.
+
+Correct Answer:
+Prescriptive Layer
+
+Explanation:
+
+Cognitive Layer: The cognitive layer focuses on uncovering hidden patterns and insights but does not specifically determine the best course of action.
+
+Predictive Layer: This layer forecasts future outcomes based on data but does not provide specific recommendations for actions.
+
+Prescriptive Layer: This is the correct answer. The prescriptive layer in analytics suggests the best course of action by analyzing data and using algorithms to recommend optimal decisions and strategies.
+
+Descriptive Layer: This layer describes what has happened by analyzing past data, but it does not provide guidance on future actions.
+
+Question 5
+Question:
+______ is the process of discovering various models, summaries, and derived values from a given collection of data.
+
+Correct Answer:
+Data Mining
+
+Explanation:
+
+Data Mart: A data mart is a subset of a data warehouse, focused on a specific business line or team. It is not the process of discovering patterns or models from data.
+
+Data Warehouse: A data warehouse is a central repository of integrated data from multiple sources. It stores data but does not involve the process of discovering insights from it.
+
+Data Mining: This is the correct answer. Data mining is the process of analyzing large datasets to discover patterns, models, and insights. It involves techniques like clustering, classification, and association rule mining.
+
+Cube: A cube in data warehousing refers to a multi-dimensional array of data used in OLAP (Online Analytical Processing) to analyze information from multiple perspectives. It is not the process of discovering patterns.
