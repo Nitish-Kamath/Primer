@@ -1,0 +1,69 @@
+Question 1
+Question:
+In Push Based Configuration Management System, nodes pull the configuration information from the server.
+
+Correct Answer:
+
+False
+Explanation:
+
+False: In a push-based configuration management system, the server pushes configuration updates to the nodes. The nodes do not pull the configuration information; instead, the server initiates the distribution of configurations.
+Incorrect Option:
+
+True: This is incorrect because it describes a pull-based system where nodes pull the configuration from the server.
+Question 2
+Question:
+___________ is a list of tasks that runs repeatedly in an order.
+
+Correct Answer:
+
+Playbook
+Explanation:
+
+Playbook: In configuration management tools like Ansible, a playbook is a file containing a list of tasks that are executed in a specified order.
+Incorrect Options:
+
+Task: A single action or command, not a list of tasks.
+Role: A collection of tasks, variables, and handlers grouped together, but not a list in itself.
+Module: A unit of work within a playbook or role, but not a list.
+Question 3
+Question:
+Which of the following is an open-source configuration management tool based on Python?
+
+Correct Answer:
+
+SaltStack
+Explanation:
+
+SaltStack: An open-source configuration management tool that is based on Python and is used for automating infrastructure management.
+Incorrect Options:
+
+Vagrant: Primarily used for managing virtual machine environments, not a configuration management tool based on Python.
+Puppet: An open-source configuration management tool, but based on Ruby, not Python.
+Chef: Another configuration management tool, but it is based on Ruby.
+Question 4
+Question:
+Configuration drift occurs when ad-hoc configuration changes and updates result in a mismatched development, test, and deployment environments.
+
+Correct Answer:
+
+True
+Explanation:
+
+True: Configuration drift refers to the situation where the configuration of systems diverges from the intended state due to manual changes or updates, causing inconsistencies across environments.
+Incorrect Option:
+
+False: This is incorrect because it does not accurately describe configuration drift.
+Question 5
+Question:
+You can also use Ansible Automation Platform for configuration management to maintain your systems in the desired state.
+
+Correct Answer:
+
+True
+Explanation:
+
+True: The Ansible Automation Platform is indeed used for configuration management to ensure that systems are maintained in their desired state.
+Incorrect Option:
+
+False: This is incorrect because Ansible is commonly used for configuration management.
