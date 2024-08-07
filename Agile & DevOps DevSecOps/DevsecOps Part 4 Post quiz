@@ -1,0 +1,80 @@
+Question 1
+Question:
+Employing both SAST and DAST in a pipeline would cover both codebase and runtime vulnerabilities.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is correct. SAST (Static Application Security Testing) analyzes the codebase for vulnerabilities before deployment, while DAST (Dynamic Application Security Testing) evaluates the application at runtime. Using both ensures comprehensive coverage of security issues both in the code and during execution.
+
+False: This is incorrect. Using only one type of testing (either SAST or DAST) may leave gaps in vulnerability detection.
+
+Question 2
+Question:
+DSOMM strives to incrementally increase the effectiveness of a security program from Level 1 to Level 4.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is correct. The DSOMM (Dynamic Security Operations Maturity Model) is designed to improve the effectiveness of a security program progressively through its levels, from basic to advanced practices.
+
+False: This is incorrect. DSOMM indeed focuses on increasing effectiveness across its levels.
+
+Question 3
+Question:
+Which of the following are the three critical areas focused by Security Monitoring/Compliance in Secure SDLC?
+
+Correct Answers:
+
+Shifting security left in the SDLC
+Building security into policies
+Creating an audit trail throughout the development
+Explanation:
+
+Shifting security left in the SDLC: This is correct. This approach involves integrating security early in the SDLC.
+
+Building security into policies: This is correct. Establishing security policies is a critical part of ensuring compliance and monitoring.
+
+Creating an audit trail throughout the development: This is correct. Maintaining an audit trail is essential for tracking security and compliance throughout the development lifecycle.
+
+Hardening web applications: This is not a focus area specific to Security Monitoring/Compliance; it is more relevant to the implementation and deployment phases.
+
+Question 4
+Question:
+In which of the following phases of Secure SDLC, teams follow architecture and design guidelines to address risk?
+
+Correct Answer:
+Architecture And Design
+
+Explanation:
+
+Architecture And Design: This is correct. In this phase, teams follow guidelines to address security risks by defining the architecture and design principles.
+
+Planning: This phase is focused on setting up the project and requirements but does not delve into specific architecture and design guidelines.
+
+Development: This phase involves writing and testing code based on the design.
+
+Requirement Analysis: This phase identifies and documents the requirements but does not focus on architecture and design guidelines.
+
+Question 5
+Question:
+Which of the following are the steps of Threat Modeling?
+
+Correct Answers:
+
+Decomposing the application
+Ranking Threats
+Mitigation
+Explanation:
+
+Decomposing the application: This is correct. This step involves breaking down the application into components to understand where vulnerabilities might exist.
+
+Ranking Threats: This is correct. Threats are ranked based on their potential impact and likelihood.
+
+Mitigation: This is correct. After identifying and ranking threats, mitigation strategies are developed to address the risks.
+
+Usecase Modeling: This is not a standard step in Threat Modeling. While use case modeling can be part of understanding requirements, it is not a core step in threat modeling.
