@@ -1,0 +1,67 @@
+Question 1
+Question:
+______ is a set of security tools that can be used to validate compliance against a set of policies.
+
+Correct Answer:
+
+OpenSCAP
+Explanation:
+
+OpenSCAP: A suite of security tools designed to help with compliance validation and auditing against security policies. It provides various functionalities for security configuration and vulnerability management.
+Incorrect Options:
+
+Inspec: A testing framework for infrastructure compliance but not a set of tools.
+ClientSpec: Not a recognized security tool or framework.
+ServerSpec: A testing framework for infrastructure testing but not specifically for validating compliance against policies.
+Question 2
+Question:
+With Chef Automate, you can run your InSpec compliance tests on demand, see the results on the dashboard, and remediate the problem.
+
+Correct Answer:
+
+True
+Explanation:
+
+True: Chef Automate allows you to run InSpec compliance tests on demand, view the results in a dashboard, and take remediation actions based on those results.
+Incorrect Option:
+
+False: This is incorrect because Chef Automate indeed supports on-demand testing and remediation.
+Question 3
+Question:
+InSpec tests can be easily added to act as a quality gate for compliance.
+
+Correct Answer:
+
+True
+Explanation:
+
+True: InSpec allows for the integration of compliance tests as quality gates, ensuring that configurations meet compliance requirements before proceeding further.
+Incorrect Option:
+
+False: This is incorrect because InSpec is designed to be easily integrated as a quality gate for compliance.
+Question 4
+Question:
+Vulnerability scanning tools can be used to identify specific local users and groups.
+
+Correct Answer:
+
+True
+Explanation:
+
+True: Vulnerability scanning tools can indeed identify and assess local users and groups as part of their security assessments.
+Incorrect Option:
+
+False: This is incorrect because vulnerability scanning tools do have the capability to identify specific users and groups.
+Question 5
+Question:
+ServerSpec lets you to include metadata about your compliance rules.
+
+Correct Answer:
+
+False
+Explanation:
+
+False: ServerSpec does not specifically include metadata about compliance rules; it is focused on testing the configurations of servers.
+Incorrect Option:
+
+True: This is incorrect because ServerSpec is more focused on testing server configurations rather than including metadata about compliance rules.
