@@ -1,0 +1,153 @@
+Question 1
+Question:
+Which of the following CI/CD tools is suitable for small projects?
+
+Correct Answer:
+CircleCI
+
+Explanation:
+
+TeamCity: TeamCity is a powerful CI/CD tool, but it is often used by larger teams and enterprises due to its extensive features and configurations.
+
+Bamboo: Bamboo is an Atlassian product that integrates well with other Atlassian tools but is typically suited for medium to large projects.
+
+CircleCI: This is the correct answer. CircleCI is known for its simplicity and ease of use, making it a great choice for small projects or startups that need a straightforward CI/CD solution.
+
+GitLab: GitLab offers a comprehensive CI/CD platform but can be overkill for small projects compared to the simplicity offered by CircleCI.
+
+Question 2
+Question:
+The __________ is used to record the code changes made by developers so that these changes can be shared with others.
+
+Correct Answer:
+Version control system
+
+Explanation:
+
+Change Control Board: This is a governance body that reviews and approves changes in a project but does not record code changes directly.
+
+Trello Board: Trello is a project management tool used for organizing tasks and workflows, not for recording code changes.
+
+Version control system: This is the correct answer. Version control systems like Git are used to track and manage code changes, enabling collaboration and versioning of code.
+
+Repository: While a repository is where the code is stored, it is the version control system that tracks changes within the repository.
+
+Question 3
+Question:
+Which of the following CI/CD tools is designed to handle anything from a simple CI server to a complete CD hub?
+
+Correct Answer:
+Jenkins
+
+Explanation:
+
+Bamboo: Bamboo is designed to integrate with Atlassian tools and is more focused on CI/CD for complex environments but isn't as universally extensible as Jenkins.
+
+TeamCity: TeamCity offers robust CI/CD features but is not as widely flexible and community-supported as Jenkins.
+
+Jenkins: This is the correct answer. Jenkins is an open-source automation server that can be customized to handle everything from basic CI to complex CD workflows through its extensive plugin ecosystem.
+
+CircleCI: CircleCI is great for CI/CD but is not as versatile as Jenkins for transforming from a simple CI server to a full CD hub.
+
+Question 4
+Question:
+You can either define the pipeline using YAML syntax or through the user interface in Azure pipeline.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is the correct answer. Azure Pipelines offers flexibility in defining pipelines either through YAML files or using the visual designer in the Azure DevOps portal.
+
+False: This is incorrect. Azure Pipelines supports both YAML-based and UI-based pipeline creation.
+
+Question 5
+Question:
+In Continuous Integration, build status is reported to developers when they are changing the code.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is the correct answer. Continuous Integration systems are designed to automatically build and test code changes, providing immediate feedback to developers about the build status.
+
+False: This is incorrect. CI practices ensure developers receive prompt feedback on their code changes.
+
+Question 6
+Question:
+Pipe uses a script that lives in a Docker container.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is the correct answer. In CI/CD contexts, a "pipe" often refers to a pipeline component that executes a script or set of instructions within a Docker container to ensure consistency and isolation.
+
+False: This is incorrect. Docker containers are commonly used to run CI/CD scripts to ensure reproducible environments.
+
+Question 7
+Question:
+In GitLab, pipes are agents that run the CI/CD Jobs.
+
+Correct Answer:
+False
+
+Explanation:
+
+True: This is incorrect. In GitLab, the term "runners" refers to the agents that execute CI/CD jobs, not "pipes."
+
+False: This is the correct answer. GitLab uses "runners" to execute jobs, while "pipes" is not the terminology used in GitLab for agents.
+
+Question 8
+Question:
+In _________, developed code is continuously delivered until the programmer considers it ready to ship.
+
+Correct Answer:
+Continuous Delivery
+
+Explanation:
+
+Continuous Delivery: This is the correct answer. Continuous delivery automates the deployment process up to a production-like environment, allowing developers to release updates continuously but often requires a manual approval step for production deployment.
+
+Continuous Deployment: This involves automatically deploying every code change that passes tests to production without human intervention.
+
+Continuous Integration: CI involves automatically testing and integrating code changes but does not include deployment.
+
+Continuous Monitoring: This refers to the practice of continuously observing and analyzing the performance of applications in production.
+
+Question 9
+Question:
+Which of the following are the services provided by Azure DevOps?
+
+Correct Answers:
+Azure Boards, Azure Artifacts, Azure Repos
+
+Explanation:
+
+Azure Artifacts: This service provides a package management solution for managing and sharing artifacts.
+
+Azure Agents: This is incorrect. Azure Agents are not a service; they are the execution environment for running build and deployment jobs in Azure Pipelines.
+
+Azure Boards: This service offers agile project management capabilities, including work item tracking and Kanban boards.
+
+Azure Repos: This service provides version control using Git or Team Foundation Version Control (TFVC).
+
+Question 10
+Question:
+Which of the following uses a version control system and a central code repository for tracking the code changes made by developers?
+
+Correct Answer:
+Continuous Integration
+
+Explanation:
+
+Continuous Delivery: This involves deploying code changes to a production-like environment but focuses more on deployment rather than version control.
+
+Continuous Monitoring: This is related to observing system performance rather than code changes.
+
+Continuous Integration: This is the correct answer. CI practices involve integrating code changes frequently into a shared repository, using version control systems to track changes.
+
+Continuous Deployment: This automates the deployment of code to production without manual intervention, building on CI practices.
