@@ -1,0 +1,72 @@
+Question 1
+Question:
+Using a blue/green deployment strategy increases application availability and reduces deployment risk by simplifying the rollback process if a deployment fails.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is the correct answer. Blue/green deployment involves running two identical production environments, one live (blue) and one idle (green). Updates are made to the idle environment, which becomes live once testing is complete. If issues arise, traffic can be easily switched back to the original environment, reducing downtime and risk.
+
+False: This is incorrect. The blue/green strategy is specifically designed to enhance availability and simplify rollbacks.
+
+Question 2
+Question:
+DevOps culture is about agility, scalability, continuous improvements in the delivery of services.
+
+Correct Answer:
+True
+
+Explanation:
+
+True: This is the correct answer. DevOps focuses on improving the speed, quality, and reliability of software delivery through agile practices, scalability, and continuous improvement.
+
+False: This is incorrect. DevOps emphasizes agility and continuous improvement, which are central tenets of its culture.
+
+Question 3
+Question:
+In the Blue/Green deployment, once testing has been completed on the blue environment, live application traffic is directed to the blue environment and the green environment is deprecated.
+
+Correct Answer:
+False
+
+Explanation:
+
+True: This is incorrect. In a blue/green deployment, the environments are switched—traffic moves to the newly tested environment (green), while the original environment (blue) is kept as a backup.
+
+False: This is the correct answer. After successful testing, the green environment (newly deployed) handles the live traffic, while the blue environment remains as a standby in case of rollback needs.
+
+Question 4
+Question:
+Which of the following refers to automatically releasing a developer’s changes from the repository to production, where it is usable by customers?
+
+Correct Answer:
+Continuous Deployment
+
+Explanation:
+
+Continuous Deployment: This is the correct answer. Continuous Deployment automates the release of changes to production without human intervention, provided all tests pass.
+
+Continuous Integration: This involves integrating code changes frequently, but not releasing to production automatically.
+
+Continuous Delivery: This automates the preparation for production deployment, but usually requires manual approval for release.
+
+Continuous Monitoring: This involves observing the application's performance and behavior, not related to deployment.
+
+Question 5
+Question:
+In CAMS Model, ________ is all about monitoring and tracking the progress of various activities involved in the DevOps environment.
+
+Correct Answer:
+Measurement
+
+Explanation:
+
+Measurement: This is the correct answer. Measurement in the CAMS model refers to tracking and analyzing data to evaluate performance and progress.
+
+Automation: This focuses on automating processes to improve efficiency, not specifically on monitoring.
+
+Culture: This refers to fostering a collaborative and communicative work environment, not monitoring.
+
+Sharing: This involves disseminating knowledge and information, not directly related to monitoring progress.
