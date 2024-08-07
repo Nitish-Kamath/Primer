@@ -1,0 +1,69 @@
+Question 1
+Question:
+Which of the following SAST tools is designed for web applications?
+
+Correct Answer:
+
+HCL AppScan
+Explanation:
+
+HCL AppScan: A tool specifically designed for identifying security vulnerabilities in web applications through static analysis. It helps in analyzing and securing web application code.
+Incorrect Options:
+
+Checkmarx: A general-purpose SAST tool that supports various types of applications, including web applications, but is not exclusively designed for them.
+Veracode: Also a general-purpose SAST tool that covers a range of application types.
+Klocwork: Primarily focused on static code analysis for various languages and applications but not specifically designed for web applications.
+Question 2
+Question:
+________ is designed for optimizing the performance for analyzing typestate problem.
+
+Correct Answer:
+
+Smoke
+Explanation:
+
+Smoke: In this context, it refers to a technique or tool that can optimize the performance for analyzing typestate issues, typically involved in early detection of basic issues before more thorough analysis.
+Incorrect Options:
+
+VeriBuild: Designed for detecting dependency bugs in build systems, not specifically for typestate problems.
+Static code analyzer: A general term for tools that analyze code but not specifically designed for typestate performance optimization.
+Checkmarx: A comprehensive SAST tool but not specifically noted for typestate problem optimization.
+Question 3
+Question:
+Static code analyzers help to define project-specific rules to ensure that all developers follow them without any manual intervention or sidetracking.
+
+Correct Answer:
+
+True
+Explanation:
+
+True: Static code analyzers enforce coding standards and rules automatically, ensuring consistency across the project without requiring manual enforcement from developers.
+Incorrect Option:
+
+False: This is incorrect because static code analyzers indeed automate the enforcement of coding standards.
+Question 4
+Question:
+Static Application Security Testing (SAST) is also known as 'black box testing’.
+
+Correct Answer:
+
+False
+Explanation:
+
+False: SAST is not 'black box testing'. SAST is a form of 'white box testing' that analyzes the code internally without executing it. Black box testing refers to testing without knowledge of the internal workings of the application.
+Incorrect Option:
+
+True: This is incorrect because SAST is 'white box testing', not 'black box testing'.
+Question 5
+Question:
+SAST tools examine the source code at rest to detect and report on potential security vulnerabilities.
+
+Correct Answer:
+
+True
+Explanation:
+
+True: SAST tools analyze the source code without executing it, identifying potential security vulnerabilities based on the code's structure and content.
+Incorrect Option:
+
+False: This is incorrect because SAST tools indeed analyze code at rest to find vulnerabilities.
