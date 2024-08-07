@@ -1,0 +1,138 @@
+Question 1
+Question:
+________ is the process during which the changes of a system are implemented in a controllable manner by following a predefined model, with some reasonable modifications.
+
+Correct Answer:
+a. Change Management
+
+Explanation:
+Change management is a structured approach to transitioning individuals, teams, and organizations from a current state to a desired future state. In the context of software development and IT systems, change management refers to the process of managing changes to a system in a controlled and systematic way. It involves planning, testing, implementing, and monitoring changes to ensure they are made effectively and with minimal disruption.
+
+Question 2
+Question:
+From the options, select the configuration items that are eligible for configuration management.
+
+Correct Answers:
+
+a. Source code document
+b. Design Document
+c. Test Report
+d. SRS
+Explanation:
+Configuration management is the practice of handling changes systematically so that a system maintains its integrity over time. Items that are typically subject to configuration management include:
+
+Source Code Document: This is the written code that defines how the software operates.
+Design Document: This outlines the architecture and design decisions of the system.
+Test Report: This contains results of tests that verify the software's functionality.
+SRS (Software Requirements Specification): This document describes the software system to be developed, including functional and non-functional requirements.
+These items are critical as they collectively define and document the software system, making them essential for tracking changes and ensuring consistency across the project.
+
+Question 3
+Question:
+Tom and Peter work on the same project. Tom does his work and updates the local copy back to the configuration management server. This process is called:
+
+Correct Answer:
+b. Check-in
+
+Explanation:
+Check-in is the process of submitting or committing changes from a developer's local environment to a central repository in a version control system. This operation saves the developer's modifications in the repository and makes them available to other team members. It is a crucial part of collaboration in software development, ensuring that all team members have access to the latest code and changes.
+
+Question 4
+Question:
+Which is the software configuration concept that ensures that change should be done in a controlled and authorized environment?
+
+Correct Answer:
+c. Baseline
+
+Explanation:
+A baseline is a reference point in the software development lifecycle marked by a particular version of software or documentation that has been formally reviewed and agreed upon. It serves as a starting point for further development and can only be changed through a formal change control process. Baselines help in tracking the progress of a project and ensure that changes are controlled and authorized, preventing unauthorized modifications.
+
+Question 5
+Question:
+____________ ensures that when two different people do the work and update parallelly, one should not overwrite the other.
+
+**
+
+you have to also explain other option that is incorrect in very short
+ChatGPT
+Sure, let's go through each question again and briefly explain why the other options are incorrect.
+
+Question 1
+Question:
+________ is the process during which the changes of a system are implemented in a controllable manner by following a predefined model, with some reasonable modifications.
+
+Correct Answer:
+a. Change Management
+
+Other Options:
+
+b. Modification Management: This term is not commonly used in the context of software development or IT systems. It doesn't have a specific process associated with it like change management does.
+
+c. Update Management: This refers to the process of managing software updates, often related to installing patches or new versions. It does not encompass the broader scope of managing changes within a system's lifecycle like change management does.
+
+Question 2
+Question:
+From the options, select the configuration items that are eligible for configuration management.
+
+Correct Answers:
+
+a. Source code document
+b. Design Document
+c. Test Report
+d. SRS
+Explanation for each option:
+
+a. Source code document: Correct because source code is a fundamental part of the software that requires version control.
+
+b. Design Document: Correct because design specifications need to be tracked to ensure the software is built as intended.
+
+c. Test Report: Correct because it verifies the software’s functionality and quality.
+
+d. SRS (Software Requirements Specification): Correct because it outlines all the requirements the software must meet.
+
+All these documents are essential to track changes and ensure the integrity and consistency of the software project.
+
+Question 3
+Question:
+Tom and Peter work on the same project. Tom does his work and updates the local copy back to the configuration management server. This process is called:
+
+Correct Answer:
+b. Check-in
+
+Other Options:
+
+a. Baseline: A baseline is a reference point in the development process, not the act of submitting code to a repository.
+
+c. Management: This is a broad term that doesn't specifically refer to the process of submitting changes to a version control system.
+
+d. Check-out: This is the process of downloading a copy of files from the repository to work on locally, opposite to check-in.
+
+Question 4
+Question:
+Which is the software configuration concept that ensures that change should be done in a controlled and authorized environment?
+
+Correct Answer:
+c. Baseline
+
+Other Options:
+
+a. SVN: Short for Subversion, SVN is a version control system, not a concept. It is used to manage changes to files and directories, but it doesn’t ensure controlled change by itself.
+
+b. Configuration Database: This is a database that stores configuration information but doesn't inherently control or authorize changes.
+
+d. Audit: An audit is an examination of records or financial accounts, which can include reviewing change logs, but it doesn't control changes.
+
+Question 5
+Question:
+____________ ensures that when two different people do the work and update parallelly, one should not overwrite the other.
+
+Correct Answer:
+a. Synchronization control
+
+Other Options:
+
+b. Baseline: A baseline is a point of reference in the development process and doesn't handle real-time conflicts between concurrent updates.
+
+c. Check-in: This is the act of submitting changes to a repository, which might include mechanisms to avoid conflicts, but on its own, it doesn't prevent overwrites without synchronization control.
+
+d. Check-out: This is the process of retrieving files from a repository, which doesn't prevent overwriting changes made by others.
