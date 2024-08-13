@@ -1,0 +1,99 @@
+Question 1
+Which of the following is NOT a type of AI?
+
+Supervised AI: A type of AI where the model is trained on labeled data, learning to predict outcomes based on input-output pairs.
+Reinforcement AI: Refers to reinforcement learning, where an agent learns to make decisions by receiving rewards or penalties for actions taken in an environment.
+Generative AI: AI that generates new data samples from learned patterns, such as creating realistic images, text, or music.
+Generative Art: While related to Generative AI, it specifically refers to art created by algorithms or AI systems. It’s not a type of AI itself but a result of using Generative AI techniques.
+Unsupervised AI: A type of AI where the model is trained on unlabeled data and learns to identify patterns and structures without predefined labels.
+Correct Answer: Generative Art
+
+Question 2
+Which of the following is a real-world example of Generative AI?
+
+Sorting emails: Typically handled by classification algorithms rather than Generative AI.
+Generating realistic human faces in movies: A common application of Generative AI, where models create highly realistic images or videos.
+Predicting stock market prices: Often involves predictive analytics and regression models, not typically classified as Generative AI.
+Translating languages: Involves machine translation models, which can use Generative techniques but are not solely Generative AI.
+Automating cars: Involves a variety of AI techniques, including reinforcement learning and computer vision, but not exclusively Generative AI.
+Correct Answer: Generating realistic human faces in movies
+
+Question 3
+Which statement best defines Generative AI?
+
+AI that classifies data: Refers to classification tasks, typically handled by discriminative models.
+AI that understands human emotions: Involves emotional AI or affective computing, not specifically Generative AI.
+AI that can generate new data samples: This is the essence of Generative AI, which creates new data points based on learned patterns.
+AI that predicts future trends: Typically involves predictive analytics and regression models.
+AI that automates repetitive tasks: Often refers to automation and process optimization, not necessarily Generative AI.
+Correct Answer: AI that can generate new data samples
+
+Question 4
+What does AI stand for?
+
+Automated Information: Incorrect; does not represent AI.
+Application Interface: Incorrect; not related to AI.
+Advanced Integration: Incorrect; not related to AI.
+Automated Interaction: Incorrect; does not represent AI.
+Artificial Intelligence: Correct; the full form of AI.
+Correct Answer: Artificial Intelligence
+
+Question 5
+Which type of AI is primarily concerned with how data is generated rather than how it's separated?
+
+Reinforcement Learning: Focuses on training agents through rewards and penalties, not directly related to data generation.
+Unsupervised Learning: Focuses on finding patterns in data without labels, not specifically on data generation.
+Supervised Learning: Involves training models on labeled data to predict outcomes, not focused on data generation.
+Generative AI: Specifically concerned with creating new data samples based on learned patterns.
+Discriminative AI: Focuses on classifying or separating data into categories, not on data generation.
+Correct Answer: Generative AI
+
+Question 6
+In which application is Generative AI NOT typically used?
+
+Designing virtual environments: Generative AI can be used to create complex and realistic virtual environments.
+Generating music: Generative AI is often used to compose new and original music.
+Creating art: Generative AI is used to create original artworks.
+Producing realistic video game characters: Generative AI is used to design lifelike characters in games.
+Automating customer service chats: Typically handled by chatbots and conversational AI, which may use generative techniques but are not exclusively Generative AI.
+Correct Answer: Automating customer service chats
+
+Question 7
+Which of the following fields can utilize Generative AI to create new, original content or simulations?
+
+Transportation: Generally involves AI for routing and logistics, not specifically Generative AI.
+Art and Music: Generative AI is heavily used to create new and original art and music.
+Data Analysis: Involves analyzing data patterns rather than generating new content.
+Banking: Uses AI for fraud detection and risk management, not primarily for content generation.
+E-commerce: Uses AI for recommendations and personalization, not typically Generative AI.
+Correct Answer: Art and Music
+
+Question 8
+Generative AI is closely related to which type of models?
+
+Regression models: Used for predicting continuous values, not related to Generative AI.
+Clustering models: Used for grouping similar data points, not related to Generative AI.
+Decision trees: Used for classification and regression tasks, not related to Generative AI.
+Generative models: Specifically designed to generate new data samples based on learned patterns.
+Classification models: Used for categorizing data, not related to Generative AI.
+Correct Answer: Generative models
+
+Question 9
+What distinguishes Generative AI from Discriminative AI?
+
+Generative focuses on labeling, Discriminative on generating: Incorrect; Generative AI focuses on creating new data, not labeling.
+Both are the same: Incorrect; they serve different purposes.
+Generative is for images, Discriminative for text: Incorrect; Generative AI is not limited to images and Discriminative AI is not limited to text.
+Generative models data distribution, while Discriminative models the boundary between classes: Correct; Generative AI models the overall data distribution, while Discriminative AI focuses on classifying data.
+Generative is older, Discriminative is newer: Incorrect; age is not the distinguishing factor.
+Correct Answer: Generative models data distribution, while Discriminative models the boundary between classes
+
+Question 10
+Which AI type primarily focuses on labeling data?
+
+Reinforcement AI: Focuses on decision-making and learning from rewards, not on labeling data.
+Regression AI: Used for predicting continuous outcomes, not on labeling data.
+Supervised AI: Involves learning from labeled data to make predictions or classifications.
+Generative AI: Focuses on generating new data samples, not labeling.
+Semi-supervised AI: Uses a combination of labeled and unlabeled data but does not primarily focus on labeling.
+Correct Answer: Supervised AI
