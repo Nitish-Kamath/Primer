@@ -1,0 +1,97 @@
+Question 1
+Problem Statement: "Ram has designed a portal that fetches the citizens' feedback regarding the voting process in India. The portal allows the end user to choose either 'like' image or 'unlike' image, so that it gets redirected to a page: 'thanks.html'."
+
+Options:
+
+<form action="thanks.html"> <input type="image" src="like.jpg" alt="submit"/> <input type="image" src="unlike.jpg" alt="submit"/> </form>
+<form action="thanks.html"> <img href="like.jpg" value="submit"/> <img href="unlike.jpg" value="submit"/> </form>
+<form action="thanks.html"> <input type="submit"> <img src="like.jpg"/> <img src="unlike.jpg"/> </input> </form>
+<form action="thanks.html"> <input type="submit" src="like.jpg"/> <input type="submit" src="unlike.jpg"/> </form>
+Correct Answer: <form action="thanks.html"> <input type="image" src="like.jpg" alt="submit"/> <input type="image" src="unlike.jpg" alt="submit"/> </form>
+
+Explanation:
+
+<form action="thanks.html"> <input type="image" src="like.jpg" alt="submit"/> <input type="image" src="unlike.jpg" alt="submit"/> </form>: Correct. The <input type="image"> element is used to create an image button in a form that submits the form data. The src attribute specifies the image for the button, and both "like" and "unlike" images will submit the form to "thanks.html".
+<form action="thanks.html"> <img href="like.jpg" value="submit"/> <img href="unlike.jpg" value="submit"/> </form>: Incorrect. The <img> tag does not have href or value attributes; it is used for displaying images, not for form submission.
+<form action="thanks.html"> <input type="submit"> <img src="like.jpg"/> <img src="unlike.jpg"/> </input> </form>: Incorrect. The <input type="submit"> is for creating a submit button, and using <img> inside it is incorrect and non-standard.
+<form action="thanks.html"> <input type="submit" src="like.jpg"/> <input type="submit" src="unlike.jpg"/> </form>: Incorrect. The src attribute is not valid for <input type="submit"> elements; it is used for <input type="image">.
+Question 2
+Problem Statement: "If the phone number should accept only 10 digit numbers, which of the following options will suit?"
+
+Options:
+
+<input type="text" min="0" max="9" />
+<input type="number" min="0" max="9" />
+<input type="text" pattern="[0-9]{10}"/>
+<input type="number" pattern="[0-9]{10}"/>
+Correct Answer: <input type="text" pattern="[0-9]{10}"/>
+
+Explanation:
+
+<input type="text" pattern="[0-9]{10}"/>: Correct. This uses the pattern attribute to specify a regular expression that enforces exactly 10 digits.
+<input type="text" min="0" max="9" />: Incorrect. min and max attributes are not valid for <input type="text">. They are used with <input type="number"> to specify numerical ranges.
+<input type="number" min="0" max="9" />: Incorrect. This only allows single-digit numbers and doesn't enforce a length of 10 digits.
+<input type="number" pattern="[0-9]{10}"/>: Incorrect. The pattern attribute is not valid for <input type="number">.
+Question 3
+Problem Statement: "Choose the relevant HTML input type attributes."
+
+Options:
+
+MobileNo → tel
+PANNO → text
+Email-id → email
+Marital Status → radio
+Loan tenure → range
+Webaddress → URL
+Correct Answers:
+
+MobileNo → tel
+PANNO → text
+Email-id → email
+Marital Status → radio
+Loan tenure → range
+Webaddress → URL
+Explanation:
+
+MobileNo → tel: Correct. The tel input type is used for telephone numbers.
+PANNO → text: Correct. The text input type is appropriate for PAN numbers which are generally alphanumeric.
+Email-id → email: Correct. The email input type is used for email addresses.
+Marital Status → radio: Correct. The radio input type is used for selecting one option from a set of options.
+Loan tenure → range: Correct. The range input type is used to select a value from a range, such as loan tenure in years.
+Webaddress → URL: Correct. The URL input type is used for web addresses.
+Question 4
+Problem Statement: "In the web page, we have a field called phoneno and inside this textbox field, the text: 'Only numbers are allowed' must appear. This should get disappeared automatically once we type the phoneno into it. Which of the below options will suit the given scenario?"
+
+Options:
+
+<input type="tel" placeholder="Only numbers are allowed">
+<input type="tel" value="Only numbers are allowed">
+<input type="text" placeholder="Only numbers are allowed">
+<input type="text" value="Only numbers are allowed">
+<input type="tel" default="Only numbers are allowed">
+Correct Answers:
+
+<input type="text" placeholder="Only numbers are allowed">
+<input type="tel" placeholder="Only numbers are allowed">
+Explanation:
+
+<input type="text" placeholder="Only numbers are allowed">: Correct. The placeholder attribute is used to display text inside the input field that disappears when the user starts typing.
+<input type="tel" placeholder="Only numbers are allowed">: Correct. Similar to the previous option, but specifically for telephone number inputs.
+<input type="tel" value="Only numbers are allowed">: Incorrect. The value attribute sets the default value of the input field and does not disappear when the user types.
+<input type="text" value="Only numbers are allowed">: Incorrect. The value attribute also sets the default value, which does not disappear upon user input.
+<input type="tel" default="Only numbers are allowed">: Incorrect. There is no default attribute for input fields.
+Question 5
+Problem Statement: "Consider the below webpage: d. Which of the following is used to do this?"
+
+Options:
+
+<input type="date" id="date" name="date" list="holidays"> <datalist id="holidays"> <option label="Republic Day">2017-01-26</option> <option label="May Day">2017-05-01</option> <option label="Independence Day">2017-08-15</option> </datalist>
+<input type="date" id="date" min="2017-01-26" max="2017-08-15">
+<select type="date"> <option label="Republic Day">2017-01-26</option> <option label="May Day">2017-05-01</option> <option label="Independence Day">2017-08-15</option> </select>
+<input type="date" id="date" name="date" list="holidays"> <select id="holidays"> <option label="Republic Day">2017-01-26</option> <option label="May Day">2017-05-01</option> <option label="Independence Day">2017-08-15</option> </select>
+Correct Answer:
+
+<input type="date" id="date" name="date" list="holidays"> <datalist id="holidays"> <option label="Republic Day">2017-01-26</option> <option label="May Day">2017-05-01</option> <option label="Independence Day">2017-08-15</option> </datalist>
+Explanation:
+
+<input type="date" id="date" name="date" list="holidays"> <datalist id="holidays"> <option label="Republic Day">2017-01-26</option> <option label="May Day">2017-05-01</option> <option label="Independence Day">2017-08-15</option> </datalist>: Correct. The datalist element provides a list of options for an <input> element, which allows users to select from a predefined set of options. The list attribute on the <input> associates it with the <datalist>.
