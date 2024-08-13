@@ -1,0 +1,121 @@
+Question 1
+In AWS, you need to buy servers to host application.
+
+True: This is incorrect because AWS provides cloud infrastructure where you don't need to buy physical servers; you can use virtual resources provided by AWS.
+
+False: Correct, as AWS allows you to use virtual servers (EC2 instances) without needing to purchase physical hardware.
+
+Correct Answer: False
+
+Question 2
+Which tenancy model is most expensive?
+
+Shared: This model shares hardware with other customers, making it the least expensive option.
+
+Dedicated Host: This model provides dedicated physical servers, making it the most expensive option.
+
+Dedicated Instance: These instances run on hardware dedicated to your use but share the physical server with other customers.
+
+Shadow: Not a recognized AWS tenancy model.
+
+Correct Answer: Dedicated Host
+
+Question 3
+Amazon EBS pricing includes three factors:
+
+Data stored: Included in the pricing.
+
+Data transfer: Not typically a part of EBS pricing but can be involved in data transfer costs between services.
+
+Volume: The cost of the volume itself is a part of EBS pricing.
+
+Snapshot: The cost of snapshots is included in EBS pricing.
+
+Correct Answers: Volume, Snapshot, Data transfer (note: data transfer can apply in context of moving data between EBS and other services)
+
+Question 4
+Cost varies between regions.
+
+True: AWS pricing can vary based on the region where the services are used.
+
+False: Incorrect, as costs do vary between regions.
+
+Correct Answer: True
+
+Question 5
+Which EC2 pricing option is the cheapest among below:
+
+Reserved: This offers savings over on-demand prices, but it's not the cheapest.
+
+On-demand: This option charges per hour or per second, depending on the instance type, at a higher rate.
+
+Savings Plan: Offers flexibility and savings but generally not as cheap as spot instances.
+
+Spot: This allows you to bid on unused capacity, often at a much lower price.
+
+Correct Answer: Spot
+
+Question 6
+For how long can you use the AWS Free Tier?
+
+12 months: The AWS Free Tier is available for 12 months following the creation of an AWS account.
+
+1 month: This is not correct; the Free Tier lasts 12 months.
+
+Until your account is suspended: The Free Tier lasts 12 months, not until suspension.
+
+3 months: This is incorrect as the Free Tier lasts 12 months.
+
+Correct Answer: 12 months
+
+Question 7
+Which tenancy model is the least expensive model?
+
+Dedicated Host: This model is more expensive.
+
+Shadow: Not a recognized AWS tenancy model.
+
+Shared: This is the least expensive as it shares hardware with other customers.
+
+Dedicated Instance: More expensive than shared but less than dedicated hosts.
+
+Correct Answer: Shared
+
+Question 8
+Which AWS service is closely integrated with AWS Budgets to provide cost and usage data?
+
+AWS Cost Explorer: This service helps you visualize, understand, and manage your AWS costs and usage.
+
+AWS IAM: This service is for identity and access management, not cost management.
+
+Amazon RDS: This is a database service, not directly related to cost management.
+
+AWS Lambda: This is a compute service, not specifically for cost management.
+
+Correct Answer: AWS Cost Explorer
+
+Question 9
+Which of the pricing options, customers pay per hour for compute?
+
+Spot: Charges based on bidding for unused capacity.
+
+Savings Plan: Offers flexible pricing but is not billed per hour.
+
+On-demand: Customers pay per hour or per second for compute capacity.
+
+Reserved: Offers a discount for committing to a certain amount of usage over a period, not billed per hour.
+
+Correct Answer: On-demand
+
+Question 10
+The pricing models of the cloud providers can help the customers in __________
+
+Loss of flexibility: Incorrect, as cloud pricing models offer flexibility.
+
+Using resources expensively: Incorrect, as the pricing models aim to reduce costs.
+
+Cost Saving: Cloud pricing models are designed to help customers optimize and save on costs.
+
+Overuse of the resource: Incorrect, as pricing models are intended to manage and optimize resource use.
+
+Correct Answer: Cost Saving
