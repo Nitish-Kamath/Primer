@@ -1,0 +1,557 @@
+Question 1: Copying Array Values
+Problem Statement:
+
+In a mathematical quiz context, scores are stored in an array named quizmark. The coordinating person wants to copy these quiz scores into another array named copyquizmark. Which of the following options will correctly perform this operation?
+
+Options:
+
+a. copyquizmark[n] <- quizmark[n]
+
+b. We cannot copy the values from one array to another.
+
+c. FOR index <- 0 to n
+copyquizmark[index] <- quizmark[index]
+END FOR
+
+d. copyquizmark <- quizmark
+
+Explanation:
+
+Correct Answer: c. FOR index <- 0 to n copyquizmark[index] <- quizmark[index] END FOR
+
+Explanation: This option uses a loop to iterate through each index of the quizmark array and copy its values to the copyquizmark array. This method ensures that all elements are copied from quizmark to copyquizmark.
+
+Incorrect Options:
+
+a. copyquizmark[n] <- quizmark[n]
+
+Explanation: This only copies the element at index n from quizmark to copyquizmark, not the entire array.
+
+b. We cannot copy the values from one array to another.
+
+Explanation: This is incorrect because arrays can be copied using loops or other methods.
+
+d. copyquizmark <- quizmark
+
+Explanation: This assigns copyquizmark to refer to the same array as quizmark, rather than creating a new copy.
+
+Question 2: Array Size
+Problem Statement:
+
+Assume the statement number[100] <- 99 is executed. How many elements can be stored inside the array variable number?
+
+Options:
+
+a. The statement gives no clue about the number of elements that can be stored
+
+b. Infinite number of elements
+
+c. 99
+
+d. 100
+
+Explanation:
+
+Correct Answer: a. The statement gives no clue about the number of elements that can be stored
+
+Explanation: The statement only shows that an element with value 99 is assigned to an index, but it does not provide information about the size of the array.
+
+Incorrect Options:
+
+b. Infinite number of elements
+
+Explanation: Arrays have a fixed size, and infinite elements are not possible.
+
+c. 99
+
+Explanation: This is the value assigned to an index, not the size of the array.
+
+d. 100
+
+Explanation: Although this is likely the size of the array, the statement does not confirm it.
+
+Question 3: Array Types
+Problem Statement:
+
+Match the following scenarios to their appropriate array types:
+
+Matrix multiplication
+To create a list of all prime numbers below 100
+Options:
+
+a. Matrix multiplication [2D ARRAY]
+To create a list of all prime numbers below 100 [1D ARRAY]
+
+b. Matrix multiplication [1D ARRAY]
+To create a list of all prime numbers below 100 [2D ARRAY]
+
+c. Matrix multiplication [1D ARRAY]
+To create a list of all prime numbers below 100 [1D ARRAY]
+
+d. Matrix multiplication [2D ARRAY]
+To create a list of all prime numbers below 100 [2D ARRAY]
+
+Explanation:
+
+Correct Answer: a. Matrix multiplication [2D ARRAY] To create a list of all prime numbers below 100 [1D ARRAY]
+
+Explanation: Matrix multiplication uses a 2D array for its operations, while a list of prime numbers is best represented with a 1D array.
+
+Incorrect Options:
+
+b. Matrix multiplication [1D ARRAY] To create a list of all prime numbers below 100 [2D ARRAY]
+
+Explanation: Matrix multiplication requires a 2D array, and a list of prime numbers does not need a 2D array.
+
+c. Matrix multiplication [1D ARRAY] To create a list of all prime numbers below 100 [1D ARRAY]
+
+Explanation: Matrix multiplication requires a 2D array, not a 1D array.
+
+d. Matrix multiplication [2D ARRAY] To create a list of all prime numbers below 100 [2D ARRAY]
+
+Explanation: A 2D array is not necessary for listing prime numbers below 100.
+
+Question 4: False Statements about Arrays
+Problem Statement:
+
+Which of the following statements are false with respect to the manipulation of arrays?
+
+Options:
+
+a. An array can store heterogeneous data
+
+b. An array can store homogeneous data
+
+c. It is possible to increase the size of the array
+
+d. Elements of an array are stored in contiguous memory
+
+Explanation:
+
+Correct Answers: a. An array can store heterogeneous data, c. It is possible to increase the size of the array
+
+Explanation: Arrays store homogeneous data, and their size cannot be increased after declaration.
+
+Incorrect Options:
+
+b. An array can store homogeneous data
+
+Explanation: This is a true statement, as arrays are designed to store elements of the same type.
+
+d. Elements of an array are stored in contiguous memory
+
+Explanation: This is a true statement as well, reflecting the nature of arrays.
+
+Question 5: Negative Elements in Arrays
+Problem Statement:
+
+Can negative elements be placed inside an array?
+
+Options:
+
+True
+False
+
+Explanation:
+
+Correct Answer: True
+
+Explanation: While the size of an array cannot be negative, the values stored within an array can be negative.
+
+Incorrect Option:
+
+False
+
+Explanation: This is incorrect because negative values can be stored in an array.
+
+Question 6: Accessing Array Elements
+Problem Statement:
+
+The names of all associates undergoing training are stored in an array named associate_name[50]. How can you retrieve the 5th associate's name?
+
+Options:
+
+a. associate_name[3+1]
+
+b. associate_name[4]
+
+c. associate_name[5]
+
+d. associate_name[6]
+
+Explanation:
+
+Correct Answers: a. associate_name[3+1], b. associate_name[4]
+
+Explanation: Array indexing starts at 0, so the 5th element is accessed at index 4. Using 3+1 is a valid way to reference index 4.
+
+Incorrect Options:
+
+c. associate_name[5]
+
+Explanation: This accesses the 6th element, not the 5th.
+
+d. associate_name[6]
+
+Explanation: This accesses the 7th element, not the 5th.
+
+Question 7: Declaring Arrays
+Problem Statement:
+
+When declaring an array, which of the following need not be specified?
+
+Options:
+
+a. The data type of the array
+
+b. The elements to be stored in the array
+
+c. The index of the array
+
+d. The name of the array
+
+Explanation:
+
+Correct Answer: b. The elements to be stored in the array
+
+Explanation: When declaring an array, you need to specify the data type, the name, and optionally the size, but not the specific elements.
+
+Incorrect Options:
+
+a. The data type of the array
+
+Explanation: The data type is required when declaring an array.
+
+c. The index of the array
+
+Explanation: The index is used to access elements but not required during declaration.
+
+d. The name of the array
+
+Explanation: The name is required when declaring an array.
+
+Question 8: Search Operation in Arrays
+Problem Statement:
+
+Is it possible to perform a search operation in an array that is not sorted?
+
+Options:
+
+True
+False
+
+Explanation:
+
+Correct Answer: False
+
+Explanation: Searching in an unsorted array is possible, though less efficient compared to searching in a sorted array.
+
+Incorrect Option:
+
+True
+
+Explanation: Searching is indeed possible in both sorted and unsorted arrays.
+
+Question 9: Sorting
+Problem Statement:
+
+The operation of ordering the elements in a list is known as:
+
+Options:
+
+Sorting
+
+Explanation:
+
+Correct Answer: Sorting
+
+Explanation: Sorting is the process of arranging elements in a particular order.
+
+Question 10: Random Access in Arrays
+Problem Statement:
+
+Is it possible to perform random access in an array?
+
+Options:
+
+True
+False
+
+Explanation:
+
+Correct Answer: False
+
+Explanation: Arrays support random access to elements, meaning you can access any element directly using its index.
+
+Incorrect Option:
+
+True
+
+Explanation: Random access is indeed possible in arrays.
+
+Question 11: Array Index
+Problem Statement:
+
+What is used to locate an element in an array?
+
+Options:
+
+Index
+
+Explanation:
+
+Correct Answer: Index
+
+Explanation: The index is used to access and locate specific elements in an array.
+
+Question 12: Valid Assignments in Arrays
+Problem Statement:
+
+Given an array named numbers of size 10, which of the following assignments is valid?
+
+Options:
+
+a. numbers[0] <- 10
+
+b. numbers[10] <- 11
+
+c. numbers[9] <- 5
+
+d. numbers[11] <- 6
+
+Explanation:
+
+Correct Answers: a. numbers[0] <- 10, c. numbers[9] <- 5
+
+Explanation: Valid indexes for an array of size 10 are 0 through 9.
+
+Incorrect Options:
+
+b. numbers[10] <- 11
+
+Explanation: This index is out of bounds as valid indexes are from 0 to 9.
+
+d. numbers[11] <- 6
+
+Explanation: This index exceeds the array bounds.
+
+Question 13: Array Elements Arrangement
+Problem Statement:
+
+Which of the following statements is correct with respect to arrays?
+
+Options:
+
+a. Elements in an array are arranged in ascending order by default
+
+b. Elements in an array are arranged contiguously
+
+c. Elements in an array are arranged in descending order by default
+
+Explanation:
+
+Correct Answer: b. Elements in an array are arranged contiguously
+
+Explanation: Arrays store elements in contiguous memory locations, but there is no default order.
+
+Incorrect Options:
+
+a. Elements in an array are arranged in ascending order by default
+
+Explanation: Arrays do not sort elements by default.
+
+c. Elements in an array are arranged in descending order by default
+
+Explanation: Elements are not arranged in any specific order by default.
+
+Question 14: Array Index Value
+Problem Statement:
+
+The expression within [ ] should always resolve to a:
+
+Options:
+
+a. Positive number
+
+Explanation:
+
+Correct Answer: a. Positive number
+
+Explanation: Array indices should be non-negative integers, though they are typically positive or zero.
+
+Question 15: Storing Diverse Data in Arrays
+Problem Statement:
+
+Consider you want to store details of a laptop, such as price, model_name, model_number, and warranty_period into a single array named details[10]. Is this possible?
+
+Options:
+
+a. No
+
+b. Yes
+
+Explanation:
+
+Correct Answer: a. No
+
+Explanation: Arrays require elements of the same data type, and storing different types of data (e.g., strings and numbers) in a single array is not possible.
+
+Incorrect Option:
+
+b. Yes
+
+Explanation: Different data types cannot be stored in a single array.
+
+Question 16: Single-Dimensional Arrays
+Problem Statement:
+
+Is a list of songs stored in your mobile phone a good example of a single-dimensional array?
+
+Options:
+
+a. Yes
+
+b. No
+
+Explanation:
+
+Correct Answer: a. Yes
+
+Explanation: A list of songs can be effectively represented using a single-dimensional array.
+
+Incorrect Option:
+
+b. No
+
+Explanation: This is incorrect because a list of songs is appropriately modeled by a single-dimensional array.
+
+Question 17: Best Array Type for Comparison
+Problem Statement:
+
+If you want to compare the prices of Redmi, Sony, and Samsung phones across three online sites like Amazon, Flipkart, and eBay, which array type is best suited for this task?
+
+Options:
+
+a. Two-dimensional arrays
+
+b. One-dimensional array
+
+c. Three-dimensional arrays
+
+Explanation:
+
+Correct Answer: a. Two-dimensional arrays
+
+Explanation: Two-dimensional arrays are suitable for comparing prices across different categories (phones) and different dimensions (online sites).
+
+Incorrect Options:
+
+b. One-dimensional array
+
+Explanation: A 1D array cannot represent the comparison across multiple dimensions.
+
+c. Three-dimensional arrays
+
+Explanation: While a 3D array could be used, a 2D array is simpler and sufficient for this task.
+
+Question 18: Array Traversal
+Problem Statement:
+
+Is it possible to traverse through an array from the first position to the last and not vice versa?
+
+Options:
+
+True
+False
+
+Explanation:
+
+Correct Answer: False
+
+Explanation: Arrays can be traversed both from the first to the last position and vice versa.
+
+Incorrect Option:
+
+True
+
+Explanation: This is incorrect because traversal in both directions is possible.
+
+Question 19: Array with Rows and Columns
+Problem Statement:
+
+An array consisting of rows and columns is also called a:
+
+Options:
+
+a. Three-dimensional array
+
+b. Two-dimensional array
+
+c. One-dimensional array
+
+Explanation:
+
+Correct Answer: b. Two-dimensional array
+
+Explanation: An array with rows and columns is a 2D array.
+
+Incorrect Options:
+
+a. Three-dimensional array
+
+Explanation: This represents arrays with three dimensions, not two.
+
+c. One-dimensional array
+
+Explanation: A 1D array has only a single dimension.
+
+Question 20: Storing and Displaying Names
+Problem Statement:
+
+Choose the correct pseudocode to store names in an array and display a name.
+
+Options:
+
+a. BEGIN
+INPUT name
+PRINT name
+DECLARE name [20]
+END
+
+b. BEGIN
+DECLARE name [20]
+INPUT name
+PRINT name
+END
+
+c. BEGIN
+INPUT name
+DECLARE name [20]
+END
+PRINT name
+
+d. BEGIN
+INPUT name
+DECLARE name [20]
+PRINT name
+END
+
+Explanation:
+
+Correct Answer: b. BEGIN DECLARE name [20] INPUT name PRINT name END
+
+Explanation: This pseudocode correctly declares the array, inputs the name, and then prints it. Declaring the array first ensures the array exists before using it.
+
+Incorrect Options:
+
+a. BEGIN INPUT name PRINT name DECLARE name [20] END
+
+Explanation: The array needs to be declared before storing values in it.
+
+c. BEGIN INPUT name DECLARE name [20] END PRINT name
+
+Explanation: The array declaration should be done before inputting and printing the name.
+
+d. BEGIN INPUT name DECLARE name [20] PRINT name END
+
+Explanation: The array should be declared before it is used, and inputting values should happen before printing.
