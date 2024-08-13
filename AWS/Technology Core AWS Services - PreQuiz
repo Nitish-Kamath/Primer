@@ -1,0 +1,121 @@
+Question 1
+When you create a bucket, by default the bucket is private (True/False)
+
+True: By default, Amazon S3 buckets are private, meaning that only the bucket owner can access the contents unless permissions are explicitly set to make the bucket public.
+
+False: This would be incorrect, as buckets are not public by default.
+
+Correct Answer: True
+
+Question 2
+In Amazon S3, a single object size can be?
+
+10TB: This is incorrect; Amazon S3 does not support a single object of this size.
+
+5TB: This is the maximum size of a single object in Amazon S3.
+
+1TB: This is incorrect, as S3 supports larger objects.
+
+2TB: This is incorrect, as S3 supports larger objects.
+
+Correct Answer: 5TB
+
+Question 3
+What feature is required to keep multiple variants of an object in the same bucket?
+
+Encryption: This secures data but doesn't allow multiple versions.
+
+Access Point: This is used for managing access but not for versioning.
+
+Versioning: This feature allows multiple versions of the same object to be stored in a bucket, providing the ability to retrieve, delete, or restore different versions.
+
+Replication: This is used for copying data across regions, not for storing multiple versions.
+
+Correct Answer: Versioning
+
+Question 4
+Which service is used to create a virtual machine in AWS?
+
+Amazon S3: This service is for object storage, not for creating virtual machines.
+
+Amazon RDS: This is for relational database services.
+
+Elastic Beanstalk: This is for deploying and managing applications, not directly for creating virtual machines.
+
+Amazon EC2: Amazon Elastic Compute Cloud (EC2) is used to create and manage virtual machines.
+
+Correct Answer: Amazon EC2
+
+Question 5
+Which of the following is a general-purpose Instance Type?
+
+t2.micro: This is a general-purpose instance type suitable for a variety of workloads.
+
+m4.large: This is also a general-purpose instance, but not as lightweight as t2.micro.
+
+p3.2xlarge: This is optimized for GPU-intensive applications.
+
+r5.4xlarge: This is optimized for memory-intensive applications.
+
+Correct Answer: t2.micro
+
+Question 6
+What type of storage is S3?
+
+Network storage: This is incorrect; S3 is not classified as network storage.
+
+Block Storage: This is incorrect; AWS Elastic Block Store (EBS) is block storage.
+
+Object Storage: Amazon S3 is designed for storing and retrieving any amount of data as objects.
+
+File Storage: This is incorrect; AWS EFS provides file storage.
+
+Correct Answer: Object Storage
+
+Question 7
+Which of the following storage classes store files in one Availability Zone?
+
+S3 infrequent access: This is incorrect; it stores data across multiple availability zones.
+
+S3 Glacier: This is incorrect; Glacier is used for long-term archival storage across multiple zones.
+
+S3 One Zone: This storage class stores data in a single availability zone, providing lower-cost storage for data that does not require multi-zone resilience.
+
+S3 standard: This stores data across multiple availability zones.
+
+Correct Answer: S3 One Zone
+
+Question 8
+Using S3, you can host_____________
+
+NodeJS application: S3 cannot host server-side applications like NodeJS.
+
+Static Website: S3 is designed to host static websites, serving HTML, CSS, and JavaScript files.
+
+Dynamic Website: This requires server-side processing which S3 does not support directly.
+
+PHP Application: Like NodeJS, PHP requires a server to execute the code, which S3 does not provide.
+
+Correct Answer: Static Website
+
+Question 9
+S3 Bucket supports versioning? (True/False)
+
+True: S3 supports versioning, allowing you to store multiple versions of the same object in a bucket.
+
+False: This would be incorrect, as S3 does support versioning.
+
+Correct Answer: True
+
+Question 10
+Which of the following storage classes is suitable for performance-sensitive data?
+
+S3 infrequent access: This is designed for less frequently accessed data.
+
+S3 One Zone: This offers reduced redundancy, making it less suitable for performance-sensitive data.
+
+S3 Glacier: This is for archival storage and not suitable for performance-sensitive data.
+
+S3 standard: This provides high durability, availability, and performance, making it suitable for performance-sensitive data.
+
+Correct Answer: S3 standard
