@@ -1,0 +1,131 @@
+1. The standard document that describes all the requirements of the system is called as …
+
+Options:
+
+a. User Requirement Specification
+
+b. Software Requirement Specification
+
+c. Test Case Document
+
+d. Contract Document
+
+Correct Answer:
+
+Software Requirement Specification (SRS): This document outlines all the requirements for the system, including functional and non-functional requirements.
+Incorrect Options:
+
+User Requirement Specification: This is typically a part of the SRS but does not encompass all requirements.
+Test Case Document: This document details how to test the system but does not describe the requirements.
+Contract Document: This document may include terms and conditions but does not specify detailed requirements.
+Feedback: The SRS is the comprehensive document that describes all the requirements of the system.
+
+2. In a remote control car application, the step-by-step execution of the requirement states that when the fuel level goes below the minimum level, the application should indicate the user in red color. However, the output section of the same process mentions that the indicator will glow pink. What is the kind of requirement specified in SRS?
+
+Options:
+
+a. Incomplete
+
+b. Consistent
+
+c. Complete
+
+d. Contradicting
+
+Correct Answer:
+
+Contradicting: The SRS contains conflicting information about the indicator color, which is a contradiction.
+Incorrect Options:
+
+Incomplete: The requirement is not incomplete; it is complete but conflicting.
+Consistent: The requirement is inconsistent due to conflicting information.
+Complete: The requirement is complete in its description but not in its consistency.
+Feedback: The requirement is contradictory because it specifies different colors for the indicator in different parts of the SRS.
+
+3. An SRS has the following requirement: "The stock exchange shall show the stock report for the next 24 hours." What is the issue with this requirement?
+
+Options:
+
+a. Requirement is Correct
+
+b. Incorrect
+
+c. Inconsistent
+
+d. Ambiguous
+
+Correct Answer:
+
+Ambiguous: The requirement is vague as it does not specify what "show" means, nor does it define the details of the stock report.
+Incorrect Options:
+
+Requirement is Correct: The requirement is not clear or specific.
+Incorrect: This is too general and does not address the specific issue with the requirement.
+Inconsistent: The requirement is not inconsistent but rather ambiguous.
+Feedback: The requirement is ambiguous because it lacks specific details on what the stock report should include and how it should be displayed.
+
+4. A client comes to Allen Company for a banking solution. Which phase of SDLC is best suited to gather what is expected from the client?
+
+Options:
+
+a. Requirement Analysis
+
+b. System Analysis
+
+c. Customer Analysis
+
+d. Feasibility Analysis
+
+Correct Answer:
+
+Requirement Analysis: This phase involves gathering and defining what the client needs from the system.
+Incorrect Options:
+
+System Analysis: This phase focuses on understanding and defining system requirements, which follows requirement gathering.
+Customer Analysis: This is not a standard SDLC phase; it might be part of requirement analysis.
+Feasibility Analysis: This phase assesses the viability of the project but does not focus on gathering detailed requirements.
+Feedback: The Requirement Analysis phase is specifically aimed at gathering and understanding what is expected from the client.
+
+5. A client comes to Allen Company for a banking solution. Who from the below options would be best suited to gather all the requirements correctly from the client?
+
+Options:
+
+a. Database Analyst
+
+b. System Architect
+
+c. System Analyst
+
+d. Analyzer
+
+Correct Answer:
+
+System Analyst: This role is responsible for understanding and documenting the requirements from the client.
+Incorrect Options:
+
+Database Analyst: Focuses on the design and management of databases, not on gathering requirements.
+System Architect: Focuses on designing the overall system architecture rather than gathering requirements.
+Analyzer: This role is not standard in the context of requirements gathering.
+Feedback: The System Analyst is specifically trained to gather and document client requirements effectively.
+
+6. A good SRS should be ______, ________ and _______.
+
+Options:
+
+a. Periodical
+
+b. Traceable
+
+c. Consistent
+
+d. Complete
+
+Correct Answers:
+
+Traceable: Ensures that requirements can be tracked throughout the project.
+Consistent: Ensures there are no contradictions within the document.
+Complete: Covers all necessary requirements without missing any aspects.
+Incorrect Options:
+
+Periodical: This is not a characteristic of a good SRS. An SRS should be complete and up-to-date, but not periodical.
+Feedback: A good SRS must be traceable, consistent, and complete to effectively guide the development process.
