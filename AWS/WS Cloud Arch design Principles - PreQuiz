@@ -1,0 +1,101 @@
+Question 1
+Well Architected Framework is designed to help you build the most secure, high-performing, resilient, and efficient infrastructure.
+
+True: The AWS Well-Architected Framework provides guidance on how to build secure, high-performing, resilient, and efficient infrastructure in the cloud.
+Correct Answer: True
+
+Question 2
+Well Architected Framework provides on-demand access to the best practices developed by architects.
+
+True: The framework offers best practices and guidance developed by AWS architects for designing and operating reliable, secure, efficient, and cost-effective systems in the cloud.
+Correct Answer: True
+
+Question 3
+Which pillar of the Well-Architected Framework focuses on ensuring that information, systems, and assets are adequately protected?
+
+Performance Efficiency: Focuses on the optimal use of resources.
+
+Reliability: Ensures a system can recover from failures and meet customer demands.
+
+Cost Optimization: Focuses on managing costs and avoiding unnecessary expenses.
+
+Security: Ensures that information, systems, and assets are protected.
+
+Correct Answer: Security
+
+Question 4
+AWS WAF tool is used for reviewing existing infrastructure.
+
+True: AWS WAF (Web Application Firewall) can be part of a broader security review process, but it specifically protects web applications from common web exploits.
+Correct Answer: True
+
+Question 5
+How many pillars are there in the Well-Architected Framework?
+
+5: The AWS Well-Architected Framework consists of five pillars: Operational Excellence, Security, Reliability, Performance Efficiency, and Cost Optimization.
+Correct Answer: 5
+
+Question 6
+Which of the following is a best practice for cost optimization in AWS?
+
+Using Expensive Instance Types: Not recommended for cost optimization.
+
+Ignoring Unused Resources: Not a best practice; unused resources should be identified and removed.
+
+Over-provisioning Resources: Leads to unnecessary costs.
+
+Regularly Reviewing and Modifying: Helps in managing and optimizing costs effectively.
+
+Correct Answer: Regularly Reviewing and Modifying
+
+Question 7
+Which of the following is not an AWS WAF pillar?
+
+Reliability: Part of the Well-Architected Framework but not specific to AWS WAF.
+
+Availability: Not a specific pillar of AWS WAF.
+
+Security: A key focus of AWS WAF.
+
+Performance Efficiency: AWS WAF helps in security but does not directly relate to performance efficiency.
+
+Correct Answer: Availability
+
+Question 8
+AWS IAM belongs to which pillar in the Well-Architected Framework?
+
+Operational Excellence: Focuses on process improvements and operational effectiveness.
+
+Security: IAM (Identity and Access Management) is a key component for managing access and ensuring security.
+
+Reliability: Ensures systems are reliable and can recover from failures.
+
+Performance Efficiency: Deals with optimizing performance but does not cover IAM directly.
+
+Correct Answer: Security
+
+Question 9
+Which pillar is responsible for automatic recovery?
+
+Performance Efficiency: Focuses on optimizing resource use and performance.
+
+Security: Ensures protection of resources but does not specifically address recovery.
+
+Reliability: Ensures systems can recover from failures and meet customer demands.
+
+Cost Optimization: Deals with managing costs.
+
+Correct Answer: Reliability
+
+Question 10
+What does the Operational Excellence pillar of the Well-Architected Framework focus on?
+
+Enhancing System Reliability: Not the primary focus of Operational Excellence.
+
+Ensuring High Performance: Related to Performance Efficiency.
+
+Streamlining Operations: Focuses on continuous improvement and operational efficiency.
+
+Minimizing Costs: Related to Cost Optimization.
+
+Correct Answer: Streamlining Operations
