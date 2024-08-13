@@ -1,0 +1,68 @@
+Question 1
+Problem Statement: "An application that lets you search and see material on the internet is"
+
+Options:
+
+Website
+Browser
+Homepage
+Webpage
+Correct Answer: Browser
+
+Explanation:
+
+Browser: Correct. A web browser is an application used to access and view material on the internet, such as websites and webpages.
+Website: Incorrect. A website is a collection of related web pages located under a single domain name.
+Homepage: Incorrect. A homepage is the main or introductory page of a website.
+Webpage: Incorrect. A webpage is a single document on the internet, which can be accessed through a web browser.
+Question 2
+Problem Statement: "Which element is a container for all the head elements, and may include the document title, scripts, styles, meta information, and more?"
+
+Options:
+
+<br></br>
+<body></body>
+<title></title>
+<head></head>
+Correct Answer: <head></head>
+
+Explanation:
+
+<head></head>: Correct. The <head> element in HTML is used to contain metadata, links to stylesheets, scripts, and other resources needed by the document.
+<br></br>: Incorrect. The <br> element is used to insert a line break in the content.
+<body></body>: Incorrect. The <body> element contains the content of the webpage, such as text, images, and links, but not the metadata or resources.
+<title></title>: Incorrect. The <title> element specifies the title of the document, which is placed inside the <head> element.
+Question 3
+Problem Statement: "Which of the following is/are the new feature(s) of HTML5?"
+
+Options:
+
+Supports offline Storage
+Performs Client-Side validation
+Browser automatically provides space before and after the tag <p>
+Enhanced comment lines
+Correct Answers: Supports offline Storage, Performs Client-Side validation
+
+Explanation:
+
+Supports offline Storage: Correct. HTML5 introduced local storage and session storage capabilities that allow web applications to store data offline.
+Performs Client-Side validation: Correct. HTML5 includes form validation features that can be performed on the client side before submission.
+Browser automatically provides space before and after the tag <p>: Incorrect. This behavior is not new to HTML5; it's been a part of HTML for a long time.
+Enhanced comment lines: Incorrect. HTML5 does not introduce changes or enhancements to HTML comments, which remain the same (<!-- comment -->).
+Question 4
+Problem Statement: "HTML stands for __________"
+
+Options:
+
+Hot Mail
+Hyper Text Markup Language
+Hot Markup Language
+Hybrid Text Markup Language
+Correct Answer: Hyper Text Markup Language
+
+Explanation:
+
+Hyper Text Markup Language: Correct. HTML stands for Hyper Text Markup Language, which is the standard language used to create and design webpages.
+Hot Mail: Incorrect. This refers to a webmail service and is not related to HTML.
+Hot Markup Language: Incorrect. This is not a valid expansion of HTML.
+Hybrid Text Markup Language: Incorrect. This is not a recognized term for HTML.
