@@ -1,0 +1,166 @@
+1. Which conforms that the software meets its technical specifications?
+
+a. Validation
+
+Explanation: Validation checks if the software meets the user's needs and requirements, but it does not focus specifically on technical specifications.
+
+b. Design
+
+Explanation: Design involves planning the architecture and components of the software, but it does not confirm whether the software meets technical specifications.
+
+c. Verification
+
+Explanation: Verification ensures that the software meets its technical specifications and requirements. This is the correct choice as it confirms adherence to technical standards.
+
+d. Defect finding
+
+Explanation: Defect finding is about identifying errors in the software, but it does not specifically confirm whether the software meets technical specifications.
+
+Correct Answer: c. Verification
+
+2. The software is put into operation in the client’s environment. The client comes back to enhance the UI to attract more customers. This phase is called:
+
+a. Maintenance
+
+Explanation: Maintenance involves making changes and updates to the software after it has been deployed to address new requirements or issues.
+
+b. Development
+
+Explanation: Development is the initial creation phase of the software, not the phase where enhancements are made after deployment.
+
+Correct Answer: a. Maintenance
+
+3. Match the appropriate usage of the SDLC process models, based on the nature of requirements:
+
+When the requirements are unclear:
+
+Answer: Use the Throwaway prototype
+
+Explanation: The Throwaway prototype is used when requirements are not well understood to explore and clarify requirements.
+
+When the requirements are unstable:
+
+Answer: Use the Evolutionary prototype
+
+Explanation: The Evolutionary prototype is suitable for projects with evolving requirements, allowing for iterative development and refinement.
+
+Correct Answer: When the requirements are unclear → Use the Throwaway prototype, When the requirements are unstable → Use the Evolutionary prototype
+
+4. Which of the below is one of the phases of the prototype model?
+
+a. Detailed Coding
+
+Explanation: Detailed coding is not a specific phase of the prototype model but is part of the general development process.
+
+b. Quick design
+
+Explanation: Quick design is a phase in the prototype model where a rapid design is created to build a prototype and gather feedback.
+
+c. Detailed HLD phase
+
+Explanation: High-Level Design (HLD) is not a distinct phase in the prototype model; it’s more relevant to structured models like Waterfall.
+
+d. Extensive testing
+
+Explanation: Extensive testing is typically not a primary focus of the prototype model, which is more centered around rapid prototyping and feedback.
+
+Correct Answer: b. Quick design
+
+5. Match the phases of the Rapid Application Development (RAD) model against their objectives:
+
+Data modeling:
+
+Answer: Information gathered from business modeling is used to define data objects
+
+Explanation: Data modeling involves defining data objects based on information gathered from business modeling.
+
+Process modeling:
+
+Answer: Data objects are converted to achieve the business objective
+
+Explanation: Process modeling involves defining how data objects will be processed to achieve business goals.
+
+Testing and turnover:
+
+Answer: New components along with all the interfaces are tested
+
+Explanation: Testing and turnover focus on verifying that new components and their interfaces work correctly.
+
+Business modeling:
+
+Answer: The information flow is identified between various modules
+
+Explanation: Business modeling identifies how information flows between different modules of the system.
+
+Application generation:
+
+Answer: Automated tools are used to convert process models into the actual system
+
+Explanation: Application generation involves using automated tools to transform process models into a functioning system.
+
+Correct Answer:
+
+Data modeling → Information gathered from business modeling is used to define data objects
+Process modeling → Data objects are converted to achieve the business objective
+Testing and turnover → New components along with all the interfaces are tested
+Business modeling → The information flow is identified between various modules
+Application generation → Automated tools are used to convert process models into the actual system
+6. High-risk or major functions are addressed in the first cycles thereby delivering an operational product. Which of the SDLC process models achieves this?
+
+a. Waterfall model
+
+Explanation: The Waterfall model follows a linear sequence and does not specifically address high-risk functions early on.
+
+b. Spiral model
+
+Explanation: The Spiral model focuses on iterative development and risk management but does not necessarily deliver operational products early in each cycle.
+
+c. RAD model
+
+Explanation: Rapid Application Development (RAD) emphasizes quick development but does not focus on addressing high-risk functions first.
+
+d. Incremental model
+
+Explanation: The Incremental model delivers parts of the system in increments, allowing for early delivery of operational products and addressing high-risk functions in early increments.
+
+Correct Answer: d. Incremental model
+
+7. Beta Technologies has undertaken a collision avoidance system software to be implemented for airports. Additional safety measures have to be automated by warning pilots when another aircraft gets closer, otherwise, impacts are huge. Which of the following SDLC process models best suits the requirement?
+
+a. Waterfall model
+
+Explanation: The Waterfall model may not be suitable for high-risk systems requiring iterative risk management.
+
+b. V model
+
+Explanation: The V-Model emphasizes verification and validation but may not be focused on managing high risks effectively.
+
+c. Spiral model
+
+Explanation: The Spiral model is ideal for high-risk projects, involving iterative development and risk management, making it suitable for collision avoidance systems.
+
+d. Evolutionary prototyping model
+
+Explanation: Evolutionary prototyping is for evolving requirements but may not be as focused on high-risk management as the Spiral model.
+
+Correct Answer: c. Spiral model
+
+8. The student mark processing system software has been developed and deployed at St. Peters University. The system shows the grade as 0 for all the students rather than the actual grade. Which phase below was not done properly during the SDLC?
+
+a. Software Maintenance
+
+Explanation: Software Maintenance deals with updates and changes post-deployment, not the initial issues observed.
+
+b. Software Analysis
+
+Explanation: Software Analysis focuses on understanding requirements but does not address issues that occur after deployment.
+
+c. Software Testing
+
+Explanation: Software Testing involves verifying the functionality of the software before deployment. If grades are incorrectly displayed, it indicates a problem with the testing phase.
+
+d. Software Design
+
+Explanation: Software Design involves planning and structuring the system but does not directly address post-deployment issues like incorrect grades.
+
+Correct Answer: c. Software Testing
