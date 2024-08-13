@@ -1,0 +1,107 @@
+1. ABC Company comes to the Allen Software Company with various requirements. The client wants the functionality to view all the employee profiles, view salary information of the employee, and view the leave details. Once each functionality is completed, the module will be delivered to the client. Which model is best suited for this scenario?
+
+a. Throwaway prototyping model
+
+Explanation: This model involves creating a prototype to understand the requirements and then discarding it. It is not ideal for scenarios where functionalities need to be developed and delivered incrementally.
+
+b. Scrum
+
+Explanation: Scrum is an Agile framework that emphasizes iterative development but is more focused on managing work and sprints rather than delivering complete modules incrementally.
+
+c. Spiral model
+
+Explanation: The Spiral model focuses on risk management and iterative development. It might be more complex than necessary for delivering separate functionalities.
+
+d. Incremental model
+
+Explanation: The Incremental model is suitable as it allows for building and delivering the system in increments, with each increment providing a specific functionality. This matches the requirement to deliver modules separately.
+
+Correct Answer: d. Incremental model
+
+2. A client wants to develop a Web application for a new supermarket store. The client wants to include many UI components and expects significant interaction with the UI. Which model is best suited for this scenario?
+
+a. Waterfall model
+
+Explanation: The Waterfall model is a sequential approach that is less flexible to changes, which may not be ideal for projects with evolving UI requirements.
+
+b. Spiral model
+
+Explanation: The Spiral model is useful for managing risks and iterative development but might be more complex than necessary for focusing on UI components alone.
+
+c. Prototype
+
+Explanation: The Prototype model is ideal for projects with complex and evolving UI requirements. It allows for creating a preliminary version to gather user feedback and make adjustments.
+
+Correct Answer: c. Prototype
+
+3. __________ involves the transformation of user needs into an effective software solution.
+
+a. Software Testing
+
+Explanation: Software Testing focuses on identifying defects rather than transforming user needs into a solution.
+
+b. Software Design process
+
+Explanation: The Software Design process involves designing the solution but not the entire development process.
+
+c. Software Analysis
+
+Explanation: Software Analysis involves understanding and analyzing requirements but does not encompass the full development process.
+
+d. Software development process
+
+Explanation: The Software development process includes all activities from understanding user needs to delivering a functioning software solution.
+
+Correct Answer: d. Software development process
+
+4. The Spiral life cycle model is not suitable for products that are vulnerable to a large number of risks. State if True or False.
+
+a. TRUE
+
+Explanation: This is incorrect because the Spiral model is specifically designed to handle high-risk projects through iterative development and risk assessment.
+
+b. FALSE
+
+Explanation: The Spiral model is actually suitable for managing high-risk projects due to its focus on iterative cycles and risk management.
+
+Correct Answer: b. FALSE
+
+5. When there is a difference between the output that is expected and the actual one, it is termed as __________.
+
+a. Specification
+
+Explanation: Specification refers to the detailed description of requirements, not the discrepancy between expected and actual outputs.
+
+b. Verification
+
+Explanation: Verification ensures that the software meets specified requirements but does not address discrepancies between expected and actual outputs.
+
+c. Defect
+
+Explanation: A defect refers to a discrepancy between the expected and actual output.
+
+d. Validation
+
+Explanation: Validation checks if the software meets the user’s needs but doesn’t directly address the specific discrepancy between expected and actual outputs.
+
+Correct Answer: c. Defect
+
+6. XYZ Finance Co. has recently started operations in India. Based on the first six months' performance, it plans to expand across five countries and wants to automate its operations at this stage. What process model should the developer choose?
+
+a. Evolutionary prototyping model
+
+Explanation: The Evolutionary prototyping model is suitable for projects that are expected to evolve and expand over time.
+
+b. Waterfall model
+
+Explanation: The Waterfall model is less flexible for evolving requirements and expanding operations.
+
+c. Incremental model
+
+Explanation: The Incremental model is good for gradual development but might not be as adaptable for significant expansion and evolving requirements as the Evolutionary prototyping model.
+
+d. Spiral model
+
+Explanation: The Spiral model is effective for managing risk but might be too complex for straightforward automation needs.
+
+Correct Answer: a. Evolutionary prototyping model
