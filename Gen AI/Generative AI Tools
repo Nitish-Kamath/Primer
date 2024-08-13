@@ -1,0 +1,96 @@
+Question 1: Compared to its predecessor, DALL-E, what is an improved feature of DALL-E 2?
+Correct Answer: Higher resolution
+
+Explanation: DALL-E 2 improves upon its predecessor by offering higher resolution images, allowing for more detailed and clear visual outputs.
+Incorrect Options:
+
+Same image resolution: DALL-E 2 actually improves upon the resolution.
+Requires less purchase credits: Not a feature related to the image quality or capabilities.
+Ethical development: While important, it is not a specific feature that distinguishes DALL-E 2.
+Less safety protocols: DALL-E 2 maintains or improves safety protocols rather than reducing them.
+Question 2: Which database does GitHub Copilot ground its data on?
+Correct Answer: OpenAI Codex and GitHub
+
+Explanation: GitHub Copilot is based on OpenAI Codex and leverages data from GitHub to provide coding assistance.
+Incorrect Options:
+
+Synthesia's scripted prompts: Not related to GitHub Copilot.
+Anthropic's Claude database: Not the source for GitHub Copilot.
+GPT-4 database: GPT-4 is a different model and not directly related to GitHub Copilot’s data source.
+DeepMind's AlphaCode repository: Not used for GitHub Copilot.
+Question 3: What is a unique feature of ChatGPT that distinguishes it from Bard by Google?
+Correct Answer: Retains conversation history
+
+Explanation: ChatGPT retains conversation history to provide contextually relevant responses, a feature not present in Bard.
+Incorrect Options:
+
+No conversational history feature: This is true for Bard, not ChatGPT.
+Designed for human dialogue: Both are designed for dialogue, so this is not a distinguishing feature.
+Ethically developed: Both are developed with ethical considerations in mind.
+Built on LaMDA transformer model: ChatGPT is built on OpenAI's models, not Google's LaMDA.
+Question 4: Approximately what percentage of false positive rate does AlphaCode by DeepMind have?
+Correct Answer: 0.04
+
+Explanation: AlphaCode by DeepMind has an approximate false positive rate of 0.04, indicating its accuracy in code generation.
+Incorrect Options:
+
+0.02, 0.01, 0.03, 0.05: These are not the correct false positive rates for AlphaCode.
+Question 5: What is a potential concern when using Code Whisperer by AWS with open-source projects?
+Correct Answer: Potential open-source legal issues
+
+Explanation: Code Whisperer may raise legal concerns regarding the use of open-source code, especially in terms of licensing and compliance.
+Incorrect Options:
+
+Challenges with complex tasks: Not a primary concern related to legal issues.
+It aligns with best practices: Not a concern but rather a feature.
+It boosts productivity with instant suggestions: A benefit rather than a concern.
+AWS optimization: Not directly related to legal issues.
+Question 6: Cohere Generate primarily targets which type of content?
+Correct Answer: Marketing and sales content
+
+Explanation: Cohere Generate is designed to assist in creating content for marketing and sales purposes.
+Incorrect Options:
+
+Conversational tone with Slack integration: Not the primary focus.
+Quick code generation via language prompts: Not its main purpose.
+Video creation from scripted prompts: Not related to Cohere Generate.
+Language inputs for image outputs: Not applicable to this tool.
+Question 7: Which of the following is NOT an attribute of GPT-4 by OpenAI?
+Correct Answer: Audio outputs
+
+Explanation: GPT-4 focuses on text and image inputs but does not provide audio outputs.
+Incorrect Options:
+
+Image and text input: GPT-4 supports both.
+Large multimodal model: GPT-4 is a multimodal model.
+Enhanced creativity and accuracy: GPT-4 is designed to be creative and accurate.
+Persistent bias issues: While GPT-4 addresses biases, it’s still an area of concern.
+Question 8: Bard by Google has limitations in which of the following aspects?
+Correct Answer: Limited to English language
+
+Explanation: Bard by Google has limitations with language support, being more focused on English.
+Incorrect Options:
+
+Programming and software development capabilities: Not a primary limitation.
+Ethically developed: Ethical development is a goal, not a limitation.
+Transformer model: Bard is based on the Transformer model.
+Constantly updated with web information: Bard is designed to provide up-to-date information.
+Question 9: How does Claude by Anthropic enhance its safety features?
+Correct Answer: Using "red team" prompts for safety
+
+Explanation: Claude employs "red team" prompts to test and enhance its safety features by simulating potential misuse or harmful scenarios.
+Incorrect Options:
+
+By accessing the web: Not specifically related to safety features.
+Emphasizing creativity: Creativity is not the primary focus of safety features.
+Ethically developed: A general goal, not specific to safety.
+Slack integration: Not related to safety enhancements.
+Question 10: For which feature might users of the basic plans of Synthesia encounter quality concerns?
+Correct Answers: Video resolution, Audio quality
+
+Explanation: Users of basic plans in Synthesia may experience quality concerns regarding video resolution and audio quality.
+Incorrect Options:
+
+Scripted prompts, Language integrations: These are not typically associated with quality concerns in basic plans.
+Efficient basic content generation: Efficiency is not typically a quality concern.
+Video creation from scripted prompts: Quality issues are more related to resolution and audio
