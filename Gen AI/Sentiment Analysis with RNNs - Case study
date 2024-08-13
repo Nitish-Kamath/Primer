@@ -1,0 +1,150 @@
+Question 1: What is the role of the <OOV> token?
+Correct Answer: Placeholder for out-of-vocabulary words
+
+The <OOV> token is used to represent words that are not in the model's vocabulary. This token helps the model handle and process words it hasn't encountered during training.
+Incorrect Options:
+
+Ignore out-of-vocabulary words: Incorrect because the <OOV> token does not ignore out-of-vocabulary words; it provides a placeholder for them.
+Placeholder for numbers: The <OOV> token is not specifically used for numbers; it’s for any word not in the vocabulary.
+Delete out-of-vocabulary words: The <OOV> token does not delete words; it replaces them with a placeholder.
+Regular expression matcher: This option is unrelated to the role of <OOV>, which is about handling unknown words, not matching patterns.
+Question 2: Which layer in the RNN model represents words as detailed feature lists?
+Correct Answer: Embedding Layer
+
+The Embedding Layer converts words into dense vectors, representing them as detailed feature lists that capture semantic meaning and relationships.
+Incorrect Options:
+
+SimpleRNN Layer: This layer processes sequences but does not specifically represent words as feature lists.
+LSTM Layer: While LSTM layers are used for sequence learning and can remember context, they don’t directly represent words as feature lists.
+Dropout Layer: Used for regularization, not for representing words.
+Dense Layer: Primarily used for final predictions, not for embedding or representing words.
+Question 3: Why is padding used in the preprocessing step?
+Correct Answer: To handle variable review length
+
+Padding ensures that all input sequences have the same length, which is crucial for processing variable-length sequences in models.
+Incorrect Options:
+
+For beautification: Padding is not about visual appearance but about data uniformity.
+To increase vocabulary size: Padding does not affect vocabulary size.
+To improve accuracy: Padding helps in handling varying input lengths but does not directly improve accuracy.
+To reduce memory usage: Padding might actually increase memory usage due to the added tokens.
+Question 4: What advantage does LSTM have over traditional RNNs?
+Correct Answer: Tackles the vanishing gradient problem
+
+LSTMs are designed to address the vanishing gradient problem, making them better suited for learning long-range dependencies in sequences.
+Incorrect Options:
+
+Lower memory usage: LSTMs generally use more memory due to their complexity.
+Requires fewer layers: LSTMs do not necessarily require fewer layers.
+Faster convergence: LSTMs can converge more slowly due to their complexity.
+Simpler architecture: LSTMs have a more complex architecture compared to traditional RNNs.
+Question 5: What is the purpose of the Dropout layer in the LSTM with Dropout model?
+Correct Answer: Regularization to prevent overfitting
+
+Dropout is used to prevent overfitting by randomly dropping units during training, which helps improve the generalization of the model.
+Incorrect Options:
+
+Activation function: Dropout is not an activation function.
+Recurrence: Recurrence is handled by the LSTM itself, not Dropout.
+Embedding: Dropout is not involved in embedding.
+Tokenization: Dropout does not perform tokenization.
+Question 6: What might be a concern if the training accuracy is high but validation accuracy is significantly low?
+Correct Answer: Model is overfitting
+
+High training accuracy with low validation accuracy typically indicates overfitting, where the model performs well on training data but poorly on unseen data.
+Incorrect Options:
+
+Model is underfitting: Underfitting usually results in low accuracy on both training and validation data.
+Model needs more layers: Overfitting, not underfitting, is usually the issue here.
+Model is perfectly trained: Perfect training should show similar accuracy on both training and validation sets.
+Data is incorrectly labeled: This is less likely to be the direct cause compared to overfitting.
+Question 7: In which scenario might you prefer a simple RNN over an LSTM?
+Correct Answer: Fast training with limited resources
+
+Simple RNNs are generally faster to train and less resource-intensive compared to LSTMs, though they may not handle long-range dependencies as well.
+Incorrect Options:
+
+When high accuracy is a must: LSTMs often provide better accuracy for complex tasks.
+Long-range dependencies in data: LSTMs are better suited for this.
+Large datasets: LSTMs are often preferred for handling large datasets.
+Complex sentence structures: LSTMs are better for complex sentence structures due to their ability to capture long-term dependencies.
+Question 8: Which parameter in model.fit() signifies the number of times the model is exposed to the dataset?
+Correct Answer: epochs
+
+The epochs parameter defines how many times the model will be trained on the entire dataset.
+Incorrect Options:
+
+optimizer: Specifies the algorithm used for training but not the number of epochs.
+batch_size: Determines how many samples are used per update but not the total number of updates.
+loss: Represents the loss function, not the number of epochs.
+validation_data: Used for evaluating the model during training, not for defining epochs.
+Question 9: Why is the loss function important during model compilation?
+Correct Answer: Specifies how errors are measured
+
+The loss function is crucial for measuring how well the model's predictions match the target values. It guides the optimization process.
+Incorrect Options:
+
+Specifies number of epochs: This is not related to the loss function.
+Assigns weights to layers: Weights are adjusted based on the loss but not assigned by the loss function.
+Adjusts learning rate: The learning rate is a separate parameter.
+Determines model layers: The loss function does not define the model’s architecture.
+Question 10: How does the model handle reviews of varying lengths?
+Correct Answer: Uses padding
+
+Padding ensures that all sequences are of the same length, making them compatible for batch processing.
+Incorrect Options:
+
+Uses multiple RNN layers: This does not address variable sequence length directly.
+Uses LSTM layers: While LSTM layers handle long-range dependencies, padding is the specific solution for varying lengths.
+Ignores reviews outside a certain length range: Ignoring varying lengths would lead to incomplete data processing.
+Changes tokenizer's vocabulary: Padding is not related to vocabulary changes.
+Question 11: Why might the vanishing gradient problem be a challenge in RNNs?
+Correct Answer: Impedes learning of long-range dependencies
+
+The vanishing gradient problem makes it difficult for RNNs to learn long-range dependencies because gradients become too small to propagate effectively.
+Incorrect Options:
+
+Reduces training speed: It primarily affects learning capability, not training speed directly.
+Increases accuracy: It usually decreases model performance on long-term dependencies.
+Requires more memory: It affects learning rather than memory usage.
+Makes model evaluation faster: It actually impairs the model's ability to learn from long sequences.
+Question 12: In the given LSTM model, which layer(s) help in retaining memory and context?
+Correct Answer: LSTM layer
+
+LSTM layers are specifically designed to retain memory and context through their gating mechanisms, allowing them to remember information over long sequences.
+Incorrect Options:
+
+Dropout layer: Used for regularization, not memory retention.
+Embedding layer: Provides dense representations but doesn’t handle memory or context.
+Dense layer: Primarily used for output, not for memory retention.
+SimpleRNN layer: While it processes sequences, it does not have the memory retention capability of LSTM layers.
+Question 13: When using a tokenizer with a fixed number of words, what could be a potential drawback?
+Correct Answer: Limited understanding due to missed words
+
+A fixed vocabulary might miss some words that appear in the data, leading to reduced understanding and performance of the model.
+Incorrect Options:
+
+Slows down training: Not directly related to vocabulary size.
+Enhances accuracy: A fixed vocabulary can limit the model’s performance by missing out on some words.
+Simplifies the model: While it might simplify implementation, it can limit the model's ability to handle diverse vocabulary.
+Increases memory usage: A fixed vocabulary doesn’t necessarily increase memory usage compared to dynamic vocabularies.
+Question 14: What is the primary function of an Embedding Layer?
+Correct Answer: Representing words in dense vector format
+
+The Embedding Layer converts words into dense vectors, capturing semantic information and relationships between words.
+Incorrect Options:
+
+Handling out-of-vocabulary words: This is typically managed by the <OOV> token, not the Embedding Layer.
+Regularization: Regularization is done by techniques like Dropout, not the Embedding Layer.
+Tokenization: Tokenization is handled before embedding, not by the Embedding Layer itself.
+Reducing sequence length: The Embedding Layer does not change sequence length.
+Question 15: After training, what can be inferred if the validation loss keeps decreasing but training loss remains high?
+Correct Answer: Model is underfitting
+
+If validation loss decreases while training loss remains high, it suggests that the model might not be learning enough from the training data, indicating underfitting.
+Incorrect Options:
+
+Model is perfectly trained: A model with high training loss is not considered perfectly trained.
+Model is overfitting: Overfitting typically results in high training accuracy and low validation accuracy.
+Model architecture is flawed: While architecture might be an issue, underfitting is a more direct explanation for high training loss.
+Training data is corrupted: This is less likely than underfitting in explaining the discrepancy between training and validation loss.
