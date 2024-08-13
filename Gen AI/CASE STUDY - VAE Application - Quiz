@@ -1,0 +1,145 @@
+Question 1
+How is the data divided for training the VAE?
+
+80-20: Correct; the data is typically divided into 80% for training and 20% for validation/testing.
+Correct Answer: 80-20
+
+Question 2
+What two components combine to form the VAE's loss?
+
+KL divergence and Cross-entropy: Not correct; the VAE's loss function typically includes MSE (or other reconstruction loss) and KL divergence.
+L1 loss and L2 loss: Not correct; VAE loss is not typically defined this way.
+MSE and Cross-entropy: Not correct; MSE and KL divergence are the typical components.
+Classification error and Regression loss: Not correct; these are not components of VAE loss.
+MSE and KL divergence: Correct; the loss function of a VAE combines Mean Squared Error (MSE) and KL divergence.
+Correct Answer: MSE and KL divergence
+
+Question 3
+Why is data preprocessing required before training the VAE?
+
+To introduce errors into the data: Not correct; data preprocessing is not for introducing errors.
+To make the data look visually appealing: Not correct; preprocessing is not primarily for visual appeal.
+To make the data larger: Not correct; preprocessing does not typically aim to increase data size.
+To make the data unreadable: Not correct; preprocessing is not to make data unreadable.
+To ensure it is suitable for training: Correct; preprocessing ensures the data is in a suitable format for training.
+Correct Answer: To ensure it is suitable for training
+
+Question 4
+Which of the following is NOT an attribute in the given data?
+
+Pressure: Not correct; pressure could be an attribute in data.
+Timestamp: Not correct; timestamp could be an attribute in data.
+Humidity: Correct; if humidity is not mentioned as an attribute, it is the right choice.
+Vibration: Not correct; vibration could be an attribute in data.
+Temperature: Not correct; temperature could be an attribute in data.
+Correct Answer: Humidity
+
+Question 5
+What type of dataset does the manufacturing plant collect?
+
+Tabular Dataset: Not correct; manufacturing data might be tabular but the correct answer is more specific.
+Time Series Dataset: Correct; manufacturing plant data is often collected in a time series format.
+Image Dataset: Not correct; manufacturing data is typically not an image dataset.
+Text Dataset: Not correct; manufacturing data is not a text dataset.
+Audio Dataset: Not correct; manufacturing data is not an audio dataset.
+Correct Answer: Time Series Dataset
+
+Question 6
+For how many epochs is the VAE trained?
+
+10: Not correct; the number of epochs might vary, but 50 is commonly used.
+40: Not correct; 50 is a more typical number of epochs for VAEs.
+50: Correct; 50 epochs is a typical choice for training VAEs.
+100: Not correct; 50 is a common choice but 100 is also used in some cases.
+25: Not correct; 50 epochs is a more typical choice.
+Correct Answer: 50
+
+Question 7
+Over time, due to certain changes, what might be required of the VAE model?
+
+Shrinking: Not correct; shrinking is not typically required.
+Disintegration: Not correct; disintegration is not typically required.
+Manual recalibration: Not correct; manual recalibration is not typically required.
+Reformatting: Not correct; reformatting is not typically required.
+Continuous adaptation: Correct; the VAE model may need continuous adaptation over time.
+Correct Answer: Continuous adaptation
+
+Question 8
+What is the VAE trained to learn effectively?
+
+A highly detailed representation of the data: Not correct; VAEs aim for compressed representations.
+A visual representation of the data: Not correct; VAEs aim for a compressed representation, not specifically visual.
+A noisy representation of the data: Not correct; VAEs do not aim for noisy representations.
+A textual description of the data: Not correct; VAEs do not focus on textual descriptions.
+A compressed representation of the data: Correct; VAEs aim to learn a compressed representation of the data.
+Correct Answer: A compressed representation of the data
+
+Question 9
+What criterion is used to determine if a data point is anomalous?
+
+If its error is below mean error: Not correct; this is not typically used to determine anomaly.
+If its error is above the 99th percentile: Correct; errors above the 99th percentile are typically considered anomalous.
+If its error is in the top 10%: Not correct; the top 10% is not specifically used for determining anomalies.
+If its error is above median error: Not correct; median error is not typically used.
+If its error is above mean error: Not correct; mean error alone is not usually sufficient for anomaly detection.
+Correct Answer: If its error is above the 99th percentile
+
+Question 10
+What is a primary application of VAEs mentioned in the case study?
+
+Text Summarization: Not correct; VAEs are not typically used for text summarization.
+Image Classification: Not correct; VAEs are not primarily used for image classification.
+Object Detection: Not correct; VAEs are not typically used for object detection.
+Anomaly Detection: Correct; VAEs are used for anomaly detection.
+Speech Recognition: Not correct; VAEs are not typically used for speech recognition.
+Correct Answer: Anomaly Detection
+
+Question 11
+What does the VAE attempt to minimize during training?
+
+Latent space dimensions: Not correct; the focus is not on minimizing dimensions but on loss.
+Loss: Correct; VAEs attempt to minimize the loss function during training.
+Training time: Not correct; minimizing training time is not the primary goal.
+Data input size: Not correct; the VAE does not focus on reducing input size.
+Validation accuracy: Not correct; loss is the primary focus rather than validation accuracy.
+Correct Answer: Loss
+
+Question 12
+Why is understanding the VAE's outputs challenging?
+
+They can be complex and non-intuitive: Correct; VAEs can produce complex and non-intuitive outputs.
+They are always correct: Not correct; outputs are not always correct.
+They use an unknown language: Not correct; VAEs do not use an unknown language.
+They are highly interpretable: Not correct; VAEs can be challenging to interpret.
+They are too simplistic: Not correct; VAEs are not simplistic.
+Correct Answer: They can be complex and non-intuitive
+
+Question 13
+Which is NOT a challenge in implementing VAEs for this use-case?
+
+Latency: Not correct; latency can be a challenge.
+Model Training: Not correct; model training can be challenging.
+Increasing data storage costs: Correct; increasing data storage costs is not typically a challenge with VAEs.
+Data Quality: Not correct; data quality is a challenge.
+Threshold Setting: Not correct; setting thresholds can be a challenge.
+Correct Answer: Increasing data storage costs
+
+Question 14
+What is the y-axis label of the chart visualizing the error?
+
+Timestamp: Not correct; timestamp is not the y-axis label.
+Data Value: Not correct; data value is not the y-axis label.
+Anomaly Score: Not correct; anomaly score is not typically the y-axis label.
+Latent Space: Not correct; latent space is not the y-axis label.
+Reconstruction Error: Correct; reconstruction error is typically the y-axis label.
+Correct Answer: Reconstruction Error
+
+Question 15
+In the VAE, what does the sampling function introduce?
+
+Parallelism: Not correct; the sampling function does not introduce parallelism.
+Linearity: Not correct; the sampling function does not introduce linearity.
+Determinism: Not correct; the sampling function introduces randomness, not determinism.
+Recursion: Not correct; the sampling function does not introduce recursion.
+Randomness: Correct; the sampling function introduces randomness into the model.
+Correct Answer: Randomness
