@@ -1,0 +1,380 @@
+Question 1: Match the Opening and Closing Blocks in Looping Statements
+Match the appropriate opening and closing blocks for each looping statement:
+
+BEGIN
+Answer 1: END
+
+IF
+Answer 2: END IF
+
+FOR
+Answer 3: END FOR
+
+WHILE
+Answer 4: END WHILE
+
+Explanation:
+
+BEGIN always ends with END. It signifies the start and end of a block of code.
+IF statements are concluded with END IF to indicate the end of the conditional block.
+FOR loops are terminated with END FOR to mark the end of the loop’s iterations.
+WHILE loops are closed with END WHILE to indicate the end of the looping condition.
+Correct Matches:
+
+BEGIN → END
+IF → END IF
+FOR → END FOR
+WHILE → END WHILE
+Question 2: Identify the Exit-Controlled Loop
+Which looping logic is exit controlled?
+
+a. do-while loop
+b. While loop
+c. For loop
+
+Explanation:
+
+do-while loop (Correct): This loop is exit-controlled, meaning it executes the loop body at least once before checking the condition. This ensures that the loop's body runs regardless of whether the condition is initially true or false.
+While loop (Wrong): This is an entry-controlled loop where the condition is checked before each iteration, potentially skipping the loop body if the condition is false from the start.
+For loop (Wrong): This is also an entry-controlled loop with a predefined number of iterations based on its condition and is checked before the loop body executes.
+Correct Answer: a. do-while loop
+
+Question 3: Complete the Pseudocode for Factorial Calculation
+Fill in the missing statement in the pseudocode for calculating the factorial of 5 numbers:
+
+sql
+Copy code
+BEGIN
+    DECLARE variables i, factorial
+    SET factorial <-- 1
+    FOR i <-- 1 to 5 do
+        [ Insert missing statement here ]
+        i <-- i + 1
+    END FOR
+    PRINT factorial
+END
+Explanation:
+
+Correct Missing Statement: factorial <-- factorial * i (The factorial is calculated by multiplying the current value of factorial by the loop variable i in each iteration.)
+Incorrect Statements: Statements that do not correctly update the factorial variable or do not follow the correct mathematical logic for factorial calculation.
+Correct Missing Statement: factorial <-- factorial * i
+
+Question 4: Output of the Pseudocode
+Consider the following pseudocode. Which snippet produces the output: “0, 2, 4, 6, 8, 10, 12, 16”?
+
+a.
+
+sql
+Copy code
+BEGIN
+    DECLARE number, count, even
+    SET count <-- 8, number <-- 0, even <-- 0
+    WHILE number < count
+        PRINT even
+        SET even <-- even + 2
+        Number <-- number + 2
+    END WHILE
+END
+b.
+
+sql
+Copy code
+BEGIN
+    DECLARE number, count, even
+    SET count <-- 16, number <-- 0, even <-- 0
+    WHILE number < count
+        PRINT even
+        SET even <-- even + 2
+        Number <-- number + 1
+    END WHILE
+    PRINT even
+END
+c.
+
+sql
+Copy code
+BEGIN
+    DECLARE number, count, even
+    SET count <-- 8, number <-- 0, even <-- 0
+    WHILE number < count
+        PRINT even
+        SET even <-- even + 1
+        Number <-- number + 1
+    END WHILE
+    PRINT even
+END
+d.
+
+sql
+Copy code
+BEGIN
+    DECLARE number, count, even
+    SET count <-- 8, number <-- 0, even <-- 0
+    WHILE number < count
+        PRINT even
+        SET even <-- even + 2
+        number <-- number + 1
+    END WHILE
+    PRINT even
+END
+Explanation:
+
+Correct Option: d. The WHILE loop increments number by 1 but adds 2 to even on each iteration. This gives the correct sequence of even numbers and prints even after exiting the loop.
+Incorrect Options: Options a, b, and c either do not correctly match the required output sequence or mismanage the incrementing logic.
+Correct Answer: d.
+
+Question 5: Output of Flowchart
+Predict the output of the given flowchart.
+
+Select one:
+
+a. 2, 2
+b. 2, 1
+c. 1, 2
+d. 1, 1
+
+Explanation:
+
+Correct Answer: c. 1, 2. The flowchart prints the value of count (initially 1) and then increments it. After exiting the loop, the final value of count (2) is printed.
+Incorrect Answers: Options a, b, and d do not correctly follow the increment logic or initial values in the flowchart.
+Correct Answer: c. 1, 2
+
+Question 6: Looping Statement Scope
+Iteration/looping is a repetition of:
+
+Select one or more:
+
+a. single statement
+b. variables
+c. operation
+d. Block of statements
+
+Explanation:
+
+Correct Answers: a. single statement and d. Block of statements. Looping can repeat a single statement or a block of statements.
+Incorrect Options: b. variables and c. operation. Variables are not repeated in loops; they are used within loops. An operation alone does not represent the entire scope of looping.
+Correct Answers: a. single statement, d. Block of statements
+
+Question 7: Comparison of Looping Statements
+Do-while looping statement is almost same as:
+
+Select one:
+
+a. if-else
+b. for loop
+c. While loop
+d. Nested if
+
+Explanation:
+
+Correct Answer: c. While loop. Both do-while and while loops are used for iteration, but do-while executes the loop body at least once before checking the condition, similar to while but with a key difference in execution guarantee.
+Incorrect Options: a. if-else, b. for loop, and d. Nested if. These constructs serve different purposes and do not have the same execution characteristics as a do-while loop.
+Correct Answer: c. While loop
+
+Question 8: Characteristics of FOR Loop
+What is true about FOR LOOP?
+
+Select one:
+
+a. For loop cannot be nested
+b. In for loop, the exact number of iterations is known
+c. For loop executes the statement without checking the condition
+d. For loop executes the statements at least once even if the condition is false
+
+Explanation:
+
+Correct Answer: b. In for loop, the exact number of iterations is known. A for loop is used when the number of iterations is predetermined or known beforehand.
+Incorrect Options: a. For loop cannot be nested (Incorrect; for loops can be nested). c. For loop executes the statement without checking the condition (Incorrect; for loops check the condition before executing the body). d. For loop executes the statements at least once even if the condition is false (Incorrect; for loops only execute if the condition is true).
+Correct Answer: b. In for loop, the exact number of iterations is known
+
+Question 9: Looping Statement for a Specific Task
+Jack wants to book flight tickets for his family of five. The same process continues for all five members. Which looping statement is suitable?
+
+Select one:
+
+a. While loop
+b. For loop
+c. Do-while loop
+
+Explanation:
+
+Correct Answer: b. For loop. Since Jack needs to repeat the booking process a specific number of times (five), a for loop is ideal for this scenario.
+Incorrect Options: a. While loop and c. Do-while loop. While these loops can also be used, the for loop is better suited for a known number of iterations.
+Correct Answer: b. For loop
+
+Question 10: Output of WHILE Loop
+What will be the output for the WHILE loop?
+
+Select one:
+
+a. -2
+b. 2
+c. 0
+d. 4
+
+Explanation:
+
+Correct Answer: a. -2. The loop decrements number by 4 until it is no longer greater than 0. After exiting, the final value of number will be -2.
+Incorrect Options: b. 2, c. 0, d. 4. These values do not accurately reflect the decremented results of the loop.
+Correct Answer: a. -2
+
+Question 11: Output of FOR-loop
+What will be the output for the FOR-loop snippet?
+
+Select one:
+
+a. 1 4 7 10 13
+b. 4 7 10 13 16
+c. 1 4 7 10 13 15 16
+d. 4 7 10 13
+
+Explanation:
+
+Correct Answer: a. 1 4 7 10 13. The FOR loop increments the value by 3 in each iteration, producing this output sequence.
+Incorrect Options: b. 4 7 10 13 16, c. 1 4 7 10 13 15 16, d. 4 7 10 13. These options do not correctly reflect the iteration and increment pattern described.
+Correct Answer: a. 1 4 7 10 13
+
+Question 12: Flowchart Symbols
+Which symbol is inappropriate for a sequential flow of a program in a flowchart?
+
+Select one:
+
+a. Oval
+b. Diamond
+c. Rectangle
+d. Parallelogram
+
+Explanation:
+
+Correct Answer: b. Diamond. A diamond shape is used for decision-making, not for representing sequential flow.
+Incorrect Options: a. Oval (used for start and end), c. Rectangle (used for processing steps), d. Parallelogram (used for input/output), all are appropriate for sequential flow.
+Correct Answer: b. Diamond
+
+Question 13: Looping Statements Execution
+The statement/statements within the loop must get executed at least once except for do-while statement. State True/False.
+
+Select one:
+
+True
+False
+
+Explanation:
+
+Correct Answer: False. In entry-controlled loops (e.g., for and while), the statements may not execute if the condition is false at the start. do-while is the only loop that guarantees execution at least once.
+Incorrect Answer: True. This does not account for entry-controlled loops where execution may be skipped if the condition is not met initially.
+Correct Answer: False
+
+Question 14: Statements About Looping
+Which of the following statements are true with respect to looping statements?
+
+Select one or more:
+
+a. The condition under which the iterative process should get terminated must be given
+b. Initial condition must be applied before the loop begins to execute
+c. A loop should run infinite number of times
+d. Conditional statements are not allowed within a loop
+
+Explanation:
+
+Correct Answers: a. The condition under which the iterative process should get terminated must be given and b. Initial condition must be applied before the loop begins to execute. These are essential for controlling and managing loops.
+Incorrect Options: c. A loop should run infinite number of times (Incorrect; loops should eventually terminate). d. Conditional statements are not allowed within a loop (Incorrect; loops often contain conditional statements).
+Correct Answers: a. The condition under which the iterative process should get terminated must be given, b. Initial condition must be applied before the loop begins to execute
+
+Question 15: Operand in Expressions
+Which of the following statements are true?
+
+Select one or more:
+
+a. The operand in an expression must always be a variable.
+b. An operand is a mandatory element in an expression.
+c. The operand in an expression can be a variable or a constant.
+d. The operand in an expression must always be a constant.
+
+Explanation:
+
+Correct Answers: b. An operand is a mandatory element in an expression and c. The operand in an expression can be a variable or a constant. These statements correctly describe the nature of operands in expressions.
+Incorrect Options: a. The operand in an expression must always be a variable (Incorrect; operands can also be constants). d. The operand in an expression must always be a constant (Incorrect; operands can also be variables).
+Correct Answers: b. An operand is a mandatory element in an expression, c. The operand in an expression can be a variable or a constant
+
+Question 16: Looping Example for a Rubik's Cube
+Consider you have a Rubik cube with different colors on each face. To solve this cube, you rotate the sides until the colors on all faces are the same. This is a real-time example of which looping statement?
+
+Select one:
+
+a. While
+b. For
+c. Nested-if
+d. Do-while
+
+Explanation:
+
+Correct Answer: a. While. The while loop is suitable here as it checks the condition (all colors matching) and continues to execute until the condition is met.
+Incorrect Options: b. For (Less suitable as the number of iterations is not predefined), c. Nested-if (Not a looping construct), d. Do-while (Although it could work, while is a more general fit for checking ongoing conditions).
+Correct Answer: a. While
+
+Question 17: Crossword Clues
+Complete the crossword puzzle with the following clues:
+
+DOWN:
+
+Step-by-step list of instructions
+When you know the exact number of iterations, this loop is used
+ACROSS:
+2) When a process/set of actions is to be repeated, these statements are used.
+3) In looping, each execution of a statement/block of statements is technically termed as ______
+5) This loop statement is also called an exit-controlled loop
+
+Answers:
+
+Algorithm
+For loop
+Looping statements
+Iteration
+Do-while
+Question 18: Flowchart Logic
+Identify the logic that suits the flowchart:
+
+Select one:
+
+a. for loop
+b. nested loop
+c. While loop
+d. Do-while loop
+
+Explanation:
+
+Correct Answer: c. While loop. This loop type is appropriate as it continues executing the block of code as long as the condition remains true and checks the condition before each iteration.
+Incorrect Options: a. For loop (Used when the number of iterations is known), b. Nested loop (Not indicated by the flowchart), d. Do-while loop (The condition is checked after execution, not before).
+Correct Answer: c. While loop
+
+Question 19: Sequence for Collecting Candies
+Arrange the sequence for collecting candies until 100 candies are collected:
+
+Select one:
+
+a. 1 4 5 2 3 6 7
+b. 1 2 4 3 6 5 7
+c. 1 4 2 3 6 5 7
+d. 1 4 2 5 6 3 7
+
+Explanation:
+
+Correct Answer: d. 1 4 2 5 6 3 7. This sequence correctly initializes the candy count, sets up the WHILE loop, increments the count, and ends the loop when the target is reached.
+Incorrect Options: a. 1 4 5 2 3 6 7, b. 1 2 4 3 6 5 7, c. 1 4 2 3 6 5 7. These sequences do not correctly match the initialization and update steps required to meet the target.
+Correct Answer: d. 1 4 2 5 6 3 7
+
+Question 20: Alternative Name for Looping Statements
+Looping statements are also called:
+
+Select one:
+
+a. Selection logic
+b. Program logic
+c. Iteration logic
+d. Sequence logic
+
+Explanation:
+
+Correct Answer: c. Iteration logic. Looping statements are referred to as iteration logic because they involve repeating a set of instructions multiple times.
+Incorrect Options: a. Selection logic (Refers to decision-making structures like if-else), b. Program logic (Too broad and general), d. Sequence logic (Refers to the order of operations rather than repetition).
+Correct Answer: c. Iteration logic
