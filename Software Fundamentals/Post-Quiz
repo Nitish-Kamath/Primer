@@ -1,0 +1,131 @@
+1. Match the correct E, T, V, X (Entry, Task, Verify, Exit) criteria for the following scenario:
+
+Review of the artifacts
+
+Answer: Verification
+
+Explanation: Verification is the process of evaluating whether the artifacts meet the requirements and specifications. Reviewing artifacts falls under this category.
+
+Developing HLD and LLD Artifacts
+
+Answer: Task
+
+Explanation: Developing High-Level Design (HLD) and Low-Level Design (LLD) artifacts is an active task involved in the development phase.
+
+Reviewed design document
+
+Answer: Exit
+
+Explanation: The reviewed design document signifies the completion of the review process, thus marking the exit from that particular phase of evaluation.
+
+Input containing the reviewed SRS
+
+Answer: Entry
+
+Explanation: The input containing the reviewed Software Requirements Specification (SRS) is used to enter the review phase, thus serving as the entry criterion.
+
+Correct Answer:
+
+Review of the artifacts → Verification
+Developing HLD and LLD Artifacts → Task
+Reviewed design document → Exit
+Input containing the reviewed SRS → Entry
+2. Testing performed by the user to ensure that the system meets the agreed-upon quality attributes and specifications is called:
+
+a. Unit testing
+
+Explanation: Unit testing focuses on testing individual components or units of code in isolation, not on the overall system or quality attributes.
+
+b. Integration testing
+
+Explanation: Integration testing evaluates the interaction between integrated units or components but does not focus on user acceptance or system-wide quality attributes.
+
+c. Acceptance testing
+
+Explanation: Acceptance testing is performed by the user to verify that the system meets the agreed-upon quality attributes and specifications, making it the correct choice.
+
+d. System testing
+
+Explanation: System testing tests the complete system to ensure it meets the requirements, but it is not specifically user-driven as acceptance testing is.
+
+Correct Answer: c. Acceptance testing
+
+3. Choose the option that accurately represents the sequential order of phases in the Waterfall model.
+
+a. Requirement Gathering, Analysis, Design, Implementation, Testing, Maintenance, Deployment
+
+Explanation: This option incorrectly places Maintenance before Deployment and includes Maintenance, which is not typically part of the Waterfall model's sequential phases.
+
+b. Requirement Gathering, Analysis, Design, Testing, Implementation, Deployment, Maintenance
+
+Explanation: Testing should follow Implementation in the Waterfall model. This option places Testing before Implementation and Maintenance incorrectly.
+
+c. Requirement Gathering, Analysis, Design, Implementation, Testing, Deployment, Maintenance
+
+Explanation: This option correctly lists the sequential phases of the Waterfall model: Requirement Gathering, Analysis, Design, Implementation, Testing, Deployment, and Maintenance.
+
+d. Analysis, Requirement Gathering, Design, Implementation, Testing, Deployment, Maintenance
+
+Explanation: Analysis should come after Requirement Gathering, and this option places them in the wrong order.
+
+Correct Answer: c. Requirement Gathering, Analysis, Design, Implementation, Testing, Deployment, Maintenance
+
+4. Which model emphasizes Validation and Verification at each level of stage containment?
+
+a. Spiral model
+
+Explanation: The Spiral model focuses on risk management and iterative development but does not specifically emphasize Validation and Verification at each stage.
+
+b. RAD
+
+Explanation: Rapid Application Development (RAD) emphasizes quick development but does not focus on Validation and Verification at each stage.
+
+c. Throwaway prototyping
+
+Explanation: Throwaway prototyping involves creating and discarding prototypes to understand requirements, but does not focus on validation and verification at each stage.
+
+d. V-Model
+
+Explanation: The V-Model emphasizes Validation and Verification at each stage of development, making it the correct choice.
+
+Correct Answer: d. V-Model
+
+5. Scenario: LIC has manually carried out their process of premium collection for the past 45 years. Now, they have employed the services of another company to automate the process. Which of the following models would you suggest to the outsource company?
+
+a. Waterfall model
+
+Explanation: The Waterfall model is suitable for projects with well-defined requirements and is ideal for automating established processes like premium collection.
+
+b. Throwaway prototyping
+
+Explanation: Throwaway prototyping is not ideal for automation of well-established processes as it is more suited for exploring requirements and design.
+
+c. Spiral model
+
+Explanation: The Spiral model is useful for high-risk projects but may be more complex than necessary for automating established processes.
+
+d. Evolutionary prototyping
+
+Explanation: Evolutionary prototyping is suitable for projects with evolving requirements but might be unnecessary for a well-defined automation project.
+
+Correct Answer: a. Waterfall model
+
+6. Consider that you have to develop a flight control system. The system is simulated as such that the original system is working. There are many potential hazards with such a system. What model would you suggest to develop the system?
+
+a. Spiral model
+
+Explanation: The Spiral model is ideal for high-risk projects with potential hazards due to its focus on iterative development and risk management.
+
+b. Waterfall model
+
+Explanation: The Waterfall model may not handle risks as effectively as the Spiral model, making it less suitable for hazardous systems.
+
+c. Evolutionary prototyping
+
+Explanation: Evolutionary prototyping is useful for systems with evolving requirements but may not address risks as effectively as the Spiral model.
+
+d. Throwaway prototyping
+
+Explanation: Throwaway prototyping is less focused on risk management and may not be suitable for a hazardous system like flight control.
+
+Correct Answer: a. Spiral model
