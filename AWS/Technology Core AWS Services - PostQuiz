@@ -1,0 +1,117 @@
+Question 1
+What are the different types of instances? Choose all that apply.
+
+Storage Optimized: These instances are designed for workloads that require high, sequential read and write access to very large data sets on local storage.
+
+Power Optimized: This is not a recognized instance type in AWS.
+
+General Purpose: These instances provide a balance of compute, memory, and networking resources and can be used for a variety of workloads.
+
+Compute Optimized: These instances are ideal for compute-bound applications that benefit from high-performance processors.
+
+Correct Answers: General purpose, Compute Optimized, Storage Optimized
+
+Question 2
+Can you resize an EBS volume on a running EC2 instance?
+
+Without downtime: You can resize an EBS volume on a running EC2 instance without downtime using Elastic Volumes.
+
+Not possible: This is incorrect; resizing is possible.
+
+Certain Volume type: All EBS volume types can be resized.
+
+With downtime: This is not required; resizing can occur without downtime.
+
+Correct Answer: Without downtime
+
+Question 3
+Which of the following is a valid EC2 instance type?
+
+xmax: This is not a valid instance type.
+
+xlage: This is not a valid instance type.
+
+t2.micro: This is a valid instance type. It is part of the T2 series, which provides a baseline level of CPU performance with the ability to burst above the baseline.
+
+micro.t2: This is not a valid instance type format.
+
+Correct Answer: t2.micro
+
+Question 4
+What is a virtual server platform that allows users to create and run virtual machines on Amazon’s server farm?
+
+HSM: This stands for Hardware Security Module, which is unrelated to EC2.
+
+VM: This is a general term for virtual machines, not specific to AWS.
+
+EC5: This is not a recognized service or term in AWS.
+
+EC2: Amazon Elastic Compute Cloud (EC2) is the platform that provides resizable compute capacity in the cloud.
+
+Correct Answer: EC2
+
+Question 5
+Custom AMI can be created which includes applications in the image (True/False)
+
+True: You can create a custom Amazon Machine Image (AMI) that includes your applications, libraries, and other settings.
+
+False: This would be incorrect because custom AMIs can indeed include applications.
+
+Correct Answer: True
+
+Question 6
+__________ is a master image that provides the information required for the creation of virtual servers known as EC2 instances in the AWS environment.
+
+AIM: This is not related to AMIs.
+
+IAM: This stands for Identity and Access Management, a different AWS service for managing access to AWS resources.
+
+MIA: This is not related to AWS.
+
+AMI: Amazon Machine Image (AMI) is the correct term. It provides the information required to launch an instance.
+
+Correct Answer: AMI
+
+Question 7
+What is an AMI?
+
+Amazon Instance: This is incorrect; AMI is not an instance itself.
+
+AmazonMemory Image: This is incorrect and does not define AMI.
+
+Amazon Memory instance: This is incorrect and does not define AMI.
+
+Amazon Machine Image: This is the correct definition for AMI, a template that contains a software configuration.
+
+Correct Answer: Amazon Machine Image
+
+Question 8
+EC2 instance type – _________ for compute-intensive workloads.
+
+General purpose: This is not specifically optimized for compute-intensive workloads.
+
+Compute Optimized: These instances are ideal for compute-bound applications that benefit from high-performance processors.
+
+Storage Optimized: This is for workloads that require high disk throughput.
+
+Memory Optimized: This is for memory-bound applications.
+
+Correct Answer: Compute Optimized
+
+Question 9
+An Amazon EBS volume can be attached to multiple instances at a time (True/False).
+
+True: This is incorrect for standard EBS volumes, which can only be attached to one instance at a time. However, with EBS Multi-Attach, it is possible, but only for specific use cases and with some restrictions.
+
+False: This is generally true for standard EBS volumes, which are typically attached to a single EC2 instance.
+
+Correct Answer: False
+
+Question 10
+Amazon EC2 Instances utilize Intel® Xeon® processors for providing customers with high performance and value (True/False).
+
+True: Amazon EC2 instances do utilize Intel® Xeon® processors to offer high performance.
+
+False: This would be incorrect, as EC2 instances do use Intel processors.
+
+Correct Answer: True
