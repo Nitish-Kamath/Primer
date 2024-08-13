@@ -1,0 +1,99 @@
+Question 1
+The training process of GANs is often likened to which game?
+
+Poker: Not correct; the game analogy for GAN training is different.
+Sudoku: Not correct; not related to GANs.
+Chess: Not correct; not commonly used for this analogy.
+None of the given options: Not correct; there is a specific analogy used.
+Minimax: Correct; GANs training is often likened to a minimax game.
+Correct Answer: Minimax
+
+Question 2
+What is a challenge faced during GAN training due to the minimax game concept?
+
+Overfitting to the training data: Not correct; this is not specific to the minimax game concept.
+Generator producing only a single mode: Not correct; this is not directly tied to the minimax game concept.
+Quick convergence to a suboptimal solution: Not correct; this is not a primary challenge.
+Discriminator becoming too weak: Not correct; the challenge is not specifically about the discriminator becoming too weak.
+Oscillations and non-convergence: Correct; the minimax game concept in GANs can lead to oscillations and non-convergence.
+Correct Answer: Oscillations and non-convergence
+
+Question 3
+Which component of a GAN is responsible for generating new data samples?
+
+Optimizer: Not correct; optimizers are used to update model parameters but do not generate samples.
+Generator: Correct; the generator in a GAN is responsible for generating new data samples.
+Discriminator: Not correct; the discriminator evaluates the authenticity of data.
+Decoder: Not correct; the decoder is not a component of the standard GAN architecture.
+Encoder: Not correct; the encoder is not a component of the standard GAN architecture.
+Correct Answer: Generator
+
+Question 4
+In the GAN architecture, what is the primary goal of the Discriminator?
+
+Minimize the loss function: Not correct; minimizing the loss function is a goal of both the generator and the discriminator, but the discriminator's primary role is different.
+Distinguish between real and generated samples: Correct; the primary goal of the discriminator is to distinguish between real and generated samples.
+Generate realistic data samples: Not correct; generating samples is the generator's role.
+Replicate the generator's output: Not correct; this is not a goal of the discriminator.
+Ensure mode diversity: Not correct; ensuring mode diversity is not the primary goal of the discriminator.
+Correct Answer: Distinguish between real and generated samples
+
+Question 5
+What does GAN stand for?
+
+Gradient Augmented Network: Not correct; this is not what GAN stands for.
+None of the given options: Not correct; there is a specific meaning for GAN.
+Generalized Artificial Network: Not correct; this is not the correct expansion.
+Generative Adversarial Network: Correct; GAN stands for Generative Adversarial Network.
+Generative Analytical Network: Not correct; this is not what GAN stands for.
+Correct Answer: Generative Adversarial Network
+
+Question 6
+Progressive GANs are designed to address which challenge in traditional GANs?
+
+Slow training speeds: Not correct; progressive GANs address a different challenge.
+Training stability and generating high-resolution images: Correct; progressive GANs help with training stability and generating high-resolution images.
+Mode collapse: Not correct; this is not the specific challenge addressed by progressive GANs.
+Inability to generate colored images: Not correct; progressive GANs are not specifically designed for this.
+Discriminator overpowering the generator: Not correct; this is not the primary challenge addressed.
+Correct Answer: Training stability and generating high-resolution images
+
+Question 7
+In GANs, which component is responsible for evaluating the authenticity of data?
+
+Encoder: Not correct; encoders are not part of the standard GAN architecture.
+Decoder: Not correct; decoders are not part of the standard GAN architecture.
+Discriminator: Correct; the discriminator evaluates the authenticity of data.
+None of the given options: Not correct; the discriminator is the correct answer.
+Generator: Not correct; the generator creates data, but does not evaluate it.
+Correct Answer: Discriminator
+
+Question 8
+Which of the following is a real-world application where GANs have shown significant promise?
+
+Image-to-image translation: Correct; GANs have shown significant promise in image-to-image translation tasks.
+Speech recognition: Not correct; GANs are not typically used for speech recognition.
+Text summarization: Not correct; GANs are not commonly used for text summarization.
+Time series forecasting: Not correct; GANs are not typically used for time series forecasting.
+Image classification: Not correct; GANs are not typically used for image classification.
+Correct Answer: Image-to-image translation
+
+Question 9
+Which type of GAN allows for generating data based on specific categories?
+
+Progressive GAN: Not correct; progressive GANs do not specifically focus on categories.
+Mode Collapse GAN: Not correct; mode collapse is a problem, not a specific type of GAN.
+None of the given options: Not correct; there is a type of GAN that fits the description.
+Minimax GAN: Not correct; minimax refers to the game theory concept, not a GAN type.
+Conditional GAN: Correct; Conditional GANs generate data based on specific categories or conditions.
+Correct Answer: Conditional GAN
+
+Question 10
+What is mode collapse in the context of GANs?
+
+When the model underfits: Not correct; mode collapse is not related to underfitting.
+When the model overfits: Not correct; mode collapse is not about overfitting.
+When the discriminator becomes too powerful: Not correct; this is not what mode collapse refers to.
+When the generator produces limited varieties of outputs: Correct; mode collapse occurs when the generator produces a limited variety of outputs, failing to capture the diversity of the data.
+When the model converges too quickly: Not correct; mode collapse is not about quick convergence.
+Correct Answer: When the generator produces limited varieties of outputs
