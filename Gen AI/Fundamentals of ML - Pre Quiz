@@ -1,0 +1,99 @@
+Question 1
+Which component of a neural network is responsible for combining inputs and passing them to the next layer?
+
+Neuron (or Node): Correct; the neuron combines inputs using weights and bias, then applies an activation function to pass the result to the next layer.
+Activation Function: Not correct; the activation function transforms the neuron's output but does not combine inputs.
+Bias: Not correct; the bias shifts the activation function but does not combine inputs.
+Weight: Not correct; weights scale the inputs but do not combine them.
+Layer: Not correct; the layer is a collection of neurons but not the specific component responsible for combining inputs.
+Correct Answer: Neuron (or Node)
+
+Question 2
+Which of the following is NOT a common machine learning algorithm?
+
+Decision Trees: Not correct; Decision Trees are a common machine learning algorithm.
+Support Vector Machines: Not correct; Support Vector Machines (SVMs) are a common machine learning algorithm.
+Quantum Entanglement: Correct; Quantum Entanglement is a concept in quantum physics, not a machine learning algorithm.
+Neural Networks: Not correct; Neural Networks are a common machine learning algorithm.
+K-Means Clustering: Not correct; K-Means Clustering is a common machine learning algorithm.
+Correct Answer: Quantum Entanglement
+
+Question 3
+In the context of neural networks, what does the term "backpropagation" refer to?
+
+The initial random assignment of weights: Not correct; this refers to weight initialization, not backpropagation.
+The method of adjusting weights based on the error: Correct; backpropagation is used to adjust weights by calculating the gradient of the loss function with respect to each weight.
+The process of adding more layers: Not correct; this is related to network architecture, not backpropagation.
+The activation of neurons in the hidden layer: Not correct; neuron activation is part of forward propagation, not backpropagation.
+The forward flow of data: Not correct; forward propagation refers to the flow of data through the network.
+Correct Answer: The method of adjusting weights based on the error
+
+Question 4
+Which activation function outputs a value between 0 and 1?
+
+Linear: Not correct; the linear activation function outputs values without bounds.
+Leaky ReLU: Not correct; Leaky ReLU outputs values between a small negative value and positive infinity.
+Rectified Linear Unit (ReLU): Not correct; ReLU outputs values between 0 and positive infinity.
+Hyperbolic Tangent (tanh): Not correct; tanh outputs values between -1 and 1.
+Sigmoid: Correct; the sigmoid function outputs values between 0 and 1.
+Correct Answer: Sigmoid
+
+Question 5
+What is the primary purpose of a loss function in training neural networks?
+
+To define the network's architecture: Not correct; the architecture is defined separately from the loss function.
+To initialize weights: Not correct; weights are initialized using different methods, not by the loss function.
+To activate neurons: Not correct; neuron activation is handled by activation functions.
+To quantify the difference between predicted and actual values: Correct; the loss function measures how well the model's predictions match the actual data.
+To speed up training: Not correct; while the loss function is used in training, its primary purpose is not to speed up training.
+Correct Answer: To quantify the difference between predicted and actual values
+
+Question 6
+Which of the following is NOT a type of machine learning?
+
+Unsupervised Learning: Not correct; unsupervised learning is a type of machine learning.
+Reinforcement Learning: Not correct; reinforcement learning is a type of machine learning.
+Supervised Learning: Not correct; supervised learning is a type of machine learning.
+Recursive Learning: Correct; recursive learning is not a recognized type of machine learning.
+Semi-supervised Learning: Not correct; semi-supervised learning is a type of machine learning.
+Correct Answer: Recursive Learning
+
+Question 7
+What is the primary goal of machine learning?
+
+To increase computational speed: Not correct; increasing computational speed is not the primary goal of machine learning.
+To design new algorithms: Not correct; designing new algorithms is a part of research but not the primary goal.
+To allow computers to learn from data: Correct; the primary goal of machine learning is to enable computers to learn and make predictions or decisions from data.
+None of the given options: Not correct; there is a specific goal mentioned.
+To program explicit rules for a task: Not correct; machine learning aims to learn from data rather than relying on explicitly programmed rules.
+Correct Answer: To allow computers to learn from data
+
+Question 8
+Which of the following is a technique to prevent overfitting in neural networks?
+
+Gradient Clipping: Not correct; gradient clipping helps with exploding gradients but not specifically with overfitting.
+Using a larger dataset: Not correct; while a larger dataset can help, it's not a direct technique for preventing overfitting.
+Increasing the number of layers: Not correct; increasing layers may lead to overfitting if not managed properly.
+Dropout: Correct; dropout is a regularization technique specifically designed to prevent overfitting by randomly dropping units during training.
+Learning Rate Adjustment: Not correct; adjusting the learning rate helps with convergence but not specifically with overfitting.
+Correct Answer: Dropout
+
+Question 9
+What is the main difference between regression and classification?
+
+Regression predicts a continuous output, Classification predicts a discrete label: Correct; regression tasks predict continuous values, while classification tasks predict discrete labels.
+Classification is unsupervised: Not correct; classification is typically supervised learning.
+Regression uses labeled data, Classification doesn't: Not correct; both regression and classification use labeled data.
+Both are the same: Not correct; regression and classification have distinct purposes and methods.
+Regression is unsupervised: Not correct; regression is a type of supervised learning.
+Correct Answer: Regression predicts a continuous output, Classification predicts a discrete label
+
+Question 10
+Which application of ML is used to group similar items?
+
+Classification: Not correct; classification is used to assign items to predefined categories.
+Recommendation: Not correct; recommendation systems suggest items based on user preferences but do not group similar items.
+Ranking: Not correct; ranking orders items but does not group them.
+Clustering: Correct; clustering groups similar items together based on features.
+Regression: Not correct; regression predicts continuous values, not grouping.
+Correct Answer: Clustering
