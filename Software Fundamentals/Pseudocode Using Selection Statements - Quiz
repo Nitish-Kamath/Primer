@@ -1,0 +1,48 @@
+Question 1
+Problem Statement: Silvester and Tweety are in a hot air balloon situation where only balloons numbered with both 3 and 7 as factors can fly to Tweety. Numbers outside the range 1 to 50 should be flagged as "Invalid balloon number".
+
+Given Pseudocode:
+
+BEGIN
+DECLARE variable number
+READ number
+IF number > 50 OR number < 1 THEN
+PRINT "Invalid balloon number "
+ELSE IF number % 3 == 0 AND number % 7 == 0 THEN
+PRINT "This balloon can fly to Tweety"
+ELSE
+PRINT "This balloon cannot fly to Tweety"
+END IF
+END
+Explanation of Correct Answer:
+
+The pseudocode correctly identifies if the balloon number is invalid (greater than 50 or less than 1) and handles valid numbers by checking if they are divisible by both 3 and 7 to determine if they can fly to Tweety.
+Explanation of Incorrect Option:
+
+Any pseudocode that does not properly follow this logic will be incorrect. For example, pseudocode that incorrectly uses OR conditions or fails to check divisibility properly would not meet the problem requirements.
+Question 2
+Problem Statement: Tom has three chances to roll the dice. If any roll results in a multiple of 3, he is in danger. Rolls that are zero or negative should be flagged as "Invalid turn".
+
+Given Pseudocode:
+
+BEGIN
+DECLARE variables turn1, turn2, turn3
+READ turn1, turn2, turn3
+IF turn1 > 0 AND turn2 > 0 AND turn3 > 0 THEN
+IF turn1 % 3 == 0 OR turn2 % 3 == 0 OR turn3 % 3 == 0 THEN
+PRINT "Tom is in Danger"
+ELSE
+PRINT "Tom is Safe"
+ELSE
+PRINT "Invalid turn"
+END IF
+END
+Explanation of Correct Answer:
+
+This pseudocode correctly handles all possible outcomes by first checking for valid input values (greater than 0) and then determining if any roll is a multiple of 3 to decide if Tom is in danger or safe.
+Explanation of Incorrect Options:
+
+Option a: Incorrectly checks validity and the condition for danger within nested IF statements. The order and structure are correct but may not handle all edge cases properly.
+Option b: Incorrectly orders the ELSE clauses, which might cause confusion about when to print "Safe" versus when to print "Invalid turn."
+Option c: Incorrectly prints "Tom is in Danger" before checking conditions, which will always print this message regardless of the actual dice results.
+In both cases, the correct pseudocode ensures that all conditions are properly checked and handled according to the problem requirements.
