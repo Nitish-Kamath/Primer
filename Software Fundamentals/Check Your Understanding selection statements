@@ -1,0 +1,278 @@
+Question 1
+Decision statements are also called as _______________
+
+Correct Answer: b. Selection logic
+
+Explanation:
+
+Selection logic refers to decision-making statements such as if, else if, and else, which help in selecting different execution paths based on conditions.
+Incorrect Options:
+a. Program logic: This is a broad term that can encompass various types of logic, not specifically decision-making.
+c. Iteration logic: Refers to looping or repetitive processes in a program.
+d. Sequence logic: Refers to the order of execution of statements in a program.
+Question 2
+The given pseudo-code snippet is an example for_______
+
+Correct Answer: c. Simple If logic
+
+Explanation:
+
+Simple If logic checks a single condition and executes a statement if the condition is true.
+Incorrect Options:
+a. Sequence Logic: Refers to the sequential execution of statements without conditional checks.
+b. Else if ladder logic: Involves multiple else if statements to handle multiple conditions.
+d. Nested if logic: Involves if statements within other if statements.
+Question 3
+By default, the flow of a program is________
+
+Correct Answer: b. top to bottom
+
+Explanation:
+
+Programs execute from the top of the code to the bottom by default, unless directed otherwise by control statements.
+Incorrect Options:
+a. bottom to top: This is not the default flow of program execution.
+c. iterative: Refers to looping constructs, not the default execution flow.
+d. conditional: Refers to decision-making logic, not the default execution order.
+Question 4
+Arrange the pseudo-code logic for checking a number divisible by 5 or 11.
+
+Correct Answer:
+
+plaintext
+Copy code
+BEGIN
+DECLARE number
+READ number
+IF number % 5 == 0
+THEN
+    PRINT “number divisible by 5”
+ELSE IF number % 11 == 0
+THEN
+    PRINT “number divisible by 11”
+ELSE
+    PRINT “number not divisible by 5 or 11”
+END IF
+END
+Explanation:
+
+The pseudocode correctly handles checking for divisibility by 5 and 11 and provides appropriate messages for each case.
+Incorrect Options: Any arrangement that does not follow this correct logic or structure would be incorrect.
+Question 5
+______________must be used when a set of statements needs to be executed only if a condition is met.
+
+Correct Answer: c. selection statements
+
+Explanation:
+
+Selection statements (such as if statements) are used to execute a set of statements only if a specified condition is met.
+Incorrect Options:
+a. Looping statements: Used for repeating a set of statements.
+b. Either selection or looping statements: Incorrect because it includes looping, which is not always necessary for conditional execution.
+d. Sequential statements: Refers to execution of statements in order, not based on conditions.
+Question 6
+Consider the pseudo-code snippet. What output do you think the snippet will produce if the sample input for number is 3?
+
+Correct Answer:
+
+plaintext
+Copy code
+Three
+No value
+Explanation:
+
+The code first checks if number >= 0 which is true for 3. Then it checks if number == 0, which is false, so it goes to the else block printing "Three". Finally, the PRINT "No Value" statement is always executed as it is outside the if block.
+Incorrect Options:
+Any option that does not correctly reflect the sequence and placement of PRINT statements would be incorrect.
+Question 7
+Choose the correct options to complete the pseudo-code and determine whether the number is positive, zero, or negative.
+
+Correct Answer: d. number > 0, number == 0, number < 0
+
+Explanation:
+
+The pseudocode must check if the number is greater than 0, equal to 0, or less than 0 to determine its sign.
+Incorrect Options:
+a. number < 0, number > 0, number == 0: Incorrect order for checking conditions.
+b. number > 0, number > 0, number == 0: Incorrect as the second condition should be number == 0.
+c. number > 0, number == 0, number == 0: Incorrect as the last condition should be number < 0.
+Question 8
+Identify the correct pseudo-code logic for checking a number divisible by 5 or 11.
+
+Correct Answer:
+
+plaintext
+Copy code
+BEGIN
+DECLARE number
+READ number
+IF number % 5 == 0
+THEN
+    PRINT “number divisible by 5”
+ELSE IF number % 11 == 0
+THEN
+    PRINT “number divisible by 11”
+ELSE
+    PRINT “number not divisible by 5 or 11”
+END IF
+END
+Explanation:
+
+This pseudocode correctly checks divisibility by 5 or 11 and provides appropriate messages.
+Incorrect Options: Incorrect arrangements or missing keywords.
+Question 9
+If a doctor gives you 3 pills and tells you to take one pill every half hour, how long would it take before all the pills had been taken?
+
+Correct Answer: d. 1 hour
+
+Explanation:
+
+You take the first pill immediately, the second after 30 minutes, and the third after another 30 minutes. Thus, all three pills are taken within 1 hour.
+Incorrect Options: Any duration that does not accurately reflect the sequence and timing would be incorrect.
+Question 10
+A computer program must either use conditional statements or looping statements or sequential statements to solve a problem. All of them must not appear in the same program. State true/false.
+
+Correct Answer: False
+
+Explanation:
+
+A program can use a combination of conditional, looping, and sequential statements as needed.
+Incorrect Option: The statement is false because all types of statements can be used together in a single program.
+Question 11
+What do you infer from this statement? “Only if Alvin is happy, then he does not go to work.”
+
+Correct Answer: a. If Alvin is not happy, he goes to work.
+
+Explanation:
+
+The statement means that Alvin will only avoid going to work if he is happy. If he is not happy, he will go to work.
+Incorrect Options: Any interpretation that does not align with the logical inference from the statement.
+Question 12
+Which statement logic implements multiple-way selection?
+
+Correct Answer: a. Else if ladder
+
+Explanation:
+
+An else if ladder allows multiple conditions to be checked in sequence, providing multiple potential execution paths.
+Incorrect Options:
+b. Simple if: Handles only a single condition.
+c. If-else: Provides a binary choice between two paths.
+d. Sequential: Refers to the order of execution, not multiple-way branching.
+Question 13
+If there are 6 chocolates and you take away 4, how many do you have?
+
+Correct Answer: b. 4
+
+Explanation:
+
+The chocolates you took away are the ones you have.
+Incorrect Options: Any answer that does not account for the chocolates you took would be incorrect.
+Question 14
+From the option, find the correct pseudo-code to find the greatest of three numbers
+
+Correct Answer:
+
+plaintext
+Copy code
+BEGIN
+DECLARE variables a, b, c
+READ a, b, c
+IF a > b
+    IF a > c
+        PRINT “a”
+    ELSE
+        PRINT “c”
+ELSE IF b > c
+    PRINT “b”
+ELSE
+    PRINT “c”
+END
+Explanation:
+
+This pseudocode uses nested if statements to correctly determine the greatest of three numbers.
+Incorrect Options: Any pseudocode that does not properly use nested if statements or has incorrect conditions.
+Question 15
+Which of the keyword is used to close the IF block, while writing a pseudo-code?
+
+Correct Answer: b. End if
+
+Explanation:
+
+End if is used to denote the end of an if block in pseudocode.
+Incorrect Options:
+a. Else if: Used to handle additional conditions.
+c. End: General term for ending a block but not specific to if.
+d. Else: Used for alternative conditions, not to close an if block.
+Question 16
+When a single if-else logic is used, how many possible choices can be there?
+
+Correct Answer: b. 2
+
+Explanation:
+
+A single if-else statement provides two possible outcomes: the if branch or the else branch.
+Incorrect Options:
+a. 0: Not applicable as if-else always provides two choices.
+c. 3: More than two choices are not possible with a single if-else.
+d. 1: Only one choice is not possible with if-else.
+Question 17
+You are returning home from a hotel. On the way, you find a sealed envelope in a street, fully addressed with unused stamps on it. What would you do???
+
+Correct Answer: d. Post it at the nearest mail box.
+
+Explanation:
+
+Posting it at the nearest mailbox is the best action to ensure it reaches its intended destination.
+Incorrect Options:
+a. Leave the envelope there as it was and walk away: Not responsible.
+b. Open the envelope, find out who has dropped it by mistake, and send it to him if possible: Unauthorized and potentially illegal.
+c. Remove the unused stamps and destroy the envelope: Not appropriate or ethical.
+Question 18
+Identify the logic which suits the flowchart
+
+Correct Answer: d. Else-if Ladder
+
+Explanation:
+
+Else-if ladder is typically used in flowcharts to represent multiple decision points.
+Incorrect Options:
+a. Simple if: For single condition checks.
+b. Nested if: For conditions within other conditions.
+c. If else: For binary choices, not suitable for multiple paths.
+Question 19
+Go to statements in the algorithm is…
+
+Correct Answer: d. Used to alternate the flow of the program
+
+Explanation:
+
+Go to statements are used to jump to different parts of the program, altering the flow.
+Incorrect Options:
+a. Used to apply decisions in a program: Not specific to decision-making.
+b. Used in sequential arrangement of steps: Not applicable as it disrupts sequence.
+c. Used to iterate the sequence of steps: Not related to looping.
+Question 20
+Manual execution of the steps in the algorithm is called as _____
+
+Correct Answer: a. Dry run
+
+Explanation:
+
+Dry run involves manually walking through an algorithm to ensure it works as expected.
+Incorrect Options:
+b. Execution: Refers to running the program.
+c. Simple Run: Not a standard term.
+d. Compiling: Refers to translating code into executable form.
+Question 21
+Which of the following is not a keyword used in a pseudo-code
+
+Correct Answer: d. static
+
+Explanation:
+
+Static is not a pseudocode keyword; it is used in programming languages to define variable scope and storage.
+Incorrect Options:
+a. Read: Used to input values.
+b. Start: Used to denote the beginning of the pseudocode.
+c. End if: Used to close an if block.
