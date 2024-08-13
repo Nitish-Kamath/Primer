@@ -1,0 +1,99 @@
+Question 1
+Which of the following is NOT a direct application of GANs but rather an outcome of its influence?
+
+Super-resolution: A direct application of GANs where they enhance image resolution by generating high-resolution images from low-resolution inputs.
+Style transfer: A direct application of GANs where they apply the artistic style of one image to the content of another.
+Generating realistic images: A direct application of GANs that involves creating realistic images from noise or other inputs.
+Reinforcement learning in game playing: Not a direct application of GANs. Reinforcement learning is a different area of AI focusing on training agents to make decisions through trial and error, often used in game playing. GANs influence generative tasks, not reinforcement learning.
+Image-to-Image translation: A direct application of GANs where they translate images from one domain to another (e.g., converting sketches to realistic images).
+Correct Answer: Reinforcement learning in game playing
+
+Question 2
+Which of the following research papers is foundational for Variational Autoencoders (VAEs)?
+
+"Mastering Chess and Shogi by Self-Play": Focuses on reinforcement learning for game playing, not VAEs.
+"Deep Residual Learning for Image Recognition": Introduces ResNet architecture, relevant for image recognition but not VAEs.
+"Attention is All You Need": Introduces the Transformer architecture, focusing on attention mechanisms, not VAEs.
+"Generative Adversarial Nets": Introduces GANs, not VAEs.
+"Auto-Encoding Variational Bayes": Correct; this paper is foundational for VAEs, introducing the concept of variational autoencoding.
+Correct Answer: "Auto-Encoding Variational Bayes"
+
+Question 3
+Who introduced Generative Adversarial Networks (GANs)?
+
+Geoffrey Hinton: A pioneer in neural networks but not the introducer of GANs.
+Ian Goodfellow: Correct; introduced GANs in his 2014 paper.
+Yann LeCun: Known for his work on convolutional networks, not GANs.
+Andrew Ng: A prominent figure in AI but not the creator of GANs.
+Yoshua Bengio: A key figure in deep learning but not the introducer of GANs.
+Correct Answer: Ian Goodfellow
+
+Question 4
+In which year were Generative Adversarial Networks (GANs) first introduced?
+
+2018: Not the year GANs were introduced; they were introduced earlier.
+2016: Not the year GANs were introduced; they were introduced earlier.
+2014: Correct; GANs were first introduced in 2014.
+2012: Not the year GANs were introduced; they were introduced later.
+2010: Not the year GANs were introduced; they were introduced later.
+Correct Answer: 2014
+
+Question 5
+Which pioneering research in Generative AI specifically emphasized the generation of text sequences?
+
+"DeepFace: Closing the Gap to Human-Level Performance in Face Recognition": Focuses on facial recognition, not text generation.
+"Understanding Machine Learning: From Theory to Algorithms": A textbook on machine learning theory, not specific to text generation.
+"A Neural Algorithm of Artistic Style": Focuses on style transfer, not text sequences.
+"Visualizing and Understanding Convolutional Networks": Focuses on CNNs, not text generation.
+"Sequence to Sequence Learning with Neural Networks": Correct; this paper introduces sequence-to-sequence models used for generating text sequences.
+Correct Answer: "Sequence to Sequence Learning with Neural Networks"
+
+Question 6
+What is the primary purpose of generative models?
+
+Generating new data: Correct; generative models are primarily designed to create new data samples that resemble the training data.
+None of the given options: Not correct; "Generating new data" is the accurate purpose.
+Filtering data: Not the primary purpose of generative models; it’s more related to data processing.
+Recognizing patterns: More related to discriminative models rather than generative models.
+Classifying data: Also more related to discriminative models rather than generative models.
+Correct Answer: Generating new data
+
+Question 7
+Which model uses a probabilistic approach to encode and decode data?
+
+DCGAN: A type of GAN that generates images; not probabilistic.
+Transformer: Uses attention mechanisms; not specifically probabilistic encoding/decoding.
+CycleGAN: A type of GAN used for image-to-image translation; not probabilistic.
+VAE: Correct; Variational Autoencoders use a probabilistic approach for encoding and decoding data.
+BigGAN: A type of GAN that generates high-quality images; not probabilistic.
+Correct Answer: VAE
+
+Question 8
+Which architecture is primarily associated with attention mechanisms?
+
+CNN: Convolutional Neural Networks, not primarily associated with attention mechanisms.
+Transformer: Correct; Transformers are specifically known for their attention mechanisms.
+RNN: Recurrent Neural Networks, not primarily known for attention mechanisms.
+GAN: Generative Adversarial Networks, not known for attention mechanisms.
+VAE: Variational Autoencoders, not known for attention mechanisms.
+Correct Answer: Transformer
+
+Question 9
+What are the two main components of a GAN?
+
+None of the given options: Not correct; there are specific components in GANs.
+Input and Output: General terms but not the specific components of GANs.
+Encoder and Decoder: Components of VAEs, not GANs.
+Forward and Backward: Not specific to GANs.
+Generator and Discriminator: Correct; GANs consist of these two main components where the Generator creates data and the Discriminator evaluates it.
+Correct Answer: Generator and Discriminator
+
+Question 10
+Which model marked a significant milestone in the use of transformers in NLP?
+
+BERT: Correct; BERT (Bidirectional Encoder Representations from Transformers) marked a significant milestone in NLP.
+RNN: Recurrent Neural Networks, not specifically related to transformers.
+GAN: Generative Adversarial Networks, not related to transformers.
+LSTM: Long Short-Term Memory networks, used before transformers.
+CNN: Convolutional Neural Networks, not related to transformers.
+Correct Answer: BERT
