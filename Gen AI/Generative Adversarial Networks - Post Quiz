@@ -1,0 +1,99 @@
+Question 1
+The generator's objective in GANs is to...
+
+None of the given options: Not correct; there is a specific objective for the generator.
+Reduce mode collapse: Not correct; reducing mode collapse is not the primary objective of the generator.
+Fool the discriminator: Correct; the generator's objective is to create data that is indistinguishable from real data by the discriminator.
+Classify real vs. fake: Not correct; classification is the discriminator's role.
+Improve model accuracy: Not correct; accuracy improvement is not the direct goal of the generator.
+Correct Answer: Fool the discriminator
+
+Question 2
+Which GAN variant can be conditioned on labels to generate specific outputs?
+
+None of the given options: Not correct; there is a specific variant that fits the description.
+Progressive GAN: Not correct; progressive GANs focus on image resolution.
+Mode Collapse GAN: Not correct; mode collapse is a problem, not a GAN variant.
+Conditional GAN: Correct; Conditional GANs can be conditioned on labels to generate specific outputs.
+Minimax GAN: Not correct; minimax refers to the game theory concept, not a GAN variant.
+Correct Answer: Conditional GAN
+
+Question 3
+In GANs, if the discriminator becomes too powerful, what can happen?
+
+The generator may struggle to improve: Correct; if the discriminator becomes too powerful, the generator may struggle to improve because it cannot fool the discriminator.
+The training process speeds up: Not correct; an overly powerful discriminator can actually hinder the generator's progress.
+The model achieves perfect accuracy: Not correct; perfect accuracy is not achievable, and this is not the consequence of a powerful discriminator.
+The generator becomes powerful too: Not correct; the generator may struggle instead.
+None of the given options: Not correct; there is a specific outcome.
+Correct Answer: The generator may struggle to improve
+
+Question 4
+Mode collapse is problematic because...
+
+It makes the discriminator weak: Not correct; mode collapse is a problem with the generator, not the discriminator.
+It requires more data: Not correct; mode collapse does not necessarily require more data.
+None of the given options: Not correct; there is a specific problem with mode collapse.
+It speeds up training: Not correct; mode collapse affects the diversity of outputs, not training speed.
+It limits the diversity of generated outputs: Correct; mode collapse limits the diversity of generated outputs, as the generator produces similar samples.
+Correct Answer: It limits the diversity of generated outputs
+
+Question 5
+In the minimax game of GANs, what is the discriminator's goal?
+
+Maximize the generator's loss: Not correct; although this is an indirect outcome, the discriminator's direct goal is different.
+None of the given options: Not correct; there is a specific goal for the discriminator.
+Generate realistic data: Not correct; generating data is the generator's role.
+Minimize its own loss: Not correct; minimizing loss is part of training but not the direct goal.
+Distinguish between real and fake data: Correct; the discriminator's goal is to distinguish between real and fake data.
+Correct Answer: Distinguish between real and fake data
+
+Question 6
+Which statement about GANs is true?
+
+They always converge to a solution: Not correct; GANs do not always converge.
+They only work with images: Not correct; GANs can work with various data types.
+None of the given options: Not correct; there is a true statement about GANs.
+They can generate new, previously unseen data: Correct; GANs can generate new, previously unseen data.
+They are a type of supervised learning: Not correct; GANs are an unsupervised learning method.
+Correct Answer: They can generate new, previously unseen data
+
+Question 7
+Which GAN variant focuses on gradually increasing the resolution of generated images?
+
+Mode Collapse GAN: Not correct; mode collapse is a problem, not a GAN variant.
+Minimax GAN: Not correct; minimax refers to the game theory concept, not a GAN variant.
+Progressive GAN: Correct; Progressive GANs focus on gradually increasing the resolution of generated images.
+Conditional GAN: Not correct; conditional GANs focus on label-conditioned generation.
+None of the given options: Not correct; there is a specific variant that fits the description.
+Correct Answer: Progressive GAN
+
+Question 8
+Which is NOT a real-world application of GANs?
+
+Style transfer: Not correct; GANs can be used for style transfer.
+Art generation: Not correct; GANs are often used for art generation.
+Data augmentation: Not correct; GANs can be used for data augmentation.
+Super-resolution imaging: Not correct; GANs can enhance image resolution.
+Real-time weather prediction: Correct; GANs are not typically used for real-time weather prediction.
+Correct Answer: Real-time weather prediction
+
+Question 9
+Which component of a GAN tries to produce fake data?
+
+Encoder: Not correct; encoders are not part of the standard GAN architecture.
+Decoder: Not correct; decoders are not part of the standard GAN architecture.
+None of the given options: Not correct; there is a specific component that produces fake data.
+Discriminator: Not correct; the discriminator evaluates data, not produces it.
+Generator: Correct; the generator tries to produce fake data.
+Correct Answer: Generator
+
+Question 10
+What is a challenge in evaluating the performance of GANs?
+
+They are too fast: Not correct; speed is not the challenge here.
+They require large datasets: Not correct; while large datasets can be helpful, the challenge is different.
+They always outperform other models: Not correct; GANs do not always outperform other models.
+Determining the quality of generated data: Correct; evaluating the quality of generated data is a challenge in GANs.
+None of the given options: Not correct; there is a specific challenge in evaluating GANs.
+Correct Answer: Determining the quality of generated data
