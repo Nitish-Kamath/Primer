@@ -1,0 +1,140 @@
+Question 1
+Problem Statement: "Some users might find animations on a web page distracting or annoying. To improve user experience, you want to provide an option for users to disable animations. What jQuery method can you use to achieve this?"
+
+Options:
+
+Not possible to turn off the animation by the user
+Use the jQuery method: stop()
+Use the jQuery method: stop.animation()
+Correct Answer: Use the jQuery method: stop()
+
+Explanation:
+
+stop(): This jQuery method is used to stop the current animations on an element. If a user wants to disable animations, you can use this method to halt ongoing animations.
+Not possible to turn off the animation by the user: This is incorrect because you can use the stop() method to stop animations.
+Use the jQuery method: stop.animation(): This is incorrect as there is no such method as stop.animation() in jQuery.
+Question 2
+Problem Statement: "Is jQuery a library specifically designed for handling JavaScript Object Notation (JSON) data?"
+
+Options:
+
+False
+True
+Correct Answer: False
+
+Explanation:
+
+False: jQuery is not a JSON library; it is a JavaScript library designed to simplify HTML document traversal, event handling, and animation. JSON is a data format, not the focus of jQuery.
+True: This is incorrect because jQuery is not specifically a JSON library.
+Question 3
+Problem Statement: "$("#name").remove(); is a jQuery command. Will this command remove the text field with the ID name from the page when executed?"
+
+Options:
+
+False
+True
+Correct Answer: True
+
+Explanation:
+
+True: The .remove() method in jQuery removes the selected element from the DOM. Therefore, $("#name").remove(); will remove the element with the ID name.
+False: This is incorrect because the command does indeed remove the element with the ID name.
+Question 4
+Problem Statement: "Rhita wants to use an alternative jQuery method to replace the code $(document).ready(fun), which executes a function when the document is fully loaded. Which of the following options is equivalent?"
+
+Options:
+
+jQuery(fun)
+#(fun)
+There is no equivalent function for the given code
+$(fun)
+Correct Answer: $(fun)
+
+Explanation:
+
+$(fun): This shorthand is equivalent to $(document).ready(fun). It runs the fun function when the DOM is ready.
+jQuery(fun): This is incorrect as jQuery(fun) is not a valid shorthand for $(document).ready(fun).
+#(fun): This is incorrect as #(fun) is not a valid jQuery function.
+There is no equivalent function for the given code: This is incorrect because $(fun) is an equivalent shorthand.
+Question 5
+Problem Statement: "Kiran wants to clear all child elements from a div element on his webpage. Given the following HTML structure, which method should he use to achieve this?"
+
+HTML Structure:
+
+html
+Copy code
+<body>
+  <div>
+    This is some text
+    <h2>Good morning</h2>
+    <p>This is a paragraph inside the div.</p>
+  </div>
+  <p>This is a paragraph outside the div.</p>
+</body>
+Options:
+
+remove(expr)
+None of the above
+delete()
+empty()
+Correct Answer: empty()
+
+Explanation:
+
+empty(): The .empty() method in jQuery removes all child elements from the selected element, effectively clearing the div.
+remove(expr): This is incorrect because there is no jQuery method named remove(expr) for removing child elements.
+delete(): This is incorrect as there is no delete() method in jQuery for removing child elements.
+None of the above: This is incorrect because .empty() is a valid method for clearing child elements.
+Question 6
+Problem Statement: "To bind an event handler to the blur event on an element, which jQuery method should you use?"
+
+Options:
+
+.blur()
+.blurElement()
+.focus()
+.blurOn()
+Correct Answer: .blur()
+
+Explanation:
+
+.blur(): This jQuery method is used to attach an event handler to the blur event, which occurs when an element loses focus.
+.blurElement(): This is incorrect because there is no jQuery method named .blurElement().
+.focus(): This is incorrect because .focus() is used to handle the focus event, not blur.
+.blurOn(): This is incorrect as .blurOn() is not a valid jQuery method.
+Question 7
+Problem Statement: "John is trying to animate an element on his webpage but has set its CSS position property to its default value. What will be the outcome of the animation?"
+
+Options:
+
+Animation failed because the CSS position property set to default value
+Animation failed because the CSS position property set to Fixed
+Run the webpage successfully with animated elements
+Animation failed because the CSS position property set to static
+Correct Answers:
+
+Animation failed because the CSS position property set to default value
+Animation failed because the CSS position property set to static
+Explanation:
+
+Animation failed because the CSS position property set to default value: The default position value is static, which does not allow for animations of positional properties.
+Animation failed because the CSS position property set to static: This is correct because static positioning does not support animations involving changes to position.
+Run the webpage successfully with animated elements: This is incorrect because static positioning prevents animations.
+Animation failed because the CSS position property set to Fixed: This is incorrect as fixed positioning does support animations.
+Question 8
+Problem Statement: "Raju wants to remove an event handler that was previously attached to an element using the on() function. Which jQuery method should he use to achieve this?"
+
+Options:
+
+change()
+off()
+empty()
+delete()
+Correct Answer: off()
+
+Explanation:
+
+off(): The .off() method is used to remove event handlers that were attached using the on() function.
+change(): This is incorrect because change() is used to handle the change event, not to remove event handlers.
+empty(): This is incorrect as .empty() is used to remove child elements, not event handlers.
+delete(): This is incorrect because delete() is not a jQuery method for removing event handlers.
