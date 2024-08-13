@@ -1,0 +1,96 @@
+Question 1
+Why might one use GRU over LSTM?
+
+Correct Answer: GRU is simpler and sometimes faster
+
+Explanation: GRUs (Gated Recurrent Units) have a simpler architecture compared to LSTMs (Long Short-Term Memory networks) because they use fewer gates (reset and update gates). This simplicity often results in faster computation and training times, making GRUs a popular choice when resources are limited or when a simpler model suffices.
+Incorrect Answers:
+
+LSTM is outdated: LSTMs are not outdated; they are still widely used for their ability to handle long-term dependencies.
+None of the given options: This is incorrect as GRUs do offer specific advantages.
+LSTM can't handle sequences: LSTMs are specifically designed for handling sequences and are more robust for this task.
+GRU is always more accurate: The accuracy of GRUs versus LSTMs depends on the specific task and data; neither is always more accurate than the other.
+Question 2
+Which problem arises when training RNNs on long sequences?
+
+Correct Answer: Vanishing or exploding gradients
+
+Explanation: When training RNNs on long sequences, the gradients used to update the weights can become too small (vanishing) or too large (exploding). This makes it difficult for the network to learn long-range dependencies and can lead to unstable training.
+Incorrect Answers:
+
+Underfitting, High bias, Overfitting: While these are potential issues in neural networks, they are not the primary problems associated with training RNNs on long sequences.
+Question 3
+Which of the following is a common application of RNNs in NLP?
+
+Correct Answer: Text generation
+
+Explanation: RNNs are commonly used for text generation because they can model and predict sequences of words or characters based on input sequences.
+Incorrect Answers:
+
+Image generation, Face recognition, Image classification, Object detection: These tasks are generally more suited to CNNs or other types of networks rather than RNNs.
+Question 4
+What is the primary difference between LSTM and GRU?
+
+Correct Answers:
+
+LSTM has input, forget, and output gates; GRU has reset and update gates
+LSTM has 3 gates, GRU has 2
+Explanation: LSTMs have three gates: input, forget, and output, which allow them to manage the flow of information effectively. GRUs, on the other hand, have a simpler architecture with only two gates: reset and update, which makes them computationally less expensive.
+Incorrect Answers:
+
+LSTM is faster, GRU is slower: GRUs are typically faster due to their simpler structure.
+LSTM is for sequences, GRU is for images: Both LSTMs and GRUs are used for sequences, not images.
+Question 5
+Which RNN architecture uses a reset and update gate?
+
+Correct Answer: GRU
+
+Explanation: GRUs use reset and update gates to control the flow of information, allowing them to capture dependencies in sequences efficiently.
+Incorrect Answers:
+
+LSTM, Simple RNN, Bidirectional RNN: These architectures do not specifically use reset and update gates.
+Question 6
+In music generation, what might an RNN be trained to predict?
+
+Correct Answer: Next note or chord
+
+Explanation: In music generation, RNNs are often used to predict the next note or chord in a sequence, enabling them to create coherent musical pieces over time.
+Incorrect Answers:
+
+Next song genre, Next instrument, Next album cover: These are not typically the focus of prediction in music generation with RNNs.
+Question 7
+How do RNNs handle variable-length sequences in NLP?
+
+Correct Answer: Through padding and truncation
+
+Explanation: Padding and truncation are common techniques used to handle variable-length sequences. Padding involves adding extra tokens to shorter sequences to make them the same length as longer ones, while truncation shortens longer sequences to match a specific length.
+Incorrect Answers:
+
+By changing the network size, They don't, By skipping them: These are not correct methods for handling variable-length sequences in NLP.
+Question 8
+Which of the following is NOT a typical use case for RNNs?
+
+Correct Answer: Image classification
+
+Explanation: Image classification is typically handled by CNNs, which are designed to work with grid-like data such as images.
+Incorrect Answers:
+
+Text generation, Time series prediction, Speech recognition: These are common use cases for RNNs, as they involve sequential or time-dependent data.
+Question 9
+What is the main advantage of LSTM over basic RNN?
+
+Correct Answer: Handling long-term dependencies
+
+Explanation: LSTMs are designed to address the limitations of basic RNNs by using gates to store and retrieve information over longer sequences, making them effective at capturing long-term dependencies.
+Incorrect Answers:
+
+None of the given options, More layers, Faster computation, Lower computational cost: These do not capture the primary advantage of LSTMs over basic RNNs.
+Question 10
+In sequence generation tasks, what is the primary input to an RNN at each time step?
+
+Correct Answer: Previous output
+
+Explanation: In sequence generation tasks, the output from the previous time step is used as input for the current time step, enabling the RNN to maintain context and continuity over the sequence.
+Incorrect Answers:
+
+Previous error, Current weight, Current input: These are not typically used as the primary input at each time step in RNNs.
