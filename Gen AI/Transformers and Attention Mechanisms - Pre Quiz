@@ -1,0 +1,100 @@
+Question 1: What does the Multi-head attention mechanism in Transformers help with?
+Correct Answer: Capturing different types of information from the input
+
+The Multi-head attention mechanism allows the model to focus on different parts of the input sequence simultaneously, capturing various types of relationships and information.
+Incorrect Options:
+
+None of the options given: This option is incorrect as Multi-head attention does help with capturing different types of information.
+Reducing model size: Multi-head attention does not reduce the model size; it enhances its ability to capture diverse information.
+Speeding up training: Multi-head attention does not inherently speed up training.
+Improving regularization: Regularization is not the primary function of Multi-head attention.
+Question 2: The Transformer architecture introduced the concept of self-attention to handle which primary challenge in sequence modeling?
+Correct Answer: Capturing dependencies regardless of their distance in the input
+
+Self-attention in Transformers allows the model to capture dependencies between words in a sequence regardless of their distance from each other.
+Incorrect Options:
+
+Improving model robustness: While self-attention can help in various ways, robustness is not its primary challenge.
+Reducing model size: Self-attention does not directly impact model size.
+Speeding up training: Self-attention improves handling of dependencies but does not necessarily speed up training.
+Handling larger input sizes: This is more related to model architecture rather than self-attention.
+Question 3: What is the primary advantage of pretraining a Transformer on a large corpus before fine-tuning on a specific task?
+Correct Answer: It allows the model to leverage general language understanding
+
+Pretraining a Transformer on a large corpus helps it develop a broad understanding of language, which can be fine-tuned for specific tasks.
+Incorrect Options:
+
+It makes the model smaller: Pretraining does not affect the model size.
+It speeds up the fine-tuning process: While pretraining helps, it’s not the main advantage.
+It reduces the risk of overfitting: Pretraining helps generalization, but the main benefit is leveraging general language understanding.
+It makes the model more robust to adversarial attacks: Pretraining primarily improves general language understanding, not robustness to adversarial attacks.
+Question 4: What is the first step in training a Transformer model for a specific task?
+Correct Answer: Pre-training
+
+Pre-training is the initial step where the model learns general language patterns before being fine-tuned for a specific task.
+Incorrect Options:
+
+None of the options given: This is incorrect as pre-training is indeed the first step.
+Initialization: This occurs before pre-training, but it is not the first step in training for a specific task.
+Fine-tuning: Fine-tuning occurs after pre-training.
+Backpropagation: This is part of the training process but not the initial step.
+Question 5: Which application showcases the use of Transformers in image tasks?
+Correct Answer: Image generation using DALL·E
+
+DALL·E is a Transformer-based model used for generating images from textual descriptions.
+Incorrect Options:
+
+Sequence alignment: This is not an application of Transformers in image tasks.
+Text summarization: While Transformers are used for text summarization, this is not an image task.
+Named entity recognition: This is a text-based task, not related to images.
+Speech recognition: While Transformers can be used for speech tasks, this question focuses on image tasks.
+Question 6: What is the primary component of the Transformer architecture that helps it handle sequences?
+Correct Answer: Attention Mechanism
+
+The Attention Mechanism is central to the Transformer architecture, enabling it to effectively process sequences by focusing on different parts of the input.
+Incorrect Options:
+
+CNN: Convolutional Neural Networks are not the primary component of Transformers.
+None of the options given: This is incorrect as the Attention Mechanism is a key component.
+LSTM: Long Short-Term Memory networks are not used in Transformers.
+RNN: Recurrent Neural Networks are not part of the Transformer architecture.
+Question 7: Which of the following is NOT a sequence-to-sequence task?
+Correct Answer: Image Classification
+
+Image Classification is not a sequence-to-sequence task; it involves classifying images into categories rather than translating or summarizing sequences.
+Incorrect Options:
+
+Summarization: This is a sequence-to-sequence task where a sequence of text is summarized into a shorter sequence.
+Question Answering: This can be a sequence-to-sequence task, where questions are answered based on sequences of text.
+Translation: This is a classic sequence-to-sequence task where text is translated from one language to another.
+None of the options given: This option is incorrect as Image Classification is indeed not a sequence-to-sequence task.
+Question 8: Why is attention particularly crucial in sequence-to-sequence tasks like translation?
+Correct Answer: It allows the model to focus on relevant parts of the input when producing an output
+
+Attention mechanisms help models focus on specific parts of the input sequence, improving the quality and relevance of the generated output.
+Incorrect Options:
+
+It speeds up the training process: Attention improves model performance, not necessarily training speed.
+It ensures the output is of a fixed size: Attention does not fix output size; it focuses on relevant parts of the input.
+It makes the model more interpretable: While attention can help with interpretability, its primary function is focusing on relevant input parts.
+It reduces the model's size: Attention does not reduce the model size.
+Question 9: In the context of Transformers for language translation, what does the encoder primarily focus on?
+Correct Answer: Processing and representing the source language
+
+The encoder in a Transformer processes and represents the input sequence (source language) before the decoder generates the output sequence (target language).
+Incorrect Options:
+
+Generating the final translation: This is the role of the decoder, not the encoder.
+Reducing the sequence length: The encoder represents the sequence but does not primarily focus on reducing length.
+Handling attention mechanisms: While the encoder uses attention mechanisms, its primary focus is on processing and representing the source language.
+Decoding the target language: Decoding is handled by the decoder.
+Question 10: Which Transformer model is specifically designed for language translation?
+Correct Answer: T5
+
+T5 (Text-to-Text Transfer Transformer) is specifically designed for a variety of tasks including language translation.
+Incorrect Options:
+
+Image GPT: A model focused on image generation, not language translation.
+BERT: Designed for understanding language but not specifically for translation.
+GPT: Focuses on text generation but not specifically designed for translation.
+DALL·E: Primarily used for generating images from text, not for language translation.
