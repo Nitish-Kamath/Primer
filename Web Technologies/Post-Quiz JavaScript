@@ -1,0 +1,115 @@
+Question 1
+Problem Statement: "What is the output of the below code snippet?"
+
+javascript
+Copy code
+<script type="text/javascript">
+amt = 55 + "55";
+document.write(amt);
+</script>
+Options:
+
+110
+5
+Error, No Output.
+5555
+Correct Answer: 5555
+
+Explanation:
+
+amt = 55 + "55";: In this case, JavaScript performs type coercion. The number 55 is converted to a string and concatenated with "55", resulting in "5555". The document.write function then outputs this concatenated string.
+Question 2
+Problem Statement: "Predict the output of the following JavaScript code:"
+
+html
+Copy code
+<html>
+<head>
+<script>
+var txt= "pass 70% fail 30%";
+var pattern = /\D/g;
+var res= txt.match(pattern);
+document.write(res);
+</script>
+</head>
+</html>
+Options:
+
+p,a,s,s, ,%, ,f,a,i,l, ,%
+7,0,3,0
+7,0,%, ,3,0,%
+7,0,%,3,0,%
+Correct Answer: p,a,s,s, ,%, ,f,a,i,l, ,%
+
+Explanation:
+
+/\D/g: This regular expression matches all non-digit characters. The match method returns an array of these characters, which are p, a, s, s, , %, , f, a, i, l, , %. When document.write is used on the array, it outputs the elements separated by commas.
+Question 3
+Problem Statement: "Polson is allocated with the task of email validation in JavaScript. He needs to extract character by character and check for email validation like looking for @ etc. Which method is best suited to extract every character from the text?"
+
+Options:
+
+charAt()
+getCharAt()
+characterAt()
+Correct Answer: charAt()
+
+Explanation:
+
+charAt(index): This method returns the character at the specified index in a string. It is the correct method for extracting individual characters from a string.
+Question 4
+Problem Statement: "Choose the correct JavaScript statement which helps you to write 'World of JavaScript' in a web page?"
+
+Options:
+
+document.write("World of JavaScript")
+response.write("World of JavaScript")
+System.out.println("World of JavaScript")
+println ("World of JavaScript")
+Correct Answer: document.write("World of JavaScript")
+
+Explanation:
+
+document.write("World of JavaScript"): This method writes the specified text to the HTML document. It is the correct method for outputting text to a web page using JavaScript.
+Question 5
+Problem Statement: "The parseInt() method converts the string to an integer. Before applying this function, Ram wants to know the type of the argument that is passed to the function. Which operator in JavaScript would support this?"
+
+Options:
+
+isofType
+instanceof
+typeof
+getType
+Correct Answer: typeof
+
+Explanation:
+
+typeof: This operator returns a string indicating the type of the unevaluated operand, which is useful for determining the type of a variable or value before using parseInt().
+Question 6
+Problem Statement: "Which of the below is the correct syntax for executing some code if 'amt' is equal to 5000?"
+
+Options:
+
+if (amt equals 5000)
+if (amt === "5000")
+if (amt = 5000)
+if (amt == 5000)
+Correct Answer: if (amt == 5000)
+
+Explanation:
+
+if (amt == 5000): This uses the equality operator (==) to compare the value of amt with 5000. It performs type coercion if needed. For strict comparison without type coercion, === should be used, but the correct option given the choices is ==.
+Question 7
+Problem Statement: "Ram is the developer of Allen Software company. He is designing the website for the banking application. There is a button called 'check interest rates'. When that button is clicked, the user has to be redirected to a separate page to show the domestic interest rates. Help Ram in accomplishing this task using JavaScript."
+
+Options:
+
+url.newlocation
+page.location
+window.location
+window.reload
+Correct Answer: window.location
+
+Explanation:
+
+window.location: This property is used to get or set the current URL of the browser window. Setting it will redirect the user to a new page.
