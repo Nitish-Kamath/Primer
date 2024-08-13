@@ -1,0 +1,100 @@
+Question 1: What is the main difference between pre-training and fine-tuning in Transformers?
+Correct Answer: Pre-training is on a large corpus and fine-tuning is task-specific
+
+Explanation: Pre-training involves training the model on a broad, general dataset to develop a general understanding of language. Fine-tuning then adapts this pre-trained model to a specific task using a smaller, task-specific dataset.
+Incorrect Options:
+
+Fine-tuning is done without labeled data: Fine-tuning typically requires labeled data for the specific task.
+Both are done simultaneously: Pre-training and fine-tuning are sequential processes, not simultaneous.
+None of the options given: This is incorrect as the correct difference is stated above.
+Pre-training uses smaller models: Pre-training often involves large models, not smaller ones.
+Question 2: Which of the following models is designed for image generation?
+Correct Answer: DALL·E
+
+Explanation: DALL·E is a model specifically designed to generate images from textual descriptions.
+Incorrect Options:
+
+None of the options given: This is incorrect because DALL·E is designed for image generation.
+BERT: BERT is a model for understanding text, not for generating images.
+T5: T5 is a text-to-text model for various language tasks.
+GPT: GPT is primarily used for text generation, not image generation.
+Question 3: In the context of Transformers, what does "seq to seq" stand for?
+Correct Answer: Sequence to Sequence
+
+Explanation: "Seq to seq" refers to tasks where an input sequence is mapped to an output sequence, such as translation or summarization.
+Incorrect Options:
+
+Sequence training: This does not accurately describe the concept.
+Sequential training: This is not the meaning of "seq to seq."
+None of the options given: This is incorrect as "Sequence to Sequence" is the correct meaning.
+Sequential to Sequential: This is not the correct term.
+Question 4: How does Multi-head attention differ from standard attention?
+Correct Answer: It allows the model to focus on multiple parts of the input simultaneously
+
+Explanation: Multi-head attention enables the model to attend to different parts of the input sequence in parallel, capturing a variety of relationships.
+Incorrect Options:
+
+It is faster: Multi-head attention is not necessarily faster than standard attention.
+None of the options given: This is incorrect as Multi-head attention does allow focusing on multiple parts of the input.
+It is only used in GPT: Multi-head attention is used in various Transformer models, not just GPT.
+It uses fewer parameters: Multi-head attention generally uses more parameters to capture diverse aspects of the input.
+Question 5: What is the primary task BERT is designed for?
+Correct Answer: Bidirectional understanding of text
+
+Explanation: BERT is designed to understand text in both directions (left-to-right and right-to-left) to capture context more effectively.
+Incorrect Options:
+
+Image generation: BERT does not handle image generation.
+None of the options given: This is incorrect as the primary task of BERT is bidirectional text understanding.
+Text generation: BERT is not primarily used for generating text.
+Language translation: BERT is not specifically designed for translation, though it can be used in translation tasks.
+Question 6: Which model can be used for both image and text tasks?
+Correct Answer: None of the options given
+
+Explanation: No single model among the given options is primarily designed for both image and text tasks.
+Incorrect Options:
+
+DALL·E: Designed for image generation from text, not both image and text tasks.
+GPT: Primarily for text tasks, not for both image and text.
+BERT: Primarily for text tasks.
+T5: Primarily for text tasks.
+Question 7: For which task might you use a Transformer to generate a concise summary of a long article?
+Correct Answer: Summarization
+
+Explanation: Summarization is the task of generating a concise summary from a longer article or document, and Transformers are well-suited for this.
+Incorrect Options:
+
+Question Answering: Involves answering questions based on given text, not summarizing.
+Image Classification: Involves classifying images, not summarizing text.
+Translation: Involves translating text from one language to another, not summarizing.
+None of the options given: This is incorrect as Summarization is the right task.
+Question 8: Which mechanism allows Transformers to weigh the importance of different words in a sequence?
+Correct Answer: Self Attention Mechanism
+
+Explanation: The Self Attention Mechanism in Transformers helps in evaluating the importance of different words in relation to each other within the sequence.
+Incorrect Options:
+
+None of the options given: This is incorrect as the Self Attention Mechanism is the correct answer.
+LSTM cells: LSTM cells are not used in Transformers.
+RNN cells: RNN cells are not used in Transformers.
+CNN layers: CNN layers are used in Convolutional Neural Networks, not in Transformers.
+Question 9: In sequence-to-sequence tasks, why is attention important?
+Correct Answer: It helps the model focus on relevant parts of the input
+
+Explanation: Attention mechanisms allow the model to concentrate on specific parts of the input sequence when generating each part of the output sequence.
+Incorrect Options:
+
+It reduces overfitting: Attention does not directly address overfitting.
+It simplifies the model: Attention mechanisms do not simplify the model but rather enhance its ability to handle complex sequences.
+It speeds up computation: Attention does not inherently speed up computation.
+All of the options given: Not all options are correct; the primary role is focusing on relevant input parts.
+Question 10: Which Transformer model is known for generating coherent paragraphs of text?
+Correct Answer: GPT
+
+Explanation: GPT (Generative Pre-trained Transformer) is known for generating coherent and contextually relevant text over longer passages.
+Incorrect Options:
+
+DALL·E: Designed for image generation, not for generating text.
+T5: Primarily for text-to-text tasks but not specifically known for generating coherent paragraphs.
+BERT: Used for understanding text rather than generating it.
+Image GPT: Focuses on image generation, not generating coherent text paragraphs.
