@@ -1,0 +1,99 @@
+Question 1
+In which type of ML does an agent learn by interacting with an environment?
+
+Clustering: Not correct; clustering groups similar items but does not involve interaction with an environment.
+Regression: Not correct; regression predicts continuous values without interacting with an environment.
+Supervised Learning: Not correct; supervised learning involves learning from labeled data, not interaction with an environment.
+Reinforcement Learning: Correct; reinforcement learning involves an agent learning by interacting with an environment and receiving feedback through rewards or penalties.
+Unsupervised Learning: Not correct; unsupervised learning deals with finding patterns in data without predefined labels, not interaction with an environment.
+Correct Answer: Reinforcement Learning
+
+Question 2
+What is the primary purpose of backpropagation?
+
+Adjusting weights based on the error: Correct; backpropagation is used to adjust weights in a neural network by minimizing the error.
+Forward propagation of data: Not correct; forward propagation refers to the process of passing data through the network.
+Data preprocessing: Not correct; data preprocessing involves preparing data for training, not adjusting weights.
+Initialization of weights: Not correct; weights are initialized before training begins, not adjusted during training.
+Activation of neurons: Not correct; neuron activation is part of forward propagation, not backpropagation.
+Correct Answer: Adjusting weights based on the error
+
+Question 3
+Which function introduces non-linearity in a neural network?
+
+Weight Function: Not correct; weights scale inputs but do not introduce non-linearity.
+Activation Function: Correct; activation functions introduce non-linearity into the network, allowing it to model complex patterns.
+Linear Function: Not correct; linear functions do not introduce non-linearity.
+Bias Function: Not correct; biases adjust the activation but do not introduce non-linearity.
+Loss Function: Not correct; the loss function measures the difference between predicted and actual values but does not introduce non-linearity.
+Correct Answer: Activation Function
+
+Question 4
+In a neural network, what does a neuron compute?
+
+The learning rate: Not correct; the learning rate is a hyperparameter used in optimization, not a computation performed by a neuron.
+The error of the network: Not correct; the error is computed using the loss function, not by a single neuron.
+A fixed value: Not correct; neurons compute dynamic values based on inputs and weights.
+A weighted sum followed by an activation function: Correct; neurons compute a weighted sum of inputs, add a bias, and then apply an activation function.
+The gradient of the loss: Not correct; gradients are computed during backpropagation, not by individual neurons.
+Correct Answer: A weighted sum followed by an activation function
+
+Question 5
+Which application of ML is used to detect unusual patterns in data?
+
+Classification: Not correct; classification assigns items to predefined categories, not specifically for detecting unusual patterns.
+Ranking: Not correct; ranking orders items based on some criteria but does not detect unusual patterns.
+Regression: Not correct; regression predicts continuous outcomes, not used specifically for anomaly detection.
+Clustering: Not correct; clustering groups similar items but does not focus on detecting anomalies.
+Anomaly Detection: Correct; anomaly detection is used to identify unusual or unexpected patterns in data.
+Correct Answer: Anomaly Detection
+
+Question 6
+Which of the following is NOT a layer type in a typical neural network?
+
+Hidden Layer: Not correct; hidden layers are a fundamental part of neural networks.
+Input Layer: Not correct; the input layer is essential in a neural network, receiving the initial data.
+Convolutional Layer: Not correct; convolutional layers are used in convolutional neural networks (CNNs) for image processing.
+Quantum Layer: Correct; quantum layers are not a standard layer type in classical neural networks.
+Output Layer: Not correct; the output layer provides the final prediction or classification.
+Correct Answer: Quantum Layer
+
+Question 7
+How is a neural network's performance typically evaluated during training?
+
+Using the weights: Not correct; weights are adjusted during training, not used to evaluate performance.
+Using a validation set: Correct; a validation set is used to evaluate the performance of the neural network during training and to tune hyperparameters.
+Using the activation functions: Not correct; activation functions are used in computations, not for evaluating performance.
+Using the training data: Not correct; performance is typically evaluated on a separate validation set, not the training data.
+Using the test data: Not correct; test data is used for final evaluation after training, not during the training process.
+Correct Answer: Using a validation set
+
+Question 8
+Which of the following is a challenge in training deep neural networks?
+
+Small datasets: Not correct; while small datasets can be a challenge, it is not specific to deep neural networks.
+All neurons activating at once: Not correct; this is not a typical challenge in training deep neural networks.
+Vanishing/Exploding gradients: Correct; vanishing and exploding gradients are common challenges in training deep neural networks.
+Linear activation functions: Not correct; while linear activation functions can limit model capability, they are not a specific challenge in deep networks.
+Too few neurons: Not correct; too few neurons can limit model capacity but is not a unique challenge for deep neural networks.
+Correct Answer: Vanishing/Exploding gradients
+
+Question 9
+What is the role of the loss function in training a neural network?
+
+To activate the neurons: Not correct; the activation of neurons is handled by activation functions.
+To quantify the difference between predicted and actual values: Correct; the loss function measures how well the network's predictions match the actual values.
+To initialize the weights: Not correct; weights are initialized separately from the loss function.
+To define the network architecture: Not correct; network architecture is defined independently of the loss function.
+To introduce non-linearity: Not correct; non-linearity is introduced by activation functions, not the loss function.
+Correct Answer: To quantify the difference between predicted and actual values
+
+Question 10
+Which of the following is a common activation function in neural networks?
+
+ReLU (Rectified Linear Unit): Correct; ReLU is a widely used activation function in neural networks.
+Polynomial Function: Not correct; polynomial functions are not commonly used as activation functions.
+Weighted Sum: Not correct; the weighted sum is part of neuron computation but not an activation function.
+Bias Activation: Not correct; bias adjustments are not considered activation functions.
+Linear Function: Not correct; linear functions are less commonly used as activation functions due to their limited capability to introduce non-linearity.
+Correct Answer: ReLU (Rectified Linear Unit)
