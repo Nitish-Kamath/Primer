@@ -1,0 +1,170 @@
+Question 1
+Problem Statement: "Identify this technique of dynamic testing where, for a range of input values, three values are chosen: One value above the range, one value below the range, and one value within the range."
+
+Options:
+a. Cause Effect Analysis
+b. Error Guessing
+c. Boundary Value Analysis
+d. Cause Effect Graphing
+e. Equivalence Partitioning
+
+Correct Answer: e. Equivalence Partitioning
+
+Explanation:
+
+Equivalence Partitioning is a technique used in black box testing where the input domain is divided into classes or partitions. Test cases are selected from these partitions to reduce the total number of test cases while still ensuring adequate coverage. In this technique, test cases are chosen from within the valid partition (range) and from just outside it (invalid partitions), which aligns with the given problem of selecting values inside and outside a specified range.
+Boundary Value Analysis focuses specifically on testing the boundaries of input ranges, such as the exact boundary values and values just outside of these boundaries. While it also involves boundary values, it does not necessarily include values from within the range as described.
+Cause Effect Analysis and Cause Effect Graphing are techniques used to determine the relationships between inputs (causes) and outputs (effects) or to map out these relationships in a graph format, not specifically focusing on ranges.
+Error Guessing involves making educated guesses about what might go wrong based on experience, not necessarily based on ranges.
+Question 2
+Problem Statement: "What is the term used to describe the difference between the actual output produced by a software and the expected correct output?"
+
+Options:
+a. Bug
+b. Error
+c. Fault
+d. Defect
+
+Correct Answer: b. Error
+
+Explanation:
+
+Error refers to the discrepancy between the actual output of the software and the expected output. It highlights that something went wrong in the execution of the software, leading to incorrect results.
+Bug is a general term used to describe an issue or problem in the software, but it does not specifically refer to the difference between actual and expected outputs.
+Fault and Defect are often used interchangeably with Bug to describe issues in the code. They refer to the underlying cause of incorrect behavior but do not specifically denote the difference between actual and expected outputs.
+Question 3
+Problem Statement: "Match the objectives with the correct phases of the Software Testing Life Cycle."
+
+Objectives:
+
+Executing test scripts and finding bugs
+Test scenarios, test cases, test data, and test scripts are prepared
+Resource allocation, creation of test environment, test schedule, and test functionality
+Phases:
+a. Test Execution
+b. Test Design
+c. Test Plan
+
+Correct Answers:
+
+Test Execution → Executing test scripts and finding bugs
+Test Design → Test scenarios, test cases, test data, and test scripts are prepared
+Test Plan → Resource allocation, creation of test environment, test schedule, and test functionality
+Explanation:
+
+Test Execution is the phase where the test cases are executed, and the system's behavior is observed to find defects.
+Test Design involves preparing test scenarios, test cases, test data, and scripts based on the requirements and design documents.
+Test Plan covers planning activities, such as defining the test strategy, allocating resources, setting up the test environment, scheduling tests, and outlining what will be tested.
+Question 4
+Problem Statement: "Match the roles involved in Static Testing with their correct descriptions."
+
+Roles:
+
+Moderator
+Scribe
+Reader
+Author
+Inspector
+Descriptions:
+a. Leads the review process
+b. Writer of the ‘document under review’
+c. Records each defect found
+d. Presents the document
+e. Inspecting the document
+
+Correct Answers:
+
+Moderator → Leads the review process
+Scribe → Records each defect found
+Reader → Presents the document
+Author → Writer of the ‘document under review’
+Inspector → Inspecting the document
+Explanation:
+
+Moderator facilitates the review process, ensuring that it is conducted efficiently and effectively.
+Scribe is responsible for recording the defects or issues identified during the review.
+Reader presents the document to the review team, explaining its content.
+Author is the individual who wrote the document being reviewed.
+Inspector is responsible for examining the document to identify defects or issues.
+Question 5
+Problem Statement: "What type of testing is performed where the tester knows about the input and expected output details based on the specification document only, but has no knowledge of the internal implementation?"
+
+Options:
+a. Usability Testing
+b. White Box Testing
+c. Integration Testing
+d. Black Box Testing
+e. Regression Testing
+
+Correct Answer: d. Black Box Testing
+
+Explanation:
+
+Black Box Testing involves testing the software’s functionality without any knowledge of its internal workings or code. The tests are based solely on the specifications and requirements.
+White Box Testing requires knowledge of the internal code and logic.
+Usability Testing evaluates the user interface and user experience, not specifically based on knowledge of the internal code.
+Integration Testing focuses on testing the interactions between different components or systems, with some understanding of their integration points.
+Regression Testing involves testing the software after changes to ensure that existing functionalities remain unaffected, which can be performed with or without knowledge of internal implementation.
+Question 6
+Problem Statement: "Identify the correct phases of the software testing life cycle from the following options."
+
+Options:
+a. Requirements Analysis, Test Case development, Test Preparation, Test Environment Set up, Test Execution, Test Cycle closure
+b. Requirements Analysis, Test Preparation, Test Case development, Test Environment Set up, Test Execution, Test Cycle closure
+c. Requirements Analysis, Test Preparation, Test Case development, Test Execution, Test Environment Set up, Test Cycle closure
+d. Requirements Analysis, Test Preparation, Test Case development, Test Execution, Test Environment Set up, Test Cycle closure
+
+Correct Answer: b. Requirements Analysis, Test Preparation, Test Case development, Test Environment Set up, Test Execution, Test Cycle closure
+
+Explanation:
+
+Requirements Analysis involves understanding and analyzing the requirements for testing.
+Test Preparation includes planning and organizing test resources and environments.
+Test Case Development is where test scenarios and cases are created based on requirements.
+Test Environment Set Up involves preparing the test environment where testing will be performed.
+Test Execution is the phase where tests are executed according to the test cases.
+Test Cycle Closure involves reviewing the testing process and preparing test reports.
+Question 7
+Problem Statement: "Match the objectives against the techniques of generating test cases in black box testing."
+
+Techniques:
+
+Cause Effect Graphing
+Cause Effect Analysis
+State Transition Diagram
+Objectives:
+a. The causes and effects represent the nodes
+b. It is suitable for applications in which combinations of input conditions are few
+c. Involves actions as one of its components
+
+Correct Answers:
+
+Cause Effect Graphing → The causes and effects represent the nodes
+Cause Effect Analysis → It is suitable for applications in which combinations of input conditions are few
+State Transition Diagram → Involves actions as one of its components
+Explanation:
+
+Cause Effect Graphing uses graphs to represent the relationship between causes (inputs) and effects (outputs), with nodes representing these elements.
+Cause Effect Analysis is used when there are few combinations of input conditions, making it manageable to handle them explicitly.
+State Transition Diagram includes states and transitions, with actions being part of these transitions.
+Question 8
+Problem Statement: "Which of the following options does Basis Path Testing cover?"
+
+Options:
+a. Loop Coverage
+b. Statement Coverage
+c. Test Case Coverage
+d. Condition or Branch Coverage
+
+Correct Answers:
+
+Statement Coverage
+Condition or Branch Coverage
+Loop Coverage
+Explanation:
+
+Basis Path Testing ensures thorough testing of all paths in the code, which includes:
+Statement Coverage (testing every statement in the code),
+Condition or Branch Coverage (testing all conditions or branches),
+Loop Coverage (ensuring loops are tested for different iteration scenarios).
+Test Case Coverage is not a specific type of coverage but rather a general term for how well test cases cover different aspects of the code.
