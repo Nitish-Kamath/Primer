@@ -1,0 +1,121 @@
+Question 1
+Which of the below option is not a security best practice?
+
+Use roles for applications: This is a best practice as roles provide secure access without sharing credentials.
+
+Grant least privilege: This is a best practice, ensuring that users only have the permissions necessary to perform their tasks.
+
+Use AWS account root user for daily activities: This is not a best practice. The root user has full access to all resources, and using it for daily activities increases security risks.
+
+Remove unnecessary users and credentials: This is a best practice to minimize security vulnerabilities.
+
+Correct Answer: Use AWS account root user for daily activities
+
+Question 2
+The person or a workload who uses the AWS resources is known as _________
+
+Privileged user: This refers to users with elevated access but is not the general term for any user.
+
+Normal user: This term is not commonly used in AWS terminology.
+
+Root user: This refers specifically to the AWS account's initial user with full permissions.
+
+AWS user: This is the general term for any entity (person or application) that interacts with AWS resources.
+
+Correct Answer: AWS user
+
+Question 3
+The additional layer of security along with the user credentials is __________
+
+Authentication: This is the process of verifying identity but not an additional layer.
+
+Single Sign-On: This allows using one set of credentials across multiple applications but is not an additional layer of security.
+
+Authorization: This process determines what a user can do after authentication, not an additional layer of security.
+
+Multifactor Authentication (MFA): MFA adds an extra layer of security by requiring additional verification.
+
+Correct Answer: Multifactor Authentication
+
+Question 4
+The method of authentication that enables the user to authenticate into multiple applications with one set of credentials is __________
+
+Multifactor authentication: This enhances security with multiple verification steps but does not allow access to multiple applications with a single login.
+
+Authorization: This defines permissions but does not relate to logging in across applications.
+
+Single Sign-On (SSO): SSO allows users to access multiple applications with one set of login credentials.
+
+Authentication: This is the general process of verifying identity but not specifically for accessing multiple applications.
+
+Correct Answer: Single Sign-On
+
+Question 5
+Which service is used to control access to the services and resources?
+
+AWS WAF (Web Application Firewall): This protects web applications but does not control access to AWS services.
+
+Amazon KMS (Key Management Service): This manages cryptographic keys but does not control access to services.
+
+Amazon IAM (Identity and Access Management): IAM controls access to AWS resources by managing users, groups, and permissions.
+
+AWS Shield: This protects against DDoS attacks but does not manage access controls.
+
+Correct Answer: Amazon IAM
+
+Question 6
+To organize and manage the AWS resources, _________ is used.
+
+Organizational units: These are used in AWS Organizations for managing accounts, not resources.
+
+Administrative rights: This refers to permissions, not a tool for organizing resources.
+
+Resource management: This is a general concept, not a specific AWS feature.
+
+Resource groups: Resource groups allow you to organize and manage multiple resources in the AWS Management Console.
+
+Correct Answer: Resource groups
+
+Question 7
+Security in the cloud means customers are responsible for securing everything they deploy in the cloud.
+
+True: This statement aligns with the shared responsibility model, where customers are responsible for securing the resources they deploy.
+
+False: This would imply AWS handles all security, which is not correct.
+
+Correct Answer: True
+
+Question 8
+To simplify the assignment of similar permissions for many users, ______ is used.
+
+Groups: IAM groups allow you to assign permissions to multiple users at once, simplifying management.
+
+Resource management: This is not specifically related to permissions.
+
+Root account: The root account should not be used for managing user permissions.
+
+Organizational units: These are used for managing accounts, not user permissions.
+
+Correct Answer: Groups
+
+Question 9
+Which of the following services are managed services?
+
+Amazon S3 (Simple Storage Service): S3 is a fully managed object storage service.
+
+Amazon RDS (Relational Database Service): RDS is a managed database service that automates many database management tasks.
+
+Amazon EC2 (Elastic Compute Cloud): EC2 provides virtual servers, but users must manage the servers themselves.
+
+Amazon EBS (Elastic Block Store): EBS provides block storage volumes but requires management of the volumes attached to EC2.
+
+Correct Answers: Amazon S3, Amazon RDS
+
+Question 10
+AWS is responsible for protecting the Global infrastructure based on the shared responsibility model.
+
+True: AWS is responsible for the security of the cloud infrastructure, including hardware, software, networking, and facilities.
+
+False: This would imply customers are responsible for infrastructure security, which is not the case.
+
+Correct Answer: True
