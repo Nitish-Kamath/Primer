@@ -1,0 +1,125 @@
+Question 1
+Which of the following messaging services is based on the pub/sub messaging model?
+
+SQS (Simple Queue Service): SQS is a fully managed message queuing service that uses a polling model rather than pub/sub.
+
+STS (Security Token Service): STS is used for temporary security credentials and is not a messaging service.
+
+SNS (Simple Notification Service): SNS is based on the pub/sub model, where messages are published to topics and subscribers receive those messages.
+
+SES (Simple Email Service): SES is used for sending and receiving email, not for pub/sub messaging.
+
+Correct Answer: SNS
+
+Question 2
+Which of the following provides shared storage for Linux workloads?
+
+FSx: FSx provides file storage for Windows-based applications and workloads, not specifically for Linux.
+
+EBS (Elastic Block Store): EBS provides block storage for EC2 instances but is not shared storage.
+
+EFS (Elastic File System): EFS is a fully managed file storage service that provides scalable shared storage for Linux workloads.
+
+S3 (Simple Storage Service): S3 provides object storage, not shared file storage.
+
+Correct Answer: EFS
+
+Question 3
+Which is the AWS service used for configuring Content Delivery Network (CDN)?
+
+Amazon CDN: There is no service named Amazon CDN.
+
+Amazon CloudFormation: CloudFormation is used for infrastructure as code and automating deployments, not CDNs.
+
+Amazon CloudFront: CloudFront is the CDN service that delivers content with low latency and high transfer speeds.
+
+Amazon ElastiCache: ElastiCache is used for caching, not for CDN.
+
+Correct Answer: Amazon CloudFront
+
+Question 4
+Which of the following load balancers support content-based routing?
+
+Application Load Balancer (ALB): ALB supports content-based routing, which allows requests to be routed based on the content of the request.
+
+Network Load Balancer (NLB): NLB is designed for high throughput and low latency but does not support content-based routing.
+
+Classic Load Balancer (CLB): CLB does not support content-based routing; it's more basic.
+
+All the options mentioned: Only ALB supports content-based routing.
+
+Correct Answer: Application Load Balancer
+
+Question 5
+Which of the following database services support dynamic schema?
+
+Amazon DynamoDB: DynamoDB is a NoSQL database that supports dynamic schema, allowing for flexible data models.
+
+Amazon Aurora: Aurora is a relational database with a fixed schema.
+
+Amazon RDS (Relational Database Service): RDS supports traditional relational databases that require a fixed schema.
+
+Amazon ElastiCache: ElastiCache is used for caching, not databases with dynamic schema.
+
+Correct Answer: Amazon DynamoDB
+
+Question 6
+Which of the following is serverless computing?
+
+Amazon ECS (Elastic Container Service): ECS requires managing infrastructure and is not serverless.
+
+Amazon EKS (Elastic Kubernetes Service): EKS is a managed Kubernetes service that requires infrastructure management.
+
+Amazon EC2 (Elastic Compute Cloud): EC2 provides virtual servers but is not serverless.
+
+Amazon Lambda: Lambda is a serverless compute service that runs code in response to events.
+
+Correct Answer: Amazon Lambda
+
+Question 7
+__________ is a serverless container orchestration service.
+
+Fargate: AWS Fargate is a serverless compute engine for containers that works with ECS and EKS.
+
+ECR (Elastic Container Registry): ECR is used for storing Docker container images, not for orchestration.
+
+EKS (Elastic Kubernetes Service): EKS is a managed Kubernetes service but not serverless without Fargate.
+
+ECS (Elastic Container Service): ECS is a container orchestration service but requires managing infrastructure unless used with Fargate.
+
+Correct Answer: Fargate
+
+Question 8
+Which AWS service is used for enabling asynchronous communication between services?
+
+SES (Simple Email Service): SES is for email sending and receiving.
+
+SNS (Simple Notification Service): SNS can be used for notification and pub/sub messaging but not specifically for asynchronous communication between services.
+
+STS (Security Token Service): STS is for managing temporary credentials, not messaging.
+
+SQS (Simple Queue Service): SQS is a message queuing service that enables asynchronous communication between distributed system components.
+
+Correct Answer: SQS
+
+Question 9
+CloudWatch can monitor custom metrics in addition to built-in metrics (True/False).
+
+True: CloudWatch allows you to monitor custom metrics that you define in addition to the default metrics provided by AWS services.
+
+False: This would be incorrect as CloudWatch does indeed support custom metrics.
+
+Correct Answer: True
+
+Question 10
+Choose the infrastructure automation service from the given list.
+
+Amazon CloudFront: This is a CDN service, not an automation tool.
+
+Amazon CloudFormation: CloudFormation is an infrastructure automation service that uses templates to manage AWS resources.
+
+Amazon EC2 (Elastic Compute Cloud): EC2 provides virtual servers but does not automate infrastructure.
+
+Amazon ElastiCache: ElastiCache is used for caching and not for infrastructure automation.
+
+Correct Answer: Amazon CloudFormation
