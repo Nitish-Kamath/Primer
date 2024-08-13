@@ -1,0 +1,102 @@
+Question 1
+Problem Statement: "Which of the below JavaScript code helps to change the content of the paragraph tag dynamically?"
+
+Options:
+
+document.getElementById("pid1").innerHTML = "Never give up!!";
+document.getElement("p").innerHTML = "Never give up!!";
+document.getElementByName("p").innerHTML = "Never give up!!";
+#demo.innerHTML = "Never give up!!";
+Correct Answer: document.getElementById("pid1").innerHTML = "Never give up!!";
+
+Explanation:
+
+document.getElementById("pid1").innerHTML = "Never give up!!";: Correct. This code uses the getElementById method to select the element with the id pid1 and changes its innerHTML to "Never give up!!".
+document.getElement("p").innerHTML = "Never give up!!";: Incorrect. The correct method is getElementById, not getElement.
+document.getElementByName("p").innerHTML = "Never give up!!";: Incorrect. There is no method called getElementByName. It should be getElementsByName, but it returns a collection, not a single element.
+#demo.innerHTML = "Never give up!!";: Incorrect. This is not valid JavaScript syntax for accessing and modifying DOM elements.
+Question 2
+Problem Statement: "Sita wishes to greet the user when the user clicks on 'Greet Me' button. In which event does she need to write the JavaScript code for greeting the user?"
+
+Options:
+
+onclick
+onmouseclick
+onchange
+onmouseover
+Correct Answer: onclick
+
+Explanation:
+
+onclick: Correct. The onclick event is used to execute JavaScript code when a user clicks on an element.
+onmouseclick: Incorrect. There is no onmouseclick event in JavaScript.
+onchange: Incorrect. The onchange event is triggered when an input element's value is changed, not on a button click.
+onmouseover: Incorrect. The onmouseover event occurs when the mouse pointer is moved over an element, not on a click.
+Question 3
+Problem Statement: "Which of the below statements are used to comment a line in JavaScript file?"
+
+Options:
+
+// this is a comment
+<!-- this is a comment -->
+/* this is a comment */
+// this is a comment //
+Correct Answer: // this is a comment
+
+Explanation:
+
+// this is a comment: Correct. This is the syntax for a single-line comment in JavaScript.
+<!-- this is a comment -->: Incorrect. This is HTML comment syntax, not JavaScript.
+/* this is a comment */: Incorrect for single-line comments but correct for multi-line comments in JavaScript.
+// this is a comment //: Incorrect. Extra slashes are not needed and are not valid JavaScript comment syntax.
+Question 4
+Problem Statement: "David, a beginner in web development trying to perform one particular operation using client-side JavaScript. Choose the correct option(s) that he can't be done with client-side JavaScript?"
+
+Options:
+
+Store the form's contents to a database file on the server
+Send a form's contents by email
+Validate a form
+Display the alert box to the user
+Correct Answer: Store the form's contents to a database file on the server
+
+Explanation:
+
+Store the form's contents to a database file on the server: Correct. Client-side JavaScript cannot interact directly with server-side databases; this requires server-side scripting.
+Send a form's contents by email: Incorrect. Client-side JavaScript cannot send emails directly but can interact with server-side services that handle email sending.
+Validate a form: Incorrect. Client-side JavaScript is commonly used to validate forms before submission.
+Display the alert box to the user: Incorrect. Client-side JavaScript can display alert boxes using the alert() function.
+Question 5
+Problem Statement: "When a user views a page containing a JavaScript program, which machine actually executes the script?"
+
+Options:
+
+Database Server
+The User's machine running a Web browser
+The Web server
+A central machine deep within Netscape's corporate offices
+Correct Answer: The User's machine running a Web browser
+
+Explanation:
+
+The User's machine running a Web browser: Correct. JavaScript code is executed in the user's web browser on their local machine.
+Database Server: Incorrect. The database server is not responsible for executing JavaScript.
+The Web server: Incorrect. The web server serves the web page but does not execute client-side JavaScript.
+A central machine deep within Netscape's corporate offices: Incorrect. This is not relevant to JavaScript execution.
+Question 6
+Problem Statement: "When you want to enclose some JavaScript statements to an HTML file, which is the correct tag you have to use?"
+
+Options:
+
+<SCRIPT>
+<BODY>
+<HEAD>
+<STYLE>
+Correct Answer: <SCRIPT>
+
+Explanation:
+
+<SCRIPT>: Correct. This tag is used to include JavaScript code in an HTML document.
+<BODY>: Incorrect. The <BODY> tag is used to define the body of an HTML document, not for JavaScript.
+<HEAD>: Incorrect. The <HEAD> tag is used for meta-information and links, but not specifically for JavaScript code.
+<STYLE>: Incorrect. The <STYLE> tag is used for CSS, not JavaScript.
