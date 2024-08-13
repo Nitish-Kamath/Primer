@@ -1,0 +1,99 @@
+Question 1
+Which of the following is NOT a typical use case for VAEs?
+
+Medical imaging enhancement: Not correct; VAEs can be used for medical imaging enhancement.
+Face generation for video games: Not correct; VAEs can be used for generating faces.
+Fashion design: Not correct; VAEs can be used for fashion design.
+Real-time speech translation: Correct; VAEs are not typically used for real-time speech translation.
+Anomaly detection in industrial equipment: Not correct; VAEs can be used for anomaly detection.
+Correct Answer: Real-time speech translation
+
+Question 2
+In which application can VAEs detect unusual patterns?
+
+Face generation for video games: Not correct; VAEs are not typically used for detecting unusual patterns in face generation.
+Fashion design: Not correct; VAEs are not typically used for detecting unusual patterns in fashion design.
+Music composition: Not correct; VAEs are not typically used for detecting unusual patterns in music composition.
+Text generation: Not correct; VAEs are not typically used for detecting unusual patterns in text generation.
+Anomaly detection in industrial equipment: Correct; VAEs can be used for detecting unusual patterns in anomaly detection.
+Correct Answer: Anomaly detection in industrial equipment
+
+Question 3
+Which of the following is a key component of the VAE loss function?
+
+Precision: Not correct; precision is not a key component of the VAE loss function.
+Accuracy: Not correct; accuracy is not a key component of the VAE loss function.
+KL divergence: Correct; KL divergence is a key component of the VAE loss function, helping to regularize the latent space.
+Cross-entropy only: Not correct; while cross-entropy is used, it is not the only component.
+Mean squared error only: Not correct; mean squared error is used for reconstruction loss but not the only component.
+Correct Answer: KL divergence
+
+Question 4
+Autoencoders primarily focus on which aspect of data?
+
+Classification: Not correct; autoencoders are not primarily focused on classification.
+Reconstruction: Correct; autoencoders primarily focus on reconstructing input data.
+Clustering: Not correct; clustering is not the primary focus of autoencoders.
+Generation: Not correct; while autoencoders can generate data, reconstruction is their primary focus.
+Filtering: Not correct; filtering is not the primary focus of autoencoders.
+Correct Answer: Reconstruction
+
+Question 5
+In which application might VAEs be used to enhance image quality?
+
+Video streaming: Not correct; VAEs are not typically used for enhancing video streaming quality.
+Medical imaging: Correct; VAEs can be used to enhance medical imaging.
+Social media photo filters: Not correct; VAEs can be used in photo filters, but enhancement of medical images is a more specific application.
+None of the given options: Not correct; the correct application is listed.
+Text generation: Not correct; VAEs are not used for text generation.
+Correct Answer: Medical imaging
+
+Question 6
+Why is variational inference used in VAEs?
+
+None of the given options: Not correct; a correct option is provided.
+To speed up training: Not correct; variational inference is not primarily used to speed up training.
+To improve model accuracy: Not correct; variational inference is not directly aimed at improving accuracy.
+To reduce model size: Not correct; variational inference does not focus on reducing model size.
+To approximate intractable posterior distributions: Correct; variational inference helps in approximating complex posterior distributions.
+Correct Answer: To approximate intractable posterior distributions
+
+Question 7
+How do VAEs differ from traditional autoencoders?
+
+VAEs are simpler: Not correct; VAEs are not necessarily simpler than traditional autoencoders.
+VAEs are faster: Not correct; VAEs are not specifically faster.
+VAEs are more accurate: Not correct; accuracy is not the primary difference.
+VAEs use supervised learning: Not correct; VAEs use unsupervised learning.
+VAEs introduce randomness via a probabilistic layer: Correct; VAEs introduce randomness via a probabilistic layer, which differentiates them from traditional autoencoders.
+Correct Answer: VAEs introduce randomness via a probabilistic layer
+
+Question 8
+Why is the reparameterization trick important in VAEs?
+
+It increases model efficiency: Not correct; the reparameterization trick is not primarily about increasing efficiency.
+None of the given options: Not correct; a correct option is provided.
+It simplifies the model architecture: Not correct; the trick does not simplify the architecture.
+It reduces overfitting: Not correct; it does not specifically target overfitting.
+It allows backpropagation through random nodes: Correct; the reparameterization trick allows gradients to be backpropagated through the stochastic nodes.
+Correct Answer: It allows backpropagation through random nodes
+
+Question 9
+Which optimization technique is commonly used with VAEs?
+
+None of the given options: Not correct; a correct option is provided.
+Principal component analysis: Not correct; PCA is not used for optimizing VAEs.
+Simulated annealing: Not correct; simulated annealing is not commonly used with VAEs.
+Genetic algorithms: Not correct; genetic algorithms are not typically used for VAEs.
+Stochastic gradient descent (SGD): Correct; SGD is commonly used for optimizing VAEs.
+Correct Answer: Stochastic gradient descent (SGD)
+
+Question 10
+What do VAEs use to generate a distribution over latent variables?
+
+Transfer learning: Not correct; VAEs do not use transfer learning to generate distributions.
+Backpropagation: Not correct; backpropagation is used for training but not for generating distributions.
+None of the given options: Not correct; a correct option is provided.
+Gradient descent: Not correct; gradient descent is used for optimization, not for generating distributions.
+Variational inference: Correct; variational inference is used to approximate and generate distributions over latent variables in VAEs.
+Correct Answer: Variational inference
