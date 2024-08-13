@@ -1,0 +1,99 @@
+Question 1
+What is Generative AI primarily used for?
+
+Optimization: Refers to improving efficiency or performance, often not directly related to Generative AI.
+Generating new data: Correct; Generative AI is specifically used to create new data samples, such as images, text, or music.
+Data labeling: Involves annotating data, typically handled by supervised learning models, not Generative AI.
+Regression: Involves predicting continuous values from data, which is not the primary use of Generative AI.
+Classification: Involves categorizing data into classes, which is handled by discriminative models rather than Generative AI.
+Correct Answer: Generating new data
+
+Question 2
+Why is Generative AI considered significant in the realm of artificial intelligence?
+
+It can produce new, previously unseen data samples: Correct; Generative AI creates new data based on learned patterns, which is its core significance.
+It reduces the need for large datasets: Not directly true; Generative AI can still require significant data to train effectively.
+It exclusively works with images: Incorrect; Generative AI can work with various types of data, including text, audio, and images.
+It speeds up training processes: Incorrect; Generative AI can be computationally intensive and may not necessarily speed up training.
+It simplifies complex algorithms: Incorrect; Generative AI algorithms can be complex and may not simplify other AI tasks.
+Correct Answer: It can produce new, previously unseen data samples
+
+Question 3
+In the context of AI, which model type is more concerned with the underlying distribution of data?
+
+Hybrid AI: Refers to combining different AI techniques, not specifically related to data distribution.
+Classification AI: Focuses on categorizing data into predefined classes, not modeling data distribution.
+Generative AI: Correct; Generative AI models the overall data distribution to create new data samples.
+Regression AI: Involves predicting continuous values but does not primarily focus on data distribution.
+Reinforcement AI: Focuses on learning optimal actions through rewards, not on data distribution.
+Correct Answer: Generative AI
+
+Question 4
+Which is NOT a real-world application of Generative AI?
+
+Generating game environments: Generative AI can create detailed and realistic game environments.
+Deepfake videos: A well-known application of Generative AI, used to create realistic but synthetic videos.
+Predicting stock market prices: Typically involves predictive analytics and regression models, not Generative AI.
+Producing synthetic voices: Generative AI is used to create realistic synthetic voices.
+Creating virtual fashion designs: Generative AI can be used to design innovative fashion concepts.
+Correct Answer: Predicting stock market prices
+
+Question 5
+How does Generative AI differ from Classification AI?
+
+It requires more data: Not necessarily true; Generative AI and Classification AI both require substantial data, but for different purposes.
+It's easier to implement: Incorrect; Generative AI can be complex and challenging to implement.
+It generates new data rather than categorizing existing data: Correct; Generative AI creates new data samples, whereas Classification AI categorizes existing data.
+It's faster: Incorrect; speed depends on implementation and computational resources, not inherently faster or slower.
+It's more accurate: Incorrect; accuracy is context-dependent and varies with implementation and data.
+Correct Answer: It generates new data rather than categorizing existing data
+
+Question 6
+Generative AI can be used to create which of the following?
+
+New artworks and music pieces: Correct; Generative AI is used to create original artworks and music based on learned patterns.
+Classification categories: Incorrect; Generative AI does not create categories, which are handled by classification models.
+Decision boundaries: Incorrect; Generative AI is not focused on decision boundaries but on generating data.
+Data labels: Incorrect; Generative AI does not typically create data labels; this is done by supervised learning.
+Regression models: Incorrect; Generative AI is not used for creating regression models.
+Correct Answer: New artworks and music pieces
+
+Question 7
+If an AI system is designed to label images of cats and dogs, it is primarily a _______ model.
+
+Unsupervised: Incorrect; unsupervised models learn patterns from unlabeled data and do not focus on labeling.
+Discriminative: Correct; Discriminative models focus on categorizing or labeling data into classes.
+Hybrid: Incorrect; hybrid refers to a combination of different AI methods, not specifically for labeling.
+Reinforcement: Incorrect; reinforcement learning focuses on decision-making based on rewards, not labeling.
+Generative: Incorrect; Generative models create new data, not label existing data.
+Correct Answer: Discriminative
+
+Question 8
+Which AI type is best for predicting outcomes?
+
+Regression AI: Correct; Regression AI is specifically designed to predict continuous outcomes based on input data.
+Generative AI: Focuses on creating new data rather than predicting outcomes.
+Semi-supervised AI: Combines labeled and unlabeled data, but prediction is not its primary focus.
+Reinforcement AI: Focuses on learning optimal actions rather than predicting outcomes.
+Classification AI: Used for categorizing data, not for predicting continuous outcomes.
+Correct Answer: Regression AI
+
+Question 9
+Which statement best describes the role of Generative AI?
+
+It is exclusively used in robotics: Incorrect; Generative AI is not limited to robotics.
+It focuses on generating data based on learned patterns: Correct; Generative AI creates new data samples based on patterns learned from existing data.
+It is the oldest form of AI: Incorrect; Generative AI is not the oldest form and is relatively recent.
+It is primarily used for data sorting: Incorrect; Generative AI is used for generating new data, not sorting.
+It is best suited for regression tasks: Incorrect; Generative AI is not focused on regression but on creating new data.
+Correct Answer: It focuses on generating data based on learned patterns
+
+Question 10
+Which of the following is a direct application of Generative AI in the entertainment industry?
+
+Translating movie scripts: Typically handled by translation models or NLP systems, not Generative AI.
+Creating realistic CGI characters: Correct; Generative AI is used to design lifelike and realistic CGI characters for movies.
+Automating video editing: Often handled by various video processing tools, not specifically Generative AI.
+Recommending movies to users: Done by recommendation systems, not primarily Generative AI.
+Predicting movie success: Involves predictive analytics, not Generative AI.
+Correct Answer: Creating realistic CGI characters
