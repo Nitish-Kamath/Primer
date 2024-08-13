@@ -1,0 +1,129 @@
+Question 1
+Which tool is used for getting the estimated monthly cost for your setup?
+
+Consolidated Billings: This is used to manage billing across multiple AWS accounts but does not provide cost estimates.
+
+Cost Explorer: This tool helps you visualize and manage your AWS costs and usage but is not specifically for initial cost estimation.
+
+Simple Monthly Calculator: This tool provides an estimated monthly cost based on your AWS usage and setup.
+
+TCO Calculator: This helps in calculating the Total Cost of Ownership for migrating to AWS but does not focus on monthly estimates.
+
+Correct Answer: Simple Monthly Calculator
+
+Question 2
+Which of the following pricing model is used for applications with consistent load?
+
+All the options: Not correct as it includes Spot pricing which is not suitable for consistent loads.
+
+Reserved Instance Pricing: Best for applications with consistent load as it provides a discount for committing to a specific usage over a period.
+
+Spot Pricing: Suitable for applications with variable or flexible loads as it offers discounted rates based on available capacity.
+
+On-Demand Pricing: Suitable for applications with variable loads but is not the cheapest option for consistent loads.
+
+Correct Answer: Reserved Instance Pricing
+
+Question 3
+Which attribute determines the costing of an on-demand EC2 instance?
+
+Location: Incorrect, as it should be considered Region.
+
+Region: Partially correct but not the only factor.
+
+Instance Type: A factor in pricing but not the sole determinant.
+
+AMI Type: Not a direct cost determinant for on-demand instances.
+
+Correct Answers: Instance Type, AMI Type, Region
+
+Question 4
+The auction-based pricing system is called _______
+
+On-Demand Pricing: This charges based on the hourly or per-second usage and is not auction-based.
+
+Reserved Instance Pricing: This involves upfront payment for reserved capacity, not auction-based.
+
+Volume Discounts or Tier-Based Pricing: This provides discounts based on usage volume but is not auction-based.
+
+Spot Pricing: This involves bidding for unused capacity and is auction-based.
+
+Correct Answer: Spot Pricing
+
+Question 5
+Amazon S3 pricing is based on factors namely __________
+
+Storage: Correct, as you are charged for the amount of data stored.
+
+Versioning: Charges may apply if versioning is enabled, affecting the cost.
+
+Requests and Data Retrievals: Charges apply for requests made and data retrievals from S3.
+
+Data Transfer: Charges are applicable for data transferred out of S3.
+
+Correct Answers: Storage, Requests and Data Retrievals, Data Transfer
+
+Question 6
+Cloud Computing Pricing models have been broadly classified as _________
+
+All the options: This includes various pricing models like Hybrid, Pay-as-Use, and Subscription-Based.
+
+Hybrid Pricing Model: This involves combining different pricing strategies but does not encompass all models.
+
+Pay-as-Use: This is one pricing model but not the only one.
+
+Subscription Based: Another model but not the only classification.
+
+Correct Answer: All the options
+
+Question 7
+Which of the following Amazon EC2 tenancy models allows customers to use existing server-bound software licenses?
+
+Spot Instances: Not applicable for existing software licenses.
+
+Dedicated Hosts: This allows for the use of existing software licenses that are bound to physical servers.
+
+Reserved Instances: Provides savings but does not specifically allow the use of existing licenses.
+
+On-Demand Instances: Does not involve the use of existing licenses.
+
+Correct Answer: Dedicated Hosts
+
+Question 8
+Now that you have started your migration to the cloud, you want to find out which service you use the most and where the majority of your traffic is coming from. Which tool should you use?
+
+AWS Free Tier: Provides information on free tier usage but not detailed cost analysis.
+
+AWS Cost Explorer: Allows you to analyze your cost and usage data to understand service utilization.
+
+AWS Simple Monthly Calculator: Used for estimating costs, not for analyzing actual usage.
+
+AWS Annual Calculator: Helps in annual cost estimations but not for detailed usage analysis.
+
+Correct Answer: AWS Cost Explorer
+
+Question 9
+Amazon EC2 ________ allows you to request spare Amazon EC2 computing capacity for up to 90 percent off the On-Demand price.
+
+On-Demand: Refers to standard pricing without discounts.
+
+Compute: Not a specific EC2 pricing option.
+
+Reserved: Offers savings for committed usage but not up to 90 percent off.
+
+Spot Instances: Allows for bidding on unused capacity at significant discounts.
+
+Correct Answer: Spot Instances
+
+Question 10
+Which AWS service allows you to centrally manage multiple AWS accounts?
+
+Systems Manager: Manages and automates tasks across AWS resources but not specifically for account management.
+
+Billing and Cost Management: Handles billing and cost management but does not centralize account management.
+
+Organizations: Allows for managing multiple AWS accounts centrally and provides governance features.
+
+Resource Groups: Organizes resources into groups but not for managing multiple accounts.
+
+Correct Answer: Organizations
