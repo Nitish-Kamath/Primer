@@ -1,0 +1,121 @@
+Question 1
+How is manual scaling done in EC2 Auto Scaling?
+
+Adjusting Desired capacity: This is the correct way to manually scale in EC2 Auto Scaling. Adjusting the desired capacity lets you increase or decrease the number of instances manually.
+
+Adjusting Max size: This changes the maximum number of instances allowed but doesn't directly scale the number of instances.
+
+Adjusting Min size: This changes the minimum number of instances required but doesn't directly scale the number of instances.
+
+Adjusting the load: This is not an option related to manual scaling in Auto Scaling.
+
+Correct Answer: Adjusting Desired capacity
+
+Question 2
+AWS DynamoDB is a serverless NoSQL database (True/False).
+
+True: DynamoDB is indeed a serverless NoSQL database that automatically scales and offers high availability.
+
+False: This would be incorrect as DynamoDB is serverless.
+
+Correct Answer: True
+
+Question 3
+Which of the following databases is a key-value pair or document database?
+
+Amazon Neptune: This is a graph database.
+
+Amazon DynamoDB: This is a key-value and document database.
+
+Amazon Redshift: This is a data warehousing service, not a key-value store.
+
+Amazon RDS: This is a relational database service.
+
+Correct Answer: Amazon DynamoDB
+
+Question 4
+Which of the following database services is PostgreSQL and MySQL compatible?
+
+Amazon Neptune: This is a graph database, not compatible with PostgreSQL or MySQL.
+
+Amazon Aurora: Aurora is compatible with both MySQL and PostgreSQL.
+
+Amazon Redshift: This is a data warehousing service and is not compatible with these databases.
+
+Amazon RDS: While it can run both PostgreSQL and MySQL, Aurora is a better fit as a native compatibility layer.
+
+Correct Answer: Amazon Aurora
+
+Question 5
+Which of the following entities is used for temporary access to resources?
+
+Group: Groups are used for organizing users but do not provide temporary access.
+
+User: Users are for permanent access.
+
+Role: Roles provide temporary access to resources and are used to delegate permissions.
+
+Policy: Policies define permissions but don't directly manage temporary access.
+
+Correct Answer: Role
+
+Question 6
+Which of the following services is used for monitoring resources in AWS?
+
+Amazon CloudTrail: This is used for logging API requests.
+
+Amazon CloudWatch: This service is used for monitoring and logging performance data.
+
+Amazon EventBridge: This is an event bus service.
+
+Amazon Cognito: This is used for user authentication.
+
+Correct Answer: Amazon CloudWatch
+
+Question 7
+Which CloudWatch component allows you to create and manage custom alarms?
+
+CloudWatch Alarms: These allow you to create alarms that monitor metrics and send notifications.
+
+CloudWatch Logs: This service is for storing and accessing log files.
+
+CloudWatch Metrics: These are used for monitoring data points but not for alarms.
+
+CloudWatch Events: This service delivers a near-real-time stream of system events.
+
+Correct Answer: CloudWatch Alarms
+
+Question 8
+Which of the following is NOT a benefit of using Amazon CloudWatch?
+
+Alarm notifications: This is a benefit of CloudWatch.
+
+Automated resource provisioning: This is not a feature of CloudWatch. It's typically associated with Auto Scaling.
+
+Real-time monitoring: This is a benefit of CloudWatch.
+
+Customizable dashboards: This is a benefit of CloudWatch.
+
+Correct Answer: Automated resource provisioning
+
+Question 9
+Monitoring the resources helps in ___________
+
+Optimize usage: Monitoring helps identify inefficient use and optimize resource allocation.
+
+Record all API requests: This is done by CloudTrail, not directly by monitoring.
+
+Filtering requests: This is not a typical function of monitoring services.
+
+Identify the unusual activities: Monitoring helps detect anomalies or unusual activities.
+
+Correct Answers: Optimize usage, Identify the unusual activities
+
+Question 10
+AutoScaling increases/decreases the capacity of an EC2 instance automatically (True/False).
+
+True: AutoScaling automatically adjusts the number of instances to maintain performance and optimize costs.
+
+False: This would be incorrect as AutoScaling does indeed adjust instance capacity.
+
+Correct Answer: True
