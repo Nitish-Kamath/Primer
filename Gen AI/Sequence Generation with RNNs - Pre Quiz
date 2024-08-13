@@ -1,0 +1,100 @@
+Question 1
+What is the key advantage of using LSTMs over basic RNNs in sequence generation tasks?
+
+Correct Answer: Ability to remember long-term dependencies
+
+Explanation: LSTMs (Long Short-Term Memory networks) are designed to overcome the limitations of basic RNNs by effectively capturing long-term dependencies in sequential data. They use special structures called gates to maintain information over long periods, preventing issues like the vanishing gradient problem.
+Incorrect Answers:
+
+Faster training speeds: LSTMs are generally more computationally intensive and slower to train compared to basic RNNs.
+Simpler architecture: LSTMs have a more complex architecture due to the presence of multiple gates and memory cells.
+Less prone to overfitting: Overfitting is not directly related to the choice between LSTM and RNNs; it depends more on model complexity and regularization techniques.
+Lower computational cost: LSTMs typically have a higher computational cost due to their complex gating mechanisms.
+Question 2
+Which problem in RNNs does LSTM help to address?
+
+Correct Answer: Vanishing gradient
+
+Explanation: The vanishing gradient problem occurs when gradients become too small during backpropagation, making it difficult for RNNs to learn long-term dependencies. LSTMs address this issue with their gating mechanisms that allow them to retain information over longer sequences.
+Incorrect Answers:
+
+All of the options given: While LSTMs can help with certain aspects like high variance and bias indirectly, they are primarily designed to solve the vanishing gradient problem.
+Bias, High variance, Overfitting: These are not the primary issues LSTMs are intended to solve.
+Question 3
+In the context of natural language processing, how are RNNs typically utilized for machine translation?
+
+Correct Answer: Encoding the input sequence and decoding the output sequence
+
+Explanation: RNNs are used in sequence-to-sequence models for machine translation, where one RNN encodes the input sequence (e.g., a sentence in one language) into a context vector, and another RNN decodes this vector into an output sequence (e.g., the translated sentence).
+Incorrect Answers:
+
+For clustering text data: Clustering is not a typical application for RNNs.
+As a replacement for CNNs: CNNs and RNNs serve different purposes; RNNs are not direct replacements for CNNs.
+For image classification: This is primarily the domain of CNNs.
+As discriminators in GANs: Discriminators in GANs are usually not based on RNN architectures.
+Question 4
+When using RNNs for music generation, what does each neuron in the output layer typically represent?
+
+Correct Answer: A possible note or rest in the musical vocabulary
+
+Explanation: In music generation, each output neuron often corresponds to a possible note or rest, allowing the network to predict sequences of notes based on prior inputs.
+Incorrect Answers:
+
+A time step in the generated sequence: Time steps are typically represented by input sequences, not individual output neurons.
+A note in the C major scale: This is too specific; neurons can represent any notes or rests in the musical vocabulary.
+A specific instrument: Instrument representation is not typically done at the level of individual neurons in the output layer.
+A frequency band: Frequency bands are more relevant to audio signal processing, not directly to music generation with RNNs.
+Question 5
+RNNs are primarily used for which type of data?
+
+Correct Answer: Sequential
+
+Explanation: RNNs are designed to handle sequential data, where the order and context of data points are crucial. They are well-suited for tasks involving time series, language modeling, and any data that has temporal dependencies.
+Incorrect Answers:
+
+Audio, Tabular, Image: While RNNs can be applied to audio, they are not inherently designed for tabular or image data, which often require other architectures like CNNs.
+Question 6
+Which of the following is NOT a type of RNN architecture?
+
+Correct Answer: CNN
+
+Explanation: CNN (Convolutional Neural Network) is a different type of neural network architecture designed primarily for image data, not sequential data.
+Incorrect Answers:
+
+Simple RNN, LSTM, GRU, Bidirectional RNN: These are all variants of RNN architectures designed for processing sequential data.
+Question 7
+During the training of RNNs for sequence generation, what is the common technique used to mitigate the vanishing gradient problem?
+
+Correct Answer: Gradient clipping
+
+Explanation: Gradient clipping involves limiting the size of gradients during backpropagation to prevent them from becoming too large or too small, which helps mitigate the vanishing gradient problem.
+Incorrect Answers:
+
+Data augmentation, Batch normalization, L1 regularization, Dropout: These techniques are useful for various purposes, such as improving generalization or regularizing models, but gradient clipping is specifically used to address vanishing/exploding gradients.
+Question 8
+What does RNN stand for?
+
+Correct Answer: Recurrent Neural Network
+
+Explanation: RNN stands for Recurrent Neural Network, which is a type of neural network designed to process sequential data.
+Incorrect Answers:
+
+Recursive Neural Network, Random Neural Network, None of the options given, Regular Neural Network: These are incorrect or irrelevant terms in the context of RNNs.
+Question 9
+Which RNN architecture utilizes update and reset gates to manage memory?
+
+Correct Answer: GRU
+
+Explanation: GRU (Gated Recurrent Unit) is an RNN variant that uses update and reset gates to manage and control the flow of information through the network, simplifying the LSTM architecture.
+Incorrect Answers:
+
+LSTM, Echo State Network, Bidirectional RNN, Hopfield Network: LSTM has additional gates (input and forget gates), while the others are different types of neural network architectures or variants.
+Question 10
+In NLP, what do RNNs help to predict?
+
+Correct Answer: Next word
+
+Explanation: In natural language processing, RNNs are often used to predict the next word in a sequence, which is crucial for tasks like language modeling and text generation.
+Incorrect Answers:
+
+Next song note, Next video frame, Next image: These are applications of sequence prediction but not specific to NLP with RNNs.
