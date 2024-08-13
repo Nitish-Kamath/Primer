@@ -1,0 +1,125 @@
+Question 1
+Which of the following is not a cloud service model?
+
+Software as a Service (SaaS): This is a cloud service model where software applications are delivered over the internet. Users access these applications via a web browser, with the underlying infrastructure and platforms managed by the provider.
+
+Operating System as a Service (OSaaS): This is not a recognized cloud service model. It does not exist as a standalone category in cloud computing.
+
+Infrastructure as a Service (IaaS): This model provides virtualized computing resources over the internet, such as virtual machines, storage, and networking. It allows users to manage and control the infrastructure and operating systems.
+
+Platform as a Service (PaaS): This model provides a platform allowing customers to develop, run, and manage applications without dealing with the underlying infrastructure.
+
+Correct Answer: Operating System as a Service (OSaaS)
+
+Question 2
+Which cloud deployment model involves a single organization using a cloud service exclusively?
+
+Public Cloud: This deployment model allows services to be offered over the public internet and shared across multiple users. Resources are owned and managed by a third-party cloud service provider.
+
+Hybrid Cloud: This model combines public and private clouds, allowing data and applications to be shared between them. It offers greater flexibility and optimization of existing infrastructure.
+
+Community Cloud: This model is shared among several organizations with common concerns or objectives, such as security requirements or compliance considerations.
+
+Private Cloud: This model is exclusive to a single organization, providing full control over the data and services. It can be hosted on-premises or by a third-party provider.
+
+Correct Answer: Private Cloud
+
+Question 3
+What does SaaS stand for in cloud computing?
+
+Software as a Service: This is the correct expansion for SaaS, where software applications are delivered over the internet.
+
+Storage as a Service: This is not the correct definition of SaaS. Instead, it refers to a model where data storage services are provided over the internet.
+
+System as a Service: This is not a recognized cloud service model.
+
+Software as a Solution: This is incorrect as it is not the correct terminology for SaaS.
+
+Correct Answer: Software as a Service
+
+Question 4
+Customers have to choose the nearest _______ to the customers to reduce latency.
+
+Edge location: These are locations where data is cached for faster access, typically used in Content Delivery Networks (CDNs) to reduce latency for end-users.
+
+Availability zone: These are isolated locations within a region designed to be insulated from failures in other availability zones, mainly used for high availability and fault tolerance.
+
+Region: This is a geographical area consisting of multiple availability zones. Choosing the nearest region helps reduce latency by bringing services closer to the end-user.
+
+Data center: This refers to physical facilities that house IT infrastructure. It is not specifically a term used for reducing latency in cloud computing.
+
+Correct Answer: Region
+
+Question 5
+Which of the following is not a management interface in AWS?
+
+AWS CLI: The AWS Command Line Interface is a tool to manage AWS services using commands.
+
+AWS SDK: The AWS Software Development Kit provides an API for interacting with AWS services in various programming languages.
+
+AWS Management Console: This is a web-based interface for accessing and managing AWS services.
+
+AWS Portal: This is not an official AWS management interface.
+
+Correct Answer: AWS Portal
+
+Question 6
+Select a benefit of a datacenter from the following options.
+
+Scalability: This is a cloud benefit where resources can be scaled up or down based on demand.
+
+Cost Efficient: This is also a cloud benefit where you only pay for what you use.
+
+High Availability: This is a cloud feature ensuring continuous service availability through redundant systems and locations.
+
+Control: Data centers provide full control over physical hardware and systems, unlike cloud solutions that abstract much of this control.
+
+Correct Answer: Control
+
+Question 7
+One of the benefits of the cloud is agility; resources can be provisioned with a few clicks. True/False
+
+True: Cloud computing provides agility by allowing rapid provisioning and scaling of resources with minimal manual intervention.
+
+False: This statement would be incorrect, as agility is indeed a fundamental advantage of cloud computing.
+
+Correct Answer: True
+
+Question 8
+What is cost optimization?
+
+Reduce expenses while maintaining quality: This is the correct approach to cost optimization, ensuring that resources are used efficiently without compromising on performance or quality.
+
+Ignoring financial planning altogether: This is not cost optimization and can lead to wasted resources.
+
+Maximizing spending on non-essential items: This is the opposite of cost optimization.
+
+Spending money without any budget constraints: This is not a sustainable approach to managing costs.
+
+Correct Answer: Reduce expenses while maintaining quality
+
+Question 9
+In which of the following model application host completely on cloud?
+
+Private: Applications and resources are hosted exclusively for one organization, either on-premises or in the cloud.
+
+Public: Applications are hosted entirely on the cloud provider's infrastructure and shared among multiple users.
+
+Hybrid: Combines public and private cloud hosting.
+
+On-prem: Applications are hosted on local, in-house infrastructure.
+
+Correct Answer: Public
+
+Question 10
+Which of the following services, customer has access to OS?
+
+PaaS: The platform is managed by the provider, and customers do not typically access the operating system.
+
+SaaS: The software is delivered over the internet without access to the operating system or infrastructure.
+
+CaaS: Containers as a Service also does not typically provide OS access, focusing on container management instead.
+
+IaaS: Infrastructure as a Service allows customers to access and manage the operating system and infrastructure.
+
+Correct Answer: IaaS
