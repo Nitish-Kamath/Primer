@@ -1,0 +1,128 @@
+1. Which of the following options are the steps involved in Requirements Analysis?
+
+Options:
+
+a. Requirements Specification
+
+b. Analysis of the gathered requirements
+
+c. Requirements Gathering
+
+d. Requirements Elicitation
+
+Correct Answers:
+
+Requirements Gathering: This is the initial phase where information is collected from stakeholders about their needs and expectations.
+Analysis of the gathered requirements: This step involves evaluating and understanding the gathered requirements to define what is needed in detail.
+Incorrect Options:
+
+Requirements Specification: This is typically part of the requirements specification phase, where requirements are documented, rather than analyzed.
+Requirements Elicitation: This is the process of collecting requirements from stakeholders and is part of the initial phase rather than the analysis phase.
+Feedback: The Requirements Gathering phase is followed by the Analysis of the gathered requirements.
+
+2. From the below options, identify the role of the system analyst.
+
+Options:
+
+a. Writes pseudo code for the given module
+
+b. Creates SRS
+
+c. Creates HLD document
+
+d. Creates high level test cases
+
+Correct Answer:
+
+Creates SRS (Software Requirements Specification): The system analyst is responsible for creating the SRS, which documents the software requirements.
+Incorrect Options:
+
+Writes pseudo code for the given module: Typically done by developers or designers, not system analysts.
+Creates HLD document: High-Level Design (HLD) is usually created by system designers or architects.
+Creates high level test cases: Test cases are typically created by testers or quality assurance teams.
+Feedback: The correct role of the system analyst is to create the SRS, which details the requirements of the system.
+
+3. Identify the correct statements from the below options.
+
+Options:
+
+a. Analysis or High level design or Low level design can be performed in any order
+
+b. Analysis is performed followed by High level design and then Low level design
+
+c. Analysis is performed followed by Low level design and then High level design
+
+d. High level design, Low level design followed by Analysis is performed.
+
+Correct Answer:
+
+Analysis is performed followed by High level design and then Low level design: This sequence is the standard approach, starting with analyzing requirements, then designing at a high level, and finally detailing the design.
+Incorrect Options:
+
+Analysis or High level design or Low level design can be performed in any order: This is not accurate; there is a logical sequence for these phases.
+Analysis is performed followed by Low level design and then High level design: This is incorrect as High level design usually precedes Low level design.
+High level design, Low level design followed by Analysis: This sequence is incorrect as Analysis should precede both types of design.
+Feedback: The correct sequence is to perform Analysis first, followed by High level design, and then Low level design.
+
+4. Match the correct objectives of each phase involved in Requirements Engineering:
+
+Options:
+
+Requirements Elicitation
+
+Requirements Analysis
+
+Requirements Specification
+
+Answers:
+
+Requirements Elicitation → Gathering requirements from the users, customers, and other stakeholders: This phase involves collecting requirements.
+Requirements Analysis → Analyzing the customer and the user/stakeholder to arrive at a definition of software requirements: This involves understanding and defining the requirements in detail.
+Requirements Specification → Documents all the requirements properly: This phase involves creating the documentation that clearly specifies the requirements.
+Feedback:
+
+Requirements Elicitation involves gathering requirements.
+Requirements Analysis involves analyzing and defining requirements.
+Requirements Specification involves documenting the requirements.
+5. Identify the type of design that helps in transforming the data model created during the requirements analysis phase into the data structures that will be used to implement the software.
+
+Options:
+
+a. Architectural design
+
+b. GUI Design
+
+c. Interface design
+
+d. Data Design
+
+Correct Answer: Data Design
+
+Explanation: Data Design involves creating the data structures and architecture needed for the software, based on the data model from the requirements phase.
+Incorrect Options:
+
+Architectural design: Focuses on the overall system architecture and module interactions.
+GUI Design: Focuses on the graphical user interface and user experience.
+Interface design: Involves defining how software components interact with each other and with users.
+Feedback: Data Design transforms the data model into the data structures used in implementation.
+
+6. Match the objectives of the types of design involved:
+
+Options:
+
+Low Level Design
+
+Architecture design
+
+Interface design
+
+Answers:
+
+Low Level Design → Focuses on writing a detailed algorithm: Provides detailed design for each component of the system.
+Architecture design → Defines the modules of the system and the functions that each module performs: Outlines the overall structure of the system.
+Interface design → Describes how the software communicates with itself, and with the users interacting with the software: Specifies how different system components and users interact.
+Feedback:
+
+Low Level Design focuses on detailed algorithms.
+Architecture design defines system modules and functions.
+Interface design describes communication between system components and users.
