@@ -1,0 +1,136 @@
+Question 1
+Problem Statement: "Automated tools are available in the market for managing change and versioning the software. State if this statement is True or False."
+
+Options:
+
+a. FALSE
+b. TRUE
+Correct Answer: b. TRUE
+
+Explanation:
+
+TRUE: Automated tools such as version control systems (e.g., Git, SVN) and change management tools (e.g., JIRA) are widely available and used to manage changes and versions of software efficiently.
+FALSE: This option is incorrect because it overlooks the fact that automated tools for change and version management do exist and are commonly used in software development.
+Question 2
+Problem Statement: "Version Management allows parallel concurrent development. State if this statement is True or False."
+
+Options:
+
+a. FALSE
+b. TRUE
+Correct Answer: b. TRUE
+
+Explanation:
+
+TRUE: Version management systems enable multiple developers to work on different features or fixes concurrently by managing and merging different versions of the codebase.
+FALSE: This option is incorrect because it does not acknowledge that version management systems are specifically designed to facilitate parallel development by handling concurrent changes.
+Question 3
+Problem Statement: "Match the correct option with the respective description."
+
+Process that ensures that changes made are recorded and controlled
+
+Answer 1: Change Management
+Who authenticates that the change proposed is valid
+
+Answer 2: Change Control Board
+The standard document where the requester fills the change in the change management process
+
+Answer 3: Change Request Form
+Process that ensures different versions of the project are managed
+
+Answer 4: Configuration Management
+Correct Answer:
+
+Process that ensures that changes made are recorded and controlled → Change Management
+Who authenticates that the change proposed is valid → Change Control Board
+The standard document where the requester fills the change in the change management process → Change Request Form
+Process that ensures different versions of the project are managed → Configuration Management
+Explanation:
+
+Change Management: Ensures that changes to the software are recorded, controlled, and managed throughout the lifecycle.
+Change Control Board: A group that evaluates and approves or rejects proposed changes to ensure they are valid and necessary.
+Change Request Form: A document filled out by the requester to propose changes in the change management process.
+Configuration Management: Manages different versions of the software and ensures that all changes are tracked.
+Question 4
+Problem Statement: "John bought a new laptop with high-end configuration. To protect his laptop and the applications installed, he installed antivirus software. What type of maintenance does this action represent?"
+
+Options:
+
+Adaptive
+Preventive
+Perfective
+Corrective
+Correct Answer: Preventive
+
+Explanation:
+
+Preventive: Installing antivirus software to protect against future threats is an example of preventive maintenance, which aims to avoid potential issues before they occur.
+Adaptive: This involves modifying the software to work with new environments or platforms, which does not apply to installing antivirus software.
+Perfective: This type of maintenance involves enhancing features, which is not relevant to antivirus installation.
+Corrective: This addresses fixing existing problems, but installing antivirus software is about preventing future issues rather than fixing current ones.
+Question 5
+Problem Statement: "The entry door of the server room inside the company can be considered equivalent to which concept in configuration management?"
+
+Options:
+
+Version
+SRS artifact
+Baseline
+Correct Answer: Baseline
+
+Explanation:
+
+Baseline: In configuration management, a baseline is a specification or product that has been formally reviewed and agreed upon, serving as a basis for further development. The entry door represents a fixed and agreed-upon standard for access, similar to how a baseline serves as a reference point in configuration management.
+Version: This refers to different iterations of the software or product, not directly related to the concept of a baseline.
+SRS artifact: Refers to Software Requirements Specifications documents and does not directly align with the concept of a baseline in configuration management.
+Question 6
+Problem Statement: "Which of the following describes the change history of an object?"
+
+Options:
+
+a. Check-out
+b. Evolution graph
+c. Baseline
+d. Review Graph
+Correct Answer: b. Evolution graph
+
+Explanation:
+
+Evolution Graph: This shows the change history of an object, illustrating how it has evolved over time with various changes and updates.
+Check-out: Refers to the process of retrieving an object from a version control system for modification, not describing the change history.
+Baseline: Represents a formally reviewed and approved version of the software, not the history of changes.
+Review Graph: This is not a standard term in configuration management related to change history.
+Question 7
+Problem Statement: "From the options provided, identify the features that are part of software configuration management."
+
+Options:
+
+a. Support management
+b. Concurrency control
+c. Synchronisation control
+d. Version management
+Correct Answers: b. Concurrency control, c. Synchronisation control, d. Version management
+
+Explanation:
+
+Concurrency Control: Manages simultaneous operations on a software project to prevent conflicts and ensure consistency.
+Synchronization Control: Ensures that different versions or components of the software are in sync.
+Version Management: Manages and tracks different versions of the software to handle changes effectively.
+Support Management: This is not a specific feature of software configuration management.
+Question 8
+Problem Statement: "_________ is a committee that makes decisions regarding whether or not proposed changes to a software project can be incorporated."
+
+Options:
+
+a. Modify Control Board
+b. Change Control Board
+c. Decision Committee
+d. Updation Control Board
+Correct Answer: b. Change Control Board
+
+Explanation:
+
+Change Control Board: A committee responsible for evaluating and making decisions on proposed changes to a software project to determine if they should be incorporated.
+Modify Control Board: This is not a standard term related to change management.
+Decision Committee: A generic term that does not specifically refer to change management in the context of software projects.
+Updation Control Board: This is not a standard term in software configuration management or change control processes.
