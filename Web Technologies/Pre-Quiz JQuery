@@ -1,0 +1,76 @@
+Question 1
+Problem Statement: "When referencing an HTML element using jQuery preceded by a ‘ # ’ , what JavaScript function is this equivalent to?"
+
+Options:
+
+getElementByClassName
+getElementById
+getElementByTagName
+getElement
+Correct Answer: getElementById
+
+Explanation:
+
+In jQuery, # is used to select an element by its ID. This is equivalent to the getElementById function in JavaScript.
+Question 2
+Problem Statement: "If you want to change the color of a link to red when moving mouse pointer on top of it, which CSS property you need to change?"
+
+Options:
+
+a
+{color: red; }
+link
+{ color: red; }
+a{ color: red; }
+a
+{ color: red; }
+Correct Answer: a
+{ color: red; }
+
+Explanation:
+
+a:hover{ color: red; }: The :hover pseudo-class is used to apply styles to an element when the mouse pointer is over it.
+Question 3
+Problem Statement: "Which of the following is/are true about HTML?"
+
+Options:
+
+Some of the tags are self closing while some of the tags must be explicitly closed in HTML5
+HTML is case sensitive
+Browser does not throw any error even if we have mistaken in the HTML syntax
+Correct Answers:
+
+Some of the tags are self closing while some of the tags must be explicitly closed in HTML5
+Browser does not throw any error even if we have mistaken in the HTML syntax
+Explanation:
+
+Self-Closing Tags: In HTML5, some tags (like <br>, <img>, etc.) are self-closing, while others need to be explicitly closed.
+Browser Tolerance: Browsers are generally forgiving with HTML syntax errors and will try to render the page as best as they can.
+Question 4
+Problem Statement: "Which of the following is most appropriate tag in HTML5 to divide the document into logical document groups?"
+
+Options:
+
+<div></div>
+<section></section>
+<span></span>
+<group></group>
+Correct Answer: <section></section>
+
+Explanation:
+
+<section>: This tag is used to define a section in a document, representing a thematic grouping of content. It is more appropriate than <div> for dividing the document into logical sections.
+Question 5
+Problem Statement: "The following elements are newly added elements in HTML5: <section>, <article>, <aside>. These elements are called _____________"
+
+Options:
+
+Semantic elements
+Graphic elements
+Multimedia elements
+Control elements
+Correct Answer: Semantic elements
+
+Explanation:
+
+Semantic Elements: These elements provide meaning to the web content and help with structuring the document, improving readability and SEO.
