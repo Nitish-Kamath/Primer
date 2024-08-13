@@ -1,0 +1,57 @@
+Question 1
+Select the appropriate code snippet for the given problem statement.
+
+Problem Statement: Check if a given number is a strong number.
+
+Code Snippet:
+
+Correct Answer: WHILE number != 0
+The WHILE number != 0 loop continues until the number becomes 0, which is appropriate for extracting digits one by one and computing the factorial of each digit.
+Question 2
+Choose the pseudocode for the below problem statement.
+
+Problem Statement: Generate an algorithm to find if a number is fancy (palindrome).
+
+Sample Input: 1221
+
+Sample Output: Number is Fancy
+
+Code Snippet:
+
+Correct Answer:
+plaintext
+Copy code
+BEGIN 
+
+DECLARE variables number, reverse, rem, temp 
+
+READ number 
+
+SET reverse = 0, temp = number 
+
+WHILE number !=0 DO 
+
+rem = number%10 
+
+reverse = reverse*10 + rem 
+
+number = number/10 
+
+END WHILE 
+
+IF temp == reverse THEN 
+
+PRINT "Number is Fancy" 
+
+ELSE 
+
+PRINT "Number is Not Fancy" 
+
+END IF 
+
+END 
+Explanation:
+
+This pseudocode correctly initializes reverse to 0 and temp to the original number.
+It then correctly computes the reverse of the number.
+Finally, it compares the original number (temp) with its reverse to determine if it is a palindrome or not.
