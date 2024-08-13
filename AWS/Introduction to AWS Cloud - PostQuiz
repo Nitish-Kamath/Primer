@@ -1,0 +1,117 @@
+Question 1
+AWS Cloud's global footprint enables you to easily deploy applications to consumers all around the world (True/False)
+
+True: AWS's global network of data centers, known as regions and availability zones, allows applications to be deployed closer to users, reducing latency and improving performance.
+
+False: This would be incorrect as AWS does have a global presence that facilitates worldwide deployment.
+
+Correct Answer: True
+
+Question 2
+Cloud computing is the on-demand delivery of cloud services via the Internet with pay-as-you-go pricing. (True/False)
+
+True: This is an accurate description of cloud computing, where resources such as servers, storage, and applications are provided on demand and billed based on usage.
+
+False: This would be incorrect, as it does not accurately describe cloud computing.
+
+Correct Answer: True
+
+Question 3
+_______ eliminates the management of the underlying infrastructure (usually hardware and operating systems) and allows customers to focus on deploying and managing the applications.
+
+XaaS: This stands for "Anything as a Service," a generic term that includes all service models like SaaS, PaaS, and IaaS. It does not specifically eliminate infrastructure management.
+
+PaaS: Platform as a Service provides a platform allowing customers to develop, run, and manage applications without dealing with the underlying infrastructure.
+
+IaaS: Infrastructure as a Service provides virtualized computing resources over the internet, but customers are responsible for managing the operating systems and applications.
+
+SaaS: Software as a Service delivers software applications over the internet, fully managed by the provider, but it's not focused on application development.
+
+Correct Answer: PaaS
+
+Question 4
+Which of the following is NOT a characteristic of cloud computing?
+
+On-demand self-service: Users can access computing resources as needed without human intervention from the provider.
+
+Broad network access: Cloud services are accessible over the network via various devices.
+
+Resource pooling: Cloud providers pool resources to serve multiple customers using a multi-tenant model.
+
+Limited scalability: This is incorrect as cloud computing is characterized by its high scalability, allowing resources to be scaled up or down as needed.
+
+Correct Answer: Limited scalability
+
+Question 5
+How does cloud computing compare to traditional data centers in terms of obtaining new resources?
+
+Traditional data centers provide unlimited resources instantly: This is incorrect, as traditional data centers require time for provisioning and may not have unlimited resources.
+
+Cloud computing takes weeks to obtain new resources: This is incorrect, as cloud computing provides quick access to resources.
+
+Cloud computing enables access to new resources in minutes: Cloud platforms offer rapid provisioning of resources, allowing businesses to scale quickly.
+
+Traditional data centers are more agile in resource acquisition: This is incorrect, as traditional data centers are less flexible compared to cloud solutions.
+
+Correct Answer: Cloud computing enables access to new resources in minutes.
+
+Question 6
+AWS eliminate guessing on your infrastructure capacity needs. (True/False)
+
+True: AWS allows customers to scale resources automatically based on demand, reducing the need to predict capacity needs accurately.
+
+False: This would be incorrect, as AWS helps avoid over-provisioning or under-provisioning by offering flexible scaling options.
+
+Correct Answer: True
+
+Question 7
+Which one of the following is Cloud Platform by Amazon?
+
+GCP: Google Cloud Platform, Google's cloud services.
+
+Azure: Microsoft Azure, Microsoft's cloud services.
+
+AWS: Amazon Web Services, Amazon's cloud platform offering a wide range of cloud services.
+
+Cloudera: A company that provides software for data management, not a cloud platform.
+
+Correct Answer: AWS
+
+Question 8
+When did AWS start offering IT infrastructure services as web services?
+
+2020: This is incorrect; AWS has been around longer.
+
+2010: This is incorrect; AWS was established before this.
+
+2012: This is incorrect; AWS started earlier.
+
+2006: AWS was launched in 2006, starting with services like Amazon S3 and EC2.
+
+Correct Answer: 2006
+
+Question 9
+Which of the following consists of one or more data centers?
+
+Region: A geographical area with multiple Availability Zones.
+
+Origin: Not a term typically used to describe AWS infrastructure components.
+
+Location: A general term, not specific to AWS terminology.
+
+AvailabilityZone: A single data center or a group of data centers within a region.
+
+Correct Answer: AvailabilityZone
+
+Question 10
+When could a company decide to use a hybrid deployment model for cloud computing?
+
+To fully comply with government regulations: Sometimes true, but not exclusively a reason for hybrid models.
+
+To maintain legacy applications on premises: Hybrid models allow companies to keep some legacy systems on-premises while leveraging cloud services.
+
+To eliminate all legacy applications: This would not typically require a hybrid model.
+
+To use only cloud-based data and analytics services: This would more likely involve a full cloud deployment rather than a hybrid model.
+
+Correct Answer: To maintain legacy applications on premises
