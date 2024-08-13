@@ -1,0 +1,501 @@
+Question 1
+Question: Choose the correct arrangement of mathematical symbols to make the equation true.
+
+css
+Copy code
+a. 600 [+] 400 [‑] 800 [×] 300 [/] 200 = 200
+b. 600 [×] 400 [/] 800 [-] 300 [+] 200 = 200
+c. 600 [‑] 400 [+] 800 [/] 300 [×] 200 = 200
+d. 600 [/] 400 [+] 800 [‑] 300 [×] 200 = 200
+Correct Answer: b. 600 [×] 400 [/] 800 [-] 300 [+] 200 = 200
+
+Explanation:
+
+Correct Answer (b): According to the order of operations (PEMDAS/BODMAS), multiplication and division are performed before addition and subtraction. Evaluating b:
+
+600
+×
+400
+800
+−
+300
++
+200
+=
+600
+×
+0.5
+−
+300
++
+200
+=
+300
+−
+300
++
+200
+=
+200
+600× 
+800
+400
+​
+ −300+200=600×0.5−300+200=300−300+200=200
+This satisfies the equation.
+
+Incorrect Options:
+
+a: The order of operations results in:
+600
++
+400
+−
+(
+800
+×
+300
+200
+)
+=
+1000
+−
+1200
+=
+−
+200
+600+400−(800× 
+200
+300
+​
+ )=1000−1200=−200
+
+This does not equal 200.
+c: The order of operations results in:
+600
+−
+400
++
+800
+300
+×
+200
+=
+200
++
+800
+×
+200
+300
+=
+200
++
+533.33
+=
+733.33
+600−400+ 
+300
+800
+​
+ ×200=200+ 
+300
+800×200
+​
+ =200+533.33=733.33
+
+This does not equal 200.
+d: The order of operations results in:
+600
+400
++
+800
+−
+(
+300
+×
+200
+)
+=
+1.5
++
+800
+−
+60000
+=
+801.5
+−
+60000
+=
+−
+59198.5
+400
+600
+​
+ +800−(300×200)=1.5+800−60000=801.5−60000=−59198.5
+
+This does not equal 200.
+Question 2
+Question: Arrange the words given below in a meaningful sequence.
+
+mathematica
+Copy code
+Word 2. Paragraph 3. Sentence 4. Letters 5. Phrase
+Correct Answer: d. 4,1,5,3,2
+
+Explanation:
+
+Correct Answer (d): The logical order is:
+Letters (building blocks of words)
+Words (constructed from letters)
+Phrase (group of words)
+Sentence (group of phrases)
+Paragraph (group of sentences)
+Incorrect Options:
+a: This sequence starts with letters but places the paragraph last, which does not follow the logical development of text.
+b: This sequence incorrectly places the paragraph before the sentence and the phrase, which is not logical.
+c: This sequence incorrectly positions the phrase and sentence.
+Question 3
+Question: Which of the following represents the correct sequence for the given pseudo-code?
+
+sql
+Copy code
+BEGIN
+
+-------------
+
+-------------
+
+-------------
+
+-------------
+
+END
+sql
+Copy code
+a. DECLARE variables – number1, number2, result
+   READ number1 and number2
+   result <- number1 * number2
+   PRINT result
+
+b. DECLARE variables – number1, number2, result
+   result <- number1 * number2
+   READ number1 and number2
+   PRINT result
+
+c. DECLARE variables – number1, number2, result
+   READ number1 and number2
+   PRINT result
+   result <- number1 * number2
+
+d. READ number1 and number2
+   DECLARE variables – number1, number2, result
+   result <- number1 * number2
+   PRINT result
+Correct Answer: a. DECLARE variables – number1, number2, result; READ number1 and number2; result <- number1 * number2; PRINT result
+
+Explanation:
+
+Correct Answer (a): This sequence correctly initializes the variables, reads the input, performs the multiplication, and then prints the result in logical order.
+
+Incorrect Options:
+
+b: The result is computed before reading the input, which is logically incorrect.
+c: The result is printed before it is computed, which is incorrect.
+d: The declaration step comes after reading inputs, which is not the standard procedure.
+Question 4
+Question: Identify the meaningful variable names which can be used?
+
+css
+Copy code
+a. user name
+b. $register_number
+c. 1num
+d. user1
+Correct Answers: b. $register_number, d. user1
+
+Explanation:
+
+Correct Answers (b, d): Valid variable names must not start with a number, should not have spaces, and may only start with letters, underscores, or dollar signs.
+
+Incorrect Options:
+
+a: Contains a space, which is not allowed in variable names.
+c: Starts with a number, which is not allowed in variable names.
+Question 5
+Question: An algorithm described in the form of programming language is
+
+sql
+Copy code
+Pseudo code
+(Note: not exactly to any particular programming language, but by using few programming constructs)
+Correct Answer: Pseudo code
+
+Explanation:
+
+Correct Answer: Pseudo code describes an algorithm using constructs similar to programming languages but without adhering to the syntax of any specific language.
+Question 6
+Question: Choose the correct and meaningful pseudo-code to add two numbers.
+
+css
+Copy code
+a. BEGIN
+        READ a, b
+        sum=a+b
+        PRINT sum
+END
+
+b. BEGIN
+READ a, b
+sum=add(a,b)
+DISPLAY sum
+END
+
+c. BEGIN
+        DECLARE  number1,number2,sum
+        READ number1,number2
+        sum<----number1+number2
+        PRINT sum
+END
+
+d. Start the process
+READ a,b
+ADD a,b and store it in sum
+Display sum
+Stop
+Correct Answer: c. BEGIN DECLARE number1,number2,sum; READ number1,number2; sum <---- number1 + number2; PRINT sum END
+
+Explanation:
+
+Correct Answer (c): This pseudo-code correctly initializes variables, reads inputs, performs addition, and prints the result.
+
+Incorrect Options:
+
+a: Missing declaration of variables and incorrect indentation for proper pseudo-code.
+b: Uses a function (add(a,b)) which is not standard in pseudo-code without a proper definition.
+d: Uses informal language instead of structured pseudo-code.
+Question 7
+Question: Which of the following represents the correct sequence for the given algorithm?
+
+sql
+Copy code
+a. Get the two numbers.
+    Start
+    Add the two numbers and store the result in sum.
+    Display the sum value.
+    Stop
+
+b. Start
+    Add the two numbers and store the result in sum.
+    Get the two numbers.
+    Display the sum value.
+    Stop
+
+c. Start
+    Get the two numbers.
+    Display the sum value.
+    Add the two numbers and store the result in sum.
+    Stop
+
+d. Start
+    Get the two numbers.
+    Add the two numbers and store the result in sum.
+    Display the sum value.
+    Stop
+Correct Answer: d. Start; Get the two numbers; Add the two numbers and store the result in sum; Display the sum value; Stop
+
+Explanation:
+
+Correct Answer (d): This sequence correctly reflects the logical order of operations for adding two numbers.
+
+Incorrect Options:
+
+a: Incorrect sequence with the addition and display steps not in the correct order.
+b: Adds the numbers before getting them, which is incorrect.
+c: Displays the sum before it is computed, which is incorrect.
+Question 8
+Question: Which of the following represents the correct sequence for the given pseudo-code?
+
+csharp
+Copy code
+BEGIN
+   [1] READ mark1, mark2, mark3, mark4, mark5
+   [2] PRINT average
+   [3] total < mark1 + mark2 + mark3 + mark4 + mark5
+   [4] average < total / 5
+   [5] DECLARE mark1, mark2, mark3, mark4, mark5, total, average
+END
+css
+Copy code
+a. 1 5 4 3 2
+b. 5 1 3 4 2
+c. 1 5 3 4 2
+d. 5 1 4 3 2
+Correct Answer: b. 5 1 3 4 2
+
+Explanation:
+
+Correct Answer (b): The correct sequence is to declare variables, read inputs, calculate total, compute average, and then print the average.
+
+Incorrect Options:
+
+a: The sequence places the declaration step after the reading, which should be first.
+c: Incorrect placement of calculation steps before declaring variables.
+d: The sequence incorrectly places the declaration step at the end.
+Question 9
+Question: Examine the correct logic with their descriptions
+
+sql
+Copy code
+BEGIN
+            DECLARE radius,circumference
+            READ radius
+            circumference <---- 2*3.14*radius
+            PRINT circumference
+END
+
+Answer 1
+calculating the perimeter of a circle
+ 
+BEGIN
+            DECLARE principal, number_of_years, rate_of_interest,result
+            READ principal, number_of_years, rate_of_interest
+            result <---(principal* number_of_years*, rate_of_interest)/100
+            PRINT result
+END
+
+Answer 2
+calculating simple interest problem
+ 
+BEGIN
+            DECLARE mark1, mark2, mark3, average
+            READ mark1, mark2, mark3
+            average <- (mark1+mark2+mark3)/3
+            PRINT average
+END
+
+Answer 3
+finding the average mark of three subjects
+Correct Answer:
+
+calculating the perimeter of a circle
+calculating simple interest problem
+finding the average mark of three subjects
+Explanation:
+
+Correct Answers:
+The first block calculates the circumference (perimeter) of a circle.
+The second block calculates simple interest.
+The third block calculates the average of three subjects.
+Question 10
+Question: Expression is a combination of ___________, ____________ and _______________
+
+css
+Copy code
+a. constants
+b. functions
+c. variables
+d. keywords
+e. operators
+Correct Answers: a. constants, c. variables, e. operators
+
+Explanation:
+
+Correct Answers (a, c, e): An expression consists of constants, variables, and operators.
+
+Incorrect Options:
+
+b: Functions are not part of the basic components of an expression.
+d: Keywords are not used in expressions.
+Question 11
+Question: Match the appropriate Flowchart symbols with its purpose.
+
+css
+Copy code
+Answer 1 Connector
+Answer 2 Input/output
+Answer 3 Decision making
+Answer 4 Process
+Answer 5 Start/Stop
+Answer 6 Flow direction
+Correct Answer:
+
+Connector → Flow direction
+Input/output → Input/output
+Decision making → Decision making
+Process → Process
+Start/Stop → Start/Stop
+Explanation:
+
+Correct Answer: Correctly matches symbols to their respective purposes.
+Question 12
+Question: Match the symbols and flowchart to its appropriate functionality
+
+mathematica
+Copy code
+Parallelogram
+Answer 1 Input/output
+ 
+Rectangle
+Answer 2 Process
+ 
+Diamond
+Answer 3 Decision making
+Correct Answer:
+
+Parallelogram → Input/output
+Rectangle → Process
+Diamond → Decision making
+Explanation:
+
+Correct Answer: Matches symbols to their respective functionalities in flowcharts.
+Question 13
+Question: Rearrange the pseudo-code for multiplying two given numbers. Choose the correct option from the below.
+
+sql
+Copy code
+1 BEGIN
+2 result <- number1 * number2
+3 PRINT result
+4 READ number1 and number2
+5 DECLARE variables – number1, number2, result
+6 END
+Correct Answer: d. 1 5 4 2 3 6
+
+Explanation:
+
+Correct Answer (d): The logical sequence is to start with BEGIN, declare variables, read inputs, perform the calculation, print the result, and end.
+
+Incorrect Options:
+
+a: Incorrectly places declaration before reading.
+b: Incorrectly places print after calculation.
+c: Incorrect order of steps.
+Question 14
+Question: Flow chart for adding numbers
+
+vbnet
+Copy code
+Is the given flowchart correct?
+a. The symbol for reading input from the user is incorrect
+b. The symbol for start/stop is incorrect
+c. The symbol for process is incorrect
+d. The flowchart has no error
+Correct Answer: a. The symbol for reading input from the user is incorrect
+
+Explanation:
+
+Correct Answer (a): The input operation should use the parallelogram symbol, not a rectangle or any other symbol.
+Question 15
+Question: Stephany is learning to draw a flowchart to calculate the area of a circle. Select the appropriate option that would fit into the process section of the flow chart?
+
+mathematica
+Copy code
+a. Read the value of radius
+b. Area=3.14*radius*radius
+c. Check if radius has positive value
+d. Print the area
+Correct Answer: b. Area=3.14radiusradius
+
+Explanation:
+
+Correct Answer (b): The process section should include calculations or operations, so calculating the area fits this section.
