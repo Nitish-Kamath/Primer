@@ -1,0 +1,87 @@
+1. During which phase are the following activities performed: Identifying the major modules of the system, how these modules integrate, the architecture of the system, and describing pseudo code for each of the identified modules?
+
+a. Design
+
+Explanation: The Design phase involves defining the system architecture, identifying major modules, specifying how modules integrate, and creating pseudo code for module functionalities.
+
+b. Feasibility
+
+Explanation: The Feasibility phase assesses the practicality of the project but does not involve detailed system design activities.
+
+c. Analysis
+
+Explanation: The Analysis phase focuses on understanding and documenting requirements, not on detailed system design or module integration.
+
+d. Maintenance
+
+Explanation: The Maintenance phase involves updating and fixing the system after deployment, not the initial design of modules and system architecture.
+
+Correct Answer: a. Design
+
+2. Aesthetics of the website is part of the functional requirement. State true or false
+
+a. TRUE
+
+Explanation: Aesthetics, while important, are typically considered part of non-functional requirements, such as usability or user experience, rather than functional requirements.
+
+b. FALSE
+
+Explanation: This is correct because aesthetics are generally not classified as functional requirements, which focus on specific system functionalities.
+
+Correct Answer: b. FALSE
+
+3. _______ describes how the development activities will be performed and how development phases follow each other.
+
+a. Design
+
+Explanation: Design involves creating the system's structure but does not outline the overall process or phases.
+
+b. Process
+
+Explanation: Process refers to a sequence of actions but is not specific enough to describe the development phases.
+
+c. Software Development Process
+
+Explanation: This is the correct term that describes how development activities are conducted and how phases follow one another.
+
+d. Software Engineering
+
+Explanation: Software Engineering encompasses the entire field of creating and maintaining software but does not specifically define the sequence of development phases.
+
+Correct Answer: c. Software Development Process
+
+4. Requirement came to Allen Software Company to develop software for military purposes. A 0.00001-second delay in the missile launching software would create significant loss of human life. What kind of model is best suited for this scenario?
+
+a. Agile
+
+Explanation: Agile is more suited for projects needing flexibility and iterative development rather than handling high-risk situations with strict timing requirements.
+
+b. Spiral model
+
+Explanation: The Spiral model is ideal for high-risk projects, involving iterative development and risk management, making it suitable for critical systems with stringent timing requirements.
+
+c. Prototype
+
+Explanation: Prototyping is for exploring requirements and functionality, but not specifically for high-risk, precision-critical applications.
+
+d. Waterfall model
+
+Explanation: The Waterfall model is linear and may not adequately address high-risk issues through iterative risk management.
+
+Correct Answer: b. Spiral model
+
+5. _________ is the application of a systematic, disciplined, quantifiable approach to the design, development, operation, and maintenance of software.
+
+a. Software Testing
+
+Explanation: Software Testing is focused on verifying and validating the software but does not encompass the entire software lifecycle.
+
+b. Requirement Engineering
+
+Explanation: Requirement Engineering deals with gathering and defining requirements but not the full spectrum of software lifecycle processes.
+
+c. Software Engineering
+
+Explanation: Software Engineering involves a systematic approach to all aspects of software development, including design, development, operation, and maintenance.
+
+Correct Answer: c. Software Engineering
