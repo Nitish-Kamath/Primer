@@ -1,0 +1,119 @@
+1. Choose the correct type of testing for the given scenario:
+
+Scenario: Testing to check if 1,000,000 users can access the website at the same point of time.
+
+Correct Answer: Load Testing
+
+Explanation: Load Testing is designed to determine how well the system handles a large number of concurrent users and how it performs under heavy load conditions.
+Incorrect Options:
+
+Usability Testing: Focuses on evaluating how user-friendly and intuitive the interface is, not how the system performs under load.
+Performance Testing: Measures the responsiveness and stability of the system under various conditions, but it is broader than just testing for high traffic conditions.
+Security Testing: Concerns identifying vulnerabilities and ensuring the system is secure from threats, not handling large numbers of users.
+2. Choose the correct type of testing for the given scenario:
+
+Scenario: Testing to check if the GUI components on the screen are working properly.
+
+Correct Answer: Usability Testing
+
+Explanation: Usability Testing evaluates how easy and intuitive the GUI components are for the user, focusing on user interaction with the interface.
+Incorrect Options:
+
+Load Testing: Evaluates how well the system handles a large number of users, not the usability of GUI components.
+Performance Testing: Assesses system performance metrics such as response time and throughput, rather than GUI usability.
+Security Testing: Focuses on the system's ability to resist security threats, not the usability of the interface.
+3. Choose the correct type of testing for the given scenario:
+
+Scenario: Testing to check if the report is generated within 5 seconds on the click of a button as agreed in the SRS.
+
+Correct Answer: Performance Testing
+
+Explanation: Performance Testing measures how well the system meets performance requirements, such as generating reports within a specified time frame.
+Incorrect Options:
+
+Load Testing: Tests how well the system performs under heavy load conditions, not specific performance criteria like response time.
+Usability Testing: Assesses user-friendliness of the application, not performance metrics.
+Security Testing: Focuses on security aspects rather than performance response times.
+4. Choose the correct type of testing for the given scenario:
+
+Scenario: Testing to check if the card is swiped more than three times with the wrong PIN, resulting in the card being blocked.
+
+Correct Answer: Security Testing
+
+Explanation: Security Testing ensures that the system properly handles security-related scenarios, such as blocking a card after multiple incorrect PIN attempts.
+Incorrect Options:
+
+Load Testing: Concerned with system performance under high user load, not security features.
+Performance Testing: Measures system responsiveness and stability, not security functionality.
+Usability Testing: Evaluates the user experience with the system, not its security mechanisms.
+5. What kind of non-functional requirement best suits the scenario:
+
+Scenario: Whenever new offers are published on the online shopping site, an SMS must be sent to all registered customers within 10 minutes of publishing.
+
+Correct Answer: Performance Requirement
+
+Explanation: Performance Requirements involve constraints on how well the system performs, such as timely sending of SMS notifications within a specified period.
+Incorrect Options:
+
+Security Requirement: Deals with ensuring the system is secure from unauthorized access, not performance metrics.
+Usability Requirement: Focuses on how easy the system is to use, not on performance aspects like response time.
+Portability Requirement: Concerns the system's ability to be moved or adapted to different environments, not performance.
+6. Whenever a new product arrives, the stock needs to be updated. This requirement is an example of a non-functional requirement. State true or false
+
+Correct Answer: FALSE
+
+Explanation: Updating stock is a functional requirement because it specifies a specific system behavior related to inventory management, not how the system performs in terms of attributes.
+Incorrect Option:
+
+TRUE: Suggests that updating stock is a non-functional requirement, which is incorrect. Functional requirements describe specific behaviors or functions of the system.
+7. Identify the possible entities from the given options:
+
+Options:
+Customer
+
+Sale
+
+customerAge
+
+SalesID
+
+Correct Answers:
+
+Customer: An entity representing a customer in the system.
+Sale: An entity representing a sales transaction in the system.
+Incorrect Options:
+
+customerAge: This is an attribute of the Customer entity, not an entity itself.
+SalesID: This is an identifier or attribute related to the Sale entity, not an entity.
+8. Which of the following are available in the SRS Document?
+
+Options:
+Design
+
+Functional Requirements
+
+Constraints
+
+Non-Functional Requirements
+
+Correct Answers:
+
+Functional Requirements: Specifies what the system should do.
+Constraints: Describes limitations or constraints imposed on the system.
+Non-Functional Requirements: Includes performance, usability, and other quality attributes.
+Incorrect Options:
+
+Design: Typically detailed in design documents, not the SRS. The SRS focuses on what the system should do rather than how it is designed.
+Software Engineering: A broad field encompassing all aspects of software development, not specific to SRS contents.
+9. Consider the below scenario: A team has many players, and each player belongs to one team. Identify the cardinality between player and team.
+
+Correct Answer: M:1 (Many-to-One)
+Explanation: Each team has multiple players (many-to-one), but each player belongs to only one team.
+
+Incorrect Options:
+
+1:1 (One-to-One): Indicates each player would belong to exactly one team and each team would have exactly one player, which does not fit the scenario.
+M
+(Many-to-Many): Suggests that players could belong to multiple teams and teams could have multiple players, which is not the case here.
+1
+(One-to-Many): Implies one team has multiple players but each player could belong to multiple teams, which is incorrect based on the scenario.
