@@ -1,0 +1,111 @@
+Question 1
+Problem Statement: "In Software maintenance, changes are implemented by modifying existing components and adding new components to the system. State if this statement is True or False."
+
+Options:
+
+True
+False
+Correct Answer: True
+
+Explanation:
+
+True: In software maintenance, the process often involves modifying existing components to fix issues, improve performance, or adapt to new requirements. It can also include adding new components to enhance functionality or address emerging needs.
+False: This option is incorrect because it contradicts the standard practices in software maintenance, which do involve both modifications to existing components and additions of new ones.
+Question 2
+Problem Statement: "In an online shopping application, during customer registration, the customer was initially required to enter their city in a text box. As the site became popular, the client decided to add an autocomplete feature to improve user friendliness. What type of maintenance needs to be carried out in this scenario?"
+
+Options:
+
+a. Preventive
+b. Perfective
+c. Corrective
+d. Adaptive
+Correct Answer: b. Perfective
+
+Explanation:
+
+Perfective: This type of maintenance involves making improvements or enhancements to existing features to improve performance or usability. Adding an autocomplete feature to the city field to enhance user experience is an example of perfective maintenance.
+Preventive: This type of maintenance aims to prevent potential future problems by making changes to avoid issues. It is not related to adding new features for improved usability.
+Corrective: This maintenance type addresses and fixes defects or bugs in the software. Since there was no defect in the original feature but rather a desire for improvement, corrective maintenance is not applicable.
+Adaptive: This involves making changes to adapt the software to new environments or platforms. Adding an autocomplete feature does not fit this category.
+Question 3
+Problem Statement: "The Y2K problem is an example of which type of maintenance?"
+
+Options:
+
+a. Adaptive
+b. Corrective
+c. Preventive
+d. Perfective
+Correct Answer: c. Preventive
+
+Explanation:
+
+Preventive: The Y2K problem involved making changes to prevent potential future errors related to date handling. This falls under preventive maintenance, which aims to avoid problems before they occur.
+Adaptive: This type of maintenance involves adjusting software to work in new environments or platforms, which does not apply to the Y2K problem.
+Corrective: Corrective maintenance deals with fixing existing defects or issues, but the Y2K problem was about preventing future issues, not correcting existing ones.
+Perfective: This type involves improving or enhancing features, which is not relevant to the Y2K problem, which was focused on preventing date-related issues.
+Question 4
+Problem Statement: "A client has developed an application that allows each customer to store 2TB of data. As the number of customers increases, the client feels that the storage space needs to be increased for smooth operations. What type of maintenance is this?"
+
+Options:
+
+a. Adaptive Maintenance
+b. Perfective Maintenance
+c. Corrective Maintenance
+d. Preventive Maintenance
+Correct Answer: a. Adaptive Maintenance
+
+Explanation:
+
+Adaptive Maintenance: This type of maintenance involves making changes to the software to adapt to new conditions or requirements. Increasing storage space to accommodate a growing number of customers is an example of adaptive maintenance.
+Perfective Maintenance: This involves making enhancements to improve the system's functionality or performance. Increasing storage space is not about improving existing features but adapting to new needs.
+Corrective Maintenance: This type addresses issues or bugs in the software. There is no indication of a defect or bug in this scenario.
+Preventive Maintenance: This type focuses on avoiding future problems, but increasing storage space due to increased demand does not fit this description.
+Question 5
+Problem Statement: "A client wants to add a new feature called 'Discount Offers' to their existing application. This feature will notify customers of weekday offers whenever a new product arrives at the supermarket. What type of maintenance is this?"
+
+Options:
+
+a. Preventive Maintenance
+b. Adaptive Maintenance
+c. Perfective Maintenance
+d. Corrective Maintenance
+Correct Answer: c. Perfective Maintenance
+
+Explanation:
+
+Perfective Maintenance: This involves enhancing the system with new features to improve functionality or user experience. Adding a 'Discount Offers' feature is an enhancement aimed at improving the application's usefulness.
+Preventive Maintenance: This type focuses on avoiding future issues and does not apply to the addition of new features.
+Adaptive Maintenance: This involves changes to adapt the software to new environments or conditions, which does not apply to adding new features.
+Corrective Maintenance: This type is about fixing defects or errors, not about adding new features.
+Question 6
+Problem Statement: "Software maintenance for changing the platform is an example of which type of maintenance?"
+
+Options:
+
+a. Preventive
+b. Corrective
+c. Perfective
+d. Adaptive
+Correct Answer: d. Adaptive
+
+Explanation:
+
+Adaptive Maintenance: This type involves modifying the software to operate in new or changed environments or platforms. Changing the platform is an example of adaptive maintenance.
+Preventive Maintenance: This involves making changes to prevent potential future issues, not adapting to new platforms.
+Corrective Maintenance: This type fixes defects or issues within the software, not changes due to platform shifts.
+Perfective Maintenance: This involves improving existing features, not adapting to new platforms.
+Question 7
+Problem Statement: "Any changes made to the software during the operational phase of the software before project wind-up are referred to as maintenance. State if this statement is True or False."
+
+Options:
+
+a. TRUE
+b. FALSE
+Correct Answer: b. FALSE
+
+Explanation:
+
+FALSE: Maintenance refers to changes made to software after it has been deployed and is in use, not necessarily before the project wind-up. Changes during the operational phase are maintenance, but the statement incorrectly suggests it includes pre-deployment changes.
+TRUE: This option is incorrect because it incorrectly includes pre-deployment changes as maintenance. Maintenance specifically refers to post-deployment changes.
