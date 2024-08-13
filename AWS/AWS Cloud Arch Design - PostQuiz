@@ -1,0 +1,125 @@
+Question 1
+A pillar focuses on ensuring a system/workload delivers maximum performance for a set of AWS resources utilized.
+
+Operational excellence: This pillar focuses on operations and processes, not directly on performance.
+
+Performance efficiency: This pillar ensures that IT resources are used effectively to meet system requirements, focusing on performance optimization.
+
+Reliability: This pillar ensures that a system can recover from failures and meet operational demands, but it is not focused on performance.
+
+Cost Optimization: This pillar is about managing costs, not directly related to performance.
+
+Correct Answer: Performance efficiency
+
+Question 2
+What is the primary goal of the "Security" pillar in the Well-Architected Framework?
+
+Optimal performance: This is not related to security; it concerns performance optimization.
+
+Operates with optimal performance: Again, this is not focused on security.
+
+Maximizing the efficiency of resources: This relates to the Performance Efficiency pillar, not Security.
+
+Protecting data, systems, and assets: The Security pillar aims to protect information, systems, and assets through risk assessments and mitigation strategies.
+
+Correct Answer: Protecting data, systems, and assets
+
+Question 3
+How does the "Cost Optimization" pillar suggest handling unused or underutilized resources?
+
+Upgrade them to larger instances: This would increase costs and is not recommended for unused resources.
+
+Turn them off when not needed: This is a cost-effective strategy to avoid unnecessary expenses for unused resources.
+
+Keep them running to ensure availability: Keeping unused resources running increases costs without adding value.
+
+Hibernate the instances: While this reduces costs, turning them off is more cost-effective.
+
+Correct Answer: Turn them off when not needed
+
+Question 4
+Which pillar of the Well-Architected Framework focuses on the ability to recover from failures and meet customer demands?
+
+Operational excellence: This pillar is about operations and processes, not failure recovery.
+
+Cost Optimization: This pillar focuses on managing costs, not on recovery and availability.
+
+Performance efficiency: This is focused on resource utilization, not on reliability.
+
+Reliability: This pillar is dedicated to ensuring that a system can recover from failures and meet business and customer demands.
+
+Correct Answer: Reliability
+
+Question 5
+Which pillar is a combination of processes, continuous improvement, and monitoring systems that delivers business value and continuously improves supporting processes and procedures?
+
+Cost Optimization: This pillar is about managing costs, not continuous improvement processes.
+
+Reliability: This pillar focuses on system availability, not on business process improvement.
+
+Performance efficiency: This relates to optimal use of resources, not process improvement.
+
+Operational excellence: This pillar focuses on processes, improvement, and monitoring to deliver business value continuously.
+
+Correct Answer: Operational excellence
+
+Question 6
+___________ focuses on achieving the lowest price for a system/workload. Optimize the cost while considering the account needs without ignoring factors like security, reliability, and performance.
+
+Cost Optimization: This pillar specifically focuses on minimizing costs while maintaining necessary levels of performance, security, and reliability.
+
+Performance efficiency: Focuses on resource utilization rather than cost.
+
+Operational excellence: This is about process improvement, not specifically cost.
+
+Security: This focuses on protecting data and systems, not cost.
+
+Correct Answer: Cost Optimization
+
+Question 7
+Which of the following is NOT a pillar of the AWS Well-Architected Framework?
+
+Cost Optimization: This is one of the pillars.
+
+Operational Excellence: This is one of the pillars.
+
+Persistence: This is not a recognized pillar in the AWS Well-Architected Framework.
+
+Security: This is one of the pillars.
+
+Correct Answer: Persistence
+
+Question 8
+The AWS Well-Architected Tool provides a plan on how to architect for the cloud using established best practices.
+
+True: The AWS Well-Architected Tool helps users review their architectures and provides guidance on best practices.
+
+False: Incorrect, as the tool does provide a framework and plan for best practices.
+
+Correct Answer: True
+
+Question 9
+____________ is a small, rugged, and secure edge computing and data transfer device.
+
+AWS Snowcone: Snowcone is designed for edge computing and data transfer, being small, portable, and rugged.
+
+Amazon Edge Computing: Not a specific AWS product.
+
+AWS Snowball: Larger and used for data transfer, but not specifically small and rugged like Snowcone.
+
+Amazon CodeWhisperer: An AI coding assistant, not a physical device.
+
+Correct Answer: AWS Snowcone
+
+Question 10
+What AWS service is used to convert speech to text?
+
+Amazon Lex: This service is used for building conversational interfaces but not specifically for speech-to-text.
+
+Amazon CodeWhisperer: An AI coding tool, not related to speech.
+
+Amazon Transcribe: This service is designed for converting speech to text.
+
+Amazon Comprehend: This service analyzes text but does not convert speech to text.
+
+Correct Answer: Amazon Transcribe
