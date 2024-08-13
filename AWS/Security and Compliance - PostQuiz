@@ -1,0 +1,122 @@
+Question 1
+Which AWS service is used for automated security assessments?
+
+AWS Inspector: This service performs automated security assessments of applications and helps identify vulnerabilities and deviations from best practices.
+
+AWS CloudHSM: Provides hardware security modules (HSMs) for cryptographic operations but does not perform security assessments.
+
+AWS KMS: Manages encryption keys but does not conduct security assessments.
+
+AWS Shield: Protects against DDoS attacks but is not for security assessments.
+
+Correct Answer: AWS Inspector
+
+Question 2
+What is the benefit of using IAM roles for EC2 instances?
+
+Easier Management of EC2 Instances: Not the primary benefit of IAM roles.
+
+Improved Security by Avoiding the Use of Roles: Incorrect, as IAM roles improve security by avoiding hardcoded credentials.
+
+Secure Access to AWS Services Without Storing Credentials: Correct, IAM roles allow instances to securely access AWS services without needing to store credentials on the instance.
+
+Automatic Scaling of EC2 Instances: Not related to IAM roles.
+
+Correct Answer: Secure Access to AWS Services Without Storing Credentials
+
+Question 3
+Which AWS service provides access to security and compliance documents?
+
+AWS CloudHSM: Provides hardware security modules but not compliance documents.
+
+AWS Inspector: Used for security assessments but not for compliance documents.
+
+AWS Artifact: Provides access to security and compliance reports and documentation.
+
+AWS KMS: Manages encryption keys but does not provide compliance documents.
+
+Correct Answer: AWS Artifact
+
+Question 4
+How to set max permission for a user?
+
+Permission Boundary: Defines the maximum permissions a user or role can have.
+
+Role: Defines permissions for a user but does not set maximum permissions.
+
+Group: Assigns permissions to multiple users but does not set maximum permissions.
+
+Policy: Defines permissions but does not restrict to maximum permissions.
+
+Correct Answer: Permission Boundary
+
+Question 5
+What is the primary purpose of AWS IAM?
+
+Analyzing Log Data: Not related to IAM's primary purpose.
+
+Scaling Virtual Machines: Not related to IAM.
+
+Managing Database Instances: Not related to IAM.
+
+Controlling Access to AWS Resources: Correct, IAM is used to manage access to AWS resources.
+
+Correct Answer: Controlling Access to AWS Resources
+
+Question 6
+AWS is responsible for protecting the Global infrastructure based on the shared responsibility model.
+
+True: AWS is responsible for securing the cloud infrastructure, while customers are responsible for securing their data and applications within the cloud.
+Correct Answer: True
+
+Question 7
+Which AWS service protects applications running on AWS against DDoS attacks?
+
+AWS KMS: Manages encryption keys, not for DDoS protection.
+
+AWS Inspector: Provides security assessments, not DDoS protection.
+
+AWS IAM: Manages user permissions, not DDoS protection.
+
+AWS Shield: Provides protection against DDoS attacks.
+
+Correct Answer: AWS Shield
+
+Question 8
+Which of the following are best practices of IAM?
+
+Delete Root User Account: Not a typical best practice as the root account should be secured, not deleted.
+
+Delete Access Keys of Root User: A good practice to avoid using root account access keys.
+
+Enable Multifactor Authentication: Enhances security by requiring a second form of authentication.
+
+Delete Root User Password: Not recommended; instead, secure it with MFA and proper policies.
+
+Correct Answers: Delete Access Keys of Root User, Enable Multifactor Authentication
+
+Question 9
+Which of the following entities allow a user to access AWS resources temporarily?
+
+IAM Access Keys: Provide access to AWS resources but are not temporary.
+
+IAM Role: Allows temporary access to AWS resources based on assigned permissions.
+
+IAM Policy: Defines permissions but does not provide temporary access.
+
+IAM User: Provides permanent access unless credentials are explicitly revoked.
+
+Correct Answer: IAM Role
+
+Question 10
+IAM policies can be attached to __________
+
+User: IAM policies can be attached to users to grant them permissions.
+
+Profile: Not applicable; IAM policies are not attached to profiles.
+
+Group: Policies can be attached to groups, which then apply to all users in that group.
+
+Role: Policies can also be attached to roles to grant permissions.
+
+Correct Answers: User, Group, Role
