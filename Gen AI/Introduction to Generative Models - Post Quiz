@@ -1,0 +1,99 @@
+Question 1
+Which claim regarding generative models isn't true?
+
+They can be combined with discriminative models for certain tasks: True; generative and discriminative models can be combined for various tasks.
+They capture the data distribution: True; generative models are designed to learn and capture the data distribution.
+They can generate new data samples: True; generative models are specifically designed to generate new data samples.
+They always require labeled data for training: Not true; generative models do not always require labeled data. Many generative models, like GANs and VAEs, can work with unlabeled data.
+They can be used in unsupervised learning scenarios: True; generative models are often used in unsupervised learning scenarios.
+Correct Answer: They always require labeled data for training
+
+Question 2
+How is the likelihood of data given a model symbolized?
+
+P(data & model): Not correct; this does not correctly represent likelihood.
+P(model): Not correct; this represents the probability of the model, not the likelihood.
+P(model | data): Not correct; this represents the posterior probability, not the likelihood.
+P(data): Not correct; this is just the probability of the data, not conditional on the model.
+P(data | model): Correct; this represents the likelihood of the data given the model.
+Correct Answer: P(data | model)
+
+Question 3
+Which of the following best describes the difference between generative and discriminative models?
+
+Discriminative models can't generate data: Not accurate; while discriminative models primarily focus on classification, they do not generate data.
+Generative models are used for classification only: Not correct; generative models are not limited to classification; they generate data.
+Generative models learn the data distribution, while discriminative models learn the decision boundary: Correct; this accurately describes the difference.
+Generative models are older in concept: Not correct; both generative and discriminative models have evolved over time.
+Generative models are always better: Not accurate; the choice between generative and discriminative models depends on the task.
+Correct Answer: Generative models learn the data distribution, while discriminative models learn the decision boundary
+
+Question 4
+Within generative models, what function does the discriminator serve in GANs?
+
+To capture the joint probability: Not correct; this is not the function of the discriminator in GANs.
+To distinguish between real and generated data: Correct; the discriminator's role is to differentiate between real and generated data.
+To optimize the generator: Not correct; while the discriminator impacts the generator's training, it does not directly optimize it.
+To calculate the likelihood: Not correct; the discriminator does not calculate the likelihood in GANs.
+To generate new data: Not correct; generating new data is the role of the generator, not the discriminator.
+Correct Answer: To distinguish between real and generated data
+
+Question 5
+Which model type aims to capture the joint probability P(x, y)?
+
+Generative Model: Correct; generative models aim to model the joint probability distribution.
+Regression model: Not correct; regression models focus on predicting a continuous outcome.
+Both Generative Model and Discriminative Model: Not correct; generative models focus on P(x, y), while discriminative models focus on P(y | x).
+Probability Distribution: Not specific enough; this is a general concept, not a model type.
+Discriminative Model: Not correct; discriminative models focus on conditional probabilities like P(y | x).
+Correct Answer: Generative Model
+
+Question 6
+For what tasks can generative models be applied?
+
+Classification only: Not correct; generative models are not limited to classification.
+Only data generation: Not correct; generative models can also be used for other tasks.
+Only denoising: Not correct; generative models can perform a range of tasks beyond denoising.
+Data generation, denoising, inpainting, and more: Correct; generative models can be applied to various tasks including data generation, denoising, and inpainting.
+Data labeling only: Not correct; generative models are not specifically used for data labeling.
+Correct Answer: Data generation, denoising, inpainting, and more
+
+Question 7
+What does a probability distribution provide?
+
+A decision boundary for classification: Not correct; this is typically related to discriminative models.
+A training method for models: Not correct; probability distributions are not training methods.
+A mathematical description of outcomes for a random variable: Correct; this is what a probability distribution provides.
+A measure of model error: Not correct; probability distributions describe data, not error.
+A method for generating new data: Not correct; while probability distributions are used in generating data, they do not directly provide methods for it.
+Correct Answer: A mathematical description of outcomes for a random variable
+
+Question 8
+Which of the following is NOT a property of likelihood?
+
+It is always a probability between 0 and 1: Correct; likelihood is not restricted to values between 0 and 1; it can be any non-negative value.
+It is a function of model parameters: Not correct; likelihood is indeed a function of model parameters.
+It can be used to compare different models: Not correct; likelihood is used to compare models by evaluating how well they fit the data.
+It measures how well a model explains data: Not correct; likelihood measures how well the model explains the data.
+It is normalized like a probability: Not correct; likelihood is not necessarily normalized.
+Correct Answer: It is always a probability between 0 and 1
+
+Question 9
+Within the architecture of Generative Adversarial Networks (GANs), which duo of fundamental elements are paramount?
+
+Generator and Discriminator: Correct; these are the two fundamental components of GANs.
+Forward and Backward Propagators: Not correct; these terms relate to the propagation of data and gradients in neural networks.
+Classifier and Regressor: Not correct; these are types of models, not specific components of GANs.
+Activator and Deactivator: Not correct; these terms are not standard components in GANs.
+Encoder and Decoder: Not correct; these terms are used in autoencoders, not GANs.
+Correct Answer: Generator and Discriminator
+
+Question 10
+What's a significant hurdle when training GANs?
+
+Overfitting to the training data: Not correct; while overfitting can be an issue, it is not the most significant hurdle in GANs.
+Inability to generate high-resolution images: Not correct; GANs can generate high-resolution images, though it can be challenging.
+The discriminator becoming too weak: Not correct; the issue is often the discriminator becoming too strong or weak, leading to training instability.
+Slow convergence rate: Not correct; GANs can be challenging in terms of convergence but are not typically noted for being slow.
+Mode collapse: Correct; mode collapse is a common problem where the generator produces a limited variety of outputs.
+Correct Answer: Mode collapse
