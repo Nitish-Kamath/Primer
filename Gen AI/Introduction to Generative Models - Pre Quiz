@@ -1,0 +1,99 @@
+Question 1
+What does likelihood measure in the context of a model?
+
+The probability of the model being correct: Not correct; likelihood measures how well the model explains the observed data, not the probability of the model's correctness.
+How well the model explains the observed data: Correct; likelihood quantifies how probable the observed data is given the model parameters.
+The complexity of the model: Not correct; model complexity is typically assessed using metrics like model size or regularization techniques.
+The generative capacity of the model: Not correct; generative capacity refers to the model's ability to generate new data samples, not likelihood.
+The error rate of the model: Not correct; error rate measures performance but not the likelihood.
+Correct Answer: How well the model explains the observed data
+
+Question 2
+What is the primary goal of generative models in AI?
+
+To classify data: Not correct; classification is the goal of discriminative models, not generative models.
+To generate new data samples: Correct; generative models aim to create new data samples that are similar to the training data.
+To optimize algorithms: Not correct; optimization is a broader concept not specific to generative models.
+To reduce computational cost: Not correct; reducing computational cost is not the primary goal of generative models.
+To analyze data distributions: Not correct; while generative models do analyze data distributions, their main goal is to generate new data.
+Correct Answer: To generate new data samples
+
+Question 3
+In the context of generative models, what does P(x) represent?
+
+The posterior probability of x: Not correct; the posterior probability refers to the probability of parameters given data, not just P(x).
+The likelihood of x: Not correct; likelihood is related to the probability of data given parameters.
+The joint probability of x and y: Not correct; joint probability includes both x and y, not just x.
+The conditional probability of x given y: Not correct; this represents a different conditional relationship.
+The probability distribution of the data x: Correct; P(x) represents the probability distribution of the data x in generative models.
+Correct Answer: The probability distribution of the data x
+
+Question 4
+Generative models are primarily used for which of the following tasks?
+
+Reinforcement learning: Not correct; reinforcement learning is a different type of machine learning.
+Clustering: Not correct; clustering is an unsupervised learning task, not specific to generative models.
+Generating new data samples similar to the input data: Correct; generative models create new samples that resemble the input data.
+Regression: Not correct; regression is a predictive modeling task, not specific to generative models.
+Classification: Not correct; classification is a task for discriminative models, not generative models.
+Correct Answer: Generating new data samples similar to the input data
+
+Question 5
+If a model is better at distinguishing between classes rather than generating data, it is likely a _______.
+
+Discriminative model: Correct; discriminative models focus on distinguishing between classes rather than generating data.
+Joint probability model: Not correct; joint probability models describe the probability of multiple variables together.
+Bayesian model: Not correct; Bayesian models can be used for both generative and discriminative tasks.
+Likelihood model: Not correct; likelihood is a concept used in both generative and discriminative contexts.
+Generative model: Not correct; generative models are focused on generating data, not distinguishing between classes.
+Correct Answer: Discriminative model
+
+Question 6
+Which of the following is crucial for understanding the behavior of generative models?
+
+Gradient descent: Not correct; gradient descent is an optimization technique used in training models, not specific to generative models.
+Activation functions: Not correct; activation functions are important in all neural networks but not specific to generative models.
+Probability distributions and likelihood: Correct; understanding probability distributions and likelihood is crucial for analyzing generative models.
+Backpropagation: Not correct; backpropagation is used for training models but not specifically for understanding generative models.
+Convolutional layers: Not correct; convolutional layers are used in CNNs, not specifically related to understanding generative models.
+Correct Answer: Probability distributions and likelihood
+
+Question 7
+Which model type is primarily concerned with determining P(y | x)?
+
+Discriminative Model: Correct; discriminative models focus on modeling the conditional probability P(y | x), where y is the output and x is the input.
+Probability Distribution: Not correct; this is a general term, not a specific model type.
+Bayesian model: Not correct; Bayesian models can model both P(x | y) and P(y | x).
+Both Generative and Discriminative: Not correct; while generative models can be used to compute P(x | y), discriminative models specifically focus on P(y | x).
+Generative Model: Not correct; generative models focus on P(x) and P(x | y), not P(y | x).
+Correct Answer: Discriminative Model
+
+Question 8
+In the context of models, what does P(x | y) typically represent?
+
+The distribution of y: Not correct; P(x | y) represents the distribution of x given y, not y alone.
+The likelihood of y: Not correct; P(x | y) is about x given y, not just y.
+The probability of y given x: Not correct; this is P(y | x).
+The generative capacity of x: Not correct; generative capacity refers to the ability to generate data, not the probability of x given y.
+The probability of x given y: Correct; P(x | y) represents the conditional probability of x given y.
+Correct Answer: The probability of x given y
+
+Question 9
+Which of the following is NOT a generative model?
+
+Generative Adversarial Networks: Not correct; GANs are a type of generative model.
+Gaussian Mixture Models: Not correct; GMMs are generative models used for density estimation.
+Variational Autoencoders: Not correct; VAEs are generative models used to create new data samples.
+Restricted Boltzmann Machines: Not correct; RBMs are generative models used for unsupervised learning.
+Support Vector Machines: Correct; SVMs are discriminative models used for classification and regression, not generative models.
+Correct Answer: Support Vector Machines
+
+Question 10
+Which statement best differentiates generative from discriminative models?
+
+Generative models learn the joint probability distribution, while discriminative models learn the conditional probability: Correct; generative models model the joint probability P(x, y) and can generate new samples, while discriminative models focus on the conditional probability P(y | x) and are used for classification tasks.
+Both models serve the same purpose: Not correct; they serve different purposes—generative models create data, while discriminative models classify data.
+Generative models cannot be trained with labeled data: Not correct; generative models can use labeled data but are primarily focused on generating data.
+Generative models are only for images, discriminative for text: Not correct; both model types can be used for various types of data, including images and text.
+Generative models are newer than discriminative models: Not correct; generative and discriminative models have been developed and used in parallel for different purposes.
+Correct Answer: Generative models learn the joint probability distribution, while discriminative models learn the conditional probability
