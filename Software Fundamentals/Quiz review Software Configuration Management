@@ -1,0 +1,88 @@
+Question 1
+Problem Statement: "Which of the following options are valid for the relationship between the configuration objects?"
+
+Options:
+
+a. A curved arrow indicates a compositional relation
+b. A double-headed straight arrow indicates compositional relation
+c. A curved arrow indicates an interrelationship
+d. A double-headed straight arrow indicates an interrelationship
+Correct Answers: a. A curved arrow indicates a compositional relation, d. A double-headed straight arrow indicates an interrelationship
+
+Explanation:
+
+A curved arrow indicates a compositional relation: Correct. A curved arrow typically denotes a compositional or hierarchical relationship where one object is a part of another.
+A double-headed straight arrow indicates compositional relation: Incorrect. A double-headed straight arrow usually indicates an interrelationship or dependency between objects, not a compositional relationship.
+A curved arrow indicates an interrelationship: Incorrect. A curved arrow signifies compositional relationships rather than interrelationships.
+A double-headed straight arrow indicates an interrelationship: Correct. A double-headed straight arrow shows that there is a mutual or bidirectional relationship between the objects.
+Question 2
+Problem Statement: "Match the following facts about Version Management"
+
+Options:
+
+When a member of the team wants his code to work in isolation
+
+Answer 1: Create branches
+Lock a file
+
+Answer 2: Serialized changes to file
+If a file is changed and we want to roll back to the previous version
+
+Answer 3: Automatic backup
+Correct Answer:
+
+When a member of the team wants his code to work in isolation → Create branches
+Lock a file → Serialized changes to file
+If a file is changed and we want to roll back to the previous version → Automatic backup
+Explanation:
+
+Create branches: Used to allow individual team members to work on different features or changes in isolation from each other.
+Lock a file: Ensures that a file can only be edited by one person at a time, preventing conflicts and ensuring serialized changes.
+Automatic backup: Helps to roll back to a previous version of a file if needed, maintaining historical versions.
+Question 3
+Problem Statement: "Configuration Management, Version Control, Configuration Audit, Change Management. Which of these is responsible for reviewing the items against various specifications for assessing its quality and correctness?"
+
+Options:
+
+Configuration Management
+Version Control
+Configuration Audit
+Change Management
+Correct Answer: Configuration Audit
+
+Explanation:
+
+Configuration Audit: Involves reviewing configuration items against their specifications to ensure they meet quality and correctness standards.
+Configuration Management: Manages and tracks configuration items but does not specifically focus on auditing their quality.
+Version Control: Handles tracking changes and managing different versions of files rather than auditing them.
+Change Management: Manages the process of making changes but not specifically the auditing of configuration items.
+Question 4
+Problem Statement: "Version Control allows users to lock files so they can only be edited by one person at a time and track changes to files. State if this statement is True or False."
+
+Options:
+
+True
+False
+Correct Answer: True
+
+Explanation:
+
+True: Version control systems do allow for locking files to prevent concurrent edits by multiple users and track changes over time.
+False: This option is incorrect because version control systems indeed support file locking and change tracking.
+Question 5
+Problem Statement: "Choose the missing steps involved in the Change Control Process in the correct order: Identify and submit change request, ______________, Plan the change, Implement and test the change, Verify implementation of change, Close change request."
+
+Options:
+
+a. Review stakeholder feedback
+b. Evaluate impacts of change request
+c. Collect impacts of change request
+d. Analyze the cost of the proposed change
+Correct Answer: b. Evaluate impacts of change request
+
+Explanation:
+
+Evaluate impacts of change request: This step involves assessing the potential impacts of the proposed change on the project, ensuring all aspects are considered before planning.
+Review stakeholder feedback: This may occur during the evaluation or planning phases but is not a specific step in the basic change control process.
+Collect impacts of change request: This is related but less specific than evaluating the impacts.
+Analyze the cost of the proposed change: While cost analysis is important, it is part of the evaluation process but not the next step following the request identification.
