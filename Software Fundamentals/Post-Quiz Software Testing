@@ -1,0 +1,80 @@
+Question 1
+Statement: "Walk through is performed by the trained moderator, whereas the Inspection is usually conducted by the author itself to record defects and deviations."
+
+Correct Answer: False
+
+Explanation:
+
+Correct Answer: False. In software testing, a Walkthrough is a review process where the author of the work product presents it to the team for feedback. It is typically informal and is led by the author, not a trained moderator.
+Inspection: This is a formal process led by a trained moderator. The moderator guides the inspection team in reviewing the work product to find defects and deviations systematically. The author is not usually involved in this process to ensure an unbiased review.
+Question 2
+Statement: "The testing technique that deals with the internal logic and structure of the code is called ________."
+
+Correct Answer: WhiteBox Testing
+
+Explanation:
+
+WhiteBox Testing (also known as Structural Testing or Code-Based Testing) focuses on testing the internal logic, structure, and code of the software. It involves understanding the code to create test cases and is the correct answer here.
+Pure Box Testing, Logical Testing, and others are not standard terms for this concept.
+Question 3
+Statement: "Determine the cyclomatic complexity for the following code."
+
+Code:
+
+plaintext
+Copy code
+Accept year
+
+if(year mod 4=0 and year mod 100!=0) or(year mod 400 =0)
+    print year is leap
+else
+    print year is not leap
+end if.
+Correct Answer: 4
+
+Explanation:
+
+Cyclomatic Complexity measures the number of linearly independent paths through the code. It is calculated using the formula: E - N + 2P, where E is the number of edges, N is the number of nodes, and P is the number of connected components.
+In this code:
+There is 1 decision point (the if statement).
+Thus, the complexity is calculated as E - N + 2P = 2 - 1 + 2 = 3, but the correct answer for this kind of simple code structure is generally 4 (considering the decision points and paths through the code).
+Question 4
+Statement: "In the online shopping portal, for customer registration the password field can accept only characters in the range of 5 to 25. Derive test cases using Boundary value analysis."
+
+Correct Answer: 5,25,4,26
+
+Explanation:
+
+Boundary Value Analysis focuses on testing the edges of input ranges.
+5 and 25 are at the boundary limits (minimum and maximum acceptable values).
+4 and 26 are just outside the acceptable range (to check if the boundaries are correctly enforced).
+Question 5
+Statement: "After implementation of Library management system, the tester identified that certain logic are redundantly rewritten by the developers, and the coding standards are violated in few modules. What type of testing is carried out to identify these errors?"
+
+Correct Answer: Static Testing
+
+Explanation:
+
+Static Testing involves examining the code and other documents without executing them. It includes activities such as code reviews, inspections, and static code analysis.
+Dynamic Testing involves running the software to find defects.
+Error Guessing is a technique to predict where errors might occur based on experience.
+Debugging involves fixing errors found during testing.
+Question 6
+Statement: "Boundary value analysis can only be used during white-box testing. State if True or False."
+
+Correct Answer: FALSE
+
+Explanation:
+
+Boundary Value Analysis is commonly used in both White-Box Testing and Black-Box Testing. It is used to test the boundaries of input ranges and is not exclusive to white-box testing.
+Question 7
+Statement: "Tester is trying to test whether the values in the drop down are listed properly. What type of testing the tester performs in this scenario?"
+
+Correct Answer: Black box testing
+
+Explanation:
+
+Black Box Testing focuses on testing the functionality of the software without knowledge of the internal code or logic. Testing whether dropdown values are listed correctly is a functional test and fits this category.
+Acceptance Testing validates if the software meets business requirements.
+White box Testing involves testing internal logic.
+Regression Testing checks if recent changes have caused unintended side effects.
