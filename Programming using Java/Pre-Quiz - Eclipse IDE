@@ -1,0 +1,103 @@
+Question 1
+What will be the output of the program?
+
+java
+Copy code
+public class Sample {
+    public static void main(String [] args) {
+        int i = 10;
+        do while (i < 10)
+            System.out.print("The value of i is " + i);
+        while (i > 10);
+    }
+}
+Correct Answer: No output is produced.
+
+Explanation: The do loop runs once before checking the while condition. Since the while condition i < 10 is false, the System.out.print statement inside the do block does not execute. The do...while loop's outer condition i > 10 is also false, so the loop does not repeat. Therefore, no output is produced.
+
+Incorrect Answers:
+
+The value of i is 10: The print statement does not execute due to false conditions.
+Compilation error: The code is syntactically correct but produces no output.
+The value of i is 10 The value of i is 10: The print statement does not execute, so this is incorrect.
+Question 2
+State True or False: For compiling Java code, we have separate compilers for different OS.
+
+Correct Answer: False
+
+Explanation: Java uses the Java compiler (javac), which is platform-independent. The same compiler is used across different operating systems to produce bytecode. The bytecode can then be executed on any OS with a compatible JVM.
+
+Question 3
+__________ generates the byte code for a given file with .java extension.
+
+Correct Answer: JDK
+
+Explanation: The Java Development Kit (JDK) includes the Java compiler (javac), which compiles .java files into bytecode (.class files).
+
+Incorrect Answers:
+
+JVM: Executes bytecode but does not generate it.
+JRE: Provides the runtime environment to run bytecode but does not compile .java files.
+JDK: Actually does generate bytecode, so this is correct.
+Question 4
+Predict the output:
+
+java
+Copy code
+int a = 0;
+if (a)
+    System.out.println("Hello");
+else
+    System.out.println("Hai");
+Correct Answer: Compilation Fails
+
+Explanation: The if statement expects a boolean expression. Since a is an integer, it cannot be directly used in an if statement. This results in a compilation error.
+
+Incorrect Answers:
+
+Need to include the braces { } for the code to work: Braces are not needed here; the issue is with the data type of a.
+Hai: Would be the output if a were a boolean value.
+Hello: Would be the output if a were a boolean value and true.
+Question 5
+Who executes the byte code in Java?
+
+Correct Answer: JVM
+
+Explanation: The Java Virtual Machine (JVM) is responsible for executing bytecode. It interprets or compiles the bytecode into machine code that the host operating system can execute.
+
+Incorrect Answers:
+
+JRE: Provides the environment but does not execute bytecode directly.
+OS: The operating system does not execute Java bytecode directly; it relies on the JVM.
+JDK: Includes tools for development but does not execute bytecode directly.
+Question 6
+State True or False: For compiling Java code, we have separate compilers for different OS.
+
+Correct Answer: False
+
+Explanation: The Java compiler is platform-independent and generates bytecode that can be executed on any OS with the appropriate JVM.
+
+Question 7
+Which of the following options remain true for case constants in a switch construct?
+
+Correct Answers:
+
+The code with the switch construct gives a compilation error when there is a duplicate case label: Duplicate case labels are not allowed in a switch statement.
+If no case matches but there is a default label, then all statements after the matching default label in the switch block are executed in sequence: Execution continues after the default case due to fall-through.
+If any one of the case constants has a match with the expression, then all statements after the matching case label in the switch block are executed in sequence: Execution continues through subsequent case statements until a break is encountered or the block ends.
+Incorrect Answers:
+
+If no case matches and there is no default label, then it will result in a compilation error: This is incorrect; it simply means the switch block is skipped.
+If no case matches and there is no default label, then no further action is taken and the switch statement completes abnormally: This is incorrect; the switch block is just skipped if no case matches and no default is present.
+Question 8
+Which edition of Java is used for developing web applications?
+
+Correct Answer: J2EE
+
+Explanation: Java 2 Platform, Enterprise Edition (J2EE), now known as Java EE, is used for developing web applications and enterprise-level applications.
+
+Incorrect Answers:
+
+J2ME: Java 2 Micro Edition, used for mobile and embedded devices.
+J2SE: Java 2 Standard Edition, used for standard desktop applications.
+All these options: J2EE is specifically for web applications, not the others.
