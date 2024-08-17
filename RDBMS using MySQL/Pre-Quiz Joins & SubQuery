@@ -1,0 +1,75 @@
+Question 1
+Problem Statement: "Which SQL statement produces an error?"
+
+Options:
+
+SELECT department_id, SUM(salary) FROM emp_dept_vu GROUP BY department_id;
+None of the statements produce an error; all are valid.
+SELECT job_id, SUM(salary) FROM emp_dept_vu WHERE department_id IN (10,20) GROUP BY job_id HAVING SUM(salary) > 20000;
+SELECT * FROM emp_dept_vu;
+SELECT department_id, job_id, AVG(salary) FROM emp_dept_vu GROUP BY department_id, job_id;
+Correct Answer: None of the statements produce an error; all are valid.
+
+Explanation:
+
+All the provided SQL statements are syntactically correct and perform valid operations. They include proper use of GROUP BY, HAVING, and SELECT clauses.
+Question 2
+Problem Statement: "Which tasks would require subqueries or joins to be performed in a single step?"
+
+Options:
+
+Listing the employees whose annual commission is more than 6000
+Finding the total commission earned by the employees in department 10
+Finding the number of employees who earn a commission that is higher than the average commission of the company
+Listing the employees who earn the same amount of commission as employee 3
+Listing the departments whose average commission is more than 600
+Listing the employees who do not earn commission and who are working for department 20 in descending order of the employee ID
+Correct Answers:
+
+Listing the employees who earn the same amount of commission as employee 3
+Finding the number of employees who earn a commission that is higher than the average commission of the company
+Explanation:
+
+These tasks require subqueries or joins to achieve the desired results in a single step, as they involve comparisons and aggregate calculations that go beyond simple filtering.
+Question 3
+Problem Statement: "What statement would display the age of Customers with the alias name as AGE?"
+
+Options:
+
+select (Birth_date/365) AGE from customer;
+select round((birth_date)-Birth_date)/365) from customer;
+select round((curdate()-Birth_date)/365) AGE from customer;
+select (start_date-curdate())/365) AGE from customer
+Correct Answer: select round((curdate()-Birth_date)/365) AGE from customer;
+
+Explanation:
+
+This query calculates the age based on the current date (curdate()) and the Birth_date, rounding the result to get the age in years.
+Question 4
+Problem Statement: "Which statement would display the highest credit limit available in each income level in each city in the Customers table?"
+
+Options:
+
+SELECT cust_city, cust_income_level, MAX(cust_credit_limit) FROM customers GROUP BY cust_city, cust_income_level, MAX(cust_credit_limit);
+SELECT cust_city, cust_income_level, MAX(cust_credit_limit) FROM customers GROUP BY cust_credit_limit, cust_income_level, cust_city;
+SELECT cust_city, cust_income_level, MAX(cust_credit_limit) FROM customers GROUP BY cust_city, cust_income_level;
+SELECT cust_city, cust_income_level, MAX(cust_credit_limit) FROM customers GROUP BY cust_city, cust_income_level, cust_credit_limit;
+Correct Answer: SELECT cust_city, cust_income_level, MAX(cust_credit_limit) FROM customers GROUP BY cust_city, cust_income_level;
+
+Explanation:
+
+This query groups the results by cust_city and cust_income_level and uses the MAX function to find the highest credit limit within each group.
+Question 5
+Problem Statement: "To create a report displaying employee last names, department names, and locations. Which query should you use to create an equi-join?"
+
+Options:
+
+SELECT last_name, department_name, location_id FROM employees, departments;
+SELECT e.last_name, d.department_name, d.location_id FROM employees e, departments d WHERE manager_id = manager_id;
+SELECT employees.last_name, departments.department_name, departments.location_id FROM employees e, departments d WHERE e.department_id = d.department_id;
+SELECT e.last_name, d.department_name, d.location_id FROM employees e, departments d WHERE e.department_id = d.department_id;
+Correct Answer: SELECT e.last_name, d.department_name, d.location_id FROM employees e, departments d WHERE e.department_id = d.department_id;
+
+Explanation:
+
+This query correctly performs an equi-join between the employees and departments tables using the common column department_id.
