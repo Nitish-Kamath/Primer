@@ -1,0 +1,74 @@
+Question 1
+State True or False: When using Eclipse, whichever classes are needed for the present class can be imported automatically.
+
+Correct Answer: True
+
+Explanation: Eclipse can automatically import required classes using the "Organize Imports" feature or by using shortcut keys (like Ctrl + Shift + O). This helps in managing imports efficiently without manually adding them.
+
+Question 2
+What will be the output of the following code?
+
+java
+Copy code
+int i = 20;
+
+if (i > 10) {
+    System.out.println("The value of i is " + i);
+    i++;
+    if (i % 2 != 0)
+        break;
+}
+Correct Answer: Compilation fails
+
+Explanation: The break statement is used to exit loops or switch statements. Here, break is used outside of a loop or switch context, which causes a compilation error.
+
+Question 3
+Predict the output.
+
+java
+Copy code
+public class Test {
+    public static void main(String args[]) {       
+        int a = 2, b = 0;
+        for (; b < 20; ++b) {
+            if (b % a == 0)
+                continue; 
+            else if (b == 10)
+                break;
+            else
+                System.out.print(b + " ");
+        }
+    }
+}
+Correct Answer: 1 3 5 7 9
+
+Explanation: The loop prints numbers that are not divisible by 2 and stops when b reaches 10. The continue statement skips printing numbers that are divisible by 2, so you get only odd numbers less than 10.
+
+Question 4
+In Eclipse IDE, if we provide a workspace, it should already exist. If not, it will not open.
+
+Correct Answer: False
+
+Explanation: In Eclipse, you can specify a workspace location, and if it doesn’t exist, Eclipse will create it for you. It does not require the workspace to already exist.
+
+Question 5
+switch(a)
+
+java
+Copy code
+{
+    default:
+        System.out.println("Welcome");
+}
+Of which data types can the variable ‘a’ be?
+
+Correct Answer: 2, 3, 4, and 6
+
+Explanation: The switch statement in Java can work with byte, short, int, char, and their corresponding wrapper classes. long and float are not supported directly in switch statements.
+
+1 (long): Not allowed.
+2 (byte): Allowed.
+3 (int): Allowed.
+4 (char): Allowed.
+5 (float): Not allowed.
+6 (short): Allowed.
