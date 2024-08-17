@@ -1,0 +1,50 @@
+Question 1
+Pattern Matching Explanation:
+
+Statement:
+
+java
+Copy code
+Pattern.matches("[a-z&&[^xyz]]", "d")
+Correct Answer: [a‑z&&[^xyz]]
+
+Explanation: The correct regular expression "[a‑z&&[^xyz]]" ensures that the pattern matches any single lowercase letter from a to z, excluding x, y, and z.
+Incorrect Options:
+
+"[a-z&&[^xyz]]": The pattern "[a-z&&[^xyz]]" correctly defines a character class that includes all lowercase letters except x, y, and z.
+Question 2
+Regular Expression for Employee ID:
+
+Pattern:
+
+java
+Copy code
+(CBE|HYD|BLR)[-][0-9]{4}
+Explanation:
+
+Correct Answer: (CBE|HYD|BLR)[-][0-9]{4}
+
+Explanation: This regular expression correctly matches strings that start with either "CBE", "HYD", or "BLR", followed by a hyphen and exactly four digits. The | operator denotes alternation, and [0-9]{4} specifies exactly four digits.
+Incorrect Options:
+
+[CBE|HYD|BLR][-][0-9]{4}: This does not work as intended because [] is used for character classes, not alternation.
+
+(CBE/HYD/BLR)[-][0-9]{4}: The / operator is not correct for alternation; it should be |.
+
+[CBE|HYD|BLR][-][0-9]*: This allows for any number of digits (including zero), which does not meet the requirement for exactly four digits.
+
+Question 3
+Pattern for Matching X Occurs n or More Times:
+
+Pattern:
+
+Correct Answer: X{n,}
+
+Explanation: The regular expression X{n,} specifies that the character X should appear at least n times. The {n,} quantifier means "n or more" occurrences of X.
+Incorrect Options:
+
+X{n}: This specifies exactly n occurrences, not n or more.
+
+X{n,*}: This is not a valid regular expression syntax.
+
+X{n,…}: This is not valid syntax either; the correct quantifier for "n or more" is {n,}.
