@@ -1,0 +1,113 @@
+Question 1
+Given the below code:
+
+java
+Copy code
+import static java.lang.Math.PI;
+
+public class AreaCalculator {
+    public double calculateArea(double radius) {   
+        double area = PI * radius * radius;  // Instead of Math.PI
+        return area;
+    } 
+}
+Select the correct statement to use the static variable PI.
+
+Correct Answer:
+
+import static java.lang.Math.PI;
+Explanation: The import static statement allows direct access to the static variable PI without needing to prefix it with Math..
+
+Question 2
+Given the class Book and Library in two different packages:
+
+java
+Copy code
+// In package model
+package model;
+
+public class Book {
+    private static void countBook() { }
+}
+
+// In package util
+package util;
+
+public class Library {
+    public static void main(String[] args) {
+        // insert code here
+    }
+}
+What is required at line 4 in class Library to use the countBook method of Book class?
+
+Correct Answer:
+
+Library class cannot use the countBook method in Book class.
+Explanation: The countBook method in the Book class is private, so it cannot be accessed from any other class, including the Library class in a different package.
+
+Question 3
+Choose the correct order of the code:
+
+java
+Copy code
+public class Main ---------------- 1
+import java.util.Scanner;-------- 2
+{------------------------------------- 3
+// Some code here----------------- 4
+}------------------------------------ 5
+package test;--------------------- 6
+Select one:
+
+a. 2 6 1 3 4 5
+b. 6 1 2 3 4 5
+c. 6 2 1 3 4 5
+d. 6 1 3 2 4 5
+
+Correct Answer:
+
+6 2 1 3 4 5
+Explanation: The package statement must be the first statement in the file (line 6), followed by imports (line 2). Then, the class definition (line 1) and its content (lines 3-5) follow.
+
+Question 4
+Given the class Book in package p1 and class Main in package p2. In main, to create an object of Book, which of the following are valid?
+
+Options:
+
+Book bookObj = new Book();
+p1.Book bookObj = new Book();
+p1.Book bookObj = new p1.Book();
+Correct Answer:
+
+p1.Book bookObj = new p1.Book();
+Explanation: Since Book is in the p1 package, you need to specify the full package name p1.Book when creating an object from p2. The p1.Book bookObj = new Book(); syntax is incorrect because Book must be fully qualified.
+
+Question 5
+Assume class Calculator in package p1 and CalculatorService class in package p2 as shown below:
+
+java
+Copy code
+// In package p1
+package p1;
+
+public class Calculator {
+    __________ static void calculate() {
+        // some code here
+    }
+}
+
+// In package p2
+package p2;
+
+import p1.Calculator;
+
+public class CalculatorService {
+    public void display() {
+        Calculator.calculate();
+    }
+}
+What can be the valid access specifier for the calculate method in Calculator class so that it can be accessed from CalculatorService class?
+
+Correct Answer:
+
+public
+Explanation: To allow access to the calculate method from a different package, it must be declared public. The other access specifiers (default, protected, private) do not permit access from classes outside the package.
