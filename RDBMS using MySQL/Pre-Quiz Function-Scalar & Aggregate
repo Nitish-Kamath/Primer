@@ -1,0 +1,78 @@
+Question 1
+Problem Statement: "Select the suitable option for fetching the output of the following query: select substr("Oracle World",1,6) from dual;"
+
+Options:
+
+racle W
+racle Wo
+racle
+Oracle
+Correct Answer: Oracle
+
+Explanation:
+
+The SUBSTR function extracts a substring from a string, starting at the specified position and returning the specified number of characters.
+SUBSTR("Oracle World", 1, 6) starts from the first character of the string "Oracle World" and returns the first 6 characters, which is "Oracle".
+Question 2
+Problem Statement: "To display the names of employees that are not assigned to a department, evaluate this SQL statement: SELECT last_name, first_name FROM employee WHERE dept_id = NULL; Which change should you make to achieve the desired result?"
+
+Options:
+
+Create an outer join.
+Change the operator in the WHERE condition.
+Add a second condition to the WHERE condition.
+Change the column in the WHERE condition.
+Correct Answer: Change the operator in the WHERE condition.
+
+Explanation:
+
+To check for NULL values, you should use the IS NULL operator instead of =. So, the correct query should be SELECT last_name, first_name FROM employee WHERE dept_id IS NULL;.
+Question 3
+Problem Statement: "ABC company wants to give each employee a $100 salary increment. You need to evaluate the results from the EMP table prior to the actual modification. If you do not want to store the results in the database, which statement is valid?"
+
+Options:
+
+You need to give the arithmetic expression that involves the salary increment in the DISPLAY clause of the SELECT statement.
+You need to add a column to the EMP table.
+You need to give the arithmetic expression that involves the salary increment in the SET clause of the UPDATE statement.
+You need to give the arithmetic expression that involves the salary increment in the UPDATE clause of the SELECT statement.
+Correct Answer: You need to give the arithmetic expression that involves the salary increment in the DISPLAY clause of the SELECT statement.
+
+Explanation:
+
+To evaluate the salary increment without actually updating the database, you can use a SELECT statement to display the results. For example: SELECT empname, salary + 100 AS new_salary FROM EMP;.
+The other options are incorrect because they either suggest modifying the table or using incorrect clauses.
+Question 4
+Problem Statement: "Which statement is true regarding the default behavior of the ORDER BY clause?"
+
+Options:
+
+In a character sort, the values are case-sensitive
+Numeric values are displayed from the maximum to the minimum value if they have decimal positions
+NULL values are not considered at all by the sort operation
+Only those columns that are specified in the SELECT list can be used in the ORDER BY clause
+Correct Answer: In a character sort, the values are case-sensitive
+
+Explanation:
+
+By default, SQL performs case-sensitive sorting for character values, meaning that uppercase letters are sorted differently from lowercase letters.
+The other options are incorrect because:
+Numeric values are not automatically sorted in descending order.
+NULL values are considered and typically appear first in ascending order.
+You can sort by columns not included in the SELECT list.
+Question 5
+Problem Statement: "To generate a report that shows an increase in the credit limit by 15% for all customers. Customers whose credit limit has not been entered should have the message 'Not Available' displayed. Which SQL statement would produce the required result?"
+
+Options:
+
+All the options
+SELECT NULLIF(cust_credit_limit.15,'Not Available')"NEW CREDIT" FROM customers;*
+SELECT TO_CHAR(NVL(cust_credit_limit.15,'Not Available')) "NEW CREDIT" FROM customers;*
+SELECT IFNULL(cust_credit_limit * 0.15,'Not Available') "NEW CREDIT" FROM customers;
+Correct Answer: SELECT IFNULL(cust_credit_limit * 0.15,'Not Available') "NEW CREDIT" FROM customers;
+
+Explanation:
+
+The IFNULL function returns the first argument if it is not NULL; otherwise, it returns the second argument. This SQL statement will correctly display the increased credit limit or "Not Available" if the credit limit is NULL.
+The other options are incorrect because they either use functions not appropriate for this operation or might not handle the NULL condition as required.
+These explanations should clarify why each answer is correct or incorrect.
