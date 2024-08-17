@@ -1,0 +1,134 @@
+Question 1
+The main method in Java should ___________.
+
+Correct Answer: be public static
+
+Explanation: In Java, the main method must be public so that it can be accessed by the Java Virtual Machine (JVM) from outside the class, and static so that it can be called without creating an instance of the class. The signature of the main method should be:
+
+java
+Copy code
+public static void main(String[] args)
+Incorrect Answers:
+
+be private static: private would prevent the JVM from accessing the method.
+take boolean[] as argument: The main method must take a String[] as its argument.
+return int: The main method must return void.
+Question 2
+The ________________ statement causes the program execution to stop and JVM to shut down.
+
+Correct Answer: System.exit(0)
+
+Explanation: The System.exit(int status) method causes the JVM to terminate and exit. The status code 0 generally indicates normal termination.
+
+Incorrect Answers:
+
+exit: There is no exit method by itself; it must be System.exit.
+break: The break statement only exits loops or switch statements, not the entire program.
+return: The return statement exits from a method, not the entire program.
+Question 3
+In a for loop, if the number of statements are greater than one, which of the following needs to be inserted at the beginning and the end of the loop?
+
+Correct Answer: French curly braces { }
+
+Explanation: When a for loop contains more than one statement in its body, those statements must be enclosed in curly braces { } to form a block. This allows all enclosed statements to be executed together in each iteration of the loop.
+
+Incorrect Answers:
+
+Square bracket [ ]: Used for arrays and indexing, not for grouping statements.
+Arrows <>: Not used for grouping statements.
+Parentheses (): Used for condition checking, not for grouping multiple statements.
+Question 4
+What will be the output of the program?
+
+java
+Copy code
+public class Sample {
+    final static short a = 2;
+    public static int b = 0;
+    public static void main(String[] args) {
+        for (int c = 0; c < 4; c++) {
+            switch (c) {
+                case a: System.out.print("a ");
+                default: System.out.print("default ");
+                case a - 1: System.out.print("a-1 ");
+                break;
+                case a - 2: System.out.print("a-2 ");
+            }
+        }
+    }
+}
+Correct Answer: a-2 a-1 a default a-1 default a-1
+
+Explanation: In the switch statement:
+
+For c = 0: The default and case a-1 are executed due to fall-through.
+For c = 1: The case a-1 and case a-2 are executed due to fall-through.
+For c = 2: The case a and default, then case a-1 are executed.
+For c = 3: Only case a-2 is executed.
+Incorrect Answers:
+
+a-2 a-1 a default default: Missing some iterations' outputs.
+a-2 a-1 a default a-1: Missing repeated default and a-1.
+a default a-1: Missing multiple occurrences of a-2 and a-1.
+Question 5
+The break statement cannot be present for ___________ construct.
+
+Correct Answer: if
+
+Explanation: The break statement is used to exit loops (for, while, do-while) and switch statements. It cannot be used in an if statement to exit the conditional block.
+
+Incorrect Answers:
+
+for: The break statement can be used to exit a for loop.
+while: The break statement can be used to exit a while loop.
+do while: The break statement can be used to exit a do-while loop.
+Question 6
+JRE comprises of ___________ and ___________.
+
+Correct Answers:
+
+JVM
+API
+Explanation: The Java Runtime Environment (JRE) includes the Java Virtual Machine (JVM) and the Java API. The JDK includes additional development tools.
+
+Incorrect Answers:
+
+tools: Refers to the JDK, not the JRE.
+JDK: The JDK includes the JRE but also development tools.
+Question 7
+A continue statement makes the execution jump to ______________.
+
+Correct Answer: the next iteration of the loop
+
+Explanation: The continue statement skips the remaining code in the current iteration of the loop and proceeds with the next iteration of the loop.
+
+Incorrect Answers:
+
+the statement just after continue: Not accurate; continue does not skip to just after itself.
+the first statement of the loop: continue skips the remaining code in the current iteration, not to the start.
+the end of the loop: It doesn't jump to the end but rather continues with the next iteration.
+Question 8
+Identify the features of Java.
+
+Correct Answers:
+
+Exception Handling
+Multi-threading
+Explanation: Java provides built-in support for exception handling and multi-threading. It does not allow direct memory access using pointers and is designed with security in mind.
+
+Incorrect Answers:
+
+Direct Access to memory using pointers: Java does not allow direct memory access; it uses references instead.
+Less security: Java is designed with robust security features.
+Question 9
+Using Java we can develop ___________________.
+
+Correct Answer: Both the options
+
+Explanation: Java can be used to develop both desktop and web applications. It is versatile and widely used for various types of software development.
+
+Incorrect Answers:
+
+Desktop Application: Java can develop more than just desktop applications.
+Web Application: Java can develop more than just web applications.
+None of these options: Incorrect because Java can develop both types of applications.
