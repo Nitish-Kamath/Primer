@@ -1,0 +1,42 @@
+Question 1
+A project developed on one machine can be included in the current workspace by ___________ that project.
+
+Correct Answer: Importing
+
+Explanation: To include a project that was developed on another machine into the current workspace, you need to import it into your current development environment. Importing allows you to bring the project into your workspace and make it accessible for further development.
+
+Incorrect Answer:
+
+Exporting: This is the process of moving a project out of the current workspace to a different location or format, not bringing it into the current workspace.
+Question 2
+We can move an already existing project in Eclipse to another location by compressing it. This we call as ________ the project.
+
+Correct Answer: Exporting
+
+Explanation: To move or share a project by compressing it (e.g., as a zip file), you export the project. Exporting involves packaging the project into a format that can be easily transferred or backed up.
+
+Incorrect Answer:
+
+Importing: This refers to bringing a project into the workspace from an external location or format, not moving it.
+Question 3
+State True or False. When typing the code in code editor, it shows the compilation error. It also assists in how to fix that error.
+
+Correct Answer: True
+
+Explanation: Modern IDEs like Eclipse provide real-time feedback on code, including showing compilation errors and offering suggestions or quick fixes to resolve those errors. This helps in debugging and improving code quality.
+
+Incorrect Answer:
+
+False: Incorrect because many IDEs, including Eclipse, do offer assistance in fixing compilation errors.
+Question 4
+In Eclipse, the plugin that is needed for Java Development is ______________.
+
+Correct Answer: JDT
+
+Explanation: JDT (Java Development Tools) is the plugin used in Eclipse for Java development. It provides the necessary tools and features for Java programming, including a Java compiler, code editor, and debugging tools.
+
+Incorrect Answers:
+
+JavaPlugin: Not a standard plugin name in Eclipse.
+CDT: This is used for C/C++ development.
+PyDev: This is used for Python development.
