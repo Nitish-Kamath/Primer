@@ -1,0 +1,186 @@
+Question 1
+___ and _____ are the access specifiers that can be applied to top-level classes.
+
+Correct Answer: default and public
+
+Explanation: In Java, top-level classes can be declared as public or have no access modifier (which means package-private or default). The protected and private specifiers are not allowed for top-level classes.
+
+Question 2
+What will be the output of the following code?
+
+java
+Copy code
+class Sample {
+    private double num = 100;
+    private int square(int a) {
+        return a * a;
+    }
+}
+
+public class Test {
+    public static void main(String args[]) {
+        Sample obj = new Sample();
+        System.out.println(obj.num);
+        System.out.println(obj.square(10));
+    }
+}
+Correct Answer: Compilation error
+
+Explanation: The variables and methods in the Sample class are private, so they cannot be accessed outside the Sample class. This will result in a compilation error.
+
+Question 3
+Choose the appropriate access specifier for the attribute value so that it can be accessed from anywhere.
+
+java
+Copy code
+class Test {
+    [public] int value;
+}
+Correct Answer: public
+
+Explanation: The public access specifier allows access to the attribute from anywhere, both within and outside the package.
+
+Question 4
+Choose the appropriate return type for the getters and setters provided below.
+
+java
+Copy code
+class Test {
+    private int value;
+
+    public [void] setValue(int value) {
+        // some code
+    }
+
+    public [int] getValue() {
+        // some code
+    }
+}
+Correct Answer: void for the setter and int for the getter
+
+Explanation: The setter method setValue does not return any value, so its return type is void. The getter method getValue returns the value of the private attribute, so its return type is int.
+
+Question 5
+Consider the below code snippet and determine the output.
+
+java
+Copy code
+class Student {
+    private int studentId;
+    private float average;
+}
+
+class Test {
+    public static void main(String a[]) {
+        Student s = new Student();
+        s.studentId = 123;
+        System.out.println(s.studentId);
+    }
+}
+Correct Answer: Compile time error
+
+Explanation: The studentId field is private in the Student class, so it cannot be accessed outside the class.
+
+Question 6
+Analyze the below program, and fill the correct code so that it produces the output:
+
+Copy code
+0
+101
+java
+Copy code
+class Book {
+    private int bookId;
+    private double bookPrice;
+
+    public int getBookId() {
+        return bookId;
+    }
+
+    public void setBookId(int bookId) {
+        this.bookId = bookId;
+    }
+
+    public double getBookPrice() {
+        return bookPrice;
+    }
+
+    public void setBookPrice(double bookPrice) {
+        this.bookPrice = bookPrice;
+    }
+}
+
+public class Test {
+    public static void main(String a[]) {
+        Book bobj = new Book();
+        System.out.println(bobj.getBookPrice());
+        bobj.setBookId(101);
+        System.out.println(bobj.getBookId());
+    }
+}
+Correct Answer:
+
+System.out.println(bobj.getBookPrice());
+bobj.setBookId(101);
+System.out.println(bobj.getBookId());
+Explanation: To produce the output 0 and 101, you need to print the initial value of bookPrice (which defaults to 0.0) and then set and print bookId.
+
+Question 7
+The below code snippet shows an error cannot find symbol: System.out.println("BookId:" + bobj.getId());. Analyze the above code and select the correct reason for the error.
+
+java
+Copy code
+public class Book {
+    private int bookId;
+    private double bookPrice;
+
+    public int getBookId() {
+        return bookId;
+    }
+
+    public void setBookId(int bookId) {
+        this.bookId = bookId;
+    }
+
+    public double getBookPrice() {
+        return bookPrice;
+    }
+
+    public void setBookPrice(double bookPrice) {
+        this.bookPrice = bookPrice;
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        Book bobj = new Book();
+        bobj.setBookId(123);
+        bobj.setBookPrice(500);
+        System.out.println("BookId:" + bobj.getId());
+        System.out.println("BookPrice:" + bobj.getBookPrice());
+    }
+}
+Correct Answer: getId method is not present in the book class
+
+Explanation: The method getId() is not defined in the Book class, which causes the compilation error.
+
+Question 8
+Analyze the following code and fill the correct code.
+
+java
+Copy code
+public class Employee {
+    private int employeeId;
+    private float salary;
+
+    public void setSalary(float salary1) {
+        if (salary > 0) {
+            salary = salary1;
+        }
+    }
+}
+Correct Answer:
+
+public for the method setSalary
+void for the method setSalary
+Explanation: The setSalary method should be public to be accessible from outside the class, and it should return void as it does not return a value.
