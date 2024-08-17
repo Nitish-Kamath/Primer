@@ -1,0 +1,54 @@
+Question 1
+The _______ join produces the cross product of two tables.
+
+Self
+Outer
+Cross
+Equi
+Correct Answer: Cross
+
+Explanation: A Cross Join produces the Cartesian product of two tables, meaning it returns all possible combinations of rows from both tables.
+
+Question 2
+Equijoin is called as ______.
+
+Simple Join
+Equal Join
+Outer Join
+Self Join
+Correct Answer: Simple Join
+
+Explanation: An Equijoin is commonly referred to as a Simple Join because it matches rows from two tables based on equality of column values.
+
+Question 3
+_____ is used to retrieve records that do not meet the join condition.
+
+Self Join
+Non Equi Join
+Equi Join
+Outer Join
+Correct Answer: Outer Join
+
+Explanation: An Outer Join retrieves records that do not meet the join condition by including unmatched rows from one or both tables.
+
+Question 4
+Joining a table to itself is called as ______.
+
+Equi Join
+Self Join
+Non Equi Join
+Outer Join
+Correct Answer: Self Join
+
+Explanation: A Self Join is when a table is joined with itself to compare rows within the same table.
+
+Question 5
+The _______ join is based on all columns in the two tables that have the same data type.
+
+Cross
+Full Outer
+Natural
+Left Outer
+Correct Answer: Natural
+
+Explanation: A Natural Join automatically joins tables based on all columns with the same name and compatible data types.
