@@ -1,0 +1,269 @@
+Question 1
+String s1 = null; is a valid declaration of a String.
+
+Explanation: This is a valid declaration. It initializes s1 as a String reference that currently points to null. This is useful for initializing a variable that will be assigned a value later.
+Question 2
+Determine the output:
+
+java
+Copy code
+class Evaluate { 
+    public static void main(String args[]) { 
+        int arr[] = new int[] {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}; 
+        int n = 6; 
+        n = arr[arr[n] / 2]; 
+        System.out.println(arr[n] / 2); 
+    } 
+}
+Explanation:
+arr[n] is arr[6], which is 6.
+arr[6] / 2 is 6 / 2, which is 3.
+Thus, n = arr[3], which is 3.
+arr[n] / 2 is arr[3] / 2, which is 3 / 2, yielding 1 (integer division).
+Correct Answer: 1
+Question 3
++ operator can be used to concatenate two or more String objects in Java. State true or false.
+
+Explanation: The + operator is used for concatenating String objects in Java.
+
+Correct Answer: True
+
+Question 4
+What is special about string objects compared to objects of other derived types?
+
+Explanation:
+a. You can create string objects without or with the new operator.: True. You can use string literals or the new keyword.
+b. Java provides a string constant pool to store the string objects.: True. Strings are interned in the string pool for optimization.
+c. You can concatenate two string objects using +.: True. The + operator is used for string concatenation.
+Correct Answers: a, b, c
+Question 5
+Determine the output:
+
+java
+Copy code
+public class Trial {
+    public static void main(String[] args) {
+        int arr[4]={};
+        System.out.print(arr[0]);
+    }
+}
+Explanation: The syntax int arr[4] is incorrect. The correct syntax should be int[] arr = new int[4];.
+
+Correct Answer: Compile time error
+
+Question 6
+What is the string contained in s after the following lines of code?
+
+java
+Copy code
+StringBuffer s = new StringBuffer("Hello");
+s.deleteCharAt(0);
+Explanation: deleteCharAt(0) removes the first character ('H'), resulting in "ello".
+
+Correct Answer: ello
+
+Question 7
+Determine the output:
+
+java
+Copy code
+public class Test {
+    public static void main(String[] args) {
+        int[] x = new int[3];
+        System.out.println("x[0] is " + x[0]);
+    }
+}
+Explanation: Arrays of primitive types in Java are initialized with default values. For integers, the default value is 0.
+
+Correct Answer: The program runs fine and displays x[0] is 0.
+
+Question 8
+Given a one-dimensional array arr, what is the correct way of getting the number of elements in arr?
+
+Explanation: The .length property of an array returns the number of elements.
+
+Correct Answer: arr.length
+
+Question 9
+Determine the output:
+
+java
+Copy code
+public class Test {
+    public static void main(String[] args) {
+        int[] x = {1, 2, 3, 4};
+        int[] y = x;
+        x = new int[2];
+        for (int i = 0; i < x.length; i++)
+            System.out.print(y[i] + " ");
+    }
+}
+Explanation: y still references the original array [1, 2, 3, 4]. x is now a new array with 2 elements [0, 0], but y still has the original values.
+
+Correct Answer: 1 2
+
+Question 10
+What will table contain after executing the following code?
+
+java
+Copy code
+public class Trial {
+    public static void main(String[] args) {
+        int[][] table = new int[5][5];
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                if (j == i) {
+                    table[i][j] = 1;
+                } else {
+                    table[i][j] = 0;
+                }
+                System.out.print(table[i][j]);
+            }
+            System.out.println("\n");
+        }
+    }
+}
+Explanation: The code creates a 5x5 array but only prints the first 3 rows and columns, setting 1 on the diagonal (j == i) and 0 elsewhere.
+
+Correct Answer: 1 0 0\n0 1 0\n0 0 1\n
+
+Question 11
+Predict the output:
+
+java
+Copy code
+class String_demo {
+    public static void main(String args[]) {
+        int ascii[] = { 65, 66, 67, 68};
+        String s = new String(ascii, 1, 3);
+        System.out.println(s);
+    }
+}
+Explanation: The String constructor takes the ascii array starting at index 1, with a length of 3. So it converts the values 66, 67, 68 to characters 'B', 'C', 'D'.
+
+Correct Answer: BCD
+
+Question 12
+How must this code be changed to be thread-safe?
+
+java
+Copy code
+public class MyLogger {
+    private StringBuilder logger = new StringBuilder();
+    public void log(String message, String user) {
+        logger.append(message);
+        logger.append(user);
+    }
+}
+Explanation: StringBuilder is not thread-safe. Replacing it with StringBuffer would make it thread-safe.
+
+Correct Answer: Replace StringBuilder with StringBuffer
+
+Question 13
+What is used to find the string length?
+
+Explanation: The length() method returns the length of a string.
+
+Correct Answer: length()
+
+Question 14
+What is used to allocate memory to an array variable in Java?
+
+Explanation: The new keyword is used to allocate memory for arrays.
+
+Correct Answer: new
+
+Question 15
+Determine the output:
+
+java
+Copy code
+public class A {
+    public static void main(String argv[]) {
+        int ary[] = new int[]{1,2,3};
+        System.out.println(ary[1]);
+    }
+}
+Explanation: The array ary is initialized with {1, 2, 3}. ary[1] refers to the value 2.
+
+Correct Answer: 2
+
+Question 16
+Fill in appropriately:
+
+java
+Copy code
+String st1 = new String("JAVA");
+String st2 = new String("JAVA");
+String st3 = "JAVA";
+Explanation:
+st1 and st2 are two objects in heap memory created using new String().
+st3 is a reference to a single object in the string pool.
+Correct Answer: 3 objects, 2 in heap memory, and 1 in string pool
+Question 17
+Determine the output:
+
+java
+Copy code
+class Output {
+    public static void main(String args[]) {
+        int a1[] = new int[10];
+        int a2[] = {1, 2, 3, 4, 5};
+        System.out.println(a1.length + " " + a2.length);
+    }
+}
+Explanation: a1 is initialized with 10 elements, so its length is 10. a2 is initialized with 5 elements, so its length is 5.
+
+Correct Answer: 10 5
+
+Question 18
+Determine the output:
+
+java
+Copy code
+class array_output {
+    public static void main(String args[]) {
+        char array_variable[] = new char[10];
+        for (int i = 0; i < 10; ++i) {
+            array_variable[i] = 'i';
+            System.out.print(array_variable[i] + "");
+        }
+    }
+}
+Explanation: The array_variable array is filled with the character 'i' and printed.
+
+Correct Answer: i i i i i i i i i i
+
+Question 19
+Predict the output:
+
+java
+Copy code
+class String_demo {
+    public static void main(String args[]) {
+        char chars[] = {'a', 'b', 'c'};
+        String s = new String(chars);
+        System.out.println(s);
+    }
+}
+Explanation: The character array chars is converted to a string, resulting in "abc".
+
+Correct Answer: abc
+
+Question 20
+Column size is mandatory to create an array in Java. State true or false.
+
+Explanation: In Java, you can create arrays without specifying the size at the time of declaration (for example, using new int[10]), but column size (for multi-dimensional arrays) is not mandatory.
+
+Correct Answer: False
+
+Question 21
+What will s2 contain after the following lines of code?
+
+java
+Copy code
+String s1 = "one";
+String s2 = s1.concat("two");
+Explanation: The concat method appends "two" to "one", resulting in "onetwo".
+
+Correct Answer: onetwo
