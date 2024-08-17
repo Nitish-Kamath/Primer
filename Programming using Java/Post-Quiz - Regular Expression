@@ -1,0 +1,140 @@
+Question 1
+Regular Expression for Date in "yyyy-mm-dd" Format:
+
+Correct Answer: \d{4}-\d{2}-\d{2}
+
+Explanation:
+
+\d{4}: Matches exactly four digits for the year.
+-: Matches the hyphen separating year, month, and day.
+\d{2}: Matches exactly two digits for the month and day.
+Incorrect Options:
+
+\d{2}-\d{2}-\d{4}: Matches the format "dd-mm-yyyy", which is not the same as "yyyy-mm-dd".
+\d{4}/\d{2}/\d{2}: Uses slashes instead of hyphens, so it matches "yyyy/mm/dd".
+\d{2}/\d{2}/\d{4}: Also uses slashes and matches "dd/mm/yyyy".
+Question 2
+Regular Expression for Email Address:
+
+Correct Answer: [A-Za-z0-9.%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}
+
+Explanation:
+
+[A-Za-z0-9.%+-]+: Matches the username part of the email address, including letters, digits, dots, percent signs, plus signs, and hyphens.
+@: Matches the "@" symbol.
+[A-Za-z0-9.-]+: Matches the domain name part, including letters, digits, dots, and hyphens.
+\.[A-Z|a-z]{2,}: Matches the top-level domain with a dot, followed by at least two letters.
+Incorrect Options:
+
+[A-Za-z0-9.%+-]+: Only matches the username part, missing the domain.
+[A-Za-z0-9.%+-]+@[A-Za-z0-9.-]+: Missing the top-level domain part.
+[A-Za-z0-9.%+-]+.[A-Z|a-z]{2,}: Incorrectly places the dot before the top-level domain.
+Question 3
+Matching Text with [a-zA-Z&&[^aeiou]]+:
+
+Correct Answers: My, cry
+
+Explanation:
+
+[a-zA-Z&&[^aeiou]]+: Matches one or more alphabetic characters excluding vowels (a, e, i, o, u).
+Incorrect Options:
+
+Good: Contains vowels (o and o), so it does not match.
+must: Contains vowels (u), so it does not match.
+Question 4
+Regular Expression for First Name with Alphabets and Space:
+
+Correct Answer: [a-zA-Z ]+
+
+Explanation:
+
+[a-zA-Z ]: Includes all alphabetic characters and spaces.
++: Ensures that there is at least one or more of these characters.
+Incorrect Options:
+
+[\\s]: Matches whitespace characters but does not include alphabetic characters.
+[\\s]+: Matches one or more whitespace characters, but again does not include alphabetic characters.
+[a-zA-Z ]: This matches a single alphabetic character or a space but does not ensure one or more characters.
+Question 5
+Regular Expression for Matching Whitespace Character:
+
+Correct Answer: \s
+
+Explanation:
+
+\s: Matches any whitespace character, including spaces, tabs, and line breaks.
+Incorrect Options:
+
+\w: Matches any word character (letters, digits, and underscores).
+\d: Matches any digit.
+\S: Matches any non-whitespace character.
+Question 6
+Meaning of \B:
+
+Correct Answer: False
+
+Explanation:
+
+\B: Matches a non-word boundary. The correct term for a word boundary is \b.
+Question 7
+Regular Expression to Match a Digit (0-9):
+
+Correct Answer: [0-9]
+
+Explanation:
+
+[0-9]: Matches any single digit between 0 and 9.
+Incorrect Options:
+
+[A-Z]: Matches uppercase letters only.
+[a-zA-Z]: Matches letters (both uppercase and lowercase).
+[a-z]: Matches lowercase letters only.
+Question 8
+Pattern 00 for Matching Occurrences:
+
+Correct Answer: True
+
+Explanation:
+
+00: Matches exactly two consecutive occurrences of the digit 0.
+Question 9
+Code Output with Regular Expression:
+
+Code:
+
+java
+Copy code
+import java.util.regex.*;
+
+public class TestRegEx {
+    public static void main(String args[]) {
+        Pattern p = Pattern.compile(".ech");
+        Matcher m = p.matcher("tech");
+        boolean b = m.matches();
+        System.out.println(b);
+    }
+}
+Correct Answer: true
+
+Explanation:
+
+.ech: Matches any single character followed by "ech". In "tech", t matches the . and the remaining characters match "ech".
+Incorrect Options:
+
+false: Incorrect because the pattern matches the input string.
+compile time error: No compile-time error in the code.
+Runtime Error: No runtime error occurs.
+Question 10
+Statements about Matcher Class:
+
+Correct Answer: Both Statement 1 and 2 are correct
+
+Explanation:
+
+Statement 1: The Matcher class interprets the pattern from a Pattern object.
+Statement 2: The Matcher class is used to match the regular expression against the input text.
+Incorrect Options:
+
+Both Statement 1 and 2 are incorrect: Incorrect because both statements are correct.
+Statement 1 alone is correct: Incomplete, as Statement 2 is also correct.
+Statement 2 alone is correct: Incomplete, as Statement 1 is also correct.
