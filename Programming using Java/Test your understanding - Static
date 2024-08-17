@@ -1,0 +1,136 @@
+Question 1
+Which of the following code can be included in Line 1?
+
+java
+Copy code
+public class Employee { 
+    String name;
+    static int employeeCount;
+
+    //Line 1
+}
+Options:
+
+java
+Copy code
+public void display(){
+    System.out.println("Employee count "+employeeCount);
+}
+java
+Copy code
+public static void display(){
+    System.out.println("Employee count "+employeeCount);
+}
+java
+Copy code
+public static void display() {
+    System.out.println("Employee Name"+name);
+}
+java
+Copy code
+public void display(){
+    System.out.println("Employee Name"+name);
+}
+Correct Answers:
+
+public static void display(){ System.out.println("Employee count "+employeeCount); }
+public void display(){ System.out.println("Employee count "+employeeCount); }
+public void display(){ System.out.println("Employee Name"+name); }
+Explanation:
+
+A static method can only access static members (e.g., employeeCount) directly.
+A non-static method can access both static members and non-static members (e.g., name and employeeCount).
+Question 2
+Choose the correct option:
+
+java
+Copy code
+public class Flight{ 
+    int flightId;
+    static int noOfSeats;
+
+    public static void display(){
+        System.out.println("No of seats "+noOfSeats);
+    }
+}
+Correct Answer:
+
+public static void display(){ System.out.println("No of seats "+noOfSeats); }
+Explanation: Static methods can only access static members directly. Here, noOfSeats is static and can be accessed directly within the static method display(). flightId is non-static and cannot be accessed directly in a static method.
+
+Question 3
+For the below code, what are the valid ways to invoke the display method in the main method?
+
+java
+Copy code
+public class Test {
+    public static void display(){
+    }
+}
+
+public class Main {
+    public static void main(String a[]){
+        //Invoke the display method
+    }
+}
+Options:
+
+Test.display();
+display();
+new Test().display();
+Correct Answers:
+
+Test.display();
+new Test().display();
+Explanation:
+
+Static methods can be invoked using the class name (Test.display()) or via an instance of the class (new Test().display()). The direct method call display(); without a class or instance is not valid for static methods.
+Question 4
+Observe the below code and choose the options so that the output will be
+
+Output:
+Count is 1
+Count is 3
+java
+Copy code
+public class Product {
+    int productId;
+    String productName;
+    static int count = 0;
+
+    public Product(int pid, String name) {
+        productId = pid;
+        productName = name;
+        count++;
+    }
+
+    public static void main(String arg[]) {
+        Product p1 = new Product(101, "Screws");
+        System.out.println("Count is " + Product.count);
+
+        Product p2 = new Product(102, "Nuts");
+        Product p3 = new Product(103, "Nails");
+        System.out.println("Count is " + Product.count);
+    }
+}
+Correct Options:
+
+System.out.println("Count is "+Product.count); (placed after creating p1)
+System.out.println("Count is "+Product.count); (placed after creating p3)
+Explanation:
+
+The first print statement shows the count after creating one Product object (p1), which is 1.
+The second print statement shows the count after creating three Product objects (p1, p2, p3), which is 3.
+Question 5
+Match the following:
+
+Non-static method
+
+Answer 1: Can access both static and non-static members
+Static method
+
+Answer 2: Can access static members only
+Explanation:
+
+Non-static methods can access both static and non-static members because they are associated with an instance of the class.
+Static methods can only access static members directly because they belong to the class rather than any specific instance.
