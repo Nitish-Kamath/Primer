@@ -1,0 +1,164 @@
+Question 1
+Predict the Output of the following Java Program.
+
+java
+Copy code
+class Test {
+    int x = 10;  
+    public static void main(String[] args) {    
+        System.out.println(x);
+    }
+}
+Select one:
+
+a. 0 - Incorrect. The value 0 is not related to this code. The issue is not about the value but rather about accessing the instance variable x in a static context.
+b. Runtime Exception - Incorrect. There’s no runtime exception in this code. The problem is related to compilation, not runtime.
+c. 10 - Incorrect. While 10 is the value of x, it cannot be printed directly in a static context.
+d. Compile Time Error - Correct. Accessing an instance variable x directly in a static context (like main method) without creating an instance of the class results in a compile-time error.
+Explanation: In Java, static methods belong to the class, not to instances of the class. To access instance variables, you need an instance of the class.
+
+Question 2
+Which members of a class can be accessed by other classes is determined by the ________________
+
+Select one:
+
+a. class - Incorrect. The class itself doesn’t determine access; it’s the access specifiers within the class that control visibility.
+b. Access specifier - Correct. Access specifiers (public, private, protected, default) define the visibility and access level of class members from other classes.
+c. variables - Incorrect. Variables themselves do not determine access; their access is controlled by access specifiers.
+d. constructor - Incorrect. Constructors are used to initialize objects but do not determine the access level of class members.
+Explanation: Access specifiers control which classes can access the fields and methods of another class.
+
+Question 3
+package edu.ABC.model;
+
+java
+Copy code
+public class Account {
+    public static final float INTEREST_RATE = 7.5;
+}
+Identify the correct options from the classes provided below.
+
+Select one or more:
+
+a. import static edu.ABC.model.Account ;
+java
+Copy code
+public class Loan {
+    public double getInterest() {
+        return INTEREST_RATE;
+    }
+}
+``` - **Incorrect**. This statement is incorrect because `import static` requires `*` to import static members. Without `*`, it doesn’t work for static fields.
+b. import static edu.ABC.model.Account.*;
+java
+Copy code
+public class Loan { 
+     public double getInterest() {
+          return INTEREST_RATE; 
+     }
+}
+``` - **Correct**. This correctly imports static members of the `Account` class, allowing direct access to `INTEREST_RATE`.
+c. package edu.ABC.model;
+java
+Copy code
+public class Loan {
+     public double getInterest() {
+          return INTEREST_RATE; 
+     }
+}
+``` - **Incorrect**. This approach is valid if `Loan` is in the same package as `Account`, but it’s not one of the given options.
+d. import edu.ABC.model.Account ;
+java
+Copy code
+public class Loan {
+     public double getInterest() { 
+          return Account.INTEREST_RATE; 
+     }
+}
+``` - **Correct**. This imports the `Account` class and accesses its static field `INTEREST_RATE` using the class name.
+Explanation: Static fields can be accessed in two ways: through import static or by using the class name. Option b uses static import, and option d uses the class name.
+
+Question 4
+Given:
+
+java
+Copy code
+public class ItemTest {
+    private final int id; 
+    public ItemTest(int id) {
+        this.id = id;
+    }
+    public void updateId(int newId) { 
+        id = newId; 
+    }
+    public static void main(String[] args) { 
+        ItemTest fa = new ItemTest(42); 
+        fa.updateId(69); 
+        System.out.println(fa.id); 
+    } 
+}
+What is the result?
+
+Select one:
+
+a. Runtime Error - Incorrect. The error here is a compile-time error, not a runtime error.
+b. CompileTime Error - Correct. The code fails to compile because id is declared final and cannot be modified after it’s initialized.
+c. 69 - Incorrect. This would be the expected result if id were not final, but it’s not possible due to the compile-time restriction.
+Explanation: The final keyword makes a field immutable after it is initialized. Trying to modify it will result in a compile-time error.
+
+Question 5
+What does this() mean in the constructor chaining concept?
+
+Select one:
+
+a. Used for calling the current object of the parent class. - Incorrect. this() does not involve the parent class; it’s for calling other constructors within the same class.
+b. Used for calling the current object of the same class. - Incorrect. this() is used for calling other constructors in the same class, not for referring to the current object.
+c. Used for calling the parameterized constructor of the parent class. - Incorrect. Calling a parent class constructor uses super(), not this().
+d. Used for calling the no argument constructor of the same class. - Correct. this() is used to call another constructor in the same class, often a no-argument constructor.
+Explanation: this() is used within a class to call another constructor of that same class, facilitating constructor chaining.
+
+Question 6
+Identify the true statement(s).
+
+Statement 1: When no constructor is written in a class, the compiler creates a default constructor.
+
+Statement 2: The default constructor will implicitly invoke the default / no-argument constructor of the super class.
+
+Statement 3: If a class has a parameterized constructor alone, then the compiler will create the default constructor.
+
+Statement 4: If a class has a parameterized constructor, it is mandatory to write a no-argument constructor.
+
+Select one:
+
+a. 2 and 3 - Incorrect. Statement 3 is incorrect; the compiler does not create a default constructor if a parameterized constructor is present.
+b. 1 and 2 - Correct. Statements 1 and 2 are correct. If no constructors are defined, the compiler provides a default constructor that calls the superclass’s no-argument constructor.
+c. 1, 2 and 3 - Incorrect. Statement 3 is incorrect, so this option is incorrect as well.
+d. 1, 2 and 4 - Incorrect. Statement 4 is incorrect; having a parameterized constructor does not require explicitly defining a no-argument constructor.
+Explanation: When no constructors are defined, the compiler creates a default one. If a class has a parameterized constructor, a default constructor is not created automatically.
+
+Question 7
+A JavaBeans component has the following field:
+
+java
+Copy code
+private boolean enabled;
+Which two pairs of method declarations follow the JavaBeans standard for accessing this field? (Choose two.)
+
+Select one or more:
+
+a. public void setEnabled(boolean enabled) public boolean isEnabled() - Correct. This follows the JavaBeans naming convention for boolean properties.
+b. public void setEnabled(boolean enabled) public boolean getEnabled() - Correct. This also follows the JavaBeans convention, although getEnabled is more commonly used for non-boolean properties.
+c. public void setEnabled(boolean enabled) public void isEnabled() - Incorrect. The getter method should return a value, not void.
+d. public boolean setEnabled(boolean enabled) public boolean getEnabled() - Incorrect. The setter should return void, not a value.
+Explanation: JavaBeans conventions dictate that setters are void methods and getters return the value of the property. For boolean properties, the getter should start with is.
+
+Question 8
+Identify which statement is true about constructors.
+
+Select one:
+
+a. Constructor will be invoked explicitly like other methods - Incorrect. Constructors are not invoked explicitly; they are called automatically when an object is instantiated.
+b. Constructor should have same name as class name, but not case sensitive - Incorrect. Constructors must have the same name as the class and are case-sensitive.
+c. Constructor of a class should not have a return type, which means the return type is void - Incorrect. Constructors do not have a return type at all, not even void.
+d. Constructor can be overloaded - Correct. Constructors can be overloaded by defining multiple constructors with different parameters.
+Explanation: Constructors can be overloaded, which means you can have multiple constructors in a class with different parameter lists.
