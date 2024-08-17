@@ -1,0 +1,63 @@
+Question 1
+Which operator is NOT appropriate in the join condition of a non-equi join SELECT statement?
+
+BETWEEN x AND y operator
+equal operator
+IN operator
+greater than or equal to operator
+LIKE operator
+Correct Answer: equal operator
+
+Explanation: In non-equi joins, you typically use operators that allow for range-based or pattern-based matching rather than exact equality. Therefore, the equal operator (=) is not appropriate for non-equi joins, which often use operators like BETWEEN, >, <, >=, <=, IN, or LIKE for their conditions.
+
+Question 2
+To display the names of employees who earn more than the average salary of all employees.
+
+sql
+Copy code
+SELECT last_name, first_name
+FROM employee
+WHERE salary > AVG(salary);
+Which change should you make to achieve the desired results?
+
+Use a subquery in the WHERE clause to compare the average salary value.
+Move the function to the SELECT clause and add a GROUP BY clause and a HAVING clause.
+Change the function in the WHERE clause.
+Move the function to the SELECT clause and add a GROUP BY clause.
+Correct Answer: Use a subquery in the WHERE clause to compare the average salary value.
+
+Explanation: To compare each employee’s salary to the average salary, you need to calculate the average salary first. This requires a subquery, where the average salary is computed and then compared to each employee's salary in the outer query.
+
+Question 3
+The NOT operator can be used with ______ operators.
+
+ANY
+>
+IN
+ALL
+Correct Answers: IN, ANY, ALL
+
+Explanation: The NOT operator can be used with IN, ANY, and ALL operators to negate the condition. For instance, NOT IN, NOT ANY, and NOT ALL can be used to exclude certain values or conditions. The > operator does not support the NOT operator directly.
+
+Question 4
+In which cases would you use an outer join?
+
+The tables being joined have only unmatched data.
+The tables being joined have NOT NULL columns.
+The tables being joined have both matched and unmatched data.
+The tables being joined have only matched data.
+Only when the tables have a primary key/foreign key relationship.
+Correct Answer: The tables being joined have both matched and unmatched data.
+
+Explanation: Outer joins are used to retrieve all rows from one table and the matched rows from the other table. If there is no match, the result is NULL on the side of the table where there is no match. This allows for the inclusion of both matched and unmatched data.
+
+Question 5
+In which two cases would you use the USING clause? (Choose two)
+
+The tables to be joined have columns of the same name and different data types.
+The tables to be joined have multiple NULL columns.
+You want to create a non-equi join.
+The tables to be joined have columns with the same name and compatible data types.
+Correct Answers: The tables to be joined have columns with the same name and compatible data types.
+
+Explanation: The USING clause is used to specify columns that are used for joining tables when the columns have the same name and compatible data types. It simplifies the join condition by not having to specify the column names on both sides of the join.
