@@ -1,0 +1,82 @@
+Question 1
+Problem Statement: "Select the suitable option for retrieving all the employees who have a manager?"
+
+Options:
+
+select empname, manager_id from employee where manager_id is NULL VALUE;
+select empname, manager_id from employee where manager_id NULL;
+select empname, manager_id from employee where manager_id is NULL;
+select empname, manager_id from employee where manager_id is NOT NULL;
+Correct Answer: select empname, manager_id from employee where manager_id is NOT NULL;
+
+Explanation:
+
+select empname, manager_id from employee where manager_id is NOT NULL;: This query correctly retrieves all employees who have a manager by selecting rows where manager_id is not null.
+The other options are incorrect due to syntax errors or incorrect logic.
+Question 2
+Problem Statement: "Select the suitable option for retrieving all the employees whose salary range is between 40000 and 100000?"
+
+Options:
+
+select name,salary from employee where salary>=40000 and salary<=100000;
+select name,salary from employee where salary lies between 40000 and 100000;
+select name,salary from employee where salary is between 40000 and 100000;
+select name,salary from employee where salary between 40000 100000;
+select name,salary from employee where salary between 40000 and 100000;
+Correct Answers: select name,salary from employee where salary between 40000 and 100000;, select name,salary from employee where salary>=40000 and salary<=100000;
+
+Explanation:
+
+select name,salary from employee where salary>=40000 and salary<=100000;: This option correctly uses the comparison operators to specify the salary range.
+select name,salary from employee where salary between 40000 and 100000;: This option correctly uses the BETWEEN operator to specify the salary range.
+The other options are either incorrect due to syntax errors or incorrect SQL logic.
+Question 3
+Problem Statement: "How to retrieve the department_id column without any duplication from the employee relation?"
+
+Options:
+
+select department_id distinct from employee;
+select department_id from employee;
+select all department_id from employee;
+select distinct department_id from employee;
+Correct Answer: select distinct department_id from employee;
+
+Explanation:
+
+select distinct department_id from employee;: This option correctly uses the DISTINCT keyword to remove duplicate values from the department_id column.
+The other options are incorrect due to syntax errors or do not achieve the goal of removing duplicates.
+Question 4
+Problem Statement: "Select the suitable option for retrieving all the employees whose last name is 'kumar'?"
+
+Options:
+
+select * from employee where empname like '%kumar%';
+select * from employee where empname like 'kumar%';
+select * from employee where empname like 'kumar';
+select * from employee where empname like '%kumar';
+Correct Answer: select * from employee where empname like '%kumar';
+
+Explanation:
+
+select * from employee where empname like '%kumar';: This option correctly retrieves employees whose last name is "kumar" by matching the end of the empname with "kumar".
+The other options would either retrieve employees whose names contain "kumar" anywhere or start with "kumar", which does not exactly match the requirement.
+Question 5
+Problem Statement: "Which statement about SQL is true?"
+
+Options:
+
+The results are sorted by the first column in the SELECT list if the ORDER BY clause is not provided.
+You cannot specify a column alias in an ORDER BY clause.
+Null values are displayed first in ascending sequences.
+Date values are displayed in descending order by default.
+You cannot sort query results by a column that is not included in the SELECT list.
+Correct Answer: Null values are displayed first in ascending sequences.
+
+Explanation:
+
+Null values are displayed first in ascending sequences: This is true because in SQL, when sorting in ascending order, NULL values are considered the smallest and appear first.
+The other statements are false for various reasons:
+The results are sorted by the first column in the SELECT list if the ORDER BY clause is not provided: This is false; SQL does not guarantee any order unless ORDER BY is explicitly used.
+You cannot specify a column alias in an ORDER BY clause: This is false; you can use a column alias in an ORDER BY clause.
+Date values are displayed in descending order by default: This is false; the default is ascending unless specified otherwise.
+You cannot sort query results by a column that is not included in the SELECT list: This is false; you can sort by columns not included in the SELECT list.
