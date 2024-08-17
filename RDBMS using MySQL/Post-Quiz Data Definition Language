@@ -1,0 +1,88 @@
+Question 1
+Problem Statement: "You have an emp table that contains fields such as employ name, desig, and salary. How do you drop the salary column from the table?"
+
+Options:
+
+alter table emp delete salary;
+delete from emp where column = salary;
+alter table emp drop column salary;
+alter table emp delete column salary;
+Correct Answer: alter table emp drop column salary;
+
+Explanation:
+
+alter table emp drop column salary;: This is the correct SQL command to remove the salary column from the emp table while keeping the rest of the table intact.
+alter table emp delete salary;: This is not a valid SQL syntax.
+delete from emp where column = salary;: This command would attempt to delete rows based on a condition, not drop a column.
+alter table emp delete column salary;: This is also not a valid SQL syntax.
+Question 2
+Problem Statement: "Match the appropriate SQL constraints to the fields in a credit card management system."
+
+Options:
+
+cardholderphoneno - Unique
+cardholdername - Not Null
+creditcardno - Primary Key
+validitydate - Not Null
+creditcardtype (should be silver or platinum only) - Check
+Correct Answer:
+
+cardholderphoneno → unique
+cardholdername → not null
+creditcardno → primary key
+validitydate → not null
+creditcardtype should be silver or platinum only → check
+Explanation:
+
+Unique: Ensures that all values in a column are distinct. Applied to cardholderphoneno.
+Not Null: Ensures that a column cannot have a NULL value. Applied to cardholdername and validitydate.
+Primary Key: Uniquely identifies each record in a table. Applied to creditcardno.
+Check: Ensures that all values in a column satisfy a specific condition. Applied to creditcardtype to restrict the values to "silver" or "platinum".
+Question 3
+Problem Statement: "How many primary keys can a table have?"
+
+Options:
+
+2
+1
+4
+Any number
+Correct Answer: 1
+
+Explanation:
+
+1: A table can have only one primary key, which uniquely identifies each record in the table. This key can consist of one or multiple columns (composite key), but there is only one primary key per table.
+2, 4, Any number: Incorrect because a table can only have one primary key.
+Question 4
+Problem Statement: "Which of the following SQL commands is not correct?"
+
+Options:
+
+alter table emp add column_name varchar(25);
+alter emp drop column_name;
+alter table emp drop column column_name;
+alter table emp modify name varchar(30);
+Correct Answer: alter emp drop column_name;
+
+Explanation:
+
+alter emp drop column_name;: This is not valid because it lacks the "table" keyword. The correct syntax would be ALTER TABLE emp DROP COLUMN column_name;.
+alter table emp add column_name varchar(25);: Correct syntax to add a new column.
+alter table emp drop column column_name;: Correct syntax to drop a column.
+alter table emp modify name varchar(30);: Correct syntax to modify a column's datatype.
+Question 5
+Problem Statement: "You need to ensure that the amount withdrawn should be less than the credit card limit amount. To enforce this integrity, which type of constraint should be used?"
+
+Options:
+
+column level foreign key constraint
+table level foreign key constraint
+table level check constraint
+column level check constraint
+Correct Answer: table level check constraint
+
+Explanation:
+
+Table level check constraint: This ensures that a condition is met across multiple columns, such as ensuring that the amount withdrawn is less than the credit card limit.
+Column level check constraint: Would typically apply to conditions within a single column.
+Foreign key constraints: These are used to enforce referential integrity, not conditions within the same table.
