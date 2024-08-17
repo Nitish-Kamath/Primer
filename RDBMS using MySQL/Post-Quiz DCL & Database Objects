@@ -1,0 +1,51 @@
+Question 1
+CREATE INDEX emp_dept_id_idx ON employee(dept_id);
+
+Which of the following statements are true with respect to the above index?
+
+Increase the chance of full table scans.
+May reduce the amount of disk I/O for SELECT statements.
+Store an index in the EMPLOYEE table.
+Override the unique index created when the FK relationship was defined.
+May reduce the amount of disk I/O for INSERT statements.
+Correct Answer: May reduce the amount of disk I/O for SELECT statements.
+
+Explanation: An index on a column, such as dept_id, can speed up retrieval operations and reduce disk I/O for SELECT statements by allowing the database to quickly locate the rows without scanning the entire table.
+
+Question 2
+Which SQL statement would you use to remove a view called EMP_DEPT_VU from your schema?
+
+DELETE VIEW emp_dept_vu;
+REMOVE VIEW emp_dept_vu;
+REMOVE emp_dept_vu;
+DROP emp_dept_vu;
+DROP VIEW emp_dept_vu;
+DELETE emp_dept_vu;
+Correct Answer: DROP VIEW emp_dept_vu;
+
+Explanation: The DROP VIEW statement is used to remove a view from the database schema.
+
+Question 3
+The owner has all the privileges on the object. State true or False.
+
+Correct Answer: True
+
+Explanation: The owner of an object (such as a table or view) typically has all privileges on that object by default.
+
+Question 4
+Which SQL statement grants a privilege to all the database users?
+
+grant select on department to ALL;
+grant select on department to PRIVATE;
+grant select on department to PUBLIC;
+grant select on department to ALL USERS;
+Correct Answer: grant select on department to PUBLIC;
+
+Explanation: The PUBLIC keyword is used to grant privileges to all users in the database.
+
+Question 5
+An owner can give specific privileges on the owner's objects to others. State True or False.
+
+Correct Answer: True
+
+Explanation: An owner of an object can grant specific privileges on that object to other users or roles.
