@@ -1,0 +1,81 @@
+Question 1
+Problem Statement: "In the context of a relational database, which of the following terms correctly represents the 'degree' of a relation?"
+
+Options:
+
+Domain
+No of rows
+Cardinality
+No of Attributes
+Correct Answer: No of Attributes
+
+Explanation:
+
+No of Attributes: The 'degree' of a relation refers to the number of attributes (or columns) in a table. Therefore, this option is correct.
+Domain: This is incorrect because a domain refers to the set of permissible values that an attribute can take.
+No of rows: This is incorrect because the number of rows refers to the 'cardinality' of a relation, not the degree.
+Cardinality: This is incorrect as 'cardinality' represents the number of rows in a relation, not the degree.
+Question 2
+Problem Statement: "A database is described as a shared collection of logically related data designed to meet the information needs of an organization. Is this statement true or false?"
+
+Options:
+
+FALSE
+TRUE
+Correct Answer: FALSE
+
+Explanation:
+
+FALSE: This statement is incorrect because a database is actually a shared collection of logically related (not unrelated) data, designed to meet the information needs of an organization.
+TRUE: This is incorrect because the statement provided is not accurate.
+Question 3
+Problem Statement: "Which of the following SQL statements are considered Data Manipulation Language (DML) commands?"
+
+Options:
+
+INSERT
+CREATE
+TRUNCATE
+SELECT
+Correct Answers: SELECT, INSERT
+
+Explanation:
+
+SELECT: This is correct because the SELECT statement is used to retrieve data from a database, which is a primary function of DML.
+INSERT: This is correct because INSERT is used to add new records to a database table, which is part of data manipulation.
+CREATE: This is incorrect because CREATE is a Data Definition Language (DDL) command used to define database objects like tables and schemas.
+TRUNCATE: This is incorrect because TRUNCATE is also a DDL command used to delete all rows from a table without logging individual row deletions.
+Question 4
+Problem Statement: "Which of the following are considered constraints in SQL?"
+
+Options:
+
+NULL
+NOT NULL
+Check
+Unique
+Correct Answers: NOT NULL, Unique, Check
+
+Explanation:
+
+NOT NULL: This is correct because the NOT NULL constraint ensures that a column cannot have a NULL value.
+Unique: This is correct because the Unique constraint ensures that all values in a column are distinct.
+Check: This is correct because the Check constraint allows you to specify a condition that must be met for data to be inserted into a column.
+NULL: This is incorrect because NULL itself is not a constraint; it's a state indicating the absence of any value.
+Question 5
+Problem Statement: "Which of the following are recognized as data models in the context of database management?"
+
+Options:
+
+Hierarchical
+Conceptual
+Relational
+Network
+Correct Answers: Hierarchical, Network, Relational
+
+Explanation:
+
+Hierarchical: This is correct because the hierarchical model organizes data in a tree-like structure, where each record has a single parent.
+Network: This is correct because the network model organizes data using a graph structure, where records can have multiple parent-child relationships.
+Relational: This is correct because the relational model organizes data in tables, using rows and columns.
+Conceptual: This is incorrect because 'conceptual' is not a type of data model; it's a level of abstraction in database design, typically representing the organization’s overall structure.
