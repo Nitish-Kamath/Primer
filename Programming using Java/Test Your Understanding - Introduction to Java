@@ -1,0 +1,185 @@
+Question 1
+The break statement causes an exit ___________
+
+Correct Answers:
+
+From the innermost switch.
+From the innermost loop.
+Explanation: The break statement is used to exit from the innermost loop or switch statement in Java. It does not affect the outer loops or switch statements. It stops the current iteration and transfers control to the statement immediately following the loop or switch block.
+
+Incorrect Answers:
+
+From the program: The break statement does not exit the entire program; it only exits the current loop or switch.
+None of the options: This is incorrect because the break statement does indeed exit from loops and switch statements.
+Question 2
+For-loop looping structure should be used when the iterations are known.
+
+Correct Answer: [for] looping structure should be used when the iterations are known.
+
+Explanation: The for loop is ideal when the number of iterations is known beforehand. It allows you to specify initialization, condition, and iteration in a single line, making it suitable for scenarios where you know the number of iterations in advance.
+
+Question 3
+What is the output of this program?
+
+java
+Copy code
+class selection_statements {
+    public static void main(String args[]) {
+        int var1 = 5;
+        int var2 = 6;
+        if ((var2 = 1) == var1)
+            System.out.print(var2);
+        else
+            System.out.print(++var2);
+    }
+}
+Correct Answer: 2
+
+Explanation: In the if condition, var2 is assigned the value 1. Therefore, var2 is 1, and the condition (var2 = 1) == var1 evaluates to 1 == 5, which is false. The else block is executed, where ++var2 increments var2 from 1 to 2. Hence, 2 is printed.
+
+Incorrect Answers:
+
+1: This is incorrect because the if condition is false, so this value is not printed.
+3: The output is not 3 because var2 is incremented to 2, not 3.
+4: This value does not appear in the output.
+Question 4
+What will be the output of the program?
+
+java
+Copy code
+for(int i = 0; i < 3; i++) {
+    switch(i) {
+        case 0: break;
+        case 1: System.out.print("one ");
+        case 2: System.out.print("two ");
+        case 3: System.out.print("three ");
+    }
+}
+System.out.println("done");
+Correct Answer: one two three two three done
+
+Explanation: The switch statement lacks break statements for case 1, case 2, and case 3. This means that execution "falls through" from one case to the next. For i = 0, nothing is printed because case 0 has a break. For i = 1, "one " is printed, followed by "two " and "three ", as there are no breaks. For i = 2, "two " and "three " are printed. Finally, "done" is printed.
+
+Incorrect Answers:
+
+one two doneone two done: This is incorrect because the output does not repeat itself.
+done: This is incorrect because it doesn't account for the switch statement’s output.
+one two three done: This is incorrect because it misses the repeated output from case 2.
+Question 5
+What will be the output of the program?
+
+java
+Copy code
+int x = 0;
+int y = 10;
+do {
+    y--;
+    ++x;
+} while (x < 5);
+System.out.print(x + "," + y);
+Correct Answer: 5,5
+
+Explanation: The do-while loop executes the body at least once. During each iteration, x is incremented and y is decremented. The loop continues until x is no longer less than 5. By the end of the loop, x is 5 and y is 5.
+
+Incorrect Answers:
+
+6,5: This is incorrect because the loop stops when x reaches 5, so x does not become 6.
+5,6: The final value of y is 5, not 6.
+6,6: Both values are incorrect as x and y are not 6 at the end of the loop.
+Question 6
+What will be the output of the program?
+
+java
+Copy code
+int i = 1, j = -1;
+switch (i) {
+    case 0, 1: j = 1; /* Line 4 */
+    case 2: j = 2;
+    default: j = 0;
+}
+System.out.println("j = " + j);
+Correct Answer: Compilation fails.
+
+Explanation: Java does not support multiple case labels separated by commas. Each case label must be specified individually.
+
+Incorrect Answers:
+
+j = 1: This would be the output if the syntax were correct and the switch had no compilation errors, but it's not correct due to the syntax issue.
+j = 0: This is not correct due to the compilation error; the program does not run.
+j = -1: This is incorrect because the program fails to compile, so no output is produced.
+Question 7
+What is the output of this program?
+
+java
+Copy code
+class Crivitch {
+    public static void main(String [] args) {
+        int x = 10;
+        do { } while (x++ < y);
+        System.out.println(x);
+    }
+}
+Correct Answer: int y=11;
+
+Explanation: To make the do-while loop execute at least once and then stop, y needs to be less than x initially. The loop condition should be such that x++ is less than y. Setting y to 11 ensures that the loop runs with x starting at 10 and eventually increments x to 12 after exiting the loop.
+
+Incorrect Answers:
+
+int y=12: This would result in x being 11, not 12, due to the loop running only once.
+int y=10: This would result in x being 11 because the loop will not execute.
+int y=13: This would result in x being 11 as the loop runs until x reaches 12.
+Question 8
+What value is stored in i at the end of this loop?
+
+java
+Copy code
+for(int i =1; i<=10; i++)
+Correct Answer: 11
+
+Explanation: The for loop increments i after each iteration. The loop exits when i becomes 11 (as i is incremented after the condition check). Hence, i is 11 at the end of the loop.
+
+Incorrect Answers:
+
+10: This is incorrect because the loop exits after i has been incremented to 11.
+9: This is incorrect as the loop runs until i is 10 and increments to 11.
+1: This is incorrect because the value of i starts at 1 and increments throughout the loop.
+Question 9
+French curly braces { } is a must if the for loop executes more than one statement. State true or false.
+
+Correct Answer: True
+
+Explanation: In Java, if a for loop contains more than one statement in its body, those statements must be enclosed in curly braces { } to form a block. This ensures that all the statements are executed together as part of the loop body.
+
+Incorrect Answer: False
+
+Explanation: If you choose "False," you are incorrect because the curly braces are required to group multiple statements within the loop.
+
+Question 10
+Fill in with appropriate datatype.
+
+java
+Copy code
+switch(
+byte
+) {
+    case value1: ...
+    case value2: ...
+    ...
+    default:
+        System.out.println("Hello");
+}
+Correct Answer:
+
+Explanation: The switch statement in Java can work with primitive data types like byte, short, char, and int, as well as their corresponding wrapper classes and enumerated types.
+
+Question 11
+Which of the following loops will execute the body of loop even when the condition controlling the loop is initially false?
+
+Correct Answer: do-while
+
+Explanation: The do-while loop executes the body of the loop at least once before checking the condition. This ensures that even if the condition is initially false, the loop body executes at least once.
+
+Incorrect Answers:
+
+while: The while loop will not execute if the condition is initially false.
+for: The for loop also checks the condition before executing, so if the condition is false initially, it does not execute the body.
