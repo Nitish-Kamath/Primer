@@ -1,1 +1,97 @@
 
+Question 1
+Problem Statement: "Which statements are true regarding constraints?"
+
+Options:
+
+A constraint is enforced only for the INSERT operation on a table.
+A column with the UNIQUE constraint can contain NULL values.
+A constraint can be disabled even if the constraint column contains data.
+A foreign key cannot contain NULL values.
+Correct Answers: A column with the UNIQUE constraint can contain NULL values, A constraint can be disabled even if the constraint column contains data.
+
+Explanation:
+
+A column with the UNIQUE constraint can contain NULL values: This is true because, in SQL, NULL values are considered distinct, so a column with the UNIQUE constraint can have multiple NULL values.
+A constraint can be disabled even if the constraint column contains data: This is also true; constraints can be temporarily disabled regardless of the data within the column.
+A constraint is enforced only for the INSERT operation on a table: This is false; constraints are enforced on various operations including INSERT, UPDATE, and DELETE.
+A foreign key cannot contain NULL values: This is false; a foreign key column can contain NULL values unless explicitly disallowed by a NOT NULL constraint.
+Question 2
+Problem Statement: "Which statement is true when a DROP TABLE command is executed on a table?"
+
+Options:
+
+Only a DBA can execute the DROP TABLE command.
+The DROP TABLE command can be executed on a table on which there are pending transactions.
+Any pending transactions on the table are rolled back.
+The table structure and its deleted data cannot be rolled back and restored once the DROP TABLE command is executed.
+Correct Answer: The table structure and its deleted data cannot be rolled back and restored once the DROP TABLE command is executed.
+
+Explanation:
+
+The table structure and its deleted data cannot be rolled back and restored once the DROP TABLE command is executed: This is true because the DROP TABLE command permanently removes both the table structure and its data, making it impossible to roll back or restore.
+Only a DBA can execute the DROP TABLE command: This is false; users with sufficient privileges (not necessarily a DBA) can execute this command.
+The DROP TABLE command can be executed on a table on which there are pending transactions: This is false; pending transactions on the table are automatically rolled back before the table is dropped.
+Any pending transactions on the table are rolled back: While this is true, it doesn't fully address the irreversible nature of the DROP TABLE command, making the final option more accurate.
+Question 3
+Problem Statement: "Match the following SQL keywords with their functions."
+
+Options:
+
+Like → Match a character pattern
+Between......and → Range of values
+In(set) → Match any of the list values
+Isnull → Checks whether a value is null or not.
+Explanation:
+
+Like: Used to match a specific pattern within a column.
+Between......and: Used to specify a range of values.
+In(set): Used to match any value within a specified list of values.
+Isnull: Used to check if a column contains a NULL value.
+Question 4
+Problem Statement: "You need to remove all the data from the employee table while leaving the table definition intact. You also want to be able to undo this operation. How would you accomplish this task?"
+
+Options:
+
+This task cannot be accomplished.
+DROP TABLE employee;
+DELETE FROM employee;
+TRUNCATE TABLE employee;
+Correct Answer: DELETE FROM employee;
+
+Explanation:
+
+DELETE FROM employee;: This command removes all rows from the employee table and can be rolled back if issued within a transaction, making it the correct option for this scenario.
+DROP TABLE employee;: This command removes the table structure and data, which cannot be undone.
+TRUNCATE TABLE employee;: This command removes all rows but cannot be rolled back like DELETE.
+This task cannot be accomplished: This is incorrect because DELETE can achieve this task with the possibility of rollback.
+Question 5
+Problem Statement: "Given a series of SQL commands executed in a session, which statements describe the consequence of issuing the ROLLBACK TO SAVE POINT a command?"
+
+SQL Commands:
+
+sql
+Copy code
+create table product(pid int(10), pname varchar(10));
+Insert into product values(1,'pendrive');
+Insert into product values(2,'harddisk');
+savepoint a;
+update product set pid=20 where pid=1;
+savepoint b;
+delete from product where pid=2;
+commit;
+delete from product where pid=10;
+Options:
+
+The rollback generates an error.
+Both the DELETE statements and the UPDATE statement are rolled back.
+Only the second DELETE statement is rolled back.
+Only the DELETE statements are rolled back.
+Correct Answer: The rollback generates an error.
+
+Explanation:
+
+The rollback generates an error: After the COMMIT command is issued, all previous savepoints are released, making it impossible to rollback to savepoint a. Attempting to do so generates an error.
+Both the DELETE statements and the UPDATE statement are rolled back: This is incorrect because the COMMIT makes these changes permanent.
+Only the second DELETE statement is rolled back: This is incorrect since the rollback to savepoint a is not possible after a commit.
+Only the DELETE statements are rolled back: This is incorrect for the same reason as above.
