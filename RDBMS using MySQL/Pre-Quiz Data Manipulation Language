@@ -1,0 +1,84 @@
+Question 1
+Problem Statement: "The Numeric datatype in SQL is used to store what kind of numbers?"
+
+Options:
+
+Natural number
+Rational number
+Whole number
+Both whole and natural numbers
+Correct Answer: Both whole and natural numbers
+
+Explanation:
+
+Both whole and natural numbers: The Numeric datatype is used to store numbers that can be either natural (positive integers starting from 1) or whole numbers (which include zero). It covers a broad range of numbers, making this the correct answer.
+Natural number and Whole number: These options are too restrictive on their own as the Numeric datatype can store more than just these subsets.
+Rational number: Although rational numbers can be stored in numeric types, this option does not fully describe the range of numbers the Numeric datatype can store.
+Question 2
+Problem Statement: "Which of the following is a reference option used when deleting rows from a table in SQL?"
+
+Options:
+
+Cascade
+Restrict
+Set Null
+All the options
+Correct Answer: Cascade
+
+Explanation:
+
+Cascade: This option automatically deletes or updates the related rows in child tables when a row in the parent table is deleted or updated. It is the most common method used for referential actions.
+Restrict: Prevents the deletion of rows in the parent table if they are referenced by rows in a child table.
+Set Null: Sets the foreign key in the child table to NULL if the corresponding row in the parent table is deleted.
+All the options: While all options are valid referential actions, the question specifically asks for a reference option for deleting rows, for which Cascade is most commonly used.
+Question 3
+Problem Statement: "Which of the following are Data Definition Language (DDL) queries?"
+
+Options:
+
+All the options
+Delete * from table_name;
+Drop table table_name;
+Truncate table table_name;
+Correct Answers:
+
+Drop table table_name;
+Truncate table table_name;
+Explanation:
+
+Drop table table_name;: A DDL command used to remove an entire table from the database, including its structure and data.
+Truncate table table_name;: A DDL command used to remove all rows from a table without deleting the table itself.
+Delete * from table_name;: This is a Data Manipulation Language (DML) command, not DDL, as it only removes rows without altering the structure of the table.
+Question 4
+Problem Statement: "What is the default format for the Date datatype in SQL?"
+
+Options:
+
+MM-YYYY-DD
+DD-MON-YYYY
+YYYY-MM-DD
+NONE
+Correct Answer: YYYY-MM-DD
+
+Explanation:
+
+YYYY-MM-DD: This is the ISO standard date format used by SQL databases by default. It ensures consistency and avoids confusion between different date formats used in different countries.
+MM-YYYY-DD and DD-MON-YYYY: These are not standard formats used by SQL databases.
+NONE: Incorrect, as SQL databases do have a default date format.
+Question 5
+Problem Statement: "To remove a relation (table) from an SQL database, which command should be used?"
+
+Options:
+
+Truncate
+All the options
+Drop
+Delete
+Correct Answer: Drop
+
+Explanation:
+
+Drop: This command permanently removes a table (or other database object) from the database, along with all of its data and structure.
+Truncate: Removes all rows from a table but keeps the structure intact.
+Delete: Removes specific rows from a table but does not affect the table's structure.
+All the options: This option is incorrect as only the Drop command completely removes the relation (table) from the database.
