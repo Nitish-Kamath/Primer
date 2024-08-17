@@ -1,0 +1,80 @@
+Question 1
+State true or false. Java is a structured programming language.
+
+Correct Answer: False
+
+Explanation: Java is not primarily a structured programming language; it is an object-oriented programming (OOP) language. Structured programming emphasizes a clear sequence of instructions and control flow (using constructs like loops and conditionals), while Java supports object-oriented principles such as encapsulation, inheritance, and polymorphism, which allow for more complex data modeling and interactions.
+
+Incorrect Answer: True
+
+Explanation: If you select "True," you are incorrectly categorizing Java. Java's design and paradigm focus on objects and classes, which is beyond the scope of traditional structured programming that focuses more on procedure-based logic.
+
+Question 2
+Who is the father of Java?
+
+Correct Answer: James Gosling
+
+Explanation: James Gosling is credited as the father of Java. He led the development team at Sun Microsystems that created Java in the mid-1990s. His contributions were crucial in shaping the language's design and implementation.
+
+Incorrect Answers:
+
+Dennis Ritchie: He is known for creating the C programming language, not Java.
+Jim Gray: He was a computer scientist known for his work in database and transaction processing, not for Java.
+Donald Knuth: He is a renowned computer scientist known for his work in algorithms and typesetting, particularly in the development of TeX, not Java.
+Question 3
+What is Polymorphism?
+
+Correct Answer: Ability to have many forms
+
+Explanation: Polymorphism allows objects to be treated as instances of their parent class rather than their actual class. It means "many forms" and allows methods to operate differently based on the object that is invoking them, providing flexibility and reusability in code.
+
+Incorrect Answers:
+
+Ability to acquire the properties: This describes inheritance more accurately, not polymorphism.
+Hiding the properties: This describes encapsulation, where data is hidden from outside access.
+Blueprint for an object: This refers to a class, which serves as a blueprint for creating objects.
+Question 4
+To compile, debug and execute a program written in Java, _______________ is required.
+
+Correct Answer: JDK
+
+Explanation: The Java Development Kit (JDK) includes the necessary tools for compiling (javac), debugging, and running Java applications. It contains the Java Runtime Environment (JRE) for executing programs, as well as development tools.
+
+Incorrect Answers:
+
+JRE: The Java Runtime Environment (JRE) is required to run Java applications but does not include tools for compiling or debugging.
+JIT: The Just-In-Time (JIT) compiler improves runtime performance by compiling bytecode to native code but is not used for compiling or debugging Java programs.
+JVM: The Java Virtual Machine (JVM) is responsible for running Java bytecode but does not include development tools.
+Question 5
+Java is _____________________________.
+
+Correct Answer: Platform independent
+
+Explanation: Java is designed to be platform-independent at the source level through the use of bytecode. Java programs are compiled into bytecode, which can be executed on any system with a JVM, making it portable across different platforms.
+
+Incorrect Answer: Platform dependent
+
+Explanation: If Java were platform-dependent, you would need to write and compile Java programs for each specific platform separately. Java's goal is to allow the same code to run on any platform with a compatible JVM.
+
+Question 6
+How was Java initially named?
+
+Correct Answer: The Oak
+
+Explanation: Java was initially named "Oak" after an oak tree that was outside James Gosling’s office. The name was later changed to "Java," a name inspired by coffee, which reflected the team's desire for a new and distinctive name.
+
+Incorrect Answers:
+
+COBOL: A programming language developed in the 1950s, unrelated to Java.
+Algol: A family of programming languages from the 1960s, not related to Java.
+GreenTalk: The original project name for Java, but it was eventually renamed to Oak before it was finally called Java.
+Question 7
+JVM is independent of OS
+
+Correct Answer: False
+
+Explanation: The JVM is not independent of the operating system. Although Java provides a platform-independent environment for executing bytecode, the JVM itself must be implemented for each specific OS. This means JVM versions are tailored for different operating systems (Windows, Linux, macOS, etc.).
+
+Incorrect Answer: True
+
+Explanation: If you select "True," you are incorrectly stating that JVM operates independently of the OS. While Java achieves a degree of platform independence, the JVM is inherently tied to the OS it runs on.
