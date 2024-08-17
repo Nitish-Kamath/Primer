@@ -1,0 +1,227 @@
+Question 1
+Predict the output.
+
+java
+Copy code
+class X {
+    void display(int a) {
+        System.out.println("INT");
+    }
+    
+    void display(double d) {
+        System.out.println("DOUBLE");
+    }
+}
+
+public class Sample {   
+    public static void main(String[] args) {
+        new X().display(100);
+    }
+}
+Select one:
+
+a. DOUBLE
+b. Compilation Fails
+c. INT
+d. Ambiguity error
+Feedback:
+The code will output INT because the display(int a) method is a better match for the argument 100 (an integer) than the display(double d) method.
+
+The correct answer is: c. INT
+
+Question 2
+Observe the code
+
+java
+Copy code
+public class Sample {
+    public static void main(String[] args) {
+        int x = 6;
+        Sample p = new Sample();
+        p.display(x);
+        System.out.print(" main x = " + x);
+    }
+
+    void display(int x) {
+        System.out.print(" display x = " + x++);
+    }
+}
+Given in command line - java Sample - What is the result?
+
+Select one:
+
+a. display x = 6 main x = 6
+b. display x = 7 main x = 6
+c. Compilation fails.
+d. display x = 6 main x = 7
+e. display x = 7 main x = 7
+f. An exception is thrown at runtime.
+Feedback:
+The display method prints 6 (the original value of x before incrementing) and then increments x but does not affect the x in the main method. Therefore, the main method still prints 6 for x.
+
+The correct answer is: a. display x = 6 main x = 6
+
+Question 3
+The methods of a class with the ____________ access specifier cannot be accessed in its subclass class of different package.
+
+Select one:
+
+a. default
+b. protected
+c. public
+Feedback:
+The default access specifier restricts access to within the same package, so it cannot be accessed from subclasses in different packages.
+
+The correct answer is: a. default
+
+Question 4
+Integer x1 = new Integer(120);
+
+int x2 = 120;
+
+System.out.println(x1 == x2);
+
+What will be the output of the above code fragment?
+
+Select one:
+
+a. true
+b. Compilation Error
+c. Runtime Exception
+d. false
+e. CastException
+Feedback:
+x1 is an Integer object, and x2 is a primitive int. When compared with ==, the Integer object is unboxed to a primitive int for comparison, which results in true as they are both 120.
+
+The correct answer is: a. true
+
+Question 5
+Given classes defined in two different files:
+
+java
+Copy code
+package p1;
+
+public class Test {
+    public static void display(String[] a) { /* some code */ }
+}
+
+package p2;
+
+import p1.Test;
+
+public class TestMain {
+    public static void main(String[] args) {
+        String[] names = new String[10];
+        // insert code here
+    }
+}
+Identify the statement to be written in line 5 in class TestMain to call the display method of class Test.
+
+Select one:
+
+a. import p1.Test.*; display(names);
+b. p1.display(names);
+c. p1.Test.display(names);
+d. TestMain cannot use methods in p1
+e. display(names);
+Feedback:
+To call display from Test class, use the class name p1.Test because the method is static.
+
+The correct answer is: c. p1.Test.display(names);
+
+Question 6
+What is the outcome of the code?
+
+java
+Copy code
+public class Item {
+    private String description;
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public static void modifyDesc(Item item, String desc) {
+        item = new Item();
+        item.setDescription(desc);
+    }
+
+    public static void main(String[] args) {
+        Item it = new Item();
+        it.setDescription("Gobstopper");
+        Item it2 = new Item();
+        it2.setDescription("Fizzylifting");
+        it.modifyDesc(it, "Scrumdiddlyumptious");
+        System.out.println(it.getDescription());
+        System.out.println(it2.getDescription());
+    }
+}
+Select one:
+
+a. Gobstopper Fizzylifting
+b. Scrumdiddlyumptious
+c. Compilation fails
+d. Gobstopper Scrumdiddlyumptious
+e. Scrumdiddlyumptious Fizzylifting
+Feedback:
+The modifyDesc method creates a new Item object and modifies it, which does not affect the original it object. Thus, it.getDescription() remains "Gobstopper" and it2.getDescription() remains "Fizzylifting".
+
+The correct answer is: a. Gobstopper Fizzylifting
+
+Question 7
+Given:
+
+java
+Copy code
+public class Message {
+    String msg;
+    int noOfWords;
+
+    public Message() {
+        msg += " Thank you";
+    }
+
+    public Message(int noOfWords) {
+        this.noOfWords = noOfWords;
+        msg = "Welcome";
+        Message();
+    }
+
+    public static void main(String args[]) {
+        Message m = new Message(5);
+        System.out.println(m.msg);
+    }
+}
+What will be the output?
+
+Select one:
+
+a. Welcome
+b. Welcome Thank you 5
+c. An exception is thrown at runtime
+d. Welcome Thank you
+e. Compilation fails
+f. The code runs with no output
+Feedback:
+The constructor Message(int noOfWords) attempts to call the default constructor Message(), but it uses the wrong syntax. This causes a compilation error.
+
+The correct answer is: e. Compilation fails
+
+Question 8
+Which of the following is not a Java modifier?
+
+Select one:
+
+a. private
+b. public
+c. protected
+d. virtual
+Feedback:
+virtual is not a Java modifier. It is used in C++.
+
+The correct answer is: d. virtual
