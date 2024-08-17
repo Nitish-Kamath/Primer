@@ -1,0 +1,91 @@
+Question 1
+Problem Statement: "Given the structure of the STUDENT table, which SQL statement correctly inserts a new row into the STUDENT table?"
+
+Table Structure:
+
+Stud_id: int(3), PK
+Name: Varchar(20), Not Null
+Address: Varchar(30)
+DOB: Date
+Options:
+
+INSERT INTO student VALUES (101, '100 Main Street', '17-JUN-99', 'Smith');
+INSERT INTO student (stud_id, address, name, dob) VALUES (101, '100 Main Street', 'Smith', '1994-02-01');
+INSERT INTO student (stud_id, address, dob) VALUES (101, '100 Main Street', '17-JUN-99');
+INSERT INTO student VALUES (101, 'Smith');
+Correct Answer: INSERT INTO student (stud_id, address, name, dob) VALUES (101, '100 Main Street', 'Smith', '1994-02-01');
+
+Explanation:
+
+Correct Answer: This option correctly inserts a new row into the STUDENT table by specifying values for all non-nullable fields and including the appropriate date format for the DOB column.
+Option 1: The order of columns is incorrect, and the Name should be inserted before DOB.
+Option 3: The Name column, which is Not Null, is missing.
+Option 4: This option fails to include values for all required fields, especially for Address, DOB, and Name.
+Question 2
+Problem Statement: "Which of the following SQL commands belong to Data Manipulation Language (DML)?"
+
+Options:
+
+UPDATE
+ALTER
+CREATE
+DELETE
+Correct Answers: UPDATE, DELETE
+
+Explanation:
+
+UPDATE: A DML command used to modify existing data within a table.
+DELETE: A DML command used to remove rows from a table.
+ALTER: A DDL (Data Definition Language) command used to modify the structure of a table.
+CREATE: Also a DDL command used to create new database objects like tables, indexes, etc.
+Question 3
+Problem Statement: "Consider the following EMPLOYEE table structure. What would be the reason if the given INSERT command fails?"
+
+Table Structure:
+
+Empname: Varchar(20), Not Null
+EmpId: int(10), PK
+Phoneno: bigint(10), Not Null
+SQL Command:
+
+sql
+Copy code
+insert into employee(empid, empname) values ('123', 'John');
+Options:
+
+Value for phoneno is missing.
+empid value should be given without single quotes.
+The statement will get executed successfully.
+The column order should not be changed.
+Correct Answer: Value for phoneno is missing.
+
+Explanation:
+
+Correct Answer: The Phoneno column is defined as Not Null, meaning it must have a value. Since this value is missing in the INSERT statement, it will cause the command to fail.
+Option 2: The use of single quotes around empid is acceptable as it is treated as a string and then implicitly converted to an integer.
+Option 3: The statement will not execute successfully due to the missing Phoneno.
+Option 4: The column order can be changed as long as the correct column names are specified in the INSERT statement.
+Question 4
+Problem Statement: "State True or False: COMMIT ends the current transaction by making all pending data changes permanent."
+
+Options:
+
+TRUE
+FALSE
+Correct Answer: TRUE
+
+Explanation:
+
+True: The COMMIT command in SQL is used to permanently save all changes made during the current transaction. Once committed, the changes cannot be rolled back.
+Question 5
+Problem Statement: "Merge is not supported by MySQL. The other possible way of doing the work of the MERGE statement is by using ON DUPLICATE KEY UPDATE in the INSERT statement. State TRUE or FALSE."
+
+Options:
+
+FALSE
+TRUE
+Correct Answer: TRUE
+
+Explanation:
+
+True: MySQL does not have a MERGE statement like other databases (e.g., SQL Server). However, the functionality can be achieved using the INSERT ... ON DUPLICATE KEY UPDATE statement, which allows the insertion of a new row or updates an existing row if a duplicate key is found.
