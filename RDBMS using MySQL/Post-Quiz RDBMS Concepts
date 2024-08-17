@@ -1,0 +1,85 @@
+Question 1
+Problem Statement: "In the context of a relational database, match the following terms with their correct definitions:"
+
+________ refers to the number of rows in the table
+_______ refers to the range of values that can be stored for an attribute
+______ refers to the columns of the table
+______ refers to the rows of the table
+_______ refers to the number of columns in the table
+Answers:
+
+Cardinality
+Domain
+Attribute
+Tuples
+Degree
+Explanation:
+
+Cardinality: This refers to the number of rows in a table. Each row represents a single record in the table.
+Domain: This is the range of permissible values that can be stored in an attribute (column) of the table.
+Attribute: This refers to the columns in the table. Each attribute defines a data type for a particular column.
+Tuples: This term is used to describe the rows in a table. Each tuple represents a single record, consisting of values corresponding to each attribute.
+Degree: This refers to the number of columns in a table, indicating how many attributes are defined for the table.
+Question 2
+Problem Statement: "Which of the following is not a valid relational database management system (RDBMS)?"
+
+Options:
+
+Unify
+Sybase
+Oracle
+MySQL
+Correct Answer: Unify
+
+Explanation:
+
+Unify: This is not a commonly known RDBMS, hence it is not valid in this context.
+Sybase: This is a valid RDBMS, widely used in the industry.
+Oracle: This is a well-known RDBMS, one of the leading database management systems.
+MySQL: This is another popular and widely used open-source RDBMS.
+Question 3
+Problem Statement: "SQL is a case-sensitive language, and the data stored inside the table is case-insensitive. Is this statement true or false?"
+
+Options:
+
+True
+False
+Correct Answer: False
+
+Explanation:
+
+False: SQL is generally case-insensitive for keywords, but the data stored in the table can be case-sensitive depending on the database settings and collation used. Therefore, the statement is false.
+True: This would be incorrect because SQL itself is not inherently case-sensitive, though data sensitivity can vary.
+Question 4
+Problem Statement: "Match the following types of data representations with the corresponding data models:"
+
+Data is represented in the form of a graph -
+Data is represented in the form of a table -
+Data is represented in the form of a tree -
+Answers:
+
+Network
+Relational
+Hierarchical
+Explanation:
+
+Network: This model represents data in the form of a graph where nodes (entities) are connected by edges (relationships).
+Relational: This model represents data in tables, where each table consists of rows and columns.
+Hierarchical: This model organizes data in a tree structure, where each record has a parent-child relationship.
+Question 5
+Problem Statement: "Tom has designed payroll software for XYZ Technology. The software stores salary details in the database, which can be retrieved later for future reference. Which category of user does Tom belong to?"
+
+Options:
+
+DBA
+Network Administrator
+End User
+Application Programmer
+Correct Answer: Application Programmer
+
+Explanation:
+
+Application Programmer: Tom is an application programmer because he is designing and developing software that interacts with the database, specifically for storing and retrieving salary information.
+DBA: A Database Administrator (DBA) manages the database, ensuring its performance, security, and availability, but doesn't typically develop applications.
+Network Administrator: This role focuses on managing and maintaining the network infrastructure, not developing software.
+End User: An end user would be the person using the application, not the one developing it.
