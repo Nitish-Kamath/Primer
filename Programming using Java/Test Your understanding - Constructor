@@ -1,0 +1,136 @@
+Question 1
+Choose the constructor that is invoked when an object is created as shown below.
+
+java
+Copy code
+new Student();    // Constructor 1
+
+new Student(54, "John");    // Constructor 2
+Correct Answer:
+
+new Student(); → Constructor 1
+new Student(54, "John"); → Constructor 2
+Explanation: The no-argument constructor is invoked when you use new Student();, and the parameterized constructor is invoked when you use new Student(54, "John");.
+
+Question 2
+You are given with a few classes. Match the code with the type of constructor available in the class.
+
+**```java
+public class Student {
+public Student(int studentId, String name) {
+}
+}
+**
+Copy code
+- **Answer:** Parameterized Constructor
+
+**```java
+public class Student {
+public Student() {
+}
+}
+**
+Copy code
+- **Answer:** No-argument Constructor
+
+**```java
+public class Student {
+}
+**
+Copy code
+- **Answer:** Default Constructor
+
+**Explanation:** 
+- **Parameterized Constructor**: Constructor with parameters (e.g., `public Student(int studentId, String name)`).
+- **No-argument Constructor**: Constructor with no parameters but explicitly defined (e.g., `public Student()`).
+- **Default Constructor**: No constructors defined explicitly (i.e., compiler provides a no-argument constructor by default).
+Question 3
+Observe the code below. For the code Student s = new Student(1, "Peter", 95); What will be the output?
+
+java
+Copy code
+public class Student {
+    int studentId;
+    String name;
+    char grade;
+
+    public Student(int studentId, String name, float mark) { 
+        this.studentId = studentId;
+        this.name = name;
+        calculateGrade(mark);
+    }
+
+    public void calculateGrade(float mark) {
+        if (mark > 90)
+            grade = 'A';
+        else
+            grade = 'B';
+    }
+}
+Correct Answer: Compiles successfully
+
+Explanation: The constructor correctly initializes the fields and calls the method calculateGrade(). There is no compilation issue with calling methods from a constructor.
+
+Question 4
+Identify the valid option which is used to invoke the no-argument constructor Product() at Line 1.
+
+java
+Copy code
+class Product {
+    int productId;
+    String productName;
+
+    Product() {
+        productId = 0;
+        productName = "";
+    }
+
+    Product(int id, String name) {
+        // access Product()  ---- Line 1
+        productId = id;
+        productName = name;
+    }
+}
+Correct Answer: this();
+
+Explanation: this(); is used to call another constructor in the same class. In this case, it calls the no-argument constructor Product().
+
+Question 5
+Choose the code so that the constructor for the Student class is overloaded correctly.
+
+java
+Copy code
+public class Student {
+    private int studentId;
+    private String name;
+    private float grade;
+
+    public Student(int studentId, String name) {
+        this.studentId = studentId;
+        this.name = name;
+    }
+
+    public Student(int studentId, String name, float grade) {
+        this(studentId, name); // Calls the previous constructor
+        this.grade = grade;
+    }
+}
+Correct Answer:
+java
+Copy code
+public class Student {
+    private int studentId;
+    private String name;
+    private float grade;
+
+    public Student(int studentId, String name) {
+        this.studentId = studentId;
+        this.name = name;
+    }
+
+    public Student(int studentId, String name, float grade) {
+        this(studentId, name); // Calls the previous constructor
+        this.grade = grade;
+    }
+}
+Explanation: The constructor Student(int studentId, String name, float grade) correctly calls the Student(int studentId, String name) constructor using this(studentId, name); and then sets the grade field.
