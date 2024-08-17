@@ -1,0 +1,87 @@
+Question 1
+Problem Statement: "In a relational database, which key is used to enforce referential integrity constraints?"
+
+Options:
+
+Primary Key
+Foreign Key
+Composite Key
+Secondary Key
+Correct Answer: Foreign Key
+
+Explanation:
+
+Foreign Key: A foreign key is used to enforce referential integrity by ensuring that a value in one table must match a value in another table. This ensures that relationships between tables remain consistent.
+Primary Key: This uniquely identifies each record in a table, but it is not used for enforcing referential integrity between different tables.
+Composite Key: This is a key made up of two or more columns to uniquely identify a row in a table. It does not directly enforce referential integrity.
+Secondary Key: This is another key that is not the primary key but can be used to index data. It does not enforce referential integrity.
+Question 2
+Problem Statement: "A relational database consists of a collection of what?"
+
+Options:
+
+Records
+Tables
+Keys
+Fields
+Correct Answer: Tables
+
+Explanation:
+
+Tables: In a relational database, data is organized into tables, where each table consists of rows and columns.
+Records: While tables are made up of records (rows), a relational database itself is a collection of tables.
+Keys: Keys are used to uniquely identify rows within tables, but they do not make up the database.
+Fields: Fields refer to the columns in a table, but the relational database is a collection of tables, not fields.
+Question 3
+Problem Statement: "Which of the following operations is not considered a modification of the database?"
+
+Options:
+
+Updating
+Deletion
+Insertion
+Sorting
+Correct Answer: Sorting
+
+Explanation:
+
+Sorting: Sorting does not modify the actual data in the database; it merely changes the order in which data is presented.
+Updating: This involves changing existing data, which is a modification.
+Deletion: This removes data from the database, which is also a modification.
+Insertion: Adding new data to the database is a modification.
+Question 4
+Problem Statement: "In a database table, what is the column header referred to as?"
+
+Options:
+
+Domain
+Relation
+Tuples
+Attributes
+Table
+Correct Answer: Attributes
+
+Explanation:
+
+Attributes: The column headers in a table are referred to as attributes, which define the type of data stored in each column.
+Domain: This is the range of allowable values for an attribute, not the column header itself.
+Relation: In relational databases, a relation is typically a table.
+Tuples: This refers to the rows in the table, not the columns.
+Table: This is the entire structure, which contains rows and columns, not just the column header.
+Question 5
+Problem Statement: "Which SQL command removes data from a table while keeping the table structure intact?"
+
+Options:
+
+Trunc
+Truncate
+None of the options
+Drop
+Correct Answer: Truncate
+
+Explanation:
+
+Truncate: The TRUNCATE command removes all rows from a table, but the table structure (columns, constraints, etc.) remains intact.
+Trunc: This is not a valid SQL command.
+None of the options: Since "Truncate" is correct, this is not the right choice.
+Drop: The DROP command removes the entire table, including its structure, from the database.
