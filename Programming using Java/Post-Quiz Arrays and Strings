@@ -1,0 +1,113 @@
+Question 1
+Output of the program:
+
+java
+Copy code
+class Output  {
+    public static void main(String args[])  {
+        int a1[] = new int[10];
+        int a2[] = {1, 2, 3, 4, 5};
+        System.out.println(a1.length + " " + a2.length);
+    }
+}
+Correct Answer: 10 5
+
+Explanation: a1 is an array of 10 elements, so a1.length is 10. a2 is an array with 5 elements, so a2.length is 5.
+Question 2
+In which of the following packages can you find the String class?
+
+Correct Answer: lang
+
+Explanation: The String class is located in the java.lang package.
+Question 3
+Given:
+
+java
+Copy code
+String name = "teknoturf";
+String cname = "teknoturf";
+String compname = new String("teknoturf");
+
+1. if(name == cname)
+2. if(name.equals(cname))
+3. if(name == compname)
+4. if(name.equals(compname))
+Correct Answer: Line 1, 2, 4 will return true.
+
+Explanation:
+name == cname: true because both refer to the same string literal.
+name.equals(cname): true because they have the same value.
+name == compname: false because compname is a new object.
+name.equals(compname): true because they have the same value.
+Question 4
+Result of compiling and executing:
+
+java
+Copy code
+class ArrayTest {
+    public static void main(String args[]) {
+        int[] primes = new int[10];
+        primes[0] = "a";
+        System.out.println(primes[0]);
+    }
+}
+Correct Answer: compile time error
+
+Explanation: You cannot assign a String to an int array. This results in a compilation error.
+Question 5
+Correct ways of declaring an Array:
+
+Correct Answers:
+
+int []studentId;
+int studentId[];
+String [] name [];
+Explanation:
+
+int []studentId; and int studentId[]; are valid array declarations.
+String [] name []; is valid but unconventional.
+String name[]=new String(10); and int studentId[10]; are incorrect.
+Question 6
+Advanced for loop is better as it is less error prone as we don't need to deal with index.
+
+Correct Answer: True
+
+Explanation: The enhanced for loop (for-each) simplifies iteration and reduces errors related to index management.
+Question 7
+Result of compiling and executing:
+
+java
+Copy code
+class TestArray {
+    public static void main(String args[]) {
+        int arr_sample[] = new int[2];
+        System.out.println(arr_sample[0]);
+    }
+}
+Correct Answer: The program compiles and prints 0 when executed.
+
+Explanation: Arrays of primitive types are initialized to default values. For int, the default value is 0.
+Question 8
+String Objects are mutable.
+
+Correct Answer: False
+
+Explanation: String objects in Java are immutable. Once created, their values cannot be changed.
+Question 9
+StringBuilder is less efficient and slower than StringBuffer.
+
+Correct Answer: False
+
+Explanation: StringBuilder is generally faster than StringBuffer because it is not synchronized. StringBuffer is thread-safe but slower due to synchronization overhead.
+Question 10
+Given a one-dimensional array arr, what is the correct way of getting the number of elements in arr?
+
+Correct Answer: arr.length
+
+Explanation: The length property of an array returns the number of elements.
+Question 11
+StringBuffer is used to create ______________.
+
+Correct Answer: a mutable String
+
+Explanation: StringBuffer creates mutable strings, allowing modifications after creation.
